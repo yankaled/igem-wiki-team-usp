@@ -1,0 +1,68 @@
+<html lang="en">
+
+  <head>
+    <title>Testing iGEM WikiSync</title>
+    <link rel="stylesheet" href="css/igem-reset.css">
+    <link rel="stylesheet" href="css/buefy.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="container">
+        <section>
+          <b-button type="is-primary" @click="clickMe">Primary</b-button>
+          <b-button type="is-primary is-light">Primary Light</b-button>
+
+          <b-button type="is-success">Success</b-button>
+          <b-button type="is-success is-light">Success Light</b-button>
+
+          <b-button type="is-danger">Danger</b-button>
+          <b-button type="is-danger is-light">Danger Light</b-button>
+
+          <b-button type="is-warning">Warning</b-button>
+          <b-button type="is-warning is-light">Warning Light</b-button>
+
+          <b-button type="is-info">Info</b-button>
+          <b-button type="is-info is-light">Info Light</b-button>
+
+          <b-button type="is-link">Link</b-button>
+          <b-button type="is-link is-light">Link Light</b-button><br />
+
+          <b-button type="is-light">Light</b-button>
+          <b-button type="is-dark">Dark</b-button>
+          <b-button type="is-text">Text</b-button>
+          <b-button type="is-ghost">Ghost</b-button>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/buefy.min.js"></script>
+
+    <script>
+      new Vue({
+        el: '#app',
+
+        data() {
+          return {}
+        },
+
+        watch: {},
+        
+        computed: {},
+
+        methods: {
+          clickMe() {
+                        
+            this.$buefy.notification.open('Clicked!!')
+          
+          }
+        }
+      })
+    </script>
+
+  </body>
+
+</html>
