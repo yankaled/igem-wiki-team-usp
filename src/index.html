@@ -1,67 +1,80 @@
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
-    <title>Testing iGEM WikiSync</title>
+    <title>Team USP - IGEM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/igem-reset.css">
-    <link rel="stylesheet" href="css/buefy.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mystyles.css">
   </head>
 
   <body>
-    <div id="app">
+    <div>
+      <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img
+              style="max-height: 5rem !important;"
+              src="./assets/TEAMUSP-LOGO-standart-01.png"
+              width="112" height="28"
+              alt="TEAM-USP Igem"
+            >
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Home
+            </a>
+      
+            <a class="navbar-item">
+              Project
+            </a>
+
+            <a class="navbar-item">
+              Project
+            </a>
+
+            <a class="navbar-item">
+              Lab
+            </a>
+
+            <a class="navbar-item">
+              Human Practices
+            </a>
+
+            <a class="navbar-item">
+              Team
+            </a>
+
+            <a class="navbar-item">
+              Awards
+            </a>
+      
+          </div>
+        </div>
+      </nav>
+
       <div class="container">
-        <section>
-          <b-button type="is-primary" @click="clickMe">Primary</b-button>
-          <b-button type="is-primary is-light">Primary Light</b-button>
-
-          <b-button type="is-success">Success</b-button>
-          <b-button type="is-success is-light">Success Light</b-button>
-
-          <b-button type="is-danger">Danger</b-button>
-          <b-button type="is-danger is-light">Danger Light</b-button>
-
-          <b-button type="is-warning">Warning</b-button>
-          <b-button type="is-warning is-light">Warning Light</b-button>
-
-          <b-button type="is-info">Info</b-button>
-          <b-button type="is-info is-light">Info Light</b-button>
-
-          <b-button type="is-link">Link</b-button>
-          <b-button type="is-link is-light">Link Light</b-button><br />
-
-          <b-button type="is-light">Light</b-button>
-          <b-button type="is-dark">Dark</b-button>
-          <b-button type="is-text">Text</b-button>
-          <b-button type="is-ghost">Ghost</b-button>
-        </section>
+        <div class="columns">
+          <div class="column">
+            <section class="sidebar-layout">
+              
+            </section>
+          </div>
+        </div>
       </div>
     </div>
 
     <script src="js/main.js"></script>
-    <script src="js/vue.min.js"></script>
-    <script src="js/buefy.min.js"></script>
-
-    <script>
-      new Vue({
-        el: '#app',
-
-        data() {
-          return {}
-        },
-
-        watch: {},
-        
-        computed: {},
-
-        methods: {
-          clickMe() {
-                        
-            this.$buefy.notification.open('Clicked!!')
-          
-          }
-        }
-      })
-    </script>
 
   </body>
 
