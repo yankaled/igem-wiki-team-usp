@@ -1,0 +1,25 @@
+{
+  "name": "igem-wiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url ./src/scss/mystyles.scss ./src/css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankaled/igem-wiki-team-usp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yankaled/igem-wiki-team-usp/issues"
+  },
+  "homepage": "https://github.com/yankaled/igem-wiki-team-usp#readme",
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "sass": "^1.42.1"
+  }
+}
