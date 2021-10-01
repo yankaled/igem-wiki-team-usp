@@ -7,32 +7,33 @@
 
   <body>
     <div id="app">
-      <div class="container">
-        <section>
-          <b-button @click="clickMe" type="is-primary">Primary</b-button>
-          <b-button type="is-primary is-light">Primary Light</b-button>
-
-          <b-button type="is-success">Success</b-button>
-          <b-button type="is-success is-light">Success Light</b-button>
-
-          <b-button type="is-danger">Danger</b-button>
-          <b-button type="is-danger is-light">Danger Light</b-button>
-
-          <b-button type="is-warning">Warning</b-button>
-          <b-button type="is-warning is-light">Warning Light</b-button>
-
-          <b-button type="is-info">Info</b-button>
-          <b-button type="is-info is-light">Info Light</b-button>
-
-          <b-button type="is-link">Link</b-button>
-          <b-button type="is-link is-light">Link Light</b-button><br/>
-
-          <b-button type="is-light">Light</b-button>
-          <b-button type="is-dark">Dark</b-button>
-          <b-button type="is-text">Text</b-button>
-          <b-button type="is-ghost">Ghost</b-button>
-        </section>
-      </div>
+      <b-navbar>
+        <template #brand="">
+          <b-navbar-item :to="{ path: '/' }" tag="router-link">
+            <img alt="TEAM-USP Igem" src="https://2021.igem.org/wiki/images/f/f0/T--USP-Brazil--TEAMUSP-LOGO-standart-01.png"/>
+          </b-navbar-item>
+        </template>
+        <template #start="">
+          <b-navbar-item href="#">
+            Home
+          </b-navbar-item>
+          <b-navbar-item href="#">
+            Project
+          </b-navbar-item>
+          <b-navbar-item href="#">
+            Lab
+          </b-navbar-item>
+          <b-navbar-item href="#">
+            Human Practices
+          </b-navbar-item>
+          <b-navbar-item href="#">
+            Team
+          </b-navbar-item>
+          <b-navbar-item href="#">
+            Awards
+          </b-navbar-item>
+        </template>
+      </b-navbar>
     </div>
 
     <script src="https://2021.igem.org/Template:USP-Brazil/js/mainJS?action=raw&amp;ctype=text/javascript"></script>
