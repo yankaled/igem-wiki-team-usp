@@ -12,28 +12,11 @@ body {
   font-size: xx-large;
 }
 
-#distance-from-title {
+#vertical-adjustment {
   margin-top: 2em;
 }
 
-#distance-from-top {
-  margin-top: 2em;
-}
-
-#copyright-session {
-  margin-top: 5em;
-  margin-bottom: -1em;
-}
-
-#distance-from-previous {
-  margin-left: 1em;
-}
-
-#right-movement {
-  margin-left: 100em;
-}
-
-.bg-img-teste { 
+.bg-img-test { 
   background-image: url(../img/mel.jpg) ;
   background-position: center center;
   background-repeat: no-repeat;
