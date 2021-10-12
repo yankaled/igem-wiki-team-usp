@@ -16,14 +16,6 @@ body {
   margin-top: 2em;
 }
 
-.bg-img-test { 
-  background-image: url(../img/mel.jpg) ;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 .bg-img { 
   background-color: #FFBA17;
 }
