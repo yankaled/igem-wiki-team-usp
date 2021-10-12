@@ -1,0 +1,133 @@
+<template>
+  <div>
+    <section>
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="textmember">Pedro Bonamin</div>
+          <div class="hexagon">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="textmember">Pedro Bonamin</div>
+          <div class="hexagon">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="textmember">Pedro Bonamin</div>
+
+          <div class="hexagon">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="columns">
+        <div class="column is-half">
+          <div class="textmember">Pedro Bonamin</div>
+          <div class="hexagon">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="textmember">Pedro Bonamin</div>
+
+          <div class="hexagon">
+            <div class="hexTop"></div>
+            <div class="hexBottom"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+.hexagon {
+  position: relative;
+  width: 285px;
+  height: 164.54px;
+  margin: 82.27px 0;
+  background-image: url(http://csshexagon.com/img/meow.jpg);
+  background-size: auto 329.0897px;
+  background-position: center;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 201.53px;
+  height: 201.53px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 41.74px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 285px;
+  height: 164.54482671904336px;
+  -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-82.2724px);
+  -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-82.2724px);
+  transform: rotate(45deg) scaleY(1.7321) translateY(-82.2724px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -100.7627px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -100.7627px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 285px;
+  height: 164.5448px;
+  z-index: 2;
+  background: inherit;
+}
+
+.textmember {
+  position: relative;
+  top: 80%;
+  z-index: 3;
+  background-color: #ffba17;
+  font-family: "Russo One", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  width: 285px;
+  text-align: center;
+}
+</style>
