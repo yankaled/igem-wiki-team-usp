@@ -48,18 +48,22 @@
         </div>
       </div>
     </section>
+
+    <Footer />
   </div>
 </template>
 
 <script>
 
 import Nav from '@/components/Nav.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Members',
 
   components: {
-    Nav
+    Nav,
+    Footer
   }
 }
 </script>
