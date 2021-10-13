@@ -12,6 +12,12 @@ module.exports = {
       title: 'Home',
       chunks: [ 'chunk-vendors', 'chunk-common', 'index' ]
     },
+    'education': {
+      entry: './src/views/Education/main.js',
+      template: 'public/index.html',
+      title: 'Education',
+      chunks: [ 'chunk-vendors', 'chunk-common', 'education' ]
+    },
     'members': {
       entry: './src/views/Members/main.js',
       template: 'public/index.html',
