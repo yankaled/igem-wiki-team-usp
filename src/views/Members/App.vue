@@ -1,5 +1,7 @@
 <template>
   <div>
+    <Nav />
+    
     <section>
       <div class="columns">
         <div class="column is-one-third">
@@ -49,7 +51,20 @@
   </div>
 </template>
 
-<style>
+<script>
+
+import Nav from '@/components/Nav.vue'
+
+export default {
+  name: 'Members',
+
+  components: {
+    Nav
+  }
+}
+</script>
+
+<style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 .hexagon {
   position: relative;

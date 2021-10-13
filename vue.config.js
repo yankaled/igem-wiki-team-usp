@@ -1,17 +1,29 @@
-const path = require("path")
-
 module.exports = {
   assetsDir: "assets",
   lintOnSave: true,
   outputDir: "dist",
-  parallel: true,
   productionSourceMap: false,
-  publicPath: "/",
-  runtimeCompiler: false,
+  publicPath: '/',
 
-  css: {
-    extract: process.env.VUE_CLI_MODE === "production",
-    sourceMap: true
+  pages: {
+    'index': {
+      entry: './src/views/Home/main.js',
+      template: 'public/index.html',
+      title: 'Home',
+      chunks: [ 'chunk-vendors', 'chunk-common', 'index' ]
+    },
+    'education': {
+      entry: './src/views/Education/main.js',
+      template: 'public/index.html',
+      title: 'Education',
+      chunks: [ 'chunk-vendors', 'chunk-common', 'education' ]
+    },
+    'members': {
+      entry: './src/views/Members/main.js',
+      template: 'public/index.html',
+      title: 'Members',
+      chunks: [ 'chunk-vendors', 'chunk-common', 'members' ]
+    }
   },
 
   devServer: {
