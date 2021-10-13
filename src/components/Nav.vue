@@ -13,7 +13,7 @@
           width="112" height="28"
           alt="Team-USP Igem"
         />
-      </a>
+      </a>        
 
       <a
         role="button"
@@ -34,6 +34,14 @@
         <!-- <img src="Navbar/Home_logo.png" width="50" height="" /> -->
         Home
       </a>
+
+      <a
+        class="navbar-item nav-link-usp nav-link-usp-ltr"
+        href="/members"
+      >
+        members
+      </a>
+
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link nav-link-usp nav-link-usp-ltr">
           <!-- <img src="Navbar/Project_logo.png" width="50" height="" /> -->
@@ -126,6 +134,53 @@
         </div>
       </div>
     </div>
-    <!-- </div> -->
   </nav>
 </template>
+
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+#Navbar_USP {
+  background-color: #ffba17;
+}
+.nav-link-usp {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.nav-link-usp:hover {
+  opacity: 1;
+}
+
+.nav-link-usp::before {
+  transition: 500ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #000;
+}
+
+.nav-link-usp-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-usp-ltr:hover::before {
+  width: 100%;
+}
+a.navbar-item:hover {
+  color: #ffffff;
+}
+.navbar-link:hover {
+  color: #ffffff;
+}
+</style>

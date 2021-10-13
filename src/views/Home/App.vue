@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="home">
     <Nav />
-  
-    <router-view/>
+    
+    TESTANDO
   </div>
 </template>
 
@@ -10,6 +10,8 @@
 import Nav from '@/components/Nav.vue'
 
 export default {
+  name: 'Home',
+
   components: {
     Nav
   }
