@@ -485,17 +485,21 @@
       </div>
       <div class="column is-one-fifth"></div>
     </section>
+
+    <Footer />
   </div>
 </template>
 
 <script>
 import Nav from '@/components/Nav.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
 
   components: {
-    Nav
+    Nav,
+    Footer
   }
 }
 </script>
