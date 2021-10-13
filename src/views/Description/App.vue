@@ -6,7 +6,7 @@
       <img class="header" src="@/assets/Description_banner.jpg" />
     </div>
     <section class="columns">
-      <div class="menu column is-one-fifth"></div>
+      <div class="column is-one-fifth"></div>
       <div class="content column is-three-fifth">
         <h2>WHY ARE BEES SO IMPORTANT?</h2>
         <p>
@@ -158,6 +158,7 @@
           <b>neonicotinoid class.</b>
         </p>
         <h3>The pesticide: Imidacloprid</h3>
+        <img src="@/assets/Figure1Imida.jpg" />
         <p>
           The neonicotinoids are the <b>most widely used </b> class of
           pesticides in the whole world, even after being restricted in the
@@ -208,7 +209,173 @@
           insects, converting imidacloprid into less harmful metabolites [15].
           Those enzymes are very important for the development of our project.
         </p>
-        <img src="@/assets/Grupo21.jpg" />
+        <img src="@/assets/Group21.jpg" />
+        <p>
+          Even though they are marked as contributors to the bee disappearance
+          phenomenon, neonicotinoids are very effective pesticides for pest
+          control, surpassing many others.
+          <b
+            >Banning or impairing their function can have a negative effect on
+            crops' production and create the need to apply a higher amount of
+            other pesticides, a solution that can be even more harmful to the
+            environment and also cost more money</b
+          >. In short, neonicotinoids are very necessary for agriculture.
+        </p>
+        <p>
+          herefore, our solution, <b>Let.it.bee</b>., tries to address the issue
+          without cancelling the important pest control effect.
+        </p>
+        <h2>What is <b>LET.IT.BEE</b></h2>
+        <p>
+          Due to the recognition to their importance and worries about the
+          future, the bee's disappearance problem has been gaining more media
+          coverage over the years, which fill us with hope that it will receive
+          more solutions like Let.it.bee. Due to the principle of modularity in
+          synthetic biology, our project can also easily be adapted to other
+          plants and pesticides in the future, by changing the tissue specific
+          promoter and, if needed, the enzyme. Thus, after our preliminary tests
+          the circuit could be expanded to more crops.
+        </p>
+        <p>
+          Brazil has suffered a lot from the COVID-19 pandemic, causing many of
+          our lab experiments to be delayed. Although our current results and
+          modelling are enough to understand more about our project, more tests
+          are needed to better improve our circuit. You can check more of this
+          journey on the <b>Engineering page.</b>
+        </p>
+        <h2>References:</h2>
+        <div class="references">
+          <ol>
+            <li>
+              BEE OR NOT TO BEE. Por que proteger as abelhas? Retrieved on Sept
+              18, 2021 from https://www.beeornottobe.com.br
+            </li>
+            <li>
+              A.B.E.L.H.A. Abelhas e polinização. Retrieved on Sept 19, 2021
+              from https://abelha.org.br/abelhas-e-a-polinizacao/
+            </li>
+            <li>
+              EMBRAPA. O que é polinização? Retrieved on Sept 19, 2021 from
+              https://www.embrapa.br/meio-norte/polinizacao
+            </li>
+            <li>
+              BEE OR NOT TO BEE. Sem abelha, sem alimento. Retrieved on Sept 19,
+              2021 from https://www.semabelhasemalimento.com.br/
+            </li>
+            <li>
+              PIRES, C. S. S.; Pereira, F. M.; Lopes, M. T. R.; Nocelli, R. C.
+              F.; Malaspina, O.; Pettis, J. S. & Teixeira, E. W..
+              Enfraquecimento e perda de colônias de abelhas no Brasil: há casos
+              de CCD? Pesq. agropec. bras., Brasília, v.51, n.5, p.422-442, May
+              2016. DOI: 10.1590/S0100-204X2016000500003
+            </li>
+            <li>
+              BPBES. Relatório temático sobre polinização, polinizadores e
+              produção de alimentos no Brasil. 2018.
+            </li>
+            <li>
+              LEWIS, S. 25% of wild bee species have gone missing since the
+              1990s, study finds. Retrieved in Sept 19, 2021 from
+              https://www.cbsnews.com/news/wild-bee-species-missing-since-1990s-extinction/
+            </li>
+            <li>
+              GRIGORI, Pedro. Apicultores brasileiros encontram meio bilhão de
+              abelhas mortas em três meses. Retrieved on Sept 18, 2021 from
+              https://reporterbrasil.org.br/2019/03/apicultores-brasileiros-encontram-meio-bilhao-de-abelhas-mortas-em-tres-meses/
+            </li>
+            <li>
+              G1. Número de agrotóxicos registrados em 2020 é o mais alto da
+              série histórica. Retrieved on Sept 18, 2021 from
+              https://g1.globo.com/economia/agronegocios/noticia/2021/01/14/numero-de-agrotoxicos-registrados-em-2020-e-o-mais-alto-da-serie-historica-maioria-e-produto-generico.ghtml
+            </li>
+            <li>
+              . GRIGORI, Pedro. 118 agrotóxicos são aprovados durante a
+              pandemia, liberação é "serviço essencial". Retrieved on Sept 18,
+              2021 from
+              https://reporterbrasil.org.br/2020/05/96-agrotoxicos-sao-aprovados-durante-a-pandemia-liberacao-e-servico-essencial/
+            </li>
+            <li>
+              . HUNG Keng-Lou James, Kingston Jennifer M., Albrecht Matthias,
+              Holway David A., Kohn Joshua R.. 2018. The worldwide importance of
+              honey bees as pollinators in natural habitats. *Proc. R. Soc. B.*
+              **285** 2017214020172140. http://doi.org/10.1098/rspb.2017.2140
+            </li>
+            <li>
+              BBC. Por que desaparecimento das abelhas seria uma catástrofe – e
+              o que você pode fazer para evitar isso. Retrieved in Sept 20, 2021
+              from https://www.bbc.com/portuguese/geral-40220606
+            </li>
+            <li>
+              PROJETO Abelhas Sem Ferrão. As possíveis causas do
+              “desaparecimento das abelhas”. retrieved in Sept 20, 2021 from
+              http://www.projetoabelhassemferrao.ufv.br/?noticias=as-possiveis-causas-do-desaparecimento-das-abelhas](http://www.projetoabelhassemferrao.ufv.br/?noticias=as-possiveis-causas-do-desaparecimento-das-abelhas
+            </li>
+            <li>
+              O’NEAL, S. T., Anderson, T. D., & Wu-Smart, J. Y. (2018).
+              Interactions between pesticides and pathogen susceptibility in
+              honey bees. Current Opinion in Insect Science, 26, 57–62.
+              doi:10.1016/j.cois.2018.01.006
+            </li>
+            <li>
+              IHARA, M., & Matsuda, K. (2018). Neonicotinoids: molecular
+              mechanisms of action, insights into resistance and impact on
+              pollinators. Current Opinion in Insect Science.
+              doi:10.1016/j.cois.2018.09.009
+            </li>
+            <li>
+              POTENZA, A. Bad news for bees: three-quarters of all honey on
+              Earth has pesticides in it. Retrieved in Sept 20, 2021 from
+              https://www.theverge.com/2017/10/5/16424216/honey-neonicotinoids-contamination-honeybees-pollinators-environment
+            </li>
+            <li>
+              MUTH, F., Leonard, A.S. A neonicotinoid pesticide impairs
+              foraging, but not learning, in free-flying bumblebees. Sci Rep 9,
+              4764 (2019). https://doi.org/10.1038/s41598-019-39701-5
+            </li>
+            <li>
+              GRIGORI, P. Agrotóxico mais encontrado em frutas e verduras no
+              Brasil é fatal para abelhas. Retrieved in Sept 20 from
+              https://brasil.elpais.com/brasil/2019-12-17/agrotoxico-mais-encontrado-em-frutas-e-verduras-no-brasil-e-fatal-para-abelhas.html
+            </li>
+            <li>
+              CRIADO, M. A.. Estudo detecta pesticidas em 75% das amostras de
+              mel do mundo inteiro. Retrieved in Sept 20, 2021 from
+              https://brasil.elpais.com/brasil/2017/10/05/ciencia/1507209390_988942.html
+            </li>
+            <li>
+              TURCATTO, A. P.; Morais, M.M.; Almeida, J. M.V. & Jong, D.
+              Importância dos nutrientes para o desenvolvimento das abelhas Apis
+              mellifera. Retrieved in Sept 20, 2021 from
+              https://www.apacame.org.br/mensagemdoce/121/artigo.htm
+            </li>
+            <li>
+              SUCHAIL S, Debrauwer L, Belzunces LP. Metabolism of imidacloprid
+              in Apis mellifera. Pest Manag Sci. 2004 Mar;60(3):291-6. doi:
+              10.1002/ps.772. PMID: 15025241.
+            </li>
+            <li>
+              WU, YY., Luo, QH., Hou, CS. et al. Sublethal effects of
+              imidacloprid on targeting muscle and ribosomal protein related
+              genes in the honey bee Apis mellifera L.. Sci Rep 7, 15943 (2017).
+              https://doi.org/10.1038/s41598-017-16245-0
+            </li>
+            <li>
+              RANGEL, L.E.P.; Botton, M.; Papa, G.; Yamamoto, P. T. & Roggia, S.
+              USO DE NEONICOTINOIDES NO BRASIL SITUAÇÃO ATUAL DOS PRODUTOS
+              REGISTRADOS.
+            </li>
+            <li>
+              EMBRAPA. Trajetória da agricultura brasileira. Retrieved in Sept
+              20, 2021 from
+              https://www.embrapa.br/visao/trajetoria-da-agricultura-brasileira
+            </li>
+            <li>
+              FIELDVIEW. Qual é a participação do agronegócio no PIB e nas
+              exportações brasileiras? Retrieved in Sept 20, 2021 from
+              https://blog.climatefieldview.com.br/qual-e-a-participacao-do-agronegocio-no-pib-e-nas-exportacoes-brasileiras
+            </li>
+          </ol>
+        </div>
       </div>
 
       <div class="column is-one-fifth"></div>
@@ -257,8 +424,20 @@ export default {
   font-weight: 400;
   color: #262625;
 }
-.content p b {
+
+.content b {
   color: #ffba17;
+}
+.content p b {
   font-weight: 700;
+}
+.references {
+  background: #fffdfd;
+  border: 2px dashed #000000;
+  border-radius: 20px;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #262625;
 }
 </style>
