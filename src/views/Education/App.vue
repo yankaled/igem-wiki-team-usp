@@ -56,8 +56,6 @@
             <li>methods; actions on aplying dyagnostic on the frontline.</li>
           </ul>
           <img src="@/assets/Group-17.jpg" />
-          <br />
-          <br />
 
           <p>
             The first publication occured on May the eighth, on Instagram and
@@ -355,23 +353,16 @@
             </div>
           </blockquote>
         </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
 
         <section>
           <h2>OBBS</h2>
           <h3>The challenge</h3>
           <img src="@/assets/image41.jpg" />
-          <br />
-          <br />
+
           <p>
             During one of the Team’s earliest brainstorming sessions, we faced a
             complicated challenge.
-            <br />
-            <br />
+
             <b>How to make synbio known in Brazil? </b> <br /><br />
             Many approaches were discussed, until we found a common ground for
             the Team members. Call it a coincidence or not, but we had all
@@ -385,8 +376,7 @@
             >
           </p>
           <img src="@/assets/Group15.jpg " />
-          <br />
-          <br />
+
           <p>
             Everyone was excited with the ideia, but we had no idea on how to
             make such a gigantic event possible. So, the first thing we did was
@@ -491,15 +481,15 @@
 </template>
 
 <script>
-import Nav from '@/components/Nav.vue'
-import Footer from '@/components/Footer.vue'
+import Nav from "@/components/Nav.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
 
   components: {
     Nav,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
