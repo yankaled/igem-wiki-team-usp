@@ -63,8 +63,7 @@
           <b>some foods just would not be produced anymore</b> or would turn
           into luxury items. [6]
         </p>
-        <img src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg" />
-        <img src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg" />
+
         <p>
           Pollination by bees is required for a healthy increase in agricultural
           productivity, generating a higher amount, as well as fruits with
@@ -232,7 +231,136 @@
           herefore, our solution, <b>Let.it.bee</b>., tries to address the issue
           without cancelling the important pest control effect.
         </p>
-        <h2>What is <b>LET.IT.BEE</b></h2>
+        <h2>WHAT IS <b>LET.IT.BEE</b></h2>
+        <h3>Our inspiration</h3>
+        <p>
+          Because of bees' great importance to the planet and consequent
+          consonance with multiple United Nations'
+          <b>Sustainable Development Goals (SDGs)</b>, our team was inspired to
+          adopt the cause and help save them.
+        </p>
+        <p>
+          In 2018 and 2019, about <b>half a billion bees were found dead </b> in
+          different regions of Brazil, the main cause was attributed to their
+          contact with pesticides, especially neonicotinoids [8]. This occasion
+          brought a lot of attention to the worries surrounding the
+          disappearance of these insects.
+        </p>
+        <p>
+          But, despite that event, in the beginning of 2020, our team found out
+          that the
+          <b
+            >Brazil's government had just released the use of 493 pesticides,</b
+          >
+          the highest number of substances approved in all of the country's
+          history. It is only a part of an upward trajectory of pesticide
+          approval that is happening ever since 2016 [9]. Among them, there are
+          even pesticides that are prohibited in other countries, such as
+          Fipronil that was banned in part of the European Union, because of
+          their effects in human health or involvement in the death of bees
+          [10].
+        </p>
+        <p>
+          Agriculture is a very important sector for Brazil, along with
+          livestock. The business is responsible for more than 20% of the
+          country's Gross Domestic Product, corresponding to almost half of all
+          the exportation, too [24,25 ]. For soy, sugar cane, orange juice and
+          coffee, for example, Brazil is both the best producer and exporter on
+          the world, while some of this products are
+          <b>totally dependent on bee pollination </b>[25]. Consequently,
+          knowing about the relationship of bees with crops' productivity, the
+          problem should be receiving more consideration.
+        </p>
+        <p>
+          Thus, by hearing and learning more about the death of their
+          populations around the world, and especially in our country, as well
+          as the terrible implications of the phenomenon, we decided to dive
+          more into the problem and come up with a solution for a more
+          sustainable agriculture: our project <b>Let.it.bee.</b>
+        </p>
+        <p>
+          Because of the pandemic and plant growth time, we have been working on
+          this project since 2020, making it a two year project.
+        </p>
+        <h3>Our Goals</h3>
+        <img
+          src="https://2021.igem.org/wiki/images/6/6c/T--USP-Brazil--IGEM-USP-Description-Postit.jpg"
+          alt="Post it with goal"
+        />
+        <br />
+        <br />
+        <p>
+          By reaching that goal, we can have a
+          <b>positive impact in both economy and environment,</b> especially by
+          contributing to:
+        </p>
+        <ul>
+          <li>
+            A <b>sustainable and productive agriculture,</b> by helping farmers
+            keep their production protected against pests without harming the
+            pollinators, while the productivity (in quantity and quality) of
+            their crop grows with more bees to pollinate the plants. This can
+            optimize production, as well as pesticide use and the land use.
+          </li>
+          <li>
+            An <b>economic growth,</b> by stimulating farmers production and
+            generating jobs in rural areas.
+          </li>
+          <li>
+            The maintenance of the <b>ecological balance,</b> by keeping plants
+            pollinated, thus maintaining the ecosystem functions, as well as its
+            beauty. Besides heliping the plants that are pollinated by bees, it
+            can also help the organisms that use them as home or as food, as
+            well as the organisms that feed on those other organisms, and so on,
+            maintaining the food chain and other ecological relationships.
+          </li>
+          <li>
+            <b>Food production,</b> by improving quality and quantity of crops
+            productions, offering more and better options for people.
+          </li>
+          <li>
+            <b>Lessen food waste,</b> by producing fruits with better quality,
+            with less deformities, that will not be thrown away by farmers.
+          </li>
+        </ul>
+        <h3>How it works?</h3>
+        <p>
+          To achieve our goals, we designed an adaptable genetic circuit system
+          for plants, so the plant
+          <b
+            >can express a detoxifying enzyme (CYP6G1), capable of metabolizing
+            the pesticide Imidacloprid into less toxic metabolites, only in
+            tissues that bees come in contact with the most during
+            pollination,</b
+          >
+          such as the pollen.
+        </p>
+        <p>
+          By doing this, the pollen of the plant that expresses the Let.it.bee.
+          circuit will be safe for bees contact and consumption while the rest
+          of the plant is still toxic to pests, making it a safe option for
+          farmers to apply in their crops without losing the function of the
+          pesticide.
+        </p>
+        <img
+          src="https://2021.igem.org/wiki/images/7/7b/T--USP-Brazil--IGEM-USP-Description-Figure2.png"
+          alt="Scheme for Let it bee"
+        />
+        <p>
+          Our test circuit was expressed in a <b>micro-tomato plant</b> and it
+          contains:
+        </p>
+        <ul>
+          <li>A specific pollen promoter</li>
+          <li>A detoxifying enzyme</li>
+          <li>A self-cleaving peptide</li>
+          <li>The GUS reporter gene</li>
+        </ul>
+        <p>
+          You can check more about our project's genetic circuit and chassis in
+          our <b>Design page!</b>
+        </p>
+        <h2>WHAT IS NEXT FOR <b>LET.IT.BEE</b></h2>
         <p>
           Due to the recognition to their importance and worries about the
           future, the bee's disappearance problem has been gaining more media
@@ -250,6 +378,7 @@
           are needed to better improve our circuit. You can check more of this
           journey on the <b>Engineering page.</b>
         </p>
+
         <h2>References:</h2>
         <div class="references">
           <ol>
@@ -395,6 +524,9 @@
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
+// import "bulma-carousel/dist/css/bulma-carousel.min.css";
+// // import "bulma-carousel/dist/js/bulma-carousel.min.js";
+// import bulmaCarousel from "bulma-carousel";
 
 export default {
   name: "Description",

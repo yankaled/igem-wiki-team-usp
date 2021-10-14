@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 // Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
+$purple: #8a4d76;
+$pink: #fa7c91;
 $brown: #757763;
-$beige-light: #D0D1CD;
+$beige-light: #d0d1cd;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -21,3 +21,6 @@ $input-border-color: transparent;
 $input-shadow: none;
 
 @import "../../node_modules/bulma/bulma.sass";
+
+// Import component
+@import "../../node_modules/bulma-carousel/src/sass/index.sass";

@@ -42,6 +42,18 @@ module.exports = {
       title: "Entrepreneurship",
       chunks: ["chunk-vendors", "chunk-common", "Entrepreneurship"],
     },
+    Contributions: {
+      entry: "./src/views/Contributions/main.js",
+      template: "public/index.html",
+      title: "Contributions",
+      chunks: ["chunk-vendors", "chunk-common", "Contributions"],
+    },
+    Safety: {
+      entry: "./src/views/Safety/main.js",
+      template: "public/index.html",
+      title: "Safety",
+      chunks: ["chunk-vendors", "chunk-common", "Safety"],
+    },
   },
 
   devServer: {
