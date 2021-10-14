@@ -1,5 +1,11 @@
 // reset iGEM
 if (window.location.href.includes('igem.org')) {
+
+  const appDiv = document.querySelector('#app')
+  
+  if (appDiv) {
+    appDiv.marginTop = '16px'
+  }
     
   const ids = ['HQ_page', 'content', 'bodyContent', 'mw-content-text']
   

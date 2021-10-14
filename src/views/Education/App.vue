@@ -369,7 +369,7 @@
         <section>
           <h2>OBBS</h2>
           <h3>The challenge</h3>
-          <img src="@/assets/image41.jpg" />
+          <img src="https://2021.igem.org/File:T--USP-Brazil--img--image41.567c4a04.jpg" />
 
           <p>
             During one of the Team’s earliest brainstorming sessions, we faced a
@@ -387,7 +387,7 @@
               solution to how to popularize synthetic biology in our country.</b
             >
           </p>
-          <img src="@/assets/Group15.jpg " />
+          <img src="https://2021.igem.org/File:T--USP-Brazil--img--Group15.77cd2973.jpg" />
 
           <p>
             Everyone was excited with the ideia, but we had no idea on how to
@@ -418,7 +418,7 @@
             João Canalle was the one who helped us work around that. Professor
             Canalle did something very similar to what the team aimed to do.
           </p>
-          <img src="@/assets/Group-14.jpg" alt="" />
+          <img src="https://2021.igem.org/File:T--USP-Brazil--img--Group-14.75f82c4d.jpg" alt="" />
 
           <p>
             He created the Brazilian Astronomy and Astrophysics Olympiad to
@@ -439,7 +439,7 @@
             professor Canalle, who then gave us the contact of a friend that he
             thought had all the answers to our problems.
           </p>
-          <img src="@/assets/Group-14.jpg" alt="" />
+          <img src="https://2021.igem.org/File:T--USP-Brazil--img--Group-14.75f82c4d.jpg" alt="" />
           <p>
             That’s when we met <b>Daniel</b>. He, who’s also a professor, had
             created several different olympiads in the same informative style as
@@ -480,7 +480,7 @@
             <a
               href="https://olimpiadapocket.com.br/olimpiada-pocket-hackeando-ecossistemas/"
             >
-              <img src="@/assets/Group19.png"
+              <img src="https://2021.igem.org/File:T--USP-Brazil--img--Group19.34d28dca.png"
             /></a>
           </p>
         </section>

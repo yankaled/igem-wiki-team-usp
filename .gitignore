@@ -6,6 +6,7 @@ node_modules
 wikisync.cookies
 upload_map.yml
 wikisync.log
+/igem
 
 # local env files
 .env.local

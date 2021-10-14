@@ -9,7 +9,7 @@
       <a class="navbar-item" href="/">
         <img
           style="max-height: 5rem !important;"
-          src="@/assets/TEAMUSP-LOGO-PB-01.png"
+          src="https://2021.igem.org/wiki/images/b/b1/T--USP-Brazil--img--TEAMUSP-LOGO-PB-01.19db15e5.png"
           width="112" height="28"
           alt="Team-USP Igem"
         />
@@ -69,8 +69,8 @@
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link nav-link-usp nav-link-usp-ltr">
           <!-- <img src="Navbar/Lab_logo.png" width="50" height="" /> -->
-          Lab</a
-        >
+          Lab
+        </a>
 
         <div class="navbar-dropdown">
           <a class="navbar-item"> Parts </a>
@@ -143,6 +143,7 @@
 #Navbar_USP {
   background-color: #ffba17;
 }
+
 .nav-link-usp {
   font-weight: bold;
   font-size: 14px;
@@ -152,7 +153,7 @@
   color: #000;
   padding: 20px 0px;
   margin: 0px 20px;
-  display: inline-block;
+  display: flex;
   position: relative;
   opacity: 0.75;
 }
