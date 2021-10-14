@@ -153,6 +153,7 @@
   color: #000;
   padding: 20px 0px;
   margin: 0px 20px;
+  display: flex;
   position: relative;
   opacity: 0.75;
 }
