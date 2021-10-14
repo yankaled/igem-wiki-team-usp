@@ -498,7 +498,7 @@ import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
-  name: "Home",
+  name: "Education",
 
   components: {
     Nav,
