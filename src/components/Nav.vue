@@ -9,7 +9,7 @@
       <a class="navbar-item" href="/">
         <img
           style="max-height: 5rem !important;"
-          src="@/assets/TEAMUSP-LOGO-PB-01.png"
+          src="https://2021.igem.org/wiki/images/b/b1/T--USP-Brazil--img--TEAMUSP-LOGO-PB-01.19db15e5.png"
           width="112" height="28"
           alt="Team-USP Igem"
         />

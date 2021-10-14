@@ -122,3 +122,9 @@
     </div>
   </footer>
 </template>
+
+<style scoped>
+.footer {
+  padding: 0 0 0 0;
+}
+</style>
