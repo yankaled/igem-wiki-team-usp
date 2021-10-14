@@ -24,11 +24,11 @@ module.exports = {
       title: "Members",
       chunks: ["chunk-vendors", "chunk-common", "Members"],
     },
-    Description: {
+    description: {
       entry: "./src/views/Description/main.js",
       template: "public/index.html",
       title: "Description",
-      chunks: ["chunk-vendors", "chunk-common", "Description"],
+      chunks: ["chunk-vendors", "chunk-common", "description"],
     },
     Design: {
       entry: "./src/views/Design/main.js",

@@ -22,21 +22,22 @@
   },
   "homepage": "https://github.com/yankaled/igem-wiki-team-usp#readme",
   "dependencies": {
+    "bulma-carousel": "^4.0.24",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
-    "bulma": "^0.9.3",
-    "sass": "^1.42.1",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
+    "bulma": "^0.9.3",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.42.1"
   },
   "eslintConfig": {
     "root": true,
