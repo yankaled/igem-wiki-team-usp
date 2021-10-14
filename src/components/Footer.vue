@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="bg-img">
+    <div class="backgroundImg">
       <div class="columns">
           <div class="column has-text-centered is-one-third">
             <img src="@/assets/footer/teamusplogo.png" alt="teamLogo" style="height:200px;">
@@ -8,13 +8,13 @@
           <div class="column has-text-centered is-8">
             <div class="columns">
                 <div class="column has-text-centered is-half">
-                    <h4 class="bd-footer-title" id="vertical-adjustment">
-                        <strong class="footer-title">
+                    <h4 class="bd-footerTitle" id="verticalAdjustment">
+                        <strong class="footerTitle">
                             ABOUT US
                         </strong>
                     </h4>
                     <div class="columns">
-                        <div class="column is-12" id="vertical-adjustment">
+                        <div class="column is-12" id="verticalAdjustment">
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                             </p>
@@ -22,15 +22,15 @@
                     </div>
                 </div>
                 <div class="column has-text-centered is-half">
-                    <h4 class="bd-footer-title" id="vertical-adjustment">
-                        <strong class="footer-title">
+                    <h4 class="bd-footerTitle" id="verticalAdjustment">
+                        <strong class="footerTitle">
                             CONTACT US
                         </strong>
                     </h4>
                     <div class="columns">
-                        <div class="column is-1" id="vertical-adjustment">
+                        <div class="column is-1" id="verticalAdjustment">
                         </div>
-                        <div class="column is-10" id="vertical-adjustment">
+                        <div class="column is-10" id="verticalAdjustment">
                             <a href="https://www.instagram.com/igemuspbr/">
                                 <img src="@/assets/footer/instagram.png" alt="Instagram" style="height:35px;width:35px;margin-left:0.5em;">
                             </a>
@@ -50,7 +50,7 @@
                                 <img src="@/assets/footer/mail.png" alt="Mail" style="height:35px;width:35px;margin-left:0.5em;">
                             </a>
                         </div>
-                        <div class="column is-1" id="vertical-adjustment">
+                        <div class="column is-1" id="verticalAdjustment">
                         </div>
                     </div>
                 </div>
