@@ -69,8 +69,8 @@
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link nav-link-usp nav-link-usp-ltr">
           <!-- <img src="Navbar/Lab_logo.png" width="50" height="" /> -->
-          Lab</a
-        >
+          Lab
+        </a>
 
         <div class="navbar-dropdown">
           <a class="navbar-item"> Parts </a>
@@ -143,6 +143,7 @@
 #Navbar_USP {
   background-color: #ffba17;
 }
+
 .nav-link-usp {
   font-weight: bold;
   font-size: 14px;
@@ -152,7 +153,6 @@
   color: #000;
   padding: 20px 0px;
   margin: 0px 20px;
-  display: inline-block;
   position: relative;
   opacity: 0.75;
 }

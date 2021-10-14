@@ -63,8 +63,8 @@
           <b>some foods just would not be produced anymore</b> or would turn
           into luxury items. [6]
         </p>
-        <img src="@//assets/Joao.jpg" />
-        <img src="@//assets/Joao.jpg" />
+        <img src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg" />
+        <img src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg" />
         <p>
           Pollination by bees is required for a healthy increase in agricultural
           productivity, generating a higher amount, as well as fruits with

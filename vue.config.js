@@ -24,7 +24,7 @@ module.exports = {
       title: "Members",
       chunks: ["chunk-vendors", "chunk-common", "Members"],
     },
-    description: {
+    Description: {
       entry: "./src/views/Description/main.js",
       template: "public/index.html",
       title: "Description",
