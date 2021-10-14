@@ -142,6 +142,7 @@
 
 #Navbar_USP {
   background-color: #ffba17;
+  margin-bottom: -1em;
 }
 
 .nav-link-usp {
