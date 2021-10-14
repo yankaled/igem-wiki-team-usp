@@ -33,8 +33,14 @@ module.exports = {
     Design: {
       entry: "./src/views/Design/main.js",
       template: "public/index.html",
-      title: "Description",
+      title: "Design",
       chunks: ["chunk-vendors", "chunk-common", "Design"],
+    },
+    Entrepreneurship: {
+      entry: "./src/views/Entrepreneurship/main.js",
+      template: "public/index.html",
+      title: "Entrepreneurship",
+      chunks: ["chunk-vendors", "chunk-common", "Entrepreneurship"],
     },
   },
 
