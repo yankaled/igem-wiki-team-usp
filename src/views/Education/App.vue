@@ -2,7 +2,12 @@
   <div>
     <Nav />
 
-    <div class="header_USP is-full"></div>
+    <div class="is-full">
+      <img
+        class="header"
+        src="https://2021.igem.org/wiki/images/9/9f/T--USP-Brazil--IGEM-USP-Public-Banner.jpg"
+      />
+    </div>
     <section class="columns">
       <div class="menu column is-one-fifth"></div>
       <div class="content column is-three-fifth">
@@ -20,7 +25,9 @@
             the researchers, bringing them closer to society and humanizing
             science.
           </p>
-          <img src="@/assets/Group16.jpg" />
+          <img
+            src="https://2021.igem.org/wiki/images/3/37/T--USP-Brazil--IGEM-USP-Public-Heroes.jpg"
+          />
           <h3>History:</h3>
           <p>
             It all started when members of the group, whom sympathized with the
@@ -36,7 +43,8 @@
             the team.
           </p>
           <h3>Evolution:</h3>
-          Among the projects publisheded, there are:
+          <p>Among the projects publisheded, there are:</p>
+          <p></p>
           <ul>
             <li>studies on the structures of SARS-CoV-2,;</li>
             <li>studies on the pathophysiology of Covid-19;</li>
@@ -55,7 +63,9 @@
             </li>
             <li>methods; actions on aplying dyagnostic on the frontline.</li>
           </ul>
-          <img src="@/assets/Group-17.jpg" />
+          <img
+            src="https://2021.igem.org/wiki/images/2/23/T--USP-Brazil--IGEM-USP-Public-Heroes-post.jpg"
+          />
 
           <p>
             The first publication occured on May the eighth, on Instagram and
@@ -64,7 +74,9 @@
             Heroes in Science (august 7th) 15 videos were posted, with the
             participation of 17 researchers from 9 diferent institutions:
           </p>
-          <img src="@/assets/Group18.jpg" />
+          <img
+            src="https://2021.igem.org/wiki/images/7/71/T--USP-Brazil--IGEM-USP-Public-Heroes-Hexagon.jpg"
+          />
           <p>
             You can access the interviews on our Facebook or Instagram pages.
             All of the videos are subtitled in english, so they can be watched
@@ -479,6 +491,7 @@
     <Footer />
   </div>
 </template>
+<style scoped></style>
 
 <script>
 import Nav from "@/components/Nav.vue";

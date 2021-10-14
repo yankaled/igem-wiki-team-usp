@@ -3,7 +3,10 @@
     <Nav />
 
     <div class="is-full">
-      <img class="header" src="@/assets/Description_banner.jpg" />
+      <img
+        class="header"
+        src="https://2021.igem.org/wiki/images/2/29/T--USP-Brazil--IGEM-USP-Description-Banner.jpg"
+      />
     </div>
     <section class="columns">
       <div class="column is-one-fifth"></div>
@@ -19,11 +22,11 @@
         </p>
         <h3>Ecological importance</h3>
         <p>
-          hen bees are visiting a plant to collect its pollen and nectar, pollen
-          grains from the anthers get stuck to its body so when they next come
-          in contact with the stigma (from the same flower or other flowers from
-          the same species), fecundation happens [2]. So, by pollinating plants,
-          they <b>guarantee the species reproduction</b> as well as
+          When bees are visiting a plant to collect its pollen and nectar,
+          pollen grains from the anthers get stuck to its body so when they next
+          come in contact with the stigma (from the same flower or other flowers
+          from the same species), fecundation happens [2]. So, by pollinating
+          plants, they <b>guarantee the species reproduction</b> as well as
           <b>genetic variability</b>. Because of that, 85% of species that
           compose forests are dependent on this service from different types of
           bees, the most known being the western honey bee (Apis mellifera) the
@@ -158,7 +161,9 @@
           <b>neonicotinoid class.</b>
         </p>
         <h3>The pesticide: Imidacloprid</h3>
-        <img src="@/assets/Figure1Imida.jpg" />
+        <img
+          src="https://2021.igem.org/wiki/images/f/fb/T--USP-Brazil--IGEM-USP-Description-Imida.jpg"
+        />
         <p>
           The neonicotinoids are the <b>most widely used </b> class of
           pesticides in the whole world, even after being restricted in the
@@ -209,7 +214,9 @@
           insects, converting imidacloprid into less harmful metabolites [15].
           Those enzymes are very important for the development of our project.
         </p>
-        <img src="@/assets/Group21.jpg" />
+        <img
+          src="https://2021.igem.org/wiki/images/b/bf/T--USP-Brazil--IGEM-USP-Description-Hexagon.jpg"
+        />
         <p>
           Even though they are marked as contributors to the bee disappearance
           phenomenon, neonicotinoids are very effective pesticides for pest

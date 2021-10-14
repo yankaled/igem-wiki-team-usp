@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Roboto:wght@500;700;900&display=swap");
 #Navbar_USP {
   background-color: #ffba17;
 }
@@ -42,4 +41,60 @@ a.navbar-item:hover {
 }
 .navbar-link:hover {
   color: #ffffff;
+}
+
+.header {
+  width: 100%;
+}
+.content h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: #040404;
+  text-shadow: 2px 6px 4px rgba(159, 109, 0, 0.5);
+}
+.content h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: #040404;
+  text-shadow: 2px 6px 4px rgba(159, 109, 0, 0.5);
+}
+.content p {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #262625;
+}
+
+.content b {
+  color: #ffba17;
+}
+.content p b {
+  font-weight: 700;
+}
+.content ul {
+  list-style: none; /* Remove default bullets */
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #262625;
+}
+
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #ffba17; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.references {
+  background: #fffdfd;
+  border: 2px dashed #000000;
+  border-radius: 20px;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #262625;
 }

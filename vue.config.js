@@ -12,23 +12,29 @@ module.exports = {
       title: "Home",
       chunks: ["chunk-vendors", "chunk-common", "index"],
     },
-    education: {
+    Education: {
       entry: "./src/views/Education/main.js",
       template: "public/index.html",
       title: "Education",
-      chunks: ["chunk-vendors", "chunk-common", "education"],
+      chunks: ["chunk-vendors", "chunk-common", "Education"],
     },
-    members: {
+    Members: {
       entry: "./src/views/Members/main.js",
       template: "public/index.html",
       title: "Members",
-      chunks: ["chunk-vendors", "chunk-common", "members"],
+      chunks: ["chunk-vendors", "chunk-common", "Members"],
     },
     Description: {
       entry: "./src/views/Description/main.js",
       template: "public/index.html",
       title: "Description",
       chunks: ["chunk-vendors", "chunk-common", "Description"],
+    },
+    Design: {
+      entry: "./src/views/Design/main.js",
+      template: "public/index.html",
+      title: "Description",
+      chunks: ["chunk-vendors", "chunk-common", "Design"],
     },
   },
 
