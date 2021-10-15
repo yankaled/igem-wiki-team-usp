@@ -10,10 +10,11 @@
         <img
           style="max-height: 5rem !important;"
           src="https://2021.igem.org/wiki/images/b/b1/T--USP-Brazil--img--TEAMUSP-LOGO-PB-01.19db15e5.png"
-          width="112" height="28"
+          width="112"
+          height="28"
           alt="Team-USP Igem"
         />
-      </a>        
+      </a>
 
       <a
         role="button"
@@ -33,13 +34,6 @@
       <a class="navbar-item nav-link-usp nav-link-usp-ltr">
         <!-- <img src="Navbar/Home_logo.png" width="50" height="" /> -->
         Home
-      </a>
-
-      <a
-        class="navbar-item nav-link-usp nav-link-usp-ltr"
-        href="/members"
-      >
-        members
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
