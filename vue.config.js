@@ -54,6 +54,12 @@ module.exports = {
       title: "Safety",
       chunks: ["chunk-vendors", "chunk-common", "Safety"],
     },
+    Medal: {
+      entry: "./src/views/Medal/main.js",
+      template: "public/index.html",
+      title: "Medal",
+      chunks: ["chunk-vendors", "chunk-common", "Medal"],
+    },
   },
 
   devServer: {
