@@ -49,7 +49,9 @@
           Agrobacterium tumefaciens, containing elements specific for plants,
           such as the nptII kana
         </p>
-        <img src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg" />
+        <img
+          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
+        />
         <p>
           You can know more about each of the listed specific genetic parts of
           our circuit in the next sections!
@@ -129,7 +131,9 @@
           reporter was present, so should be the CYP6g1. By using this method
           <b>we lowered the size, complexity and cost of our circuit.</b>
         </p>
-        <img src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg" />
+        <img
+          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
+        />
         <h2>
           A DETOXIFYING ENZYME
         </h2>
@@ -209,8 +213,12 @@
             that is already part of that scenario.
           </li>
         </ul>
-        <img src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg" />
-        <img src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg" />
+        <img
+          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
+        />
+        <img
+          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
+        />
 
         <h2>References:</h2>
         <div class="references">
