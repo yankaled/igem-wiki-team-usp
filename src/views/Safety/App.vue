@@ -5,280 +5,289 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/4/44/T--USP-Brazil--IGEM-USP-Design-Banner.png"
+        src="https://2021.igem.org/wiki/images/3/32/T--USP-Brazil--IGEM-USP-Safety-banner.png"
       />
     </div>
+    
     <section class="columns">
       <div class="column is-one-fifth"></div>
       <div class="content column is-three-fifth">
-        <h2>GENETIC CIRCUIT OVERVIEW</h2>
+
+        <!--- Biosafety --->
+        <h2>Biosafety</h2>
         <p>
-          The Let.it.bee. project aims to aid bee populations by the development
-          of an adaptable genetic circuit for plants, capable of
-          <b
-            >metabolizing the Imidacloprid pesticide specifically in pollen
-            tissue, inserted in a micro-tomato plant.</b
-          >
-          >
-          <br />
-          Our circuit design (Fig,1) is therefore composed by:
+          For the discussion of Biosafety, its definition is necessary, with this it is defined that:
         </p>
+        <blockquote cite="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673">
+          <p>
+            <cite>
+              "Biosafety is a safety condition achieved by a set of actions designed to prevent, control, reduce or eliminate 
+              risks inherent to activities that may compromise human, animal and environmental health."
+              <a href="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673">(ANVISA, 2021)</a>
+            </cite>  
+          </p>
+        </blockquote>
+        <p>
+          From this definition, it is understood that for the handling of harmful organisms, reagents and compounds, there is a 
+          need to follow current Biosafety guidelines so that no damage occurs to the environment or to those handling potential 
+          risk agents. Here we will discuss safety around our 
+          <b>
+            plant development
+          </b>
+          and some ethical concerns regarding the 
+          <b>
+            development of GMOs
+          </b>
+          and their uses.
+        </p>
+
+        <h3>Experimental design</h3>
+        <p>
+          To guarantee safety, we use 
+          <b>
+            non-pathogenic vectors
+          </b>
+          to carry out the experiments. We inserted our genetic construct into the 
+          <b>
+            Micro-Tom
+          </b>
+          plant (Solanum Lycopersicum), our chassis. The Micro-Tom is considered safe and versatile for our proof of concept, along 
+          with other multicellular organisms, it does not have a risk group. The biggest risk in our case is the production of a GMO 
+          that, if not properly guaranteed, could 
+          <i>
+            propagate the new genetic modification
+          </i>
+          among other plants, as the modification is specific to pollen, a reproductive tissue. This would cause legal problems and 
+          disruption to biodiversity.
+        </p>
+        <p>
+          As part of the safety assessment of our project, our team contacted some 
+          <b>
+            experts in GMO crops
+          </b>
+          from the best universities in our country, experts from the 
+          <b>
+            Cornell Alliance for Science
+          </b>
+          and also from 
+          <b>
+            EMBRAPA,
+          </b>
+          the state company responsible for agricultural innovation in our country. These experts guided us through the complex set of 
+          <b>
+            biosafety laws that regulate GMO plants in Brazil,
+          </b>
+          while suggesting modifications and procedures that helped us manage the risks involved in applying our project.
+        </p>
+        <p>
+          The regulation for GMO use in Brazil keeps the project safe, the plant 
+          <b>
+            was not handled outside of controlled and certificated spaces,
+          </b>
+          as well as it will not be released unless proved to be safe under the law.
+        </p>
+
+        <h3>Types of organisms used in our project and their potential risks</h3>
         <ul>
           <li>
-            A <b>specific pollen promoter</b>, to avoid off targets tissues.
+            <i>
+              Escherichia coli K-12 derivatives
+            </i> 
           </li>
           <li>
-            A <b>LP4/2A peptide</b>, to allow expression of two genes under the
-            same promoter.
+            <i>
+              Agrobacterium tumefaciens
+            </i>
           </li>
           <li>
-            A <b>CYP6G1</b> enzyme, to metabolize the Imidacloprid pesticide.
-          </li>
-          <li>
-            A <b>GUS</b> reporter gene, for qualitative and quantitative
-            expression tests.
+            <i>
+              Solanum lycopersicum
+            </i>
           </li>
         </ul>
-        <img
-          src="https://2021.igem.org/wiki/images/5/56/T--USP-Brazil--IGEM-USP-Design-Figure1.jpg"
-        />
-
         <p>
-          For plant transformation with the genetic circuit we built, we need it
-          to first be inserted into a <b>binary vector</b> (Fig, 2) for
-          Agrobacterium tumefaciens, containing elements specific for plants,
-          such as the nptII kana
-        </p>
-        <img
-          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
-        />
-        <p>
-          You can know more about each of the listed specific genetic parts of
-          our circuit in the next sections!
-        </p>
-        <h2>POLLEN SPECIFIC EXPRESSION</h2>
-        <p>
-          Although neonicotinoids can be harmful to bees, they are to this day
-          some of the best products against pests, because of both their
-          <b>efficacy</b> in protecting the plant from them and their
-          <b>selectiveness</b> to insects. Therefore, we can not harm the
-          pesticide function, the enzyme can not be expressed in the whole
-          plant, but rather only in specific tissues while
-          <b
-            >keeping leaves and other places, that are mostly targeted by pests
-            and not by bees, protected.</b
-          >
-        </p>
-        <p>
-          For our project to work, we need the pesticide metabolizing enzyme to
-          be specifically expressed , as to not harm the substance efficacy
-          agains pests. Thus, our circuit has to be expressed specifically in
-          plant tissues that bees come in contact with the most during
-          pollination: <b>nectar and pollen.</b>
+          For the development of our project, we thought about which organisms would be involved and which risks they could represent for 
+          us and for the environment while they were being manipulated. With that, we came to the conclusion that we would use the 
+          Micro-Tom 
+          <i>
+            (Solanum lycopersicum)
+          </i> 
+          as chassis. One of the risks involved in using this plant as a chassis is the occurrence of 
+          <b>
+            cross-pollination
+          </b>
+          with wild plants if it escaped the laboratory. Another organism we use as a test vector and genetic construct is 
+          <i>
+            Escherichia coli, 
+          </i> 
+          a known pathogen that causes diarrhea in humans but is easily treatable with antibiotics. No exotic selection marker was used to keep 
+          it sensitive to first-line antibiotics of treatment. However, the 
+          <i>
+            E. coli K-12
+          </i>  
+          strain and its derivatives are known as "lab strains" in the human digestive system and 
+          <b>
+            do not produce toxins.
+          </b>
+          Therefore, it does not cause disease in healthy adult humans. As for foreign DNA, eukaryotic 
+          <b>
+            proteins fail to retain their function 
+          </b>
+          when expressed in bacterial structures, so we expect this to pose very little risk. Finally, we use 
+          <i>
+            Agrobacterium tumefaciens 
+          </i> 
+          which can cause opportunistic infections in humans and mutations in plants. 
         </p>
         <p>
-          Our chassis, the <b>micro-tomato plant,</b> does not produce nectar ,
-          so we used a tissue specific promoter that is only expressed in
-          pollen: the
-          <b>LAT52 promoter.</b>
-        </p>
-        <p>
-          pLAT52 is an anther specific promoter, highly expressed during pollen
-          maturation. Previous mature anthers GUS assays in the literature
-          showed that there is <b>high level sof expression in anthers,</b> with
-          almost no activity in other organs, be them vegetative or floral. It
-          displayed <b>high specificity to pollen,</b> especially in comparison
-          with other anther promoters like pLAT59 [1].
-        </p>
-        <p>
-          Besides tomatoes, the pLAT52 has been tested in other plants, such as
-          Arabidopsis thaliana and Nicotiana tabacum, with very similar results
-          for the specificity of its functions [1]. It also has homologues in
-          other plant species [7].
-        </p>
-        <h2>A VIRAL AND PLANT PEPTIDE FOR GENE EXPRESSION</h2>
-        <p>
-          The <b>2A</b> peptides, also known as
-          <b>self cleaving peptides,</b> are short sequences of aminoacids found
-          encoded on many viral DNAs. As it's name sugests, this class of
-          peptides can be cleaved, usualy by a method known as ribosome
-          skipping, in witch, during the translation, the ribosome misattaches
-          two aminoacids of the sequence, producing two separated proteins.
+          It is important to make it clear that in this project 
+          <b>
+            we do not use bees 
+          </b>
+          as an experimentation model for measuring the interaction with the plant in question. Instead, we use 
+          <b>
+            mathematical modeling
+          </b>
+          strategies to predict the bee's interactions with an unmodified plant and mortality rates due to the use of pesticides such as 
+          Imidacloprid.
         </p>
 
+        <h3>Laboratory safety</h3>
         <p>
-          Thoses sequences can be used as <b>tools</b> for a syntethic
-          biologist, allowing the
-          <b
-            >expression of more than one protein to be regulated by the same
-            promoter,</b
-          >
-          even in eukariotes.
+          During our experiments, we had access to different types of laboratories within the University of São Paulo. One is a specialized 
+          <b>
+            level 1 laboratory for experiments involving genetically modified plants, 
+          </b>
+          where we could also carry out our molecular experiments. We also had access to a 
+          <b>
+            level 2 laboratory for possible enzyme assay experiments as well as chemical material manipulation.
+          </b>
         </p>
         <p>
-          One of the problems of this technique is that, during the skipping,
-          the ribosome may fall off, or do not skip at all, producing an
-          uncleaved and potentialy useless protein, lowering the eficiency of
-          production of the subsequent protein by as much as 50%. To bypass this
-          issue the <b>fusion</b> of the foot and mouth virus 2A peptide with a
-          plant self cleaving peptide (LP4) found in the seeds of Impatiens
-          balsamina has proven to be a good solution,
-          <b>enhancing the cleavage rate to about 80% to 90% </b>[2].
+          All laboratories were controlled environments, following all correct 
+          <b>
+            protocols for waste management, ventilation and access and signage.
+          </b>
+          We made sure to send people with biosafety certificates and laboratory training to carry out the experiments, always maintaining 
+          the correct use of Personal Protective Equipment 
+          <b>
+            (PPE),
+          </b> 
+          as well as following all the correct 
+          <b>
+            pandemic protection guidelines
+          </b> 
+          (use of masks and distancing ). In addition, all laboratories have technical professionals responsible for the environment who 
+          assisted in the procedures.
         </p>
         <p>
-          In our project this tecnology was used to express the detoxifing
-          enzyme (upstream) with the gene reporter (downstream), so when the GUS
-          reporter was present, so should be the CYP6g1. By using this method
-          <b>we lowered the size, complexity and cost of our circuit.</b>
-        </p>
-        <img
-          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
-        />
-        <h2>
-          A DETOXIFYING ENZYME
-        </h2>
-        <p>
-          There are many enzymes that are capable of metabolizing pesticides.
-          Among them, a superfamily of proteins that is specialized in the
-          metabolism of compounds like toxins and drugs have been revealed as a
-          possible solution to our project: the
-          <b>cytochromes P450 (or CYPs) superfamily.</b> They can be found in
-          all kingdoms of life, from bacteria to us humans, but the most
-          interesting for the Let.it.bee. project are the
-          <b>pesticide resistant organisms</b> they can be found in. It has been
-          noticed that different CYPs expressed by those insects are directly
-          involved in the metabolization of different kinds of pesticides,
-          resulting in their resistance.
+          The main areas used in the laboratory were: bench, greenhouse and chemical hood. All were used carefully, with the correct use of 
+          PPE and monitoring by technicians.
         </p>
         <p>
-          Some fruit flies, Drosophila melanogaster, overexpress by 10 to 100
-          times a type of CYP, named <b>CYP6G1.</b> This overtranscription has
-          been correlated to their <b>resistance to Imidacloprid</b> and assays
-          with the enzyme shows it is very effective in metabolizing the
-          phytosanitary product. In 48h it metabolized 83% of the Imidacloprid
-          [3]:
+          We researched and set up protocols for the experiments that would need to be carried out, namely: plant pollen extraction, GUS assay, 
+          PCR, rt-PCR. We followed the protocols, also considering all biosafety issues and looking for the most adequate laboratory and team 
+          to perform them.
         </p>
-        <img
-          src="https://2021.igem.org/wiki/images/9/9a/T--USP-Brazil--IGEM-USP-Design-Figure3.png"
-        />
-        <br />
-        <br />
-        <p>
-          Later, 4 and 5 hydroxyimidacloprid can be metabolised again by CYP6g1
-          to form 4, 5-hydroxyimidacloprid, and can spontaneously react in an
-          acid media to form olefine. These metabolites are also more
-          <b>hydrophyllic</b> than the parent compound Imidacloprid, so it is
-          <b>quicker for the insect to excrete it from its body</b> [3].
-        </p>
-        <p>
-          In addition to these facts, the CYP6G1 has also already been
-          succesfully expressed in a plant, Nicotiana tabacum, making it a even
-          more secure option for our project [3].<br />
-          In the table bellow there is a table indicating the median lethal dose
-          (LD50) of imidacloprid and its main metabolites on Apis mellifera in
-          ng/bee:
-        </p>
-        <img
-          src="https://2021.igem.org/wiki/images/f/f5/T--USP-Brazil--IGEM-USP-Design-Figure4.png"
-        />
-        <h2>OUR CHASSIS: MICRO-TOM</h2>
 
-        <p>
-          For this project, we used a new chassis in iGEM: the
-          <b>Micro-Tomato.</b> It is a miniature dwarf of tomato released in
-          1989, by J. Scott and B. Harbaugh, for home gardening and only in 1997
-          became a genetic tool. That role fits the micro-tom (MT) very well, it
-          has many characteristics that made it the perfect chassis for our
-          project:
+        <!--- Biosecurity --->
+        <h2>Biosecurity</h2>
+        <p>Unlike biosafety, which aims to control risks that can compromise human, animal and environmental health, biosecurity includes 
+          <b>
+            institutional safety measures
+          </b> 
+          to prevent the misuse or intentional release of risk agents (CARDOSO, 2008).
         </p>
-        <ul>
-          <li>Relatively <b>small genome</b> (950Mb)</li>
-          <li><b>Small size.</b></li>
-          <li>
-            <b>Short life cycle</b> it takes about 6 months to mature, a
-            incredible tool for plant projects since plant growth takes a long
-            time. For our project, time was a great
-          </li>
-          <li>
-            Is a <b>well described model</b>, which helps us gather more
-            information for our modelling. In the pandemic situation, in which
-            our lab access was highly restricted, data availability was very
-            important for the mathematical modelling development (you can check
-            our models at COLOCAR LINK Model page)
-          </li>
-          <li>
-            <b>Commercial interest,</b> since tomatoes are planted for the food
-            industry. Because of the essence of our project, helping develop a
-            more sustainable agricultre, it is only fair that we test on a plant
-            that is already part of that scenario.
-          </li>
-        </ul>
-        <img
-          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
-        />
-        <img
-          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
-        />
+        <p>
+          Taking this into account, it is very important that aspects related to research in the area of GMOs are considered so that the 
+          intentional release of GMOs in nature is avoided without prior research and delimitation of area and use.
+        </p>
 
-        <h2>References:</h2>
-        <div class="references">
-          <ol>
-            <li>
-              TWELL, D. & McCormick, S.. Pollen-specific gene expression in
-              transgenic plants: coordinate regulation of two different tomato
-              gene promoters during microsporogenesis. 1990 Jul;109(3):705-13.
-              PMID: 2401221.
-            </li>
-            <li>
-              SUN H, Zhou N, Wang H, Huang D, Lang Z. Processing and targeting
-              of proteins derived from polyprotein with 2A and LP4/2A as peptide
-              linkers in a maize expression system. PLoS One. 2017 Mar
-              30;12(3):e0174804. doi: 10.1371/journal.pone.0174804. PMID:
-              28358924; PMCID: PMC5373624.
-            </li>
-            <li>
-              JOUßEN, N., Heckel, D. G., Haas, M., Schuphan, I., & Schmidt, B.
-              (2007). Metabolism of imidacloprid and DDT by P450 CYP6G1
-              expressed in cell cultures ofNicotiana tabacum suggests
-              detoxification of these insecticides inCyp6g1-overexpressing
-              strains ofDrosophila melanogaster, leading to resistance. Pest
-              Management Science, 64(1), 65–73. doi:10.1002/ps.1472
-            </li>
-            <li>
-              ESALQ. Micro-tom mutants. Retrieved in 20 Sept, 2021 from
-              http://www.esalq.usp.br/tomato/
-            </li>
-            <li>
-              IHARA, M., & Matsuda, K. (2018). Neonicotinoids: molecular
-              mechanisms of action, insights into resistance and impact on
-              pollinators. Current Opinion in Insect Science.
-              doi:10.1016/j.cois.2018.09.009
-            </li>
-            <li>
-              Suchail, Séverine. (2000). Toxicity of imidacloprid metabolites in
-              Apis mellifera.
-              https://www.researchgate.net/publication/305496382_Toxicity_of_imidacloprid_metabolites_in_Apis_mellifera
-            </li>
-            <li>
-              Twell, D., Wing, R., Yamaguchi, J., & McCormick, S. (1989).
-              Isolation and expression of an anther-specific gene from tomato.
-              MGG Molecular & General Genetics, 217(2-3), 240–245.
-              doi:10.1007/bf02464887
-            </li>
-            <li>
-              BUZZABOUTBEES. Do bees pollinate tomatoes? Retrieve in October
-              1st, 2021 from
-              https://www.buzzaboutbees.net/bees-pollinate-tomatoes.html
-            </li>
-          </ol>
-        </div>
+        <h2>Ethics</h2>
+        <p>
+          In sciences, whether human, exact or biological, in addition to biosafety, the 
+          <b>
+            ethical aspect
+          </b> 
+          of the projects being planned and carried out must always be considered.
+        </p>
+        <blockquote cite="CARDOSO, Telma Abdalla de Oliveira">
+          <p>
+            <cite>
+              "It is a characteristic trait of human beings to ask Nature questions – it can be said that this behavior is what differentiates 
+              them from other animals. Thus, the human being, at the same time as having the behavior of a “philosopher” (asking questions), 
+              also has of “researcher” (searches for answers). It is the inevitable destiny of human beings, therefore, to be an “eternal 
+              researcher”; it is their destiny to seek new knowledge. In this search, the human being had to become aware of the other and the 
+              world and, as a result, he had to reflect on the issue of “human values”. And so, besides worrying about “philosophy” and “research”, 
+              he had to deal also with ethics.” [3]
+            </cite>
+          </p>
+        </blockquote>
+        <p>Considering this aspect, throughout the project, we respect the guidelines of the research ethics committee. The project 
+          <b>
+            did not require the use of animals or invertebrates.
+          </b>
+          Even so, we follow all 
+          <b>
+            Brazilian regulations
+          </b> 
+          in terms of working with Genetically Modified Organisms and working with plants.
+        </p>
+        <p>
+          In the 
+          <b>
+            Human Practices
+          </b> 
+          area, we were careful to always explain everything we would do, to ask permission for questionnaires and interviews, and to request 
+          authorization from the person in case these were disclosed. We have always kept everything that was not authorized or owned confidentially.
+        </p>
+
+        <h3>COVID-19</h3>
+        <p>
+          Due to the situation of the pandemic caused by the SARS-CoV-9 virus, the team focused more on the 
+          <b>
+            modeling part and 
+            <em>
+              in silico
+            </em> 
+            experiments.
+          </b>
+          All experiments carried out in person, involving plants and the wet lab, were performed by totally vaccinated people, maintaining a restriction 
+          on the number of people per laboratory, use of masks and a distance of 1 meter per person.
+        </p>
+        <p>
+          The other projects that would occasionally need a face-to-face meeting also followed all the regulations established by the health agencies.
+        </p>
+        <p>
+          Other than that, 
+          <b>
+            everything was done remotely during the two-year duration of the project.
+          </b>
+        </p>
+
+        <h3>References</h3>
+        <p>
+          <small>
+            <strong>1.</strong> NATIONAL HEALTH SURVEILLANCE AGENCY (Brazil). Federal government. 101. RDC RESOLUTION No. 512, OF MAY 27, 2021, [S. l.], 
+            year 2021, May 31, 2021. Available at: 
+            <a href="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673">
+              https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673
+            </a> 
+            Accessed on: 10 Oct. 2021. <br/>
+            <strong>2.</strong> CARDOSO, Telma Abdalla de Oliveira et al. Analysis of the construction of Brazil's competence for the Maximum Containment 
+            Laboratory: realities and perspectives. 2008. Doctoral Thesis. <br/>
+            <strong>3.</strong> BRASIL. Ministério da Saúde. Conselho Nacional de Saúde. Comissão Nacional de Ética em Pesquisa. Manual operacional para 
+            comitês de ética em pesquisa. MS, 2006.
+          </small> 
+        </p>
+
       </div>
-
       <div class="column is-one-fifth"></div>
     </section>
 
     <Footer />
   </div>
+
 </template>
 
 <script>
