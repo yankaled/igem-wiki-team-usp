@@ -1,7 +1,16 @@
 <template>
   <div>
     <Nav />
+    <div class="is-full">
+      <img
+        style="widht:100%"
+        src="https://2021.igem.org/wiki/images/1/1c/T--USP-Brazil--IGEM-USP-Member-Banner.png"
+        alt=""
+      />
+    </div>
+
     <!-- PARTE 1 -->
+
     <section>
       <div class="columns">
         <div class="column is-1"></div>
@@ -336,8 +345,76 @@
           <div v-on:click="openModal($event)" class="person-icon">
             <a>
               <img
+                id="PedroGa"
+                src="https://2021.igem.org/wiki/images/e/ec/T--USP-Brazil--IGEM-USP-Member-PedroGa.png"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column is-2"></div>
+      </div>
+    </section>
+    <!-- Parte 6 -->
+    <section>
+      <div class="columns">
+        <div class="column is-1"></div>
+        <div class="column">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="PedroB"
+                src="https://2021.igem.org/wiki/images/7/73/T--USP-Brazil--IGEM-USP-Member-WikiGod.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="column">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
                 id="PedroGo"
                 src="https://2021.igem.org/wiki/images/4/40/T--USP-Brazil--IGEM-USP-Member-PedroGo.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="Sarah"
+                src="https://2021.igem.org/wiki/images/6/67/T--USP-Brazil--IGEM-USP-Member-Sarah.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column is-1"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="columns">
+        <div class="column is-2"></div>
+        <div class="column ">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="Vital"
+                src="https://2021.igem.org/wiki/images/5/5e/T--USP-Brazil--IGEM-USP-Member-Vital.png"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column ">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="Kaled"
+                src="https://2021.igem.org/wiki/images/4/48/T--USP-Brazil--IGEM-USP-Member-Kaled.png"
               />
             </a>
           </div>
@@ -1155,19 +1232,19 @@
       class="overlay is-hidden"
     ></div>
 
-    <div id="PedroGoMO" class="modal_USP is-hidden">
+    <div id="PedroGaMO" class="modal_USP is-hidden">
       <div class="columns">
         <div class="column is-half">
           <img
-            id="PedroGo"
-            src="https://2021.igem.org/wiki/images/4/40/T--USP-Brazil--IGEM-USP-Member-PedroGo.png"
+            id="PedroGa"
+            src="https://2021.igem.org/wiki/images/e/ec/T--USP-Brazil--IGEM-USP-Member-PedroGa.png"
             alt=""
           />
         </div>
         <div class="content column is-half">
           <p><b>Name:</b>Pedro Balbino Nogueira</p>
           <p><b>Team Attribution:</b>Human Practices</p>
-          <p><b>Field:</b>Pharmacy and Biochemistry/p></p>
+          <p><b>Field:</b>Pharmacy and Biochemistry</p>
           <p><b>Hobbies: </b>Play games with my friends</p>
           <p>
             <b>About: </b>
@@ -1180,7 +1257,171 @@
     </div>
 
     <div
+      id="PedroGaOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+    <div id="PedroBMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="PedroB"
+            src="https://2021.igem.org/wiki/images/7/73/T--USP-Brazil--IGEM-USP-Member-WikiGod.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Pedro Henrique Costa Bonamin</p>
+          <p><b>Team Attribution:</b>Wetlab, Wiki</p>
+          <p><b>Field:</b>Forensic Molecular Biology</p>
+          <p><b>Hobbies: </b>Photography and Confectionery</p>
+          <p>
+            <b>About: </b>
+
+            Hi, I’m Pedro and I currently study biological sciences in general,
+            but more specifically I'm interested in forensic molecular biology!
+            I participated in IGEM 2019 as the wiki progammer, and last
+            year(2020) I helped my team with scientific stuff but this year I'm
+            again working as the wiki programmer! My research topics are
+            molecular biology, genetics and forensic science.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="PedroBOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+
+    <div id="PedroGoMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="PedroGo"
+            src="https://2021.igem.org/wiki/images/4/40/T--USP-Brazil--IGEM-USP-Member-PedroGo.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Pedro Garcia Abilleira de Castro</p>
+          <p><b>Team Attribution:</b>Wetlab, Wiki</p>
+          <p><b>Field:</b>MSc in Biotechnology with focus on Astrobiology</p>
+          <p><b>Hobbies: </b>Books, anime and furry stuff</p>
+          <p>
+            <b>About: </b>
+
+            Hi, folks! My name is Pedro, and I joined the Team iGEM USP because
+            I felt it was a great opportunity to learn and practice things we
+            don’t usually have the chance to in our regular courses. Proud
+            furry, otaku and bookworm, you’ll easily find me spending many hours
+            delving into those subjects or chatting about them.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
       id="PedroGoOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+    <div id="SarahMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="Sarah"
+            src="https://2021.igem.org/wiki/images/6/67/T--USP-Brazil--IGEM-USP-Member-Sarah.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Sarah Salviano Martins</p>
+          <p><b>Team Attribution:</b>Human Practices, Wiki</p>
+          <p><b>Field:</b>Biological Science</p>
+          <p><b>Hobbies: </b>I love watching K-drama and annoying my cats.</p>
+          <p>
+            <b>About: </b>
+
+            I am 23 years old and, as a good old Osasco citizen, I am always
+            eating a hot-dog. Sciences and education are my objectives and I
+            believe in them as paramount tools to world betterment. I take part
+            on projects regarding scientific education and hope on someday
+            becoming a researcher and professor.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="SarahOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+    <div id="VitalMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="Vital"
+            src="https://2021.igem.org/wiki/images/5/5e/T--USP-Brazil--IGEM-USP-Member-Vital.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Vital Pegorin</p>
+          <p><b>Team Attribution:</b>Wetlab</p>
+          <p><b>Field:</b>Biochemical Pharmacy</p>
+          <p>
+            <b>Hobbies: </b>Search for unknown bands on Spotify and play with
+            his friends
+          </p>
+          <p>
+            <b>About: </b>
+
+            Pharmacy and biochemistry student, carries out research in the
+            team's scientific department and also participates in the
+            development of the Olympics. He fell in love with iGEM because he
+            saw synthetic biology as an interesting way to deal with
+            technological problems, mainly related to sustainability, he likes
+            to play with his friends and hunting down unknown bands on Spotify
+            in your spare time.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="VitalOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+    <div id="KaledMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="Kaled"
+            src="https://2021.igem.org/wiki/images/4/48/T--USP-Brazil--IGEM-USP-Member-Kaled.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Yan Tadeu Kaled</p>
+          <p><b>Team Attribution:</b>Drylab, Wiki</p>
+          <p><b>Field:</b>Exact sciences/Applied mathematics</p>
+          <p><b>Hobbies: </b>Studying neuroscience</p>
+          <p>
+            <b>About: </b>
+
+            I'm a programmer and junior researcher interested in human
+            cognition, AI, heuristics and brain science
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="KaledOV"
       v-on:click="closeModal($event)"
       class="overlay is-hidden"
     ></div>
@@ -1225,29 +1466,6 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-.show-modal {
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 1.75rem 3.5rem;
-  margin: 5rem 2rem;
-  border: none;
-  background-color: #fff;
-  color: #444;
-  border-radius: 10rem;
-  cursor: pointer;
-}
-
-.close-modal {
-  position: absolute;
-  top: 1.2rem;
-  right: 2rem;
-  font-size: 5rem;
-  color: #333;
-  cursor: pointer;
-  border: none;
-  background: none;
-}
-
 h1 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
@@ -1273,7 +1491,7 @@ p {
 
 .overlay {
   position: absolute;
-  top: 0;
+  top: 25%;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
