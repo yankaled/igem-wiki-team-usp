@@ -10,7 +10,7 @@
     </div>
 
     <!-- PARTE 1 -->
-
+    <h2>Members</h2>
     <section>
       <div class="columns">
         <div class="column is-1"></div>
@@ -137,7 +137,7 @@
           </div>
         </div>
         <div class="column ">
-          <div v-on:click="openModal($event)" class="person-icon">
+          <div v-on:click="openModal($event)" class="person-icon ">
             <a>
               <img
                 id="Eric"
@@ -168,7 +168,7 @@
 
         <div class="column">
           <div v-on:click="openModal($event)" class="person-icon">
-            <a>
+            <a class="">
               <img
                 id="Gabi"
                 src="https://2021.igem.org/wiki/images/b/bf/T--USP-Brazil--IGEM-USP-Member-Gabi.png"
@@ -346,7 +346,7 @@
             <a>
               <img
                 id="PedroGa"
-                src="https://2021.igem.org/wiki/images/e/ec/T--USP-Brazil--IGEM-USP-Member-PedroGa.png"
+                src="https://2021.igem.org/wiki/images/f/ff/T--USP-Brazil--IGEM-USP-Members-Pedro-Balbino.png"
               />
             </a>
           </div>
@@ -415,6 +415,143 @@
               <img
                 id="Kaled"
                 src="https://2021.igem.org/wiki/images/4/48/T--USP-Brazil--IGEM-USP-Member-Kaled.png"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column is-2"></div>
+      </div>
+    </section>
+    <!-- PIs -->
+    <h2>Pi's and Advisor</h2>
+    <section>
+      <div class="columns">
+        <div class="column is-1"></div>
+        <div class="column">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="Estev"
+                src="https://2021.igem.org/wiki/images/8/83/T--USP-Brazil--IGEM-USP-Members-advisor-estevao.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="column">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="Giulia"
+                src="https://2021.igem.org/wiki/images/e/eb/T--USP-Brazil--IGEM-USP-Members-advisor-Giulia.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="Alice"
+                src="https://2021.igem.org/wiki/images/b/b3/T--USP-Brazil--IGEM-USP-Members-advisor-Alice.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column is-1"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="columns">
+        <div class="column is-2"></div>
+        <div class="column ">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="Jung"
+                src="https://2021.igem.org/wiki/images/8/82/T--USP-Brazil--IGEM-USP-Members-advisor-Jung.png"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column ">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="MariaEl"
+                src="https://2021.igem.org/wiki/images/2/2b/T--USP-Brazil--IGEM-USP-Members-advisor-Maria-Elice.png"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column is-2"></div>
+      </div>
+    </section>
+    <!-- Parte 2 -->
+    <section>
+      <div class="columns">
+        <div class="column is-1"></div>
+        <div class="column">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="MariaMa"
+                src="https://2021.igem.org/wiki/images/6/68/T--USP-Brazil--IGEM-USP-Members-advisor-Maria-Magdalena.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="column">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="LucasDe"
+                src="https://2021.igem.org/wiki/images/1/13/T--USP-Brazil--IGEM-USP-Members-advisor-Lucas-Delgado.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="MariaCri"
+                src="https://2021.igem.org/wiki/images/e/ef/T--USP-Brazil--IGEM-USP-Members-advisor-Maria-Cristina.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column is-1"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="columns">
+        <div class="column is-2"></div>
+        <div class="column ">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="Gisele"
+                src="https://2021.igem.org/wiki/images/9/9f/T--USP-Brazil--IGEM-USP-Members-advisor-Gisele-Monteiro.png"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column ">
+          <div v-on:click="openModal($event)" class="person-icon">
+            <a>
+              <img
+                id="Igor"
+                src="https://2021.igem.org/wiki/images/d/d8/T--USP-Brazil--IGEM-USP-Members-advisor-Igor.png"
               />
             </a>
           </div>
@@ -1237,7 +1374,7 @@
         <div class="column is-half">
           <img
             id="PedroGa"
-            src="https://2021.igem.org/wiki/images/e/ec/T--USP-Brazil--IGEM-USP-Member-PedroGa.png"
+            src="https://2021.igem.org/wiki/images/f/ff/T--USP-Brazil--IGEM-USP-Members-Pedro-Balbino.png"
             alt=""
           />
         </div>
@@ -1425,6 +1562,356 @@
       v-on:click="closeModal($event)"
       class="overlay is-hidden"
     ></div>
+    <div id="EstevMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="Estev"
+            src="https://2021.igem.org/wiki/images/8/83/T--USP-Brazil--IGEM-USP-Members-advisor-estevao.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Estevão Macedo</p>
+          <p><b>Team Attribution:</b>Advisor</p>
+          <p><b>Field:</b>Communication</p>
+          <p><b>Hobbies: </b></p>
+          <p>
+            <b>About: </b>
+
+            Hello! My name is Estevão Macedo. Since 2018, I study Communication
+            in University of São Paulo. My involvement with science dates back
+            to when curiosity touched my heart, maybe since forever. I am very
+            inquisitive and interested. What fascinated me the most about Time
+            was the realization of the projects we were involved in.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="EstevOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+
+    <div id="GiuliaMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="Giulia"
+            src="https://2021.igem.org/wiki/images/e/eb/T--USP-Brazil--IGEM-USP-Members-advisor-Giulia.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Giulia Maria Ramella</p>
+          <p><b>Team Attribution:</b>Advisor</p>
+          <p><b>Field:</b>Health</p>
+          <p><b>Hobbies: </b> Dancing and going to karaoke</p>
+          <p>
+            <b>About: </b>
+            I'm Giulia, a recent biologist and passioned for innovation in
+            health sciences. Right now I'm working in the industry, but my goal
+            is to enter grad School. I love dancing and going to karaoke with
+            friends.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="GiuliaOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+
+    <div id="AliceMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="Alice"
+            src="https://2021.igem.org/wiki/images/b/b3/T--USP-Brazil--IGEM-USP-Members-advisor-Alice.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Alice Kei Endo</p>
+          <p><b>Team Attribution:</b>Advisor</p>
+          <p><b>Field:</b>Master in Genetics and Evolutionary Biology</p>
+          <p>
+            <b>Hobbies: </b> Trying new foods, crochet and learn to draw with
+            chalk
+          </p>
+          <p>
+            <b>About: </b>
+            Master student interested in understanding the therapeutic potency
+            of non-coding RNAs for the study of cancer. He enjoys doing cell
+            culture and capturing immunofluorescence images. Involved in iGEM
+            since 2019, she loves helping to develop cross-disciplinary
+            projects, being a supporter of iGEM projects developed within Human
+            Practices
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="AliceOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+
+    <div id="JungMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="Jung"
+            src="https://2021.igem.org/wiki/images/8/82/T--USP-Brazil--IGEM-USP-Members-advisor-Jung.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Jung Hun Park</p>
+          <p><b>Team Attribution:</b>Advisor</p>
+          <p><b>Field:</b>Microbiology</p>
+          <p><b>Hobbies: </b> Adult fan of Lego; I also like taking pictures</p>
+          <p>
+            <b>About: </b>
+
+            I have a bachelor degree in Biomedical Sciences and a Masters in
+            Microbiology. Understanding how biology works at the molecular level
+            and creating genetically modified organisms is what fascinates and
+            motivates me to learn more about synthetic biology. As an advisor, I
+            helped the team from the conception of the project to the design of
+            the genetic circuit.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="JungOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+    <div id="MariaElMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="MariaEl"
+            src="https://2021.igem.org/wiki/images/2/2b/T--USP-Brazil--IGEM-USP-Members-advisor-Maria-Elice.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Maria Elice de Brzezinski Prestes</p>
+          <p><b>Team Attribution:</b>Advisor</p>
+          <p>
+            <b>Field:</b>History of Science, Science Education and Teacher
+            Training
+          </p>
+          <p><b>Hobbies: </b> Reading and listening music</p>
+          <p>
+            <b>About: </b>
+            I am an Associate Professor at the Department of Genetics and
+            Evolutionary Biology at USP's Bioscience Institute. I work in the
+            field of History of Biology and its interfaces with the teaching of
+            science and biology. Author of "The investigation of nature in
+            Brazil Colony" and co-author, with Cibelle Celestino Silva, of
+            "Teaching science with context: Historical, Philosophical,
+            Sociological Approaches". I am editor of the scientific journal
+            "Philosophy and History of Biology".
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="MariaElOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+    <div id="MariaMaMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="MariaMa"
+            src="https://2021.igem.org/wiki/images/6/68/T--USP-Brazil--IGEM-USP-Members-advisor-Maria-Magdalena.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Maria Magdalena Rossi</p>
+          <p><b>Team Attribution:</b>PI</p>
+          <p>
+            <b>Field:</b>Molecular physiology and functional genomics of plants
+          </p>
+          <p>
+            <b>Hobbies: </b>I love outdoor activities like hiking and cycling.
+          </p>
+          <p>
+            <b>About: </b>
+            The mysteries of nature have always fascinated me. That's how I
+            studied biology at the University of Buenos Aires, Argentina.
+            Biology opened me up to the world and during different stages of my
+            career I worked in several research groups in different parts of the
+            world: Argentina, Mexico, USA, Brazil and France, until I settled
+            permanently in Brazil. My professional mission is to continue
+            contributing to the generation of scientific knowledge and defending
+            the public, free, secular and autonomous university, as this is the
+            only way to guarantee the intellectual freedom of a nation.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="MariaMaOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+    <div id="LucasDeMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="LucasDe"
+            src="https://2021.igem.org/wiki/images/1/13/T--USP-Brazil--IGEM-USP-Members-advisor-Lucas-Delgado.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Lucas Delgado</p>
+          <p><b>Team Attribution:</b>Advisor</p>
+          <p><b>Field:</b>Science-based innovation consulting</p>
+          <p>
+            <b>Hobbies: </b>Cooking, eading, a good meal with friends and
+            exercising.
+          </p>
+          <p>
+            <b>About: </b>
+            Lucas is partner and director of projects and new business at
+            Emerge. He holds a degree in Production Engineering from the Federal
+            University of Juiz de Fora (Brazil) and a specialization in
+            corporate finance from the University at Albany (USA). He leads
+            science-based innovation integration projects with companies from
+            different sectors, technology assessment and development of
+            innovation strategies
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="LucasDeOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+    <div id="MariaCriMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="MariaCri"
+            src="https://2021.igem.org/wiki/images/e/ef/T--USP-Brazil--IGEM-USP-Members-advisor-Maria-Cristina.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Maria Cristina Arias</p>
+          <p><b>Team Attribution:</b>Advisor</p>
+          <p><b>Field:</b>Bee Genetics and Evolution</p>
+          <p>
+            <b>Hobbies: </b>
+          </p>
+          <p>
+            <b>About: </b>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="MariaCriOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+
+    <div id="GiseleMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="Gisele"
+            src="https://2021.igem.org/wiki/images/9/9f/T--USP-Brazil--IGEM-USP-Members-advisor-Gisele-Monteiro.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Gisele Monteiro</p>
+          <p><b>Team Attribution:</b>PI</p>
+          <p>
+            <b>Field:</b>Molecular biology with emphasis on protein engineering
+            and heterologous expression in microorganisms
+          </p>
+          <p>
+            <b>Hobbies: </b>Read, dogs, beer with friends, series and movies
+          </p>
+          <p>
+            <b>About: </b> Graduated in Molecular Biology at UNICAMP, I have
+            been working in the area of biopharmaceuticals for almost 10 years.
+            Mother of a couple and a puppy named Snoopy. She got to know USP's
+            iGEM team through her students and fell in love with the idea of
+            this global competition. She loves USP and hopes that one day this
+            huge university will be the big winner of this competition.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="GiseleOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+
+    <div id="IgorMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column is-half">
+          <img
+            id="Igor"
+            src="https://2021.igem.org/wiki/images/d/d8/T--USP-Brazil--IGEM-USP-Members-advisor-Igor.png"
+            alt=""
+          />
+        </div>
+        <div class="content column is-half">
+          <p><b>Name:</b>Gisele Monteiro</p>
+          <p><b>Team Attribution:</b>PI</p>
+          <p>
+            <b>Field:</b>Molecular biology and plant biotechnology; lignin
+            metabolism; cell wall engineering
+          </p>
+          <p>
+            <b>Hobbies: </b>Listening to music (mainly rock and heavy metal),
+            watching football
+          </p>
+          <p>
+            <b>About: </b> I am a biologist graduated from the State University
+            of Campinas in 2007. I did a master's and doctorate in Plant Biology
+            at the same university, always working with secondary metabolism.
+            I've been researching lignin metabolism since my PhD. In addition to
+            spending a sandwich period, I also did a 2-year postdoctoral course
+            at the Center for Plant Systems Biology (VIB-UGent) in Belgium. I
+            have been a professor at IB/USP since 2014. Outside of work, I like
+            listening to music, watching football and playing with my cats.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="IgorOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
     <Footer />
   </div>
 </template>
@@ -1478,24 +1965,114 @@ p {
 /* -------------------------- */
 /* CLASSES TO MAKE MODAL WORK */
 .modal_USP {
-  position: absolute;
-  top: 25%;
+  position: fixed;
   left: 15%;
+  top: 25%;
   width: 70%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+
   background-color: white;
   padding: 6rem;
-  border-radius: 5px;
-  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  /* border-radius: 5px; */
   z-index: 10;
 }
 
 .overlay {
-  position: absolute;
+  position: Fixed;
   top: 25%;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: #040404;
+  text-shadow: 2px 6px 4px rgba(159, 109, 0, 0.5);
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: #ffba17;
+  text-shadow: 2px 6px 4px rgba(159, 109, 0, 0.5);
+}
+p {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #040404;
+}
+
+b {
+  color: #ffba17;
+}
+p b {
+  font-weight: 700;
+}
+ul {
+  list-style: none; /* Remove default bullets */
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #040404;
+}
+
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #ffba17; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.person-icon {
+  padding: 20px;
+  overflow: hidden;
+  margin: 0 auto 40px auto;
+  /* -- Prevent flicker -- */
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.person-icon img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.person-icon img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 </style>
