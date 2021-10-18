@@ -164,7 +164,7 @@ export default {
 }
 
 .transparent-nav {
-  background: transparent;
+  background-color: transparent !important;
 }
 
 .nav-link-usp {
