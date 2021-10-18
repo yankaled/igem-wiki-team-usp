@@ -1,6 +1,14 @@
 <template>
   <div class="home">
     <Nav />
+    <div class="is-full">
+      <video
+        autoplay
+        class="header"
+        src="https://2021.igem.org/wiki/images/1/19/T--USP-Brazil--IGEM-USP-Home-Video.mp4"
+      />
+    </div>
+
     <section class="columns">
       <div class="column is-1"></div>
       <div class="column is-5">
@@ -265,6 +273,32 @@
     <Footer />
   </div>
 </template>
+
+<script>
+import Nav from "@/components/Nav.vue";
+import Footer from "@/components/Footer.vue";
+
+import bulmaCarousel from 'bulma-carousel'
+
+// Initialize all elements with carousel class.
+const carousels = bulmaCarousel.attach('.carousel', {});
+
+// To access to bulmaCarousel instance of an element
+const element = document.querySelector('#my-element');
+if (element && element.bulmaCarousel) {
+	// bulmaCarousel instance is available as element.bulmaCarousel
+}
+
+export default {
+  name: "Home",
+
+  components: {
+    Nav,
+    Footer,
+  }
+}
+</script>
+
 <style scoped>
 .content h2 {
   font-family: "Roboto", sans-serif;
@@ -303,28 +337,3 @@
   color: #262625;
 }
 </style>
-
-<script>
-import Nav from "@/components/Nav.vue";
-import Footer from "@/components/Footer.vue";
-
-import bulmaCarousel from 'bulma-carousel'
-
-// Initialize all elements with carousel class.
-const carousels = bulmaCarousel.attach('.carousel', {});
-
-// To access to bulmaCarousel instance of an element
-const element = document.querySelector('#my-element');
-if (element && element.bulmaCarousel) {
-	// bulmaCarousel instance is available as element.bulmaCarousel
-}
-
-export default {
-  name: "Home",
-
-  components: {
-    Nav,
-    Footer,
-  },
-};
-</script>
