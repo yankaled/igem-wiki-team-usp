@@ -1,6 +1,8 @@
 <template>
-  <div class="home">
-    <NavHome />
+  <div>
+
+    <Nav :transition="true" />
+
     <div class="is-full" style="position: relative;">
       <video
         autoplay
@@ -293,7 +295,7 @@
 </template>
 
 <script>
-import NavHome from "@/components/NavHome.vue";
+import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 
 import bulmaCarousel from 'bulma-carousel'
@@ -311,7 +313,7 @@ export default {
   name: "Home",
 
   components: {
-    NavHome,
+    Nav,
     Footer,
   }
 }
