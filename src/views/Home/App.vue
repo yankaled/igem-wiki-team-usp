@@ -3,6 +3,7 @@
     <Nav />
     <section class="columns">
       <div class="column is-1"></div>
+      <Backtotop />
       <div class="column is-5">
         <figure class="image is-128x128">
           <img
@@ -307,16 +308,17 @@
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
+import Backtotop from "@/components/BacktoTop.vue";
 
-import bulmaCarousel from 'bulma-carousel'
+import bulmaCarousel from "bulma-carousel";
 
 // Initialize all elements with carousel class.
-const carousels = bulmaCarousel.attach('.carousel', {});
+const carousels = bulmaCarousel.attach(".carousel", {});
 
 // To access to bulmaCarousel instance of an element
-const element = document.querySelector('#my-element');
+const element = document.querySelector("#my-element");
 if (element && element.bulmaCarousel) {
-	// bulmaCarousel instance is available as element.bulmaCarousel
+  // bulmaCarousel instance is available as element.bulmaCarousel
 }
 
 export default {
@@ -325,6 +327,7 @@ export default {
   components: {
     Nav,
     Footer,
+    Backtotop,
   },
 };
 </script>

@@ -9,6 +9,7 @@
         />
       </div>
       <div class="container">
+        <Backtotop />
         <section class="has-text-centered">
           <h2>GIMME MEDALS</h2>
           <h3>the honey of our work</h3>
@@ -78,13 +79,13 @@
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
-
+import Backtotop from "@/components/BacktoTop.vue";
 export default {
-  name: "Description",
-
+  name: "Medal",
   components: {
     Nav,
     Footer,
+    Backtotop,
   },
 };
 </script>

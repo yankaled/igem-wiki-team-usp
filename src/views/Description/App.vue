@@ -10,6 +10,7 @@
     </div>
     <section class="columns">
       <div class="column is-one-fifth"></div>
+      <Backtotop />
       <div class="content column is-three-fifth">
         <h2>WHY ARE BEES SO IMPORTANT?</h2>
         <p>
@@ -524,16 +525,13 @@
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
-// import "bulma-carousel/dist/css/bulma-carousel.min.css";
-// // import "bulma-carousel/dist/js/bulma-carousel.min.js";
-// import bulmaCarousel from "bulma-carousel";
-
+import Backtotop from "@/components/BacktoTop.vue";
 export default {
   name: "Description",
-
   components: {
     Nav,
     Footer,
+    Backtotop,
   },
 };
 </script>

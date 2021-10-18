@@ -13,7 +13,9 @@
     <h2>Members</h2>
     <section>
       <div class="columns">
-        <div class="column is-1"></div>
+        <div class="column is-1">
+          <Backtotop />
+        </div>
         <div class="column">
           <div v-on:click="openModal($event)" class="person-icon">
             <a>
@@ -1919,7 +1921,7 @@
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
-
+import Backtotop from "@/components/BacktoTop.vue";
 export default {
   name: "Members",
   methods: {
@@ -1947,6 +1949,7 @@ export default {
   components: {
     Nav,
     Footer,
+    Backtotop,
   },
 };
 </script>

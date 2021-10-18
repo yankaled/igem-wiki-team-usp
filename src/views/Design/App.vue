@@ -10,10 +10,10 @@
     </div>
     <section class="columns">
       <div class="column is-one-fifth"></div>
-
+      <Backtotop />
       <div class="content column is-three-fifth">
         <h2 id="Genetic">GENETIC CIRCUIT OVERVIEW</h2>
-        <Backtotop />
+
         <p>
           The Let.it.bee. project aims to aid bee populations by the development
           of an adaptable genetic circuit for plants, capable of
@@ -288,7 +288,7 @@ import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
 export default {
-  name: "Description",
+  name: "Design",
   components: {
     Nav,
     Footer,
