@@ -42,11 +42,11 @@ module.exports = {
       title: "Entrepreneurship",
       chunks: ["chunk-vendors", "chunk-common", "Entrepreneurship"],
     },
-    Contributions: {
-      entry: "./src/views/Contributions/main.js",
+    Contribution: {
+      entry: "./src/views/Contribution/main.js",
       template: "public/index.html",
       title: "Contributions",
-      chunks: ["chunk-vendors", "chunk-common", "Contributions"],
+      chunks: ["chunk-vendors", "chunk-common", "Contribution"],
     },
     Safety: {
       entry: "./src/views/Safety/main.js",
@@ -54,11 +54,11 @@ module.exports = {
       title: "Safety",
       chunks: ["chunk-vendors", "chunk-common", "Safety"],
     },
-    Medal: {
-      entry: "./src/views/Medal/main.js",
+    Medals: {
+      entry: "./src/views/Medals/main.js",
       template: "public/index.html",
-      title: "Medal",
-      chunks: ["chunk-vendors", "chunk-common", "Medal"],
+      title: "Medals",
+      chunks: ["chunk-vendors", "chunk-common", "Medals"],
     },
   },
 

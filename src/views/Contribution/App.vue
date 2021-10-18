@@ -293,7 +293,7 @@ import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
 export default {
-  name: "Contributions",
+  name: "Contribution",
 
   components: {
     Nav,

@@ -43,21 +43,61 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item"> Description </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Description"
+            class="navbar-item"
+          >
+            Description
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Design </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Design"
+            class="navbar-item"
+          >
+            Design
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Experiments </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Experiments"
+            class="navbar-item"
+          >
+            Experiments
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Model </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Model"
+            class="navbar-item"
+          >
+            Model
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Engineering </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Engineering"
+            class="navbar-item"
+          >
+            Engineering
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Proof of Concept </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Proof_Of_Concept"
+            class="navbar-item"
+          >
+            Proof of Concept
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Results </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Results"
+            class="navbar-item"
+          >
+            Results
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Contribution </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Contribution"
+            class="navbar-item"
+          >
+            Contribution
+          </a>
         </div>
       </div>
       <div class="navbar-item has-dropdown is-hoverable">
@@ -67,11 +107,26 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item"> Parts </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Parts"
+            class="navbar-item"
+          >
+            Parts
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Safety </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Safety"
+            class="navbar-item"
+          >
+            Safety
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Notebook </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Notebook"
+            class="navbar-item"
+          >
+            Notebook
+          </a>
         </div>
       </div>
       <div class="navbar-item has-dropdown is-hoverable">
@@ -81,13 +136,33 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item"> Integrated Human Practices </a>
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Human_Practices"
+            class="navbar-item"
+          >
+            Integrated Human Practices
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Public Engagment </a>
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Education"
+            class="navbar-item"
+          >
+            Public Engagment
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Entrepreneurship </a>
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Entrepreneurship"
+            class="navbar-item"
+          >
+            Entrepreneurship
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Implementation </a>
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Implementation"
+            class="navbar-item"
+          >
+            Implementation
+          </a>
         </div>
       </div>
       <div class="navbar-item has-dropdown is-hoverable">
@@ -97,17 +172,42 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item"> Members </a>
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Members"
+            class="navbar-item"
+          >
+            Members
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Attributions</a>
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Attributions"
+            class="navbar-item"
+          >
+            Attributions</a
+          >
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Collaborations </a>
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Collaborations"
+            class="navbar-item"
+          >
+            Collaborations
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Partnership</a>
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Partnership"
+            class="navbar-item"
+          >
+            Partnership</a
+          >
+          <!-- <hr class="navbar-divider" />
+          <a class="navbar-item"> Outreach </a> -->
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Outreach </a>
-          <hr class="navbar-divider" />
-          <a class="navbar-item"> Implementation </a>
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Sponsors"
+            class="navbar-item"
+          >
+            Sponsonrs</a
+          >
         </div>
       </div>
       <div class="navbar-item has-dropdown is-hoverable">
@@ -118,13 +218,33 @@
 
         <div class="navbar-dropdown">
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Medal Criteria</a>
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Medals"
+            class="navbar-item"
+          >
+            Medal Criteria</a
+          >
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Best plant</a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Plant"
+            class="navbar-item"
+          >
+            Best Plant</a
+          >
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Best Public Engagment </a>
+          <a
+            href="https://2021.igem.org/Team:USP-Brazil/Education"
+            class="navbar-item"
+          >
+            Best Public Engagment
+          </a>
           <hr class="navbar-divider" />
-          <a class="navbar-item"> Best Sustainable Development Impact</a>
+          <a
+            href=": https://2021.igem.org/Team:USP-Brazil/Sustainable"
+            class="navbar-item"
+          >
+            Best Sustainable Development Impact</a
+          >
         </div>
       </div>
     </div>

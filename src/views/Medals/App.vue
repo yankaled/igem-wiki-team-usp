@@ -81,7 +81,7 @@ import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
 export default {
-  name: "Medal",
+  name: "Medals",
   components: {
     Nav,
     Footer,
