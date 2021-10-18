@@ -1,11 +1,16 @@
 <template>
   <div class="home">
-    <Nav />
-    <div class="is-full">
+    <NavHome />
+    <div class="is-full" style="position: relative;">
       <video
         autoplay
+        loop="true"
         class="header"
         src="https://2021.igem.org/wiki/images/1/19/T--USP-Brazil--IGEM-USP-Home-Video.mp4"
+      />
+      <img
+        style="transform: translateY(-15em); width: 100%;"
+        src="https://2021.igem.org/wiki/images/d/dd/T--USP-Brazil--IGEM-USP-Home-Colmeia.png"
       />
     </div>
 
@@ -275,7 +280,7 @@
 </template>
 
 <script>
-import Nav from "@/components/Nav.vue";
+import NavHome from "@/components/NavHome.vue";
 import Footer from "@/components/Footer.vue";
 
 import bulmaCarousel from 'bulma-carousel'
@@ -293,7 +298,7 @@ export default {
   name: "Home",
 
   components: {
-    Nav,
+    NavHome,
     Footer,
   }
 }

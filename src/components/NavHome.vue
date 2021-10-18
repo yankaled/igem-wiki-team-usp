@@ -1,7 +1,7 @@
 <template>
   <nav
     id="Navbar_USP"
-    class="navbar is-primary is-fixed-top"
+    :class="`navbar ${navClass} is-fixed-top`"
     role="navigation"
     aria-label="main navigation"
   >
@@ -131,12 +131,40 @@
   </nav>
 </template>
 
+<script>
+export default {
+  created() {
+    window.addEventListener('scroll', this.calcNavClass)
+  },
+
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.calcNavClass)
+  },
+
+  data() {
+    return {
+      navClass: 'transparent-nav'
+    }
+  },
+
+  methods: {
+    calcNavClass() {
+      this.navClass = window.scrollY > 0 ? 'is-primary' : 'transparent-nav'
+    }
+  }
+}
+</script>
+
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 #Navbar_USP {
   margin-bottom: -1em;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.transparent-nav {
+  background: transparent;
 }
 
 .nav-link-usp {
