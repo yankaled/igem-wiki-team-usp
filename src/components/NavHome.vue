@@ -160,11 +160,12 @@ export default {
 
 #Navbar_USP {
   margin-bottom: -1em;
+  transition:all 0.5s;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
 .transparent-nav {
-  display: none !important;
+  background-color: transparent !important;
 }
 
 .nav-link-usp {
