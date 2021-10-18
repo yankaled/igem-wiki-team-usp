@@ -11,6 +11,7 @@
 
     <section class="columns">
       <div class="column is-1"></div>
+      <Backtotop />
       <div class="column is-5">
         <figure class="image is-128x128">
           <img

@@ -10,6 +10,7 @@
     </div>
     <section class="columns">
       <div class="column is-one-fifth"></div>
+      <Backtotop />
       <div class="content column is-three-fifth">
         <h2>BUSINESS PLAN</h2>
         <p>
@@ -147,13 +148,13 @@
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
-
+import Backtotop from "@/components/BacktoTop.vue";
 export default {
-  name: "Description",
-
+  name: "Entrepreneurship",
   components: {
     Nav,
     Footer,
+    Backtotop,
   },
 };
 </script>
