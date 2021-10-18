@@ -1,5 +1,8 @@
 <template>
   <div>
+    <p id="text_btn">
+      Back to top
+    </p>
     <input
       type="image"
       src="https://2021.igem.org/wiki/images/b/bf/T--USP-Brazil--IGEM-USP-BacktoTopButton.png"
@@ -45,22 +48,30 @@ export default {
   position: fixed; /* Fixed/sticky position */
   bottom: 20px;
   /* placethe button at the bottom of the page  */
-  right: 30px;
+  left: 30px;
   /* placethe button 30px from the right */
   z-index: 99;
   /* makesure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
-
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+#text_btn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px;
+  /* placethe button at the bottom of the page  */
+  left: 30px;
+  /* placethe button 30px from the right */
+  z-index: 99;
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: #040404; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  font-size: 18px; /* Increase font size */
 }
 </style>
 <style>
