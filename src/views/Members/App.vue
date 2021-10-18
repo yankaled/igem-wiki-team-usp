@@ -1,11 +1,11 @@
 <template>
   <div>
     <Nav />
+
     <div class="is-full">
       <img
-        style="widht:100%"
+        class="header"
         src="https://2021.igem.org/wiki/images/1/1c/T--USP-Brazil--IGEM-USP-Member-Banner.png"
-        alt=""
       />
     </div>
 
@@ -1922,40 +1922,48 @@
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
+
 export default {
+
   name: "Members",
+
+  components: {
+    Nav,
+    Footer,
+    Backtotop,
+  },
+
   methods: {
     openModal(event) {
       let clicked_id = event.target.id;
-      console.log(clicked_id);
       let overlay = document.getElementById(`${clicked_id}OV`);
       let modal = document.getElementById(`${clicked_id}MO`);
       modal.classList.remove("is-hidden");
       overlay.classList.remove("is-hidden");
     },
     closeModal(event) {
-      console.log(event);
+      
       let clicked_id = event.target.id;
       let id = clicked_id.replace("OV", "");
-      console.log(id);
+      
       let overlay = document.getElementById(`${id}OV`);
       let modal = document.getElementById(`${id}MO`);
-      console.log(overlay);
-      console.log(modal);
+     
       modal.classList.add("is-hidden");
       overlay.classList.add("is-hidden");
-    },
-  },
-  components: {
-    Nav,
-    Footer,
-    Backtotop,
-  },
+    }
+  }
+  
 };
 </script>
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+.header {
+  width: 100% !important;
+}
+
 h1 {
   font-size: 2.5rem;
   margin-bottom: 2rem;

@@ -14,7 +14,7 @@
       />
     </div>
 
-    <section class="columns">
+    <section class="columns" style="transform: translateY(-15em);">
       <div class="column is-1"></div>
       <Backtotop />
       <div class="column is-5">
@@ -34,7 +34,8 @@
       </div>
       <div class="column is-2"></div>
     </section>
-    <section class="columns">
+
+    <section class="columns" style="transform: translateY(-15em);">
       <div class="column is-1"></div>
       <div class=" content column is-5">
         <p>
@@ -55,7 +56,8 @@
       </div>
       <div class="column is-2"></div>
     </section>
-    <section class="columns">
+
+    <section class="columns" style="transform: translateY(-15em);">
       <div class="column is-1"></div>
       <div class=" content column is-9">
         <p>
@@ -68,7 +70,8 @@
 
       <div class="column is-2"></div>
     </section>
-    <section class="columns">
+
+    <section class="columns" style="transform: translateY(-15em);">
       <div class="column is-1"></div>
       <div class="content column">
         <p>
@@ -88,7 +91,8 @@
       </div>
       <div class="column is-2"></div>
     </section>
-    <section class="columns">
+
+    <section class="columns" style="transform: translateY(-15em);">
       <div class="column is-1"></div>
       <div class="content column is-6">
         <p>
@@ -101,14 +105,16 @@
       </div>
       <div class="content column is-5"></div>
     </section>
-    <section class="columns">
+
+    <section class="columns" style="transform: translateY(-15em);">
       <div class="column is-offset-7">
         <img
           src="https://2021.igem.org/wiki/images/1/16/T--USP-Brazil--IGEM-USP-Home-Bee.png"
         />
       </div>
     </section>
-    <section class="columns">
+
+    <section class="columns" style="transform: translateY(-15em);">
       <div class="column"></div>
       <div class=" content column is-9">
         <h2 style="text-align: center ;">But bees are being endangered...</h2>
@@ -120,7 +126,8 @@
 
       <div class="column"></div>
     </section>
-    <section class="columns" style="background-color:rgba(255, 102, 0, 0.7);;">
+
+    <section class="columns" style="transform: translateY(-15em); background-color:rgba(255, 102, 0, 0.7);">
       <div class="column is-1"></div>
       <div class=" content column is-4">
         <br />
@@ -147,7 +154,8 @@
       </div>
       <div class="column is-1"></div>
     </section>
-    <section class="columns" style="text-align: center; ">
+
+    <section class="columns" style="transform: translateY(-15em); text-align: center; ">
       <div class="column"></div>
       <div class=" content column is-9">
         <p>
@@ -175,7 +183,8 @@
 
       <div class="column"></div>
     </section>
-    <section class="columns">
+
+    <section class="columns" style="transform: translateY(-15em);">
       <div class="column is-1"></div>
       <div class=" content column is-4">
         <img
@@ -198,7 +207,8 @@
       </div>
       <div class="column is-1"></div>
     </section>
-    <section class="columns" style="text-align: center; ">
+
+    <section class="columns" style="transform: translateY(-15em); text-align: center; ">
       <div class="column "></div>
       <div class=" content column is-9">
         <p>
@@ -214,9 +224,10 @@
 
       <div class="column "></div>
     </section>
+
     <section
       class="columns"
-      style="text-align: center; background-color:#FFB923 "
+      style="text-align: center; transform: translateY(-15em); background-color:#FFB923 "
     >
       <div class="column "></div>
       <div class=" content column is-9">
@@ -245,7 +256,8 @@
 
       <div class="column "></div>
     </section>
-    <section class="columns">
+
+    <section class="columns" style="transform: translateY(-10em);">
       <div class="column is-3"></div>
 
       <div class=" content column is-2">

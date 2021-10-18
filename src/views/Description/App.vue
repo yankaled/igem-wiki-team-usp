@@ -8,6 +8,7 @@
         src="https://2021.igem.org/wiki/images/2/29/T--USP-Brazil--IGEM-USP-Description-Banner.jpg"
       />
     </div>
+
     <section class="columns">
       <div class="column is-one-fifth"></div>
       <Backtotop />
@@ -538,9 +539,12 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Roboto:wght@500;700;900&display=swap");
+
 .header {
-  width: 100%;
+  width: 100% !important;
 }
+
+
 .content h2 {
   font-family: "Roboto", sans-serif;
   font-size: 50px;

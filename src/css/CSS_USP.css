@@ -44,7 +44,7 @@ a.navbar-item:hover {
 }
 
 .header {
-  width: 100%;
+  width: 100% !important;
 }
 .content h2 {
   font-family: "Roboto", sans-serif;
