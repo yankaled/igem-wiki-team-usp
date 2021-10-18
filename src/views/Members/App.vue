@@ -1966,10 +1966,10 @@ p {
 /* CLASSES TO MAKE MODAL WORK */
 .modal_USP {
   position: fixed;
-  left: 15%;
-  top: 25%;
-  width: 70%;
-  height: 100%;
+  left: 10%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
@@ -1983,8 +1983,8 @@ p {
 }
 
 .overlay {
-  position: Fixed;
-  top: 25%;
+  position: fixed;
+  top: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);

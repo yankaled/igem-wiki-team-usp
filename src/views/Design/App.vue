@@ -10,8 +10,10 @@
     </div>
     <section class="columns">
       <div class="column is-one-fifth"></div>
+
       <div class="content column is-three-fifth">
-        <h2>GENETIC CIRCUIT OVERVIEW</h2>
+        <h2 id="Genetic">GENETIC CIRCUIT OVERVIEW</h2>
+        <Backtotop />
         <p>
           The Let.it.bee. project aims to aid bee populations by the development
           of an adaptable genetic circuit for plants, capable of
@@ -221,7 +223,7 @@
         />
 
         <h2>References:</h2>
-        <div class="references">
+        <div id="references1" class="references">
           <ol>
             <li>
               TWELL, D. & McCormick, S.. Pollen-specific gene expression in
@@ -284,15 +286,27 @@
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
-
+import Backtotop from "@/components/BacktoTop.vue";
 export default {
   name: "Description",
-
   components: {
     Nav,
     Footer,
+    Backtotop,
   },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.Sidemenu {
+  position: fixed;
+  left: 5%;
+  top: 25%;
+}
+a {
+  color: green;
+}
+a:active {
+  color: greenyellow;
+}
+</style>
