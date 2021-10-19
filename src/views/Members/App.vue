@@ -1935,12 +1935,15 @@ export default {
 
   methods: {
     openModal(event) {
+
       let clicked_id = event.target.id;
       let overlay = document.getElementById(`${clicked_id}OV`);
       let modal = document.getElementById(`${clicked_id}MO`);
       modal.classList.remove("is-hidden");
       overlay.classList.remove("is-hidden");
+   
     },
+
     closeModal(event) {
       
       let clicked_id = event.target.id;
@@ -1990,7 +1993,7 @@ p {
   background-color: white;
   padding: 6rem;
   /* border-radius: 5px; */
-  z-index: 10;
+  z-index: 50;
 }
 
 .overlay {
@@ -2000,7 +2003,7 @@ p {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
-  z-index: 5;
+  z-index: 45;
 }
 
 h2 {

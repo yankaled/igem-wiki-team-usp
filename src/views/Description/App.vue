@@ -11,7 +11,9 @@
 
     <section class="columns">
       <div class="column is-one-fifth"></div>
+
       <Backtotop />
+      
       <div class="content column is-three-fifth">
         <h2>WHY ARE BEES SO IMPORTANT?</h2>
         <p>
