@@ -325,28 +325,31 @@
           </b>
         </p>
 
-        <h3>References</h3>
-        <p>
-          <small>
-            <strong>1.</strong> NATIONAL HEALTH SURVEILLANCE AGENCY (Brazil).
-            Federal government. 101. RDC RESOLUTION No. 512, OF MAY 27, 2021,
-            [S. l.], year 2021, May 31, 2021. Available at:
-            <a
-              href="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673"
-            >
-              https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673
-            </a>
-            Accessed on: 10 Oct. 2021. <br />
-            <strong>2.</strong> CARDOSO, Telma Abdalla de Oliveira et al.
-            Analysis of the construction of Brazil's competence for the Maximum
-            Containment Laboratory: realities and perspectives. 2008. Doctoral
-            Thesis. <br />
-            <strong>3.</strong> BRASIL. Ministério da Saúde. Conselho Nacional
-            de Saúde. Comissão Nacional de Ética em Pesquisa. Manual operacional
-            para comitês de ética em pesquisa. MS, 2006.
-          </small>
-        </p>
+        <!--- References --->
+        <h2>References:</h2>
+        <div id="references1" class="references">
+          <ol>
+            <li>
+              NATIONAL HEALTH SURVEILLANCE AGENCY (Brazil).
+              Federal government. 101. RDC RESOLUTION No. 512, OF MAY 27, 2021,
+              [S. l.], year 2021, May 31, 2021. Available at: https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673
+              Accessed on: 10 Oct. 2021.
+            </li>
+            <li>
+              CARDOSO, Telma Abdalla de Oliveira et al.
+              Analysis of the construction of Brazil's competence for the Maximum
+              Containment Laboratory: realities and perspectives. 2008. Doctoral
+              Thesis.
+            </li>
+            <li>
+              BRASIL. Ministério da Saúde. Conselho Nacional
+              de Saúde. Comissão Nacional de Ética em Pesquisa. Manual operacional
+              para comitês de ética em pesquisa. MS, 2006.
+            </li>
+          </ol>
+        </div>
       </div>
+      
       <div class="column is-one-fifth"></div>
     </section>
 
