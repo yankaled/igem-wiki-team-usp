@@ -13,7 +13,7 @@
       <div class="column is-one-fifth"></div>
 
       <Backtotop />
-      
+
       <div class="content column is-three-fifth">
         <h2>WHY ARE BEES SO IMPORTANT?</h2>
         <p>
@@ -67,6 +67,9 @@
           <b>some foods just would not be produced anymore</b> or would turn
           into luxury items. [6]
         </p>
+        <img
+          src="https://2021.igem.org/wiki/images/0/0d/T--USP-Brazil--IGEM-USP-Description-CropsPollination.png"
+        />
 
         <p>
           Pollination by bees is required for a healthy increase in agricultural
@@ -105,7 +108,9 @@
           <b>25% of known bee species to be reported missing to this day</b>
           [7].
         </p>
-        <img src="@/assets/Joao.jpg" />
+        <img
+          src="https://2021.igem.org/wiki/images/f/f6/T--USP-Brazil--IGEM-USP-Description-BeeSpeciesRichness.png"
+        />
         <p>
           Many are the causes for the phenomenon, for instance migration stress,
           drought, diseases, climate change and, especially,
@@ -232,8 +237,8 @@
           >. In short, neonicotinoids are very necessary for agriculture.
         </p>
         <p>
-          herefore, our solution, <b>Let.it.bee</b>., tries to address the issue
-          without cancelling the important pest control effect.
+          Therefore, our solution, <b>Let.it.bee</b>., tries to address the
+          issue without cancelling the important pest control effect.
         </p>
         <h2>WHAT IS <b>LET.IT.BEE</b></h2>
         <h3>Our inspiration</h3>
@@ -261,11 +266,12 @@
           approval that is happening ever since 2016 [9]. Among them, there are
           even pesticides that are prohibited in other countries, such as
           Fipronil that was banned in part of the European Union, because of
-          their effects in human health or involvement in the death of bees
+          their effects in human health or
+          <b>involvement in the death of bees</b>
           [10].
         </p>
         <p>
-          Agriculture is a very important sector for Brazil, along with
+          <b>Agriculture is a very important sector for Brazil,</b> along with
           livestock. The business is responsible for more than 20% of the
           country's Gross Domestic Product, corresponding to almost half of all
           the exportation, too [24,25 ]. For soy, sugar cane, orange juice and
@@ -347,7 +353,7 @@
           pesticide.
         </p>
         <img
-          src="https://2021.igem.org/wiki/images/7/7b/T--USP-Brazil--IGEM-USP-Description-Figure2.png"
+          src="https://2021.igem.org/wiki/images/9/9c/T--USP-Brazil--IGEM-USP-Description-GeneralSchemeOfLetItBee.jpeg"
           alt="Scheme for Let it bee"
         />
         <p>
@@ -362,7 +368,10 @@
         </ul>
         <p>
           You can check more about our project's genetic circuit and chassis in
-          our <b>Design page!</b>
+          our
+          <a href="https://2021.igem.org/Team:USP-Brazil/Design"
+            ><b>Design page!</b></a
+          >
         </p>
         <h2>WHAT IS NEXT FOR <b>LET.IT.BEE</b></h2>
         <p>
@@ -380,7 +389,10 @@
           our lab experiments to be delayed. Although our current results and
           modelling are enough to understand more about our project, more tests
           are needed to better improve our circuit. You can check more of this
-          journey on the <b>Engineering page.</b>
+          journey on the
+          <a href="https://2021.igem.org/Team:USP-Brazil/Engineering"
+            ><b>Engineering page.</b></a
+          >
         </p>
 
         <h2>References:</h2>
@@ -546,7 +558,6 @@ export default {
   width: 100% !important;
 }
 
-
 .content h2 {
   font-family: "Roboto", sans-serif;
   font-size: 50px;
@@ -566,6 +577,9 @@ export default {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #262625;
+}
+.content a:hover {
+  text-decoration: underline;
 }
 
 .content b {

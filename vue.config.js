@@ -60,6 +60,12 @@ module.exports = {
       title: "Medals",
       chunks: ["chunk-vendors", "chunk-common", "Medals"],
     },
+    Parts: {
+      entry: "./src/views/Parts/main.js",
+      template: "public/index.html",
+      title: "Parts",
+      chunks: ["chunk-vendors", "chunk-common", "Parts"],
+    },
   },
 
   devServer: {

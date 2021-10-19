@@ -42,7 +42,7 @@
           </li>
         </ul>
         <img
-          src="https://2021.igem.org/wiki/images/5/56/T--USP-Brazil--IGEM-USP-Design-Figure1.jpg"
+          src="https://2021.igem.org/wiki/images/4/46/T--USP-Brazil--IGEM-USP-Design-GeneticCircuit.png"
         />
 
         <p>
@@ -166,9 +166,9 @@
         <br />
         <br />
         <p>
-          Later, 4 and 5 hydroxyimidacloprid can be metabolised again by CYP6g1
-          to form 4, 5-hydroxyimidacloprid, and can spontaneously react in an
-          acid media to form olefine. These metabolites are also more
+          Afterwards, 4 and 5 hydroxyimidacloprid can be metabolised again by
+          CYP6g1 to form 4, 5-hydroxyimidacloprid, and can spontaneously react
+          in an acid media to form olefine. These metabolites are also more
           <b>hydrophyllic</b> than the parent compound Imidacloprid, so it is
           <b>quicker for the insect to excrete it from its body</b> [3].
         </p>
@@ -183,6 +183,13 @@
         <img
           src="https://2021.igem.org/wiki/images/f/f5/T--USP-Brazil--IGEM-USP-Design-Figure4.png"
         />
+
+        <p>
+          So the enzyme CYP6G1 can efficiently metabolize the target pesticide
+          into predominantly less toxic compounds, and has been proven to fold
+          functionally in tobacco plants, thus being a safe and powerful choice
+          for the project.
+        </p>
         <h2>OUR CHASSIS: MICRO-TOM</h2>
 
         <p>
@@ -206,7 +213,10 @@
             information for our modelling. In the pandemic situation, in which
             our lab access was highly restricted, data availability was very
             important for the mathematical modelling development (you can check
-            our models at COLOCAR LINK Model page)
+            our models at
+            <a href="https://2021.igem.org/Team:USP-Brazil/Design"
+              ><b>Model page</b></a
+            >)
           </li>
           <li>
             <b>Commercial interest,</b> since tomatoes are planted for the food
@@ -298,6 +308,9 @@ export default {
 </script>
 
 <style scoped>
+.content a:hover {
+  text-decoration: underline;
+}
 .Sidemenu {
   position: fixed;
   left: 5%;

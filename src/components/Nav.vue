@@ -240,7 +240,7 @@
           </a>
           <hr class="navbar-divider" />
           <a
-            href=": https://2021.igem.org/Team:USP-Brazil/Sustainable"
+            href="https://2021.igem.org/Team:USP-Brazil/Sustainable"
             class="navbar-item"
           >
             Best Sustainable Development Impact</a
@@ -253,43 +253,40 @@
 
 <script>
 export default {
-
   name: "Nav",
 
   props: {
     transition: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
 
   created() {
-
     if (this.transition) {
-      this.navClass = 'transparent-nav'
-      window.addEventListener('scroll', this.calcNavClass)
+      this.navClass = "transparent-nav";
+      window.addEventListener("scroll", this.calcNavClass);
     }
-    
   },
 
   beforeDestroy() {
     if (this.transition) {
-      window.removeEventListener('scroll', this.calcNavClass)
+      window.removeEventListener("scroll", this.calcNavClass);
     }
   },
 
   data() {
     return {
-      navClass: 'is-primary'
-    }
+      navClass: "is-primary",
+    };
   },
 
   methods: {
     calcNavClass() {
-      this.navClass = window.scrollY > 0 ? 'is-primary' : 'transparent-nav'
-    }
-  }
-}
+      this.navClass = window.scrollY > 0 ? "is-primary" : "transparent-nav";
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -297,7 +294,7 @@ export default {
 
 #Navbar_USP {
   margin-bottom: -1em;
-  transition:all 0.5s;
+  transition: all 0.5s;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 

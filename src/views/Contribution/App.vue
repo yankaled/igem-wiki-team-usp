@@ -16,7 +16,7 @@
         <!--- Contributions --->
         <h2>Contribution</h2>
         <p>
-          In this page we show our special contributions to future iGEM teams
+          On this page we show our special contributions to future iGEM teams
           and researchers, by trying to pass on some of the knowledge and
           abilities we learned while developing our project. The COVID-19
           pandemic was a major obstacle for us during the last two years, it
@@ -69,7 +69,7 @@
           <b>
             high price of several programs,
           </b>
-          making them inaccessible for most people.
+          making them inaccessible inaccessible for us.
         </p>
         <p>
           Having these factors in mind, our objective while writing this
@@ -88,6 +88,9 @@
           in their project that was not yet studied.
         </p>
         <h3>A little about what you can find in our handbook</h3>
+        <img
+          src="https://2021.igem.org/wiki/images/0/0e/T--USP-Brazil--IGEM-USP-Contributtion-Alittle.png"
+        />
         <p>
           Our handbook has a logic sequence of steps that approaches from
           <b>
@@ -182,7 +185,7 @@
           requirements.
         </p>
         <p>
-          To do so, we presented tools for protein parameterization (
+          Thus, we presented tools for protein parameterization (
           <a href="https://server.poissonboltzmann.org/pdb2pqr">pdb2pqr</a>
           ), ligand minimization (chem3d), structure visualization (Studio
           Discovery Visualizer), file converter (Open Babel), explaining in
@@ -239,6 +242,7 @@
           interested in it to more easily situate themselves and then find more
           articles on their own specific interests.
         </p>
+        <h3>Some Information About CYP3A4</h3>
         <p>
           This enzyme is capable of
           <b>
@@ -263,6 +267,7 @@
           result in increased transcription of the enzyme due to the cooperative
           interaction with the proximal promoter regions of the gene.
         </p>
+        <p></p>
         <p>
           For teams aiming to use this molecule, its ligand-free crystal
           structure has been reported and is available for download in .pdb
