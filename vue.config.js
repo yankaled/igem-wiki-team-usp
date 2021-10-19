@@ -66,6 +66,30 @@ module.exports = {
       title: "Parts",
       chunks: ["chunk-vendors", "chunk-common", "Parts"],
     },
+    Attributions: {
+      entry: "./src/views/Attributions/main.js",
+      template: "public/index.html",
+      title: "Attributions",
+      chunks: ["chunk-vendors", "chunk-common", "Attributions"],
+    },
+    Sponsors: {
+      entry: "./src/views/Sponsors/main.js",
+      template: "public/index.html",
+      title: "Sponsors",
+      chunks: ["chunk-vendors", "chunk-common", "Sponsors"],
+    },
+    Collaborations: {
+      entry: "./src/views/Collaborations/main.js",
+      template: "public/index.html",
+      title: "Collaborations",
+      chunks: ["chunk-vendors", "chunk-common", "Collaborations"],
+    },
+    Proof_of_Concept: {
+      entry: "./src/views/Proof_of_Concept/main.js",
+      template: "public/index.html",
+      title: "Proof_of_Concept",
+      chunks: ["chunk-vendors", "chunk-common", "Proof_of_Concept"],
+    },
   },
 
   devServer: {

@@ -294,23 +294,6 @@
                     page
                   </td>
                 </tr>
-                <tr>
-                  <td>Education & Comunication</td>
-                  <td>
-                    We went above and beyond in our public engagement projects
-                    and launched a nation wide initiative founding the first
-                    Brasilian Olympiad of Sinthetic Biology.
-                  </td>
-                  <td>
-                    You can learn more about our journey founding this Olympiad
-                    in our
-                    <a
-                      href="https://2021.igem.org/Team:USP-Brazil/Communication"
-                      >Communication
-                    </a>
-                    page page.
-                  </td>
-                </tr>
               </tbody>
             </table>
           </div>
