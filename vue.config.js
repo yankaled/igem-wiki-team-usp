@@ -120,6 +120,12 @@ module.exports = {
       title: "Human_Practices",
       chunks: ["chunk-vendors", "chunk-common", "Human_Practices"],
     },
+    Partnership: {
+      entry: "./src/views/Partnership/main.js",
+      template: "public/index.html",
+      title: "Partnership",
+      chunks: ["chunk-vendors", "chunk-common", " Partnership"],
+    },
   },
 
   devServer: {
