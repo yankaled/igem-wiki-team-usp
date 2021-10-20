@@ -10,7 +10,28 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div id="" class="sub-navigation sub-menu-content">
+            <div class="">
+              <a class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                >Introduction</a
+              >
+            </div>
+            <div class="">
+              <a class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                >Test Results</a
+              >
+            </div>
+            <div class="">
+              <a class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                >Conclusion</a
+              >
+            </div>
+          </div>
+          <Backtotop />
+        </aside>
+      </div>
       <div class="content column is-three-fifth">
         <h2>Introduction</h2>
         <p>
@@ -129,4 +150,74 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.is-sticky {
+  margin-left: 25%;
+  position: sticky;
+  top: 100px;
+  display: block;
+}
+.sub-navigation {
+  padding: 2em 0;
+  border-right: solid 3px #ffba17;
+  max-width: 220px;
+}
+.sub-menu-content {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #262625;
+}
+.sub-nav-link-usp {
+  /* font-weight: bold;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  background-color: transparent !important;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: flex;
+  position: relative;
+  opacity: 0.75;
+}
+
+.sub-nav-link-usp:hover {
+  opacity: 1;
+}
+
+.sub-nav-link-usp::before {
+  transition: 500ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #000;
+}
+
+.sub-nav-link-usp-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.sub-nav-link-usp-ltr:hover::before {
+  width: 100%;
+}
+
+sub-menu-content {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #262625;
+}
+/* a.sub-navbar-item:hover {
+  color: #ffffff;
+}
+
+.sub-navbar-link:hover {
+  color: #ffffff;
+} 
+
+
+*/
+</style>
