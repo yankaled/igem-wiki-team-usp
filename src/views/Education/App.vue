@@ -8,9 +8,17 @@
         src="https://2021.igem.org/wiki/images/9/9f/T--USP-Brazil--IGEM-USP-Public-Banner.jpg"
       />
     </div>
+
+     <button type="button" class="collapsible-button">Open Collapsible</button>
+    <div class="collapsible-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div> 
+    
     <section class="columns">
       <div class="menu column is-one-fifth"></div>
+
       <Backtotop />
+      
       <div class="content column is-three-fifth">
         <!-- Heroes in Science -->
         <section>
@@ -26,9 +34,11 @@
             the researchers, bringing them closer to society and humanizing
             science.
           </p>
+
           <img
             src="https://2021.igem.org/wiki/images/3/37/T--USP-Brazil--IGEM-USP-Public-Heroes.jpg"
           />
+
           <h3>History:</h3>
           <p>
             It all started when members of the group, whom sympathized with the
@@ -43,6 +53,7 @@
             <b> #HeroisNaCiencia </b>became one of the activities promoted by
             the team.
           </p>
+
           <h3>Evolution:</h3>
           <p>Among the projects publisheded, there are:</p>
           <p></p>
@@ -221,18 +232,67 @@
     <Footer />
   </div>
 </template>
-<style scoped></style>
 
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
+
 export default {
+
   name: "Education",
+
   components: {
     Nav,
     Footer,
     Backtotop,
   },
+
+  mounted() {
+    var coll = document.getElementsByClassName("collapsible-button");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+  }
+
 };
 </script>
+
+<style>
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible-button {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible-button:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsible-content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
