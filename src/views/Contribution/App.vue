@@ -85,9 +85,11 @@
           that was not yet studied.
         </p>
         <h3>A little about what you can find in our handbook</h3>
-        <img
-          src="https://2021.igem.org/wiki/images/0/0e/T--USP-Brazil--IGEM-USP-Contributtion-Alittle.png"
-        />
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/0/0e/T--USP-Brazil--IGEM-USP-Contributtion-Alittle.png"
+          />
+        </figure>
         <p>
          Our handbook has a logical sequence of steps that approaches from
           <b>

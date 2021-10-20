@@ -13,9 +13,12 @@
       <div class="column is-one-fifth"></div>
       <Backtotop />
       <div class="content column is-three-fifth">
-        <img
-          src="https://2021.igem.org/wiki/images/2/26/T--USP-Brazil--IGEM-USP-Implementation-DailyRate.png"
-        />
+        
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/2/26/T--USP-Brazil--IGEM-USP-Implementation-DailyRate.png"
+          />
+        </figure>
 
         <!--- Introduction --->
         <h2>Introduction</h2>
@@ -92,9 +95,11 @@
             could be changed to fit another plant or pesticide if needed.
           </b>
         </p>
-        <img
-          src="https://2021.igem.org/wiki/images/9/94/T--USP-Brazil--IGEM-USP-Implementation-Basic.png"
-        />
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/9/94/T--USP-Brazil--IGEM-USP-Implementation-Basic.png"
+          />
+        </figure>
         <p>
           The LAT52
           <u>

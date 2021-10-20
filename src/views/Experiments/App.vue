@@ -3,7 +3,6 @@
     <Nav />
 
     <div class="is-full">
-      
       <img
         class="header"
         src="https://2021.igem.org/wiki/images/d/d4/T--USP-Brazil--IGEM-USP-Experiments-Banner.png"
@@ -14,9 +13,12 @@
       <div class="column is-one-fifth"></div>
       <Backtotop />
       <div class="content column is-three-fifth">
-        <img
-          src="https://2021.igem.org/wiki/images/5/52/T--USP-Brazil--IGEM-USP-Experiments-Figure1.png" 
-        />
+        
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/5/52/T--USP-Brazil--IGEM-USP-Experiments-Figure1.png" 
+          />
+        </figure>
 
         <!--- Plant transformation and regeneration --->
         <h2>Plant transformation and regeneration</h2>
