@@ -11,8 +11,12 @@
       ref="collapsible-content"
       class="collapsible-content"
     >
+      <img
+      v-if="src"
+      src="https://2021.igem.org/wiki/images/9/9f/T--USP-Brazil--IGEM-USP-Public-Banner.jpg"
+    />
       <p>{{ text }}</p>
-    </div> 
+    </div>
   </div>
 </template>
 
@@ -20,6 +24,10 @@
 export default {
 
   props: {
+    src: {
+      type: String,
+      default: ''
+    },
     title: {
       type: String,
       default: ''
