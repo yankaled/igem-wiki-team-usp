@@ -8,9 +8,16 @@
         src="https://2021.igem.org/wiki/images/9/9f/T--USP-Brazil--IGEM-USP-Public-Banner.jpg"
       />
     </div>
+
+     <Collapsible
+      title="Open Collapsible"
+      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+    
     <section class="columns">
       <div class="menu column is-one-fifth"></div>
+
       <Backtotop />
+      
       <div class="content column is-three-fifth">
         <!-- Heroes in Science -->
         <section>
@@ -26,9 +33,11 @@
             the researchers, bringing them closer to society and humanizing
             science.
           </p>
+
           <img
             src="https://2021.igem.org/wiki/images/3/37/T--USP-Brazil--IGEM-USP-Public-Heroes.jpg"
           />
+
           <h3>History:</h3>
           <p>
             It all started when members of the group, whom sympathized with the
@@ -43,6 +52,7 @@
             <b> #HeroisNaCiencia </b>became one of the activities promoted by
             the team.
           </p>
+
           <h3>Evolution:</h3>
           <p>Among the projects publisheded, there are:</p>
           <p></p>
@@ -221,18 +231,25 @@
     <Footer />
   </div>
 </template>
-<style scoped></style>
 
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
+import Collapsible from '@/components/Collapsible.vue';
+
 export default {
+
   name: "Education",
+
   components: {
     Nav,
     Footer,
     Backtotop,
+    Collapsible
   },
+
+
+
 };
 </script>
