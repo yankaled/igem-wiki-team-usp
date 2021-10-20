@@ -351,19 +351,28 @@ export default {
     bulmaCarousel.attach(".carousel", {});
   },
 
-  beforeDestroy() {
+  beforeUnmount() {
     document.removeEventListener("scroll", this.setAnimateValue);
+  },
+
+  data() {
+    return {
+      animateN1: true,
+      animateN2: true
+    }
   },
 
   methods: {
     setAnimateValue() {
       const $n1 = document.getElementById("n1");
       const $n2 = document.getElementById("n2");
-      if (this.checkVisible($n1)) {
-        this.animateValue($n1, 0, 8, 2000);
+      if (this.checkVisible($n1) && this.animateN1) {
+        this.animateN1 = false
+        this.animateValue($n1, 0, 8, 1000);
       }
-      if (this.checkVisible($n2)) {
-        this.animateValue($n2, 0, 9, 2000);
+      if (this.checkVisible($n2) && this.animateN2) {
+        this.animateN2 = false
+        this.animateValue($n2, 0, 9, 1000);
       }
     },
 
