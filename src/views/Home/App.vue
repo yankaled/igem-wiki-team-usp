@@ -351,7 +351,7 @@ export default {
         current += increment;
         $obj.text(current);
         if (current == end) {
-          $obj.text($obj.text() + "+");
+          $obj.text($obj.text());
           clearInterval(timer);
         }
       }, stepTime);

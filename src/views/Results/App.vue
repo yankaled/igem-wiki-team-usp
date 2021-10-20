@@ -12,241 +12,179 @@
     <section class="columns">
       <div class="column is-one-fifth"></div>
       <div class="content column is-three-fifth">
-        <h2>Thanks to all our sponsors!</h2>
+        <h2>THE COVID-19 PANDEMIC</h2>
 
         <p>
-          For funding our main project, learning and obtaining financial support
-          we sought out numerous companies and public institutions. In this
-          space we want to show and thank our main sponsors. Thanks to all our
-          sponsors for helping make this project possible!
-        </p>
-        <div class="columns">
-          <figure class="column is-half">
-            <img
-              src="https://2021.igem.org/wiki/images/8/8c/T--USP-Brazil--IGEM-USP-Sponsors-USP.png"
-            />
-          </figure>
-          <figure class="column is-half">
-            <img
-              src="https://2021.igem.org/wiki/images/5/53/T--USP-Brazil--IGEM-USP-Sponsors-PRPUSP.png"
-            />
-          </figure>
-        </div>
-        <p>
-          Our university, <b>USP</b>, is one of the most responsible for the
-          contribution of Brazilian science worldwide. The
-          <b>Pro-Dean of Research (PRP)</b> is a central body of the University
-          of São Paulo (USP) whose main objectives are to foster
-          interdisciplinary research and to manage programs and policies related
-          to research at the University. There are also other deans within the
-          University, such as Culture and Extension, Graduation and Research.
-          They believe in the power of science to help transform lives and help
-          change the world.
-        </p>
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/8/83/T--USP-Brazil--IGEM-USP-Sponsors-Vertere.png"
-          />
-        </figure>
-        <p>
-          The <b>Vertere Institute</b> is a private, non-profit legal entity
-          whose objective is to promote and democratize access to the science
-          Olympiads in Brazil and in other countries with which the Institute
-          maintains partnerships. It is composed of passionate people who
-          believe in the transforming power of the sciece Olympiads and are
-          dedicated to showing schools, governments and sponsors that they are a
-          cheap and efficient way to democratize quality education and develop
-          the potential of countless students and teachers.
+          The Covid-19 pandemic hit Brasil harshly throughout the past two
+          years. Mismanagement of the country's public health services lead to a
+          prolonged lockdown in our university, hindering access to the
+          laboratories where we were to perform most of our wet-lab experiments.
+          Therefore, most assays were performed in the final months of iGEM,
+          when labs finally reopened. Despite the rush, we were able to obtain
+          promising results regarding the integration and expression of
+          Let.it.bee on our transgenic plants.
         </p>
 
-        <blockquote>
-          "We believe that education is the most effective tool for social
-          transformation"
-        </blockquote>
+        <h3>Transformation of plants</h3>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/5/5d/T--USP-Brazil--IGEM-USP-Sponsors-Brasil.png"
-          />
-        </figure>
+        ESQUEMA
 
         <p>
-          The <b>Ministry of Science, Technology and Innovation</b> is part of
-          the Brazilian Federal Government and is responsible for formulating
-          and implementing the National Science and Technology Policy. It is
-          currently headed by Minister Marcos Pontes and works on numerous
-          Brazilian projects focused on Science and Technology.
+          The Agrobacterium tumefaciens transformation with our designed plasmid
+          for LAT52-CYP6G1-GUS was carried with success on for positive
+          transformant resistents a kanamycin medium (Figure1).
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/a/ab/T--USP-Brazil--IGEM-USP-Sponsors-Thermo.png"
-          />
-        </figure>
+        figura1
+
         <p>
-          <b>ThermoFisher Scientific</b> is an American scientific
-          instrumentation, reagents and consumables, and software services
-          company. It is composed of countless people who work around a mission:
-          to enable their customers to make the world healthier, cleaner and
-          safer. It operates in numerous segments and played an important role
-          in the COVID-19 pandemic through the supply of equipment, development
-          of diagnostic kits and other solutions.
+          The transformed plants have grown sufficiently well and taken roughly
+          one month to develop their reproductive system, necessary for pollen
+          production. We observe that the T0 transformants grow slower than
+          other control plants and have lower pollen production.
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/e/ef/T--USP-Brazil--IGEM-USP-Sponsors-Jena.png"
-          />
-        </figure>
+        <h3>Plants samples</h3>
 
         <p>
-          <b>Jena bioscience</b> uses 25 year of know-how academic to develop
-          innovative reagents to clients involved in academic research and
-          industry in more than 100 countries worldwide. To this date, Jena
-          Bioscience still is a company operated by the owner. Its mission is to
-          facilitate the work of its clients in molecular biology and it is
-          involved in many bioscientific projects.
+          Plants with 7 cm length were moved at the greenhouse, localized in
+          Departamento de Botânica - IB - USP (23°33'59.7"S 46°43'49.9"W) at the
+          beginning of 2021 August (Figure 3). The greenhouse was acclimatized
+          for natural daylight with a controlled temperature of 30°C.
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/0/07/T--USP-Brazil--IGEM-USP-Sponsors-BioLambda.png"
-          />
-        </figure>
+        foto no campo sem legenda
+
+        <h3>Identification of positive transformants</h3>
+
+        esquema microtom leaf
 
         <p>
-          <b>Biolambda focuses</b> on producing equipment that helps prevent
-          disease and infection. It is composed of a team of experts in
-          technologies that eliminate microorganisms with high-performance
-          germicidal ultraviolet light. Its focus for innovation is in numerous
-          areas, including the medical field. Its success is due to a
-          multidisciplinary team focused on innovation and quality of life.
+          We screened 12 random lines of transformant plants by PCR. After the
+          validation of the quality of DNA extraction of the adapted methodology
+          [1], as the first PCR result, we have found 3 transformants positives
+          to LAT52-CYP6G1-GUS cassette, T2, T22 and T25 (Figure 2).
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/e/e7/T--USP-Brazil--IGEM-USP-Sponsors-Emerge.png"
-          />
-        </figure>
+        figura 2, gel
 
         <p>
-          <b>Emerge</b> is an innovation consulting company, specialized in
-          transferring technology from the laboratory to the market. Because of
-          its dedication and a multidisciplinary team specialized in positively
-          impacting companies, Emerge has been successful in most of its
-          projects for years. Also, the relentless focus on solving problems
-          presented by its employees makes them a incredibly successful company.
+          The results indicate a successful integration of our cassette in the
+          plant, but with lower quantity with respect to all transformants, 25%
+          (3/12). It is can be explained by the random insertion after
+          transfection by agrobacterium. Due to the time it took for pollen
+          production, we could only used the pollen from the T2 transformant to
+          quantify the CYP6G1 transcript and GUS transcript. We used as control
+          the leaves for compare regulation expression by LAT52 promoter.
+        </p>
+        <h3>qRT-PCR</h3>
+
+        <p>
+          Genic expression at transcript level was assessed for two target
+          genes, CYP6G1 and GUS, and "Expressed", a reference gene for tomato.
+          RT-qPCR assays were successfully carried out and primers efficiencies
+          were determined: 96.4% (r²=0.982) for CYP2, 95.8% (r²=0.979) for GUS,
+          and 107.6% (r²=0.994) for "Expressed". Significative expression at
+          transcript level for CYP2 (median Ct value of 21.4) and GUS (median Ct
+          value of 20.5) genes were detected only for pollen of transgenic
+          plants (median Ct values were above 31.9 for both genes in cDNA
+          samples from pollen and leaves of control plants and from leaves of
+          transgenic plants, as well as undetermined for both genes in negative
+          control). These findings confirm the specific expression of CYP6G1 and
+          GUS genes, at least at the transcriptional level, in the pollen of
+          transgenic tomato plants and its functionality to produce in vivo
+          transcripts (Table 1).
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            style="max-width:70% ; max-height:70%"
-            src="https://2021.igem.org/wiki/images/f/f8/T--USP-Brazil--IGEM-USP-Sponsors-PucJr.png"
-          />
-        </figure>
         <p>
-          <b>PucJr</b> is a junior company that has been operating in the market
-          for over 25 years and serves dozens of entrepreneurs every year. She
-          focuses on consulting and advising services and helps companies in the
-          areas of Market, Projects, People Management and Presidency. Its
-          mission is focused on the development and training of young university
-          students with entrepreneurial potential and socially responsible
-          through consultancies that positively impact clients.
-        </p>
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/d/d7/T--USP-Brazil--IGEM-USP-Sponsors-Cristalia.png"
-          />
-        </figure>
-        <p>
-          <b>Cristália</b> is company focused on pharmaceutical chemical
-          products and medicines. Its mission is to collaborate in improving the
-          health treatment conditions of the population, innovating, developing,
-          producing, marketing and providing access to products with quality and
-          fair price. Composed mainly of values such as innovation, respect,
-          quality and excellence, Cristália has been in the market for over 40
-          years.
+          The Ct represents the minimum threshold that the fluorescence must be
+          detectable for indicating some amplification, without being as noises
+          of the machine detector. Pollen, leaf controls and Leaf T2 showed
+          great or indeterminate values of Ct, which indicate the absence of
+          transcripts in these tissues. The proximity of Ct between GUS and CYP2
+          is a plausible value since they are products of the same transcript,
+          regulated by promoter LAT52. The presence of a faint signal in the
+          negative control for pollen and in the leaves indicate either possible
+          contamination or the formation of dimers from the primers.
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/b/b5/T--USP-Brazil--IGEM-USP-Sponsors-PG.png"
-          />
-        </figure>
+        tabela 1
+
+        <h3>Biochemichemical Experiments - GUS</h3>
 
         <p>
-          <b>Procter & Gamble Company (P&G)</b> has been in business for over
-          180 years and aims to improve the lives of its consumers today and in
-          the future. P&G is passionate about winning, with a strong desire to
-          constantly improve and lead the market. Its products are known for
-          their quality and are mainly health and hygiene related.
+          Let.it.bee has the reporter gene β-glucuronidase (GUS) which is
+          translated of the same trascript of CYP6G1. Therefore, the activity of
+          one of the two enzymes, if detected, would show strong evidence of the
+          expression of the whole construct. GUS activity is fairly easy to
+          detect as it metabolizes 5-Bromo-4-Chloro-3-Indolyl β-D-Glucuronide
+          (X-Gluc) into other c indigo blue. Nonetheless, it also allows
+          histochemical colouring in pluricellular organisms, serving also as a
+          tissue specificity indicator.
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/a/a4/T--USP-Brazil--IGEM-USP-Sponsors-BioMinas.png"
-          />
-        </figure>
-
         <p>
-          <b>Biominas Brasil</b> is specialized in promoting business in life
-          sciences for entrepreneurs, institutions, governments, researchers,
-          investors and companies. Its mission is to connect people to build
-          successful businesses and create innovation environments in
-          biotechnology, health systems and information technology in Brazil.
+          Positive results were obtained for 2 and 22, transformants that we
+          alredy knew were positive for our circuit. The negative (-C) and
+          positive (+C) controls rendered correct results, validating the
+          experiment.
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/c/c5/T--USP-Brazil--IGEM-USP-Sponsors-Twist.png"
-          />
-        </figure>
+        FIGURE 3
 
         <p>
-          <b>Twist Bioscience</b> is a company focused on manufacturing
-          synthetic DNA and DNA products for customers in a wide range of
-          industries. Its mission is to make the world a better place, improve
-          the health of the planet, and find therapies for rare diseases.
+          Micro-tom 2 and 22 were confirmed to presence of GUS activiy. As we
+          could not get pollen from plant 2 Genomic PCR confirmed the presence
+          of the construct in both lineages. Even though it was not possible to
+          extract fresh pollen from plant number 2, pollen grains attached to
+          its ovarium walls were stained during the flower staining experiment.
+          Nevertheless, Let.it.bee's expression was later confirmed in plant
+          number 2 through RT-qPCR.
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/9/98/T--USP-Brazil--IGEM-USP-Sponsors-IDT.png"
-          />
-        </figure>
-
         <p>
-          <b>Integrated DNA Technologies, Inc.</b>, headquartered in Coralville,
-          Iowa, is a customized nucleic acids provider, serving the fields of
-          academic research, biotechnology, clinical diagnostics, and
-          pharmaceutical development.
+          One might notice that the amount of stained pollen cells is fairly
+          small. Additionally, the intensity of the blue hue also varies between
+          grains. However odd this may look, those were expected results. The
+          reason for that is that all experiments were carried out with T0
+          plants (generation number 0 of the transgenic lineages). It is known
+          that agrobacterium mediated transformation happens randomly [20-21]
+          and not all cells are transformed equally. Therefore, the plant
+          presents a chimeric genotype in which the expression of the Let.it.bee
+          construct is expected to vary among different cells and be absent in
+          the majority of them.
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/e/e0/T--USP-Brazil--IGEM-USP-Sponsors-New.png"
-          />
-        </figure>
-
         <p>
-          <b>New England Biolabs</b> produces and supplies recombinant and
-          native enzyme reagents for life sciences research, and provides
-          solutions for genome editing, synthetic biology, and next-generation
-          sequencing.
+          The flower tissue staining procedure failed as the positive control
+          used for it did not stain. A possible reason for that is the lack of a
+          vacuum pump to push x-gluc into the cells. Therefore, it wasn't
+          possible to determine whether the LAT52 promoter was leaking to
+          adjacent tissues. Nevertheless, that assumption was previously
+          confirmed in the literature and later through RT-qPCR of leaf tissue.
         </p>
 
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/1/10/T--USP-Brazil--IGEM-USP-Sponsors-Uni.png"
-          />
-        </figure>
+        FOTO DE PLANTA
 
         <p>
-          <b>Uniscience</b> started its activities 35 years ago aiming to ally
-          technological knowledge with the potential of development, always
-          attentive to the market's increasing demands. One of its missions is
-          to integrate intelligent solutions in equipments, accessories and
-          reagents for several areas of Life Sciences.
+          [1] Vennapusa AR, Somayanda IM, Doherty CJ, Jagadish SVK. A universal
+          method for high-quality RNA extraction from plant tissues rich in
+          starch, proteins and fiber. Sci Rep. 2020 Oct 9;10(1):16887. doi:
+          10.1038/s41598-020-73958-5. PMID: 33037299; PMCID: PMC7547072.
+        </p>
+
+        <p>
+          [20] Banakar, R., Eggenberger, A. L., Lee, K., Wright, D. A., Murugan,
+          K., Zarecor, S., … Wang, K. (2019). High-frequency random DNA
+          insertions upon co-delivery of CRISPR-Cas9 ribonucleoprotein and
+          selectable marker plasmid in rice. Scientific Reports, 9(1).
+          doi:10.1038/s41598-019-55681-y.
+        </p>
+
+        <p>
+          [21] Gelvin, S. B. (2017). Integration of Agrobacterium T-DNA into the
+          Plant Genome. Annual Review of Genetics, 51(1), 195–217.
+          doi:10.1146/annurev-genet-120215-035320.
         </p>
       </div>
       <div class="column is-one-fifth"></div>
