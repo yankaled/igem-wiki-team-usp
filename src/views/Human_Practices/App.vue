@@ -105,8 +105,104 @@
           stakeholders and how we could get in contact. So, we reached out to
           experts in <b>bee ecotoxicology and other studies:</b>
         </p>
+        <div class="columns has-text-justified">
+          <div class="column is-half">
+            <Collapsible
+              title="Dr. Ana Lucia Delgado Assad (A.B.E.L.H.A.)"
+              src="https://2021.igem.org/wiki/images/f/f8/T--USP-Brazil--IGEM-USP-Integratted-AbelhaMeeting.png"
+              text="Dr. Ana Lucia Delgado Assad is the Executive Director of
+            A.B.E.L.H.A., a non-profit brazilian association for bee studies
+            (fun fact: 'abelha' means 'bee' in portuguese). Its objective is to
+            'lead the creation of a network for the conservation of bees and
+            other pollinators' ( you can find out more about them on their site
+            (https://abelha.org.br/).
+-----------------------------------------------------------------------------------
+            When we were trying to gather more information about the bees' disappearance
+            problem, we stumbled upon the association site, finding out about
+            many studies and researchers on the area that collaborate with
+            interesting information. Thus, we decided to meet her and talk about
+            our ideas. 
+            ----------------------------------------------------------------------------------
+            Our meeting was very lighthearted, Ana was really keen on
+            our project and eager to help. After a quick presentation about
+            Let.It.Bee., we asked a lot of questions to get her feedback and she
+            helped us understand how our project could fit in the bigger picture
+            of bee conservation between agribusiness and research. She also
+            pointed us towards two great professionals involved in agrobusiness,
+            Luiz Braga (Ouro Fino) and Cristiano Menezes (Embrapa)."
+            />
+            <figure class="has-text-centered">
+              <img
+                src="https://2021.igem.org/wiki/images/2/2c/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-Ana-Lucia.png"
+                alt=""
+              />
+            </figure>
+          </div>
 
-        TOGGLE LIST
+          <div class="column is-half">
+            <Collapsible
+              title="Dr. Osmar Malaspina "
+              src="https://2021.igem.org/wiki/images/1/1f/T--USP-Brazil--IGEM-USP-Integratted-OsmarMeeting.png"
+              text="Dr. Osmar Malaspina is a renowned researcher on bees'
+            ecotoxicology, developing Applied Zoology and Cell Biology projects
+            on topics such as social insects, behaviour, toxicity,
+            plant-pollinator interaction, bee products and conservation of
+            pollinators. He is also Coordinator of the research group for bee
+            ecotoxicology and conservation.  
+             With him, we discussed the many
+            benefits of bees to agriculture besides the envinromental
+            importance. Crops could be: totally dependent on their pollination
+            (would not exist withouth them, such as almonds), partially
+            dependent or benefited from their service. Either way, crops could
+            gain in quality and quantity of products grown, making these insects
+            incredibly important for the country's economy. Strawberries crops,
+            for example, could benefit by 10% of its productivity. We also
+            learned about the involvement of neonicotinoid pesticides in the
+            situation."
+            />
+            <figure class="has-text-centered">
+              <img
+                src="https://2021.igem.org/wiki/images/b/b0/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-osmar.png"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="columns has-text-justified">
+          <div class="column is-half">
+            <Collapsible
+              title="Dr. Roberta Nocelli"
+              src="https://2021.igem.org/wiki/images/b/ba/T--USP-Brazil--IGEM-USP-Integratted-RobertaMeeting.png"
+              text="Dr. Roberta Nocelli is a great researcher for the bee ecotoxicology area, she is a coordinator of a work group for toxicity tests in native brazilian bees. 
+
+By talking to her, we were able to deepen our understanding on bees. We learned about the differences between the contamination on high or low doses of neonicotinoids, causing different effects on bees. Besides *Apis mellifera*, other bees also play a role in crop/forest pollination, sometimes being more susceptible to pesticides. She brought up that, in the future, we should test our plants with bees, especially to see if modifications to the plant would not interfere in their interaction. Pollen is a big contamination source, but it is also not usually used by other insects as food. She also mentioned enzymes that were capable of degrading pesticides, but *A. mellifera* has a defficiency of genes that can detoxify the dangerous substance."
+            />
+            <figure class="has-text-centered">
+              <img
+                src="https://2021.igem.org/wiki/images/9/94/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-roberta.png"
+                alt=""
+              />
+            </figure>
+          </div>
+
+          <div class="column is-half">
+            <Collapsible
+              title="Dr. Elaine Zacarin"
+              src=""
+              text="Dr. Elaine Zacarin has been researching bees for over 20 years, focusing on sublethal effects of pesticides.
+
+By talking to her, we learned even more about bees and their interaction with neonicotinoids. Bees do not eat pollen in natura, they tend to collect pollen and then process it to eat it (a way they can also contaminate the whole colony). In addition, even in lower levels, the neonicotinoid can impair the bee, including making the insect lose its memory so it can not go back to the colony. 
+
+When talking about human intervention, she explained that there are certain organized system for pesticide application to protect off targets such as bees, so the misuse of the substances are a problem."
+            />
+            <figure class="has-text-centered">
+              <img
+                src="https://2021.igem.org/wiki/images/d/dc/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-elaine.png"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
 
         <h3>What was the result?</h3>
 
@@ -256,8 +352,45 @@
             companies in Brazil.</b
           >
         </p>
+        <div class="columns has-text-justified">
+          <div class="column is-half">
+            <Collapsible
+              title="Dr. Sérgio Macedo Silva"
+              src=""
+              text="Dr. Sérgio Macedo Silva is and Agronomic Engineer, with experience in phytosanitaries' application techonology. 
 
-        TOGGLE SERGIO E CRISTIANO
+Through him, we learned a lot about the use of imidacloprid in crops. That type of information was crucial to understand the functionality of our project.
+
+Imidacloprid and other neonicotinoids, although possible to be sprayed, are usually applied in the seed of a plant (it can be bought already treated with the substance or be treated after the purchase) and after that it can spread through the plant's vascular system and reach different tissues. He also reinforced the fact that there are certain protocols for pesticide application, usually made by input of the pests that appear on the plant and the period they stay on the crop, but it is not always followed, especially if the person has not been correctly instructed. 
+
+They can be sprayed on the plant periodically and there is not any protocol that keeps farmers from apraying during flowering. But sprayed pesticides can be degraded by light and wind can drag its crystals after evaporation of the solvent. Part of it can also be absorbed by the plant, but it is not totally guaranteed."
+            />
+            <figure class="has-text-centered">
+              <img
+                src="https://2021.igem.org/wiki/images/0/0b/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-sergio.png"
+                alt=""
+              />
+            </figure>
+          </div>
+
+          <div class="column is-half">
+            <Collapsible
+              title="Dr. Cristiano Menezes"
+              src=""
+              text="Dr. Cristiano Menezes is currently a researcher in meliponiculture for Embrapa, a brazilian agricultural research company with the mission of 'enable research, development and innovation solutions for the sustainability of agriculture, for the benefit of the Brazilian society'. 
+
+Our meeting with him enlightened us about other dimensions of the bees' disappearance problem, with a focus in the agricultural side. We learned that besides the importance of imidacloprid to the protection of plants against pests, it also bears an environmental relevance, as neonicotinoids are some of the most effective phytosanitaries in the worlds, thus by prohibiting their use, farmers can turn to environmentally worse products and in a higher applied quantity.
+
+He also taught us more about the different phenomenons related to the bees' disappearance. Colony Collapse Disorder has mostly been reported in the USA and Europe, its occurence in other countries, such as Brazil, is not totally corroborated. Instead, in Brazil the situation that contributes the most to the scenario is especially acute intoxication."
+            />
+            <figure class="has-text-centered">
+              <img
+                src="https://2021.igem.org/wiki/images/a/a5/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-cristiano.png"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
 
         <h3>What was the result?</h3>
 
@@ -397,7 +530,27 @@
           species, what variables should be taken into account in the modelling:
         </p>
 
-        DROPDOWN ASTRID FOTO
+        <div class="has-text-centered">
+          <div class="has-text-justified">
+            <Collapsible
+              title="Dr. Astrid  de Matos Peixoto Kleinert"
+              src="https://2021.igem.org/wiki/images/c/ca/T--USP-Brazil--IGEM-USP-Integratted-AstridMeeting.png"
+              text="Dr. Astrid Kleinert is a researcher, working with community and behavioral ecology with more focus on Apoidea and, especially Meliponini, a group of native bees. 
+
+With our meeting we figured out the relation of tomatoes to bees. *Apis mellifera* can visit the plant, but the main pollinators are bees from the genus Bombus, because due to the shape of the tomato flower it needs a special techinique for the pollen to be obtained: the bees need to vibrate, a techinique not used by *A. mellifera.* It is possible that *A. mellifera* can pollinate with the pollen left by bees that are able to vibrate. 
+
+Bees can be contaminated by either contact or ingestion of the contaminated region. Also, a bee that collects the pollen can contaminate others from its colony, especially because they pass on information by touching each other. The pollen that was collected is stored and the bees that do not collect it put substances in pollen with their mouth so it can be consumed by larvae. This way, the contamination can spread. 
+
+Each species has behavioral peculiarities that should be considered, about their foraging, communication and so on. That could possibly affect how the simulation goes. The amount of pollen that is consumed also depends on the species, on stingless bees, for example, the larvae fodd (a mix of lots of substances) is put on a cell with an egg, while A. mellifera has more contact between adults and larvae, causing the widespread of toxic substances."
+            />
+            <figure class="has-text-centered">
+              <img
+                src="https://2021.igem.org/wiki/images/b/b8/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-astrid.png"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
 
         <h3>What was the result?</h3>
 
@@ -452,7 +605,27 @@
           sustainability, and raising the quality of life globally.
         </p>
 
-        DROPDOWN CORNELL
+        <div class="has-text-centered">
+          <div class="has-text-justified">
+            <Collapsible
+              title="Cornell Alliance for Science"
+              src="https://2021.igem.org/wiki/images/6/63/T--USP-Brazil--IGEM-USP-Integratted-CornellMeeting.png"
+              text="Alliance for Science is a global communication initiave, focused on advocating 'cience-based solutions to the key issues of our time, including reducing agriculture’s environmental footprint, mitigating the climate crisis, reducing poverty, and improving food security and nutrition'. For that, they focus on creating a network, empowering research and stablishing multimedia communication. 
+
+In our meeting we focused on understanding more about the regulation associated with GMO, as well as discussing the stakeholders, importance of communication and the world's point of view about GMO and synthetic biology. 
+
+From our talk, we learned that it would be very important to gather the opinions of companies and end users to complement our project, although the pandemic could make it more difficult to meet with farmers.  People also usually still have a lot of negative opinions about GMO plants. 
+
+We were also recommended to search more about our country's regulation on GMO plants, since if we want to continue with the project and intend for it to someday be commercialized, it has to go through several tests."
+            />
+            <figure class="has-text-centered">
+              <img
+                src="https://2021.igem.org/wiki/images/f/f0/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-cornell.png"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
 
         <h3>What was the result?</h3>
 
@@ -673,7 +846,41 @@
           <b>Ouro Fino</b> <b>Agrosciência</b> and <b>Embrapa:</b>
         </p>
 
-        DROPDOWN OURO FINA EMBRAPA
+        <div class="columns has-text-justified">
+          <div class="column is-half">
+            <Collapsible
+              title="Ouro Fino Agrosciência"
+              src=""
+              text="Ouro Fino Agrosciência is a company with the purpose of reimagining agriculture. They participate in the production of pesticides and are also supporters of research and development.
+
+During the meeting, they expressed interest in our technology development and its use for the protection of bees. They asked us about the tests with other neonicotinoids besides imidacloprid, since they share some similarities. 
+
+For implementation, the tests with the local expression and the efficacy in metabolizing the neonicotinoids is very important."
+            />
+            <figure class="has-text-centered">
+              <img
+                src="https://2021.igem.org/wiki/images/6/68/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-ourofino.png"
+                alt=""
+              />
+            </figure>
+          </div>
+
+          <div class="column is-half">
+            <Collapsible
+              title="Empraba "
+              src=""
+              text="Embrapa is a brazilian company for research in agriculture. 
+
+In our meeting it was clarified the importance of following the regulation on register of techonologies for the future development, as well as the continuity of tests to complement our results."
+            />
+            <figure class="has-text-centered">
+              <img
+                src="https://2021.igem.org/wiki/images/8/8e/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-embrapa.png"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
 
         <h3>What was the result?</h3>
 
@@ -764,12 +971,16 @@
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
+import Collapsible from "@/components/Collapsible.vue";
+
 export default {
-  name: "Safety",
+  name: "Human_Practices",
+
   components: {
     Nav,
     Footer,
     Backtotop,
+    Collapsible,
   },
 };
 </script>

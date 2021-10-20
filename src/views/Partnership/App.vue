@@ -21,211 +21,145 @@
       <Backtotop />
 
       <div class="content column is-three-fifth">
-        <!-- Heroes in Science -->
-        <section>
-          <h2>Heroes in Science</h2>
-          <h3>What is it</h3>
-          <p>
-            The <b>#HeroisNaCiencia</b> was an campaign realized in social media
-            by the team USP BR. This initiative consisted in inviting brazilian
-            (and some international) researchers to share, trough short clips,
-            how their research line where affected by the COVID-19 pandemic and
-            the actions taken to help the combat of the virus. The project also
-            tries to show the impacts of the pandemic on the day-to-day life of
-            the researchers, bringing them closer to society and humanizing
-            science.
-          </p>
+        <p>
+          Besides the various collaborations we established during the iGEM
+          season, we also partnered with two teams to help develop segments of
+          both our projects, making longer and stronger connections.
+        </p>
 
+        <p>
+          The cooperation between us was fundamental to get to this point of the
+          competition. So, for their huge help, we thank them from the bottom of
+          our hearts!
+        </p>
+
+        <h2>Partnership for the Scientific Camp</h2>
+        <figure class="has-text-centered">
           <img
-            src="https://2021.igem.org/wiki/images/3/37/T--USP-Brazil--IGEM-USP-Public-Heroes.jpg"
-          />
-
-          <h3>History:</h3>
-          <p>
-            It all started when members of the group, whom sympathized with the
-            front-line professionals on the struggle against the coronavirus and
-            that, noting the whidespread desinformation across the country,
-            decided to contribute. With a team composed by 26 studants across
-            many institutes (Biology (IB), biomedical sciences (ICB),
-            pharmaceutical sciences (FCF), mathematics (IME) and Comunicantions
-            and arts (ECA) it was possible contacting the researchers, gather
-            reliable information and present them in a simpler way to society.
-            Thus the
-            <b> #HeroisNaCiencia </b>became one of the activities promoted by
-            the team.
-          </p>
-
-          <h3>Evolution:</h3>
-          <p>Among the projects publisheded, there are:</p>
-          <p></p>
-          <ul>
-            <li>studies on the structures of SARS-CoV-2,;</li>
-            <li>studies on the pathophysiology of Covid-19;</li>
-            <li>
-              the genetic sequencing of patients affected by this desease;
-            </li>
-            <li>the creation of biobanks;</li>
-            <li>development of study models with pulmonary cells,;</li>
-            <li>studies of diverse treatement methods;</li>
-            <li>
-              Among the projects publisheded, there are: production of
-              face-shields;
-            </li>
-            <li>
-              vaccine development; development and improovement of dyagnostic
-            </li>
-            <li>methods; actions on aplying dyagnostic on the frontline.</li>
-          </ul>
-          <img
-            src="https://2021.igem.org/wiki/images/2/23/T--USP-Brazil--IGEM-USP-Public-Heroes-post.jpg"
-          />
-
-          <p>
-            The first publication occured on May the eighth, on Instagram and
-            may the 15th on Facebook, but the cover for the campaign was only
-            released on May 22nd (both on Instagram and Facebook). By the end of
-            Heroes in Science (august 7th) 15 videos were posted, with the
-            participation of 17 researchers from 9 diferent institutions:
-          </p>
-          <img
-            src="https://2021.igem.org/wiki/images/7/71/T--USP-Brazil--IGEM-USP-Public-Heroes-Hexagon.jpg"
-          />
-          <p>
-            You can access the interviews on our Facebook or Instagram pages.
-            All of the videos are subtitled in english, so they can be watched
-            by more people around the world.
-          </p>
-        </section>
-
-        <section>
-          <h2>OBBS</h2>
-          <h3>The challenge</h3>
-          <img
-            src="https://2021.igem.org/File:T--USP-Brazil--img--image41.567c4a04.jpg"
-          />
-
-          <p>
-            During one of the Team’s earliest brainstorming sessions, we faced a
-            complicated challenge.
-
-            <b>How to make synbio known in Brazil? </b> <br /><br />
-            Many approaches were discussed, until we found a common ground for
-            the Team members. Call it a coincidence or not, but we had all
-            competed in several national and international academic olympiads
-            during High School, and had fond memories of that time in our lives.
-            Given that our team members come from all over the country, we
-            started thinking that
-            <b
-              >the creation of a national Synbio academic olympiad could be the
-              solution to how to popularize synthetic biology in our country.</b
-            >
-          </p>
-          <img
-            src="https://2021.igem.org/File:T--USP-Brazil--img--Group15.77cd2973.jpg"
-          />
-
-          <p>
-            Everyone was excited with the ideia, but we had no idea on how to
-            make such a gigantic event possible. So, the first thing we did was
-            to seek advice for former olympiad creators.
-          </p>
-          <h3>Learning from Experts</h3>
-          <p>
-            We talked to the coordinators of IYPT Brazil, a practical physics
-            competition, to see if there was any possibility to add experiments
-            to our own. However, that seemed impractical.
-          </p>
-          <p>
-            Then, we interviewed the coordinator of the Brazilian Physics
-            Olympiad (OBF), who helped us understand a little more about the
-            logistics of putting up a paper based national test. Even Though the
-            format of that competition resembled a little more what we wanted to
-            do, there was still something missing.
-          </p>
-          <p>
-            Physics is a mandatory subject in Brazilian High School, but
-            synthetic biology is not.
-            <b
-              >How could we make a test on a subject no one has ever studied?</b
-            >
-          </p>
-          <p>
-            João Canalle was the one who helped us work around that. Professor
-            Canalle did something very similar to what the team aimed to do.
-          </p>
-          <img
-            src="https://2021.igem.org/File:T--USP-Brazil--img--Group-14.75f82c4d.jpg"
+            src="https://2021.igem.org/wiki/images/c/c6/T--USP-Brazil--IGEM-USP-Partnership-Eagle.png"
             alt=""
           />
+        </figure>
 
-          <p>
-            He created the Brazilian Astronomy and Astrophysics Olympiad to
-            popularize astronomy amog Brazilian students. Just like synbio,
-            astronomy isn’t taught in schools. Therefore, he had to come up with
-            a way to overcome this barrier.
-            <b
-              >His solution was to add as much information as he could in the
-              questions texts, so the students could learn while taking the
-              test.</b
-            >
-            That was the solution we were looking for.
-          </p>
-          <p>
-            Nevertheless, there was still a major challenge to surpass. All
-            those olympiads were paper based and demanded a logistic effort the
-            team couldn’t afford to put in the competition. We mentioned that to
-            professor Canalle, who then gave us the contact of a friend that he
-            thought had all the answers to our problems.
-          </p>
+        <h3>British_Columbia</h3>
+
+        <p>
+          The UBC Team reached out to us looking for a collaboration for a
+          possible public education project that was going to happen in Brazil
+          and was very similar to our Scientific Camp.
+        </p>
+
+        <p>
+          With that in mind we asked if they wanted to help us by creating some
+          workshops for our project.
+        </p>
+
+        <p>
+          From then on we had weekly meetings between both HP teams, talking
+          about possible workshops, plot points in the narrative we were
+          building for the RGP dynamic and even special recipes for typical
+          Brazilian sweets.
+        </p>
+
+        <p>
+          We worked together from April to October and ended up building a
+          warming friendship. The Scientific Camp wouldn't have been the same
+          without them.
+        </p>
+
+        <p>
+          They also contributed to our Brazilian Synthetic Biology Olympiad
+          (OBBS) with 14 questions, more than any other team.
+        </p>
+
+        <p>
+          These are the activities that we created together in during our
+          meetings.
+        </p>
+        <div class="columns has-text-justified">
+          <div class="column is-one-third ">
+            <Collapsible
+              title="Petri Dish Handprint"
+              text="The Petri Dish was the only in person activity, respecting all the sanitary criteria required by the context of the COVID-19 pandemic. Petri dishes with complex medium were prepared, where each child left a handprint: one before washing and one after washing. The intention was, after two weeks, to compare the plates and show the microorganisms that grew there, emphasizing the importance of hand washing."
+            />
+          </div>
+          <div class="column is-one-third ">
+            <Collapsible
+              title="Food Chain"
+              text="In the Food Chain activity, children received a personalized picture with various members of an ecosystem's food web: producers, primary, secondary and tertiary consumers. The children's goal is to trace as many food chains as possible, thus forming a complex food web with diverse trophic relationships. Note: this activity unfortunately could not be applied in the Scientific Camp of 2021."
+            />
+          </div>
+          <div class="column is-one-third ">
+            <Collapsible
+              title="Memory game"
+              text="The Memory Game was held on the Kahoot platform on the last day of the Camp. It had the intention of reminding children of important moments in history and the content worked during the weeks of application. The questions included concepts explored in all previous activities: the Microbe Drop, Petri Dish, Coarse Salt Crystallization, CO2 Balloon, CinePalito and Ecological Bingo. "
+            />
+          </div>
+        </div>
+
+        <h3>Partnership on adapting data for drylab and knowing iGEM</h3>
+
+        <figure class="has-text-centered">
           <img
-            src="https://2021.igem.org/File:T--USP-Brazil--img--Group-14.75f82c4d.jpg"
+            src="https://2021.igem.org/wiki/images/c/cc/T--USP-Brazil--IGEM-USP-Partnership-EEL.png"
             alt=""
           />
-          <p>
-            That’s when we met <b>Daniel</b>. He, who’s also a professor, had
-            created several different olympiads in the same informative style as
-            professor Canalle. However,
-            <b>his tests had a little something extra: they were virtual.</b>
-            That not only solved the logistic issue but also opened up a world
-            of possibilities regarding media format. That meant we could add
-            authentic synbio material to our tests, including videos from iGEM
-            TV and other team’s wikis.
-          </p>
-          <h3>Ideate and design the Olympiads</h3>
-          <p>
-            After that interview we had our plan: To make a virtual,
-            informative, national olympiad in Brazil called:<br /><br />
-            <b>OBBS - Brazilian Synthetic Biology Olympiad!</b>
-          </p>
-          <p>
-            Shortly after we connected Fractal, a company specialized in digital
-            learning that had created the platforms for Daniel’s olympiads. They
-            were receptive to our idea and offered to partner with us through
-            their non-profit branch Instituto Vertere. Nonetheless, they
-            suggested we make a Pocket Olympiad to test our model before moving
-            to the grand national competition.
-          </p>
-          <p>
-            In the meantime, we contacted two professors from our university’s
-            Institute of Biology to help us understand the base for teaching
-            biological concepts by investigation
-          </p>
-          <h3>Launch the MVP</h3>
-          <p>
-            After months of preparation, In Jun 2021,
-            <b
-              >we launched the first ever synbio academic olympiad in Brazil:
-              The Hacking Ecosystems Pocket Olympiad!</b
-            >
+        </figure>
+        <h4>USP-EEL-Brazil</h4>
 
-            <a
-              href="https://olimpiadapocket.com.br/olimpiada-pocket-hackeando-ecossistemas/"
-            >
-              <img
-                src="https://2021.igem.org/File:T--USP-Brazil--img--Group19.34d28dca.png"
-            /></a>
-          </p>
-        </section>
+        <p>
+          We had a year-long partnership with the USP-EEL-Brazil team. Being
+          both teams from Brazil, we bonded over our difficulties to counsel
+          each other in multiple aspects of the projects and the competition,
+          especially:
+        </p>
+        <ul>
+          <li>Dry lab (protein modeling)</li>
+          <li>Synbio scientific divulgation in Education and Communication</li>
+          <li>iGEM criteria</li>
+          <li>University bureaucracies</li>
+        </ul>
+
+        <p>
+          The initial discussion was connected to mathematical modelling: what
+          does it mean? How can we apply it to the project? The USP-EEL-Brazil
+          team was also working with a protein in their project and planned to
+          model its structure and kinectics. Because of the restrictions on
+          laboratories during the pandemics, just like us, they could not access
+          their laboratories preventing them from obtaining the data needed to
+          model their project. However, they had data on similar proteins so we
+          proposed to fit the model so ti would behave like those other proteins
+          theiy had, data under the hypothesis that it would behave similarly.
+          In the end it was possible to obtain an estimation of the missing data
+          and with mathematical manipulation it was possible to model their
+          project as they wanted.
+        </p>
+
+        <p>
+          In addition, we had periodical meetings to discuss possible questions
+          about iGEM criterias that we had to meet, as well as to solve
+          questions about bureaucratic financial processes. With the increase in
+          the dollar price in relation to real (brazilian currency), paying the
+          competition was made into more of a challenge, a new hard criteria to
+          meet. We discussed our troubles with getting financial support from
+          the university as well as from alternative ways. Likewise we also
+          helped each other in solving doubts about certain criterias,
+          especially around the final months.
+        </p>
+
+        <p>
+          For Human Practices, we also made a quick video about our team so they
+          could advertise synbio projects on their social media, as part of a
+          great scientific divulgation project that aimed at spreading
+          information about synthetic biology.
+        </p>
+
+        <p>
+          During the year, we have reciprocally helped each other through the
+          pandemic situation, financial problems, doubts and project
+          development, stablishing a lasting partnership through the various
+          moments and hardships.
+        </p>
       </div>
       <div class="column is-one-fifth"></div>
     </section>

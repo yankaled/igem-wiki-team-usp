@@ -124,7 +124,7 @@ module.exports = {
       entry: "./src/views/Partnership/main.js",
       template: "public/index.html",
       title: "Partnership",
-      chunks: ["chunk-vendors", "chunk-common", " Partnership"],
+      chunks: ["chunk-vendors", "chunk-common", "Partnership"],
     },
   },
 
