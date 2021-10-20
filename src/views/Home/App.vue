@@ -75,7 +75,7 @@
       <div class="column is-1"></div>
       <div class="content column">
         <p>
-          In Brazil alone, <br />8 cultures depend <br />directly or indirectly
+          In Brazil alone, <br /> <span class="count-number" /> cultures depend <br />directly or indirectly
           on the action of bees
         </p>
       </div>
@@ -340,28 +340,44 @@ if (element && element.bulmaCarousel) {
 }
 
 export default {
+
   name: "Home",
+
+  mounted() {
+    document.addEventListener('scroll', this.setAnimateValue)
+  },
+
+  beforeDestroy() {
+    document.removeEventListener('scroll', this.setAnimateValue)
+  },
+
   methods: {
+    setAnimateValue() {
+      const $number = document.querySelector('.count-number')
+      if (this.checkVisible($number)) {
+        this.animateValue($number, 0, 8, 2000)
+      }
+    },
+
+    checkVisible(elm) {
+      var rect = elm.getBoundingClientRect();
+      var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+      return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+    },
+    
     animateValue($obj, start, end, duration) {
-      var range = end - start;
-      var current = start;
-      var increment = end > start ? 1 : -1;
-      var stepTime = Math.abs(Math.floor(duration / range));
-      var timer = setInterval(function() {
+      let range = end - start;
+      let current = start;
+      let increment = end > start ? 1 : -1;
+      let stepTime = Math.abs(Math.floor(duration / range));
+      let timer = setInterval(() => {
         current += increment;
-        $obj.text(current);
+        $obj.innerHTML = current;
         if (current == end) {
-          $obj.text($obj.text() + "+");
           clearInterval(timer);
         }
       }, stepTime);
-    },
-
-    // var $number = $('.count-number'),
-    //     start = $number.attr('data-start')*1,
-    //     end = $number.attr('data-end')*1;
-
-    // animateValue($number, start, end, 2000);
+    }
   },
   components: {
     Nav,
