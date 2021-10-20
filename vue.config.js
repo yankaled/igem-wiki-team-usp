@@ -114,6 +114,12 @@ module.exports = {
       title: "Engineering",
       chunks: ["chunk-vendors", "chunk-common", "Engineering"],
     },
+    Human_Practices: {
+      entry: "./src/views/Human_Practices/main.js",
+      template: "public/index.html",
+      title: "Human_Practices",
+      chunks: ["chunk-vendors", "chunk-common", "Human_Practices"],
+    },
   },
 
   devServer: {
