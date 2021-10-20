@@ -4,6 +4,7 @@
 
     <div class="is-full" style="position: relative;">
       <video
+        muted
         autoplay
         loop="true"
         class="header"
