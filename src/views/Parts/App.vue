@@ -5,348 +5,255 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/3/32/T--USP-Brazil--IGEM-USP-Safety-banner.png"
+        src="https://2021.igem.org/wiki/images/thumb/2/2a/T--USP-Brazil--IGEM-USP-Parts-Bannerparts.png/800px-T--USP-Brazil--IGEM-USP-Parts-Bannerparts.png"
       />
     </div>
 
     <section class="columns">
       <div class="column is-one-fifth"></div>
       <div class="content column is-three-fifth">
-        <!--- Biosafety --->
-        <h2>Biosafety</h2>
+        
+        <!--- OVERVIEW --->
+        <h2>OVERVIEW</h2>
         <p>
-          For the discussion of Biosafety, its definition is necessary, with
-          this it is defined that:
+          One of the main principles of synbio is 
+          <b>
+            modularity
+          </b>
+          modularity, allowing the combination of different specific sequences (biobricks) to get a determinate result. In the course 
+          of our project, we used and developed multiple genetic parts that might be of help for future teams to come up with ideas for 
+          their projects by using them as biobricks. For that, we also worked to characterize them as best as possible. In our assemblage 
+          of parts, we include parts that were 
+          <b>
+            used and tested in plants,
+          </b> 
+          making it an option for teams that wish to use plants for their project. 
         </p>
-        <blockquote
-          cite="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673"
-        >
-          <p>
-            <cite>
-              "Biosafety is a safety condition achieved by a set of actions
-              designed to prevent, control, reduce or eliminate risks inherent
-              to activities that may compromise human, animal and environmental
-              health."
-              <a
-                href="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673"
-                >(ANVISA, 2021)</a
-              >
-            </cite>
-          </p>
-        </blockquote>
         <p>
-          From this definition, it is understood that for the handling of
-          harmful organisms, reagents and compounds, there is a need to follow
-          current Biosafety guidelines so that no damage occurs to the
-          environment or to those handling potential risk agents. Here we will
-          discuss safety around our
+          Our main part is the circuit we made for the pollen expression of the enzyme in Micro-Tom (BBa_K3890000), which has the pLAT52 
+          (BBa_K3890001), CYP6G1 codon optimized for tomato expression (BBa_K3890006) and the LP4/2A cleaving peptide (BBa_K3890002 ) in 
+          its composition.
+        </p>
+        <p>
+          Besides that, we 
           <b>
-            plant development
-          </b>
-          and some ethical concerns regarding the
-          <b>
-            development of GMOs
-          </b>
-          and their uses.
+            improved the enzyme CYP6G1,
+          </b> 
+          which had already been registered in the Registry, with with the intention of increasing its velocity, so that more pesticides 
+          can be metabolized by the same quantity of the protein in the same time span
+        </p>
+        <p>
+          You can learn more about our parts in the sections and links below!
         </p>
 
-        <h3>Experimental design</h3>
+        <!--- CYP6G1 PART IMPROVEMENT --->
+        <h2>CYP6G1 PART IMPROVEMENT</h2>
+        <h3>Brief Introduction:</h3>
         <p>
-          To guarantee safety, we use
+          A key part of our project that is also included in the iGEM registry is the 
           <b>
-            non-pathogenic vectors
+            enzyme CYP6G1,
           </b>
-          to carry out the experiments. We inserted our genetic construct into
-          the
+          a class II cytochrome P450 monooxygenase native from the Drosophila melanogaster fly that has 
           <b>
-            Micro-Tom
+            affinity for several xenobiotics as substrates,
           </b>
-          plant (Solanum Lycopersicum), our chassis. The Micro-Tom is considered
-          safe and versatile for our proof of concept, along with other
-          multicellular organisms, it does not have a risk group. The biggest
-          risk in our case is the production of a GMO that, if not properly
-          guaranteed, could
-          <i>
-            propagate the new genetic modification
-          </i>
-          among other plants, as the modification is specific to pollen, a
-          reproductive tissue. This would cause legal problems and disruption to
-          biodiversity.
+          even the neonicotinoids pesticides such as imidacloprid, transforming that compound into its more hydrophilic metabolites derived 
+          by hydroxylation of the 4/5 or 4,5 carbon of the imidazolidine ring of imidacloprid [2]. 
         </p>
         <p>
-          As part of the safety assessment of our project, our team contacted
-          some
+          The 
+          <a href="http://parts.igem.org/Part:BBa_K1197013">CYP6G1 enzyme</a>
+          was previously used by the iGEM Middle East Technical University (METU) team 2013,
+          and later in 2015 this part was improved by the iGEM British Columbia team with the aim of efficiently expressing it in the periplasm 
+          of Escherichia coli by adding a signal peptide located in the upstream direction of the 
+          <a href="http://parts.igem.org/Part:BBa_K1813064">CYP6G1 coding sequence</a>
+          <b> 
+            Both sequences were designed and optimized for their expression in prokaryotic systems,
+          </b> 
+          being Bacillus subtilis and E. coli, respectively. However, given that 
           <b>
-            experts in GMO crops
-          </b>
-          from the best universities in our country, experts from the
+            our project uses an eukaryotic organism
+          </b> 
+          as a chassis and the enzymatic activity of CYP6G1 depends on the coupled-action of a cytochrome P450 reductase (CPR), it was more 
+          interesting to 
           <b>
-            Cornell Alliance for Science
-          </b>
-          and also from
-          <b>
-            EMBRAPA,
-          </b>
-          the state company responsible for agricultural innovation in our
-          country. These experts guided us through the complex set of
-          <b>
-            biosafety laws that regulate GMO plants in Brazil,
-          </b>
-          while suggesting modifications and procedures that helped us manage
-          the risks involved in applying our project.
+            develop an expression and enzyme enhancement strategy for eukaryotic systems.
+          </b> 
         </p>
         <p>
-          The regulation for GMO use in Brazil keeps the project safe, the plant
-          <b>
-            was not handled outside of controlled and certificated spaces,
+          Therefore, inspired by the evolution of certain CYPs to become naturally “self-sufficient” such as cytochrome P450BM3 (CYP102A1) 
+          that belongs to class III [8] by the natural fusion of CYP with the cytochrome P450 reductase through a flexible linker [4] and 
+          the use of S. cerevisiae chassis as a eukaryotic expression system,
+          <b> 
+            we improved this part by artificially fusing CYP6G1 with the NADPH-dependent cytochrome P450 reductase by adding a flexible linker 
+            between the C-terminal CYP6G1 and N-terminal CPR sequence, respectively -
           </b>
-          as well as it will not be released unless proved to be safe under the
-          law.
+          <a href="http://parts.igem.org/Part:BBa_K3890004">[http://parts.igem.org/Part:BBa_K3890004].</a>
         </p>
-
-        <h3>
-          Types of organisms used in our project and their potential risks
-        </h3>
-        <ul>
-          <li>
+        <p>
+          Additionally, the codon of both 
+          <b>
+            coding sequences was optimized to be expressed in the 
             <i>
-              Escherichia coli K-12 derivatives
-            </i>
-          </li>
-          <li>
-            <i>
-              Agrobacterium tumefaciens
-            </i>
-          </li>
-          <li>
-            <i>
-              Solanum lycopersicum
-            </i>
-          </li>
-        </ul>
+              Saccharomyces cerevisiae
+            </i> 
+          </b> 
+          chassis, in order to obtain a correct expression of both enzymes in a single polypeptide chain. Below we explain in more detail how the 
+          improvement of this part was developed.
+        </p>
+        <h3>iGEM Registry Part Improvement:</h3>
         <p>
-          For the development of our project, we thought about which organisms
-          would be involved and which risks they could represent for us and for
-          the environment while they were being manipulated. With that, we came
-          to the conclusion that we would use the Micro-Tom
-          <i>
-            (Solanum lycopersicum)
-          </i>
-          as chassis. One of the risks involved in using this plant as a chassis
-          is the occurrence of
+          Although the iGEM British Columbia 2015 team improved the 
+          <a href="http://parts.igem.org/Part:BBa_K1197013">existing CYP6G1 part,</a>
+          such improvement was at the expression level in
+          <a href="http://parts.igem.org/Part:BBa_K1813064">E. coli.</a> 
+          Unfortunately, so far, the enzymatic enhancement of CYP6G1 has not been carried out. 
           <b>
-            cross-pollination
-          </b>
-          with wild plants if it escaped the laboratory. Another organism we use
-          as a test vector and genetic construct is
-          <i>
-            Escherichia coli,
-          </i>
-          a known pathogen that causes diarrhea in humans but is easily
-          treatable with antibiotics. No exotic selection marker was used to
-          keep it sensitive to first-line antibiotics of treatment. However, the
-          <i>
-            E. coli K-12
-          </i>
-          strain and its derivatives are known as "lab strains" in the human
-          digestive system and
-          <b>
-            do not produce toxins.
-          </b>
-          Therefore, it does not cause disease in healthy adult humans. As for
-          foreign DNA, eukaryotic
-          <b>
-            proteins fail to retain their function
-          </b>
-          when expressed in bacterial structures, so we expect this to pose very
-          little risk. Finally, we use
-          <i>
-            Agrobacterium tumefaciens
-          </i>
-          which can cause opportunistic infections in humans and mutations in
-          plants.
+            We aim to increase the enzyme's catalytic efficiency by engineering the redox partner: the NAPDH-dependent cytochrome P450 reductase (CPR), 
+            since the CYP6G1 enzyme belongs to type II and its enzymatic activity depends on the acquisition of electrons in an oxidation-reduction 
+            reaction that the CPR protein transfers from the cofactor NADPH
+          </b> 
+          [4,7]. However, this interaction is inefficient because, commonly, in the microsome the CPR is shared with 15 CYPs, so the interaction molar 
+          ratio remains to 1:15, respectively [6]. Both proteins in Drosophila melanogaster are naturally anchored in the membranes of the endoplasmic 
+          reticulum. The Figure 1 exemplifies how the CYP-CPR system works.
+        </p>
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/9/96/T--USP-Brazil--IGEM-USP-Parts-P450redox.png/800px-T--USP-Brazil--IGEM-USP-Parts-P450redox.png"
+          />
+        </figure>
+        <p>
+          Thus, our improvement strategy in order to the CYP6G1 becomes a self-sufficient cytochrome P450 monooxygenase enzyme carrying its own redox 
+          partner (CPR) was adding a small flexible linker composed of amino acids (Gly-Gly-Gly-Gly-Ser) between the C-terminus of CYP6G1 and the N-terminus 
+          of cytochrome P450 reductase originally from Musca domestica -
+          <a href="http://parts.igem.org/Part:BBa_K1197014">[http://parts.igem.org/Part:BBa_K1197014].</a> 
         </p>
         <p>
-          It is important to make it clear that in this project
+          Therefore, that linker containing small
+          <b> 
+            non-polar amino acids such as glycine (Gly) and polar residues such as serine (Ser)
+          </b> 
+          gives the linker 
           <b>
-            we do not use bees
-          </b>
-          as an experimentation model for measuring the interaction with the
-          plant in question. Instead, we use
+            flexibility and stability
+          </b> 
+          in aqueous media, which in turn 
           <b>
-            mathematical modeling
-          </b>
-          strategies to predict the bee's interactions with an unmodified plant
-          and mortality rates due to the use of pesticides such as Imidacloprid.
+            facilitates the movement and/or interaction of both proteins
+          </b> 
+          [1]. Additionally, in Figure 2, we didactically show the scheme of the new CYP6G1-CPR by the artificial fusion of the linker. It can be seen that 
+          the N-terminal sequence of the membrane-anchoring CPR was removed in order to facilitate the movement of CPR fused to CYP6G1.
         </p>
-
-        <h3>Laboratory safety</h3>
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/4/45/T--USP-Brazil--IGEM-USP-Parts-NADPH-dependent.png/800px-T--USP-Brazil--IGEM-USP-Parts-NADPH-dependent.png"
+          />
+        </figure>
         <p>
-          During our experiments, we had access to different types of
-          laboratories within the University of São Paulo. One is a specialized
-          <b>
-            level 1 laboratory for experiments involving genetically modified
-            plants,
-          </b>
-          where we could also carry out our molecular experiments. We also had
-          access to a
-          <b>
-            level 2 laboratory for possible enzyme assay experiments as well as
-            chemical material manipulation.
-          </b>
+          The artificial fusion of both parts through this linker would reduce the molar ratio from 15:1 to 1:1 between CPR and CYP6G1, respectively [4]. 
+          This would mean a higher electron transfer efficiency from the NADPH cofactor to the CYP6G1 enzyme, promoting much higher enzymatic turnover rates 
+          compared to the unfused CYP6G1 [4]. Consequently, this high turnover rate would allow the enzyme to efficiently catalyze (e.g., hydroxylate) a 
+          greater amount of the substrate (i.e, imidacloprid) thus improving the enzymatic catalysis of CYP6G1.
         </p>
+        <h3>Future Experiments and Expected Results</h3>
         <p>
-          All laboratories were controlled environments, following all correct
+          Unfortunately, due to the 
           <b>
-            protocols for waste management, ventilation and access and signage.
+            COVID-19 pandemic,
           </b>
-          We made sure to send people with biosafety certificates and laboratory
-          training to carry out the experiments, always maintaining the correct
-          use of Personal Protective Equipment
+          the  
+          <a href="http://parts.igem.org/Part:BBa_K3890004">experiments</a> 
+          to characterize the new improved part of CYP6G1 fused with cytochrome P450 reductase was not possible due to the 
           <b>
-            (PPE),
-          </b>
-          as well as following all the correct
+            delay in the synthesis of gBlocks in arriving
+          </b> 
+          at our university and also because of the 
           <b>
-            pandemic protection guidelines
-          </b>
-          (use of masks and distancing ). In addition, all laboratories have
-          technical professionals responsible for the environment who assisted
-          in the procedures.
+            restricted access to the laboratory
+          </b> 
+          by members of the wetlab team. 
         </p>
         <p>
-          The main areas used in the laboratory were: bench, greenhouse and
-          chemical hood. All were used carefully, with the correct use of PPE
-          and monitoring by technicians.
+          However, the planning of the test experiments was described earlier by our wetlab team. A first test to be carried out would be in a 
+          <b>
+            culture medium with different high concentrations
+          </b> 
+          of imidacloprid as co-substrate in triplicate using wild S. cerevisiae wild type as control, another strain of S. cerevisiae carrying only the unfused 
+          CYP6G1 and finally S. cerevisiae loading the fused CYP6G1 -
+          <a href="http://parts.igem.org/Part:BBa_K3890004">[http://parts.igem.org/Part:BBa_K3890004].</a> 
         </p>
         <p>
-          We researched and set up protocols for the experiments that would need
-          to be carried out, namely: plant pollen extraction, GUS assay, PCR,
-          rt-PCR. We followed the protocols, also considering all biosafety
-          issues and looking for the most adequate laboratory and team to
-          perform them.
+          Thus, inspired by the work of Labade et al., (2018) a 
+          <b>
+            cell culture growth curve
+          </b> 
+          would indirectly indicate that our improved part would have a contribution in increasing the tolerance to imidacloprid, so it would be expected that the 
+          strain with the new improved part would have a greater growth in relation to other strains. Subsequently, the 
+          <b>
+            supernatant
+          </b> 
+          would serve to determine the degree of conversion of imidacloprid to its metabolites 4-hydroxy-imidacloprid, 5-hydroxy-imidacloprid and/or 4,5 
+          hydroxy-imidacloprid by of 
+          <b>
+            GC-MS and HPLC analytic methods.
+          </b>
+          Thus, we will expect to obtain a lower amount of imidacloprid in its molecular form and a higher concentration of metabolites in the strain carrying the 
+          fused CYP6G1-CPR, compared to other strains.
         </p>
 
-        <!--- Biosecurity --->
-        <h2>Biosecurity</h2>
+        <!--- OUR NEW PARTS --->
+        <h2>OUR NEW PARTS</h2>
         <p>
-          Unlike biosafety, which aims to control risks that can compromise
-          human, animal and environmental health, biosecurity includes
+          To help future teams and researchers develop projects, we characterized and disponibilized the new genetic parts we used in the iGEM Registry, including: 
           <b>
-            institutional safety measures
-          </b>
-          to prevent the misuse or intentional release of risk agents (CARDOSO,
-          2008).
-        </p>
-        <p>
-          Taking this into account, it is very important that aspects related to
-          research in the area of GMOs are considered so that the intentional
-          release of GMOs in nature is avoided without prior research and
-          delimitation of area and use.
+            the specific pollen promoter (pLAT52) and the self cleaving peptide fusion (LP4/2A)
+          </b> 
+          that have a better efficiency
         </p>
 
-        <h2>Ethics</h2>
-        <p>
-          In sciences, whether human, exact or biological, in addition to
-          biosafety, the
-          <b>
-            ethical aspect
-          </b>
-          of the projects being planned and carried out must always be
-          considered.
-        </p>
-        <blockquote cite="CARDOSO, Telma Abdalla de Oliveira">
-          <p>
-            <cite>
-              "It is a characteristic trait of human beings to ask Nature
-              questions – it can be said that this behavior is what
-              differentiates them from other animals. Thus, the human being, at
-              the same time as having the behavior of a “philosopher” (asking
-              questions), also has of “researcher” (searches for answers). It is
-              the inevitable destiny of human beings, therefore, to be an
-              “eternal researcher”; it is their destiny to seek new knowledge.
-              In this search, the human being had to become aware of the other
-              and the world and, as a result, he had to reflect on the issue of
-              “human values”. And so, besides worrying about “philosophy” and
-              “research”, he had to deal also with ethics.” [3]
-            </cite>
-          </p>
-        </blockquote>
-        <p>
-          Considering this aspect, throughout the project, we respect the
-          guidelines of the research ethics committee. The project
-          <b>
-            did not require the use of animals or invertebrates.
-          </b>
-          Even so, we follow all
-          <b>
-            Brazilian regulations
-          </b>
-          in terms of working with Genetically Modified Organisms and working
-          with plants.
-        </p>
-        <p>
-          In the
-          <b>
-            Human Practices
-          </b>
-          area, we were careful to always explain everything we would do, to ask
-          permission for questionnaires and interviews, and to request
-          authorization from the person in case these were disclosed. We have
-          always kept everything that was not authorized or owned
-          confidentially.
-        </p>
+        Table 1
 
-        <h3>COVID-19</h3>
-        <p>
-          Due to the situation of the pandemic caused by the SARS-CoV-9 virus,
-          the team focused more on the
-          <b>
-            modeling part and
-            <em>
-              in silico
-            </em>
-            experiments.
-          </b>
-          All experiments carried out in person, involving plants and the wet
-          lab, were performed by totally vaccinated people, maintaining a
-          restriction on the number of people per laboratory, use of masks and a
-          distance of 1 meter per person.
-        </p>
-        <p>
-          The other projects that would occasionally need a face-to-face meeting
-          also followed all the regulations established by the health agencies.
-        </p>
-        <p>
-          Other than that,
-          <b>
-            everything was done remotely during the two-year duration of the
-            project.
-          </b>
-        </p>
-
-        <h3>References</h3>
-        <p>
-          <small>
-            <strong>1.</strong> NATIONAL HEALTH SURVEILLANCE AGENCY (Brazil).
-            Federal government. 101. RDC RESOLUTION No. 512, OF MAY 27, 2021,
-            [S. l.], year 2021, May 31, 2021. Available at:
-            <a
-              href="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673"
-            >
-              https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673
-            </a>
-            Accessed on: 10 Oct. 2021. <br />
-            <strong>2.</strong> CARDOSO, Telma Abdalla de Oliveira et al.
-            Analysis of the construction of Brazil's competence for the Maximum
-            Containment Laboratory: realities and perspectives. 2008. Doctoral
-            Thesis. <br />
-            <strong>3.</strong> BRASIL. Ministério da Saúde. Conselho Nacional
-            de Saúde. Comissão Nacional de Ética em Pesquisa. Manual operacional
-            para comitês de ética em pesquisa. MS, 2006.
-          </small>
-        </p>
+        <!--- References --->
+        <h2>References:</h2>
+        <div id="references1" class="references">
+          <ol>
+            <li>
+              Chen, X., Zaro, J. L., & Shen, W.-C. (2013). Fusion protein linkers: Property, design and functionality. Advanced Drug Delivery Reviews, 65(10), 1357-1369. 
+              https://doi.org/10.1016/j.addr.2012.09.039
+            </li>
+            <li>
+              Joußen, N., Heckel, D. G., Haas, M., Schuphan, I., & Schmidt, B. (2008). Metabolism of imidacloprid and DDT by P450 CYP6G1 expressed in cell cultures of 
+              Nicotiana tabacum suggests detoxification of these insecticides in Cyp6g1-overexpressing strains of Drosophila melanogaster, leading to resistance. Pest 
+              Management Science, 64(1), 65-73. https://doi.org/10.1002/ps.1472
+            </li>
+            <li>
+              Labade, C. P., Jadhav, A. R., Ahire, M., Zinjarde, S. S., & Tamhane, V. A. (2018). Role of induced glutathione-S-transferase from Helicoverpa armigera 
+              (Lepidoptera: Noctuidae) HaGST-8 in detoxification of pesticides. Ecotoxicology and Environmental Safety, 147, 612-621. https://doi.org/10.1016/j.ecoenv.2017.09.028
+            </li>
+            <li>
+              Li, Z., Jiang, Y., Guengerich, F. P., Ma, L., Li, S., & Zhang, W. (2020). Engineering cytochrome P450 enzyme systems for biomedical and biotechnological applications. 
+              Journal of Biological Chemistry, 295(3), 833-849. https://doi.org/10.1016/S0021-9258(17)49939-X
+            </li>
+            <li>
+              Sadeghi, S. J., & Gilardi, G. (2013). Chimeric P450 enzymes: Activity of artificial redox fusions driven by different reductases for biotechnological applications: 
+              Artificial Fusions of CYP Heme Domain with Different Reductases. Biotechnology and Applied Biochemistry, 60(1), 102-110. https://doi.org/10.1002/bab.1086
+            </li>
+            <li>
+              Shephard, E. A., Phillips, I. R., Bayney, R. M., Pike, S. F., & Rabin, B. R. (1983). Quantification of NADPH: Cytochrome P-450 reductase in liver microsomes by a 
+              specific radioimmunoassay technique. Biochemical Journal, 211(2), 333-340. https://doi.org/10.1042/bj2110333
+            </li>
+            <li>
+              Talmann, L., Wiesner, J., & Vilcinskas, A. (2017). Strategies for the construction of insect P450 fusion enzymes. Zeitschrift Für Naturforschung C, 72(9-10), 405-415. 
+              https://doi.org/10.1515/znc-2017-0041
+            </li>
+            <li>
+              Whitehouse, C. J. C., Bell, S. G., & Wong, L.-L. (2012). P450 BM3 (Cyp102a1): Connecting the dots. Chem. Soc. Rev., 41(3), 1218-1260. https://doi.org/10.1039/C1CS15192D
+            </li>
+          </ol>
+        </div> 
       </div>
+
       <div class="column is-one-fifth"></div>
     </section>
 

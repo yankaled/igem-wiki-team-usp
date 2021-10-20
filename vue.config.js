@@ -138,6 +138,12 @@ module.exports = {
       title: "Plant",
       chunks: ["chunk-vendors", "chunk-common", "Plant"],
     },
+    Best_Sutainable_Development: {
+      entry: "./src/views/Best_Sutainable_Development/main.js",
+      template: "public/index.html",
+      title: "Best_Sutainable_Development",
+      chunks: ["chunk-vendors", "chunk-common", "Best_Sutainable_Development"],
+    },
   },
 
   devServer: {
