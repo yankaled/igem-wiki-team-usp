@@ -12,9 +12,9 @@
       class="collapsible-content"
     >
       <img
-      v-if="src"
-      src="https://2021.igem.org/wiki/images/9/9f/T--USP-Brazil--IGEM-USP-Public-Banner.jpg"
-    />
+        v-if="src"
+        :src="src"
+      />
       <p>{{ text }}</p>
     </div>
   </div>
