@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <Nav :transition="true" />
 
     <div class="is-full" style="position: relative;">
@@ -38,8 +37,8 @@
     </section>
 
     <section class="columns" style="transform: translateY(-15em);">
-      <div class="column is-1"></div>
-      <div class=" content column is-5">
+      <div class="column is-2"></div>
+      <div class=" content column is-8 has-text-centered">
         <p>
           <b
             >Bees are essential for ecological preservation, around 90% of the
@@ -47,15 +46,14 @@
             their action.</b
           >
         </p>
-        <img
-          src="https://2021.igem.org/wiki/images/1/16/T--USP-Brazil--IGEM-USP-Home-Bee.png"
-        />
+        <figure class="has-text-centered">
+          <img
+            style="max-width:70%; max-height:70%"
+            src="https://2021.igem.org/wiki/images/0/03/T--USP-Brazil--IGEM-USP-Home-map.png"
+          />
+        </figure>
       </div>
-      <div class="content column is-4">
-        <img
-          src="https://2021.igem.org/wiki/images/1/16/T--USP-Brazil--IGEM-USP-Home-Bee.png"
-        />
-      </div>
+
       <div class="column is-2"></div>
     </section>
 
@@ -77,18 +75,15 @@
       <div class="column is-1"></div>
       <div class="content column">
         <p>
-          <b
-            >In Brazil alone, 8 cultures depend directly or indirectly on the
-            action of bees</b
-          >
+          In Brazil alone, <br />8 cultures depend <br />directly or indirectly
+          on the action of bees
         </p>
       </div>
       <div class=" content column">
         <p>
-          <b
-            >Pollinated crops generate 9.3 billion dollars in exports for the
-            brazilian agribusiness!</b
-          >
+          >Pollinated crops generate<br />
+          9.3 billion dollars <br />
+          in exports for the brazilian agribusiness!
         </p>
       </div>
       <div class="column is-2"></div>
@@ -129,7 +124,10 @@
       <div class="column"></div>
     </section>
 
-    <section class="columns" style="transform: translateY(-15em); background-color:rgba(255, 102, 0, 0.7);">
+    <section
+      class="columns"
+      style="transform: translateY(-15em); background-color:rgba(255, 102, 0, 0.7);"
+    >
       <div class="column is-1"></div>
       <div class=" content column is-4">
         <br />
@@ -147,8 +145,9 @@
           <b
             style="color:#040404;
             font-size: 30px;"
-            >Beekeepers find half a billion dead bees in 3 months in Brazil</b
-          >
+            >Beekeepers find <b>half a billion dead bees in 3 months</b> in
+            Brazil
+          </b>
         </p>
         <br />
         <br />
@@ -157,7 +156,10 @@
       <div class="column is-1"></div>
     </section>
 
-    <section class="columns" style="transform: translateY(-15em); text-align: center; ">
+    <section
+      class="columns"
+      style="transform: translateY(-15em); text-align: center; "
+    >
       <div class="column"></div>
       <div class=" content column is-9">
         <p>
@@ -186,31 +188,59 @@
       <div class="column"></div>
     </section>
 
-    <section class="columns" style="transform: translateY(-15em);">
+    <section class="columns is-vcentered" style="transform: translateY(-15em);">
       <div class="column is-1"></div>
       <div class=" content column is-4">
         <img
-          src="https://2021.igem.org/wiki/images/1/16/T--USP-Brazil--IGEM-USP-Home-Bee.png"
+          src="https://2021.igem.org/wiki/images/8/85/T--USP-Brazil--IGEM-USP-Home-Have.png"
         />
-        <p>
-          It would be very easy to say that they are the villains of our story,
-          but it is far more complex than that:
-        </p>
       </div>
       <div class=" content column is-4">
         <br />
         <p>
-          It would be very easy to say that they are the villains of our story,
-          but it is far more complex than that:
+          They have a specific targeting for insects wich makes them safe for
+          humans and other animals.
         </p>
-        <img
-          src="https://2021.igem.org/wiki/images/1/16/T--USP-Brazil--IGEM-USP-Home-Bee.png"
-        />
       </div>
       <div class="column is-1"></div>
     </section>
+    <section class="columns is-vcentered" style="transform: translateY(-15em);">
+      <div class="column is-1"></div>
+      <div class=" content column is-4">
+        <br />
+        <p>
+          Aerial application is secondary, they are mainly applied to seeds,
+          decreasing the action on adjacent natural vegetation.
+        </p>
+      </div>
+      <div class=" content column is-4">
+        <img
+          src="https://2021.igem.org/wiki/images/b/ba/T--USP-Brazil--IGEM-USP-Home-Air.png"
+        />
+      </div>
 
-    <section class="columns" style="transform: translateY(-15em); text-align: center; ">
+      <div class="column is-1"></div>
+    </section>
+    <section
+      class=" content columns has-text-centered"
+      style="transform: translateY(-15em); text-align: center; "
+    >
+      <blockquote
+        cite="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673"
+      >
+        <p>
+          <cite>
+            "Not using neonicotinoids means using pesticides that are more
+            aggressive to human health and the environment." (EMBRAPA, Luciano,
+            2021)"
+          </cite>
+        </p>
+      </blockquote>
+    </section>
+    <section
+      class="columns"
+      style="transform: translateY(-15em); text-align: center; "
+    >
       <div class="column "></div>
       <div class=" content column is-9">
         <p>
@@ -298,25 +328,46 @@
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 
-import bulmaCarousel from 'bulma-carousel'
+import bulmaCarousel from "bulma-carousel";
 
 // Initialize all elements with carousel class.
-const carousels = bulmaCarousel.attach('.carousel', {});
+const carousels = bulmaCarousel.attach(".carousel", {});
 
 // To access to bulmaCarousel instance of an element
-const element = document.querySelector('#my-element');
+const element = document.querySelector("#my-element");
 if (element && element.bulmaCarousel) {
-	// bulmaCarousel instance is available as element.bulmaCarousel
+  // bulmaCarousel instance is available as element.bulmaCarousel
 }
 
 export default {
   name: "Home",
+  methods: {
+    animateValue($obj, start, end, duration) {
+      var range = end - start;
+      var current = start;
+      var increment = end > start ? 1 : -1;
+      var stepTime = Math.abs(Math.floor(duration / range));
+      var timer = setInterval(function() {
+        current += increment;
+        $obj.text(current);
+        if (current == end) {
+          $obj.text($obj.text() + "+");
+          clearInterval(timer);
+        }
+      }, stepTime);
+    },
 
+    // var $number = $('.count-number'),
+    //     start = $number.attr('data-start')*1,
+    //     end = $number.attr('data-end')*1;
+
+    // animateValue($number, start, end, 2000);
+  },
   components: {
     Nav,
     Footer,
-  }
-}
+  },
+};
 </script>
 
 <style scoped>
@@ -355,5 +406,16 @@ export default {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #262625;
+}
+.count-number {
+  background-color: #ccc;
+  width: 100px;
+  height: 100px;
+  border: orange solid 10px;
+  border-radius: 100%;
+  line-height: 100px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
 }
 </style>
