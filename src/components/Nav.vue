@@ -269,7 +269,7 @@ export default {
     }
   },
 
-  beforeDestroy() {
+  beforeUnmount() {
     if (this.transition) {
       window.removeEventListener("scroll", this.calcNavClass);
     }
