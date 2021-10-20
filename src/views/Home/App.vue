@@ -73,17 +73,18 @@
 
     <section class="columns" style="transform: translateY(-15em);">
       <div class="column is-1"></div>
-      <div class="content column">
+      <div class="content column is-3">
         <p>
-          In Brazil alone, <br /> <span class="count-number" /> cultures depend <br />directly or indirectly
-          on the action of bees
+          <span id="n1" class="count-number" /> <b id="count1">cultures</b>
+          <br />
+          depend directly or indirectly on the action of bees
         </p>
       </div>
-      <div class=" content column">
+      <div class=" content column is-3">
         <p>
-          >Pollinated crops generate<br />
-          9.3 billion dollars <br />
-          in exports for the brazilian agribusiness!
+          <span id="n2" class="count-number" /> <b id="count2">cultures</b>
+          <br />
+          depend directly or indirectly on the action of bees
         </p>
       </div>
       <div class="column is-2"></div>
@@ -104,31 +105,23 @@
     </section>
 
     <section class="columns" style="transform: translateY(-15em);">
-      <div class="column is-offset-7">
-        <img
-          src="https://2021.igem.org/wiki/images/1/16/T--USP-Brazil--IGEM-USP-Home-Bee.png"
-        />
-      </div>
-    </section>
-
-    <section class="columns" style="transform: translateY(-15em);">
-      <div class=" content column is-full has-text-centered">
+      <div class="content column is-full has-text-centered">
         <div class="carousel">
-          <div class="item-1">
-          <img
-            src="https://2021.igem.org/wiki/images/1/16/T--USP-Brazil--IGEM-USP-Home-Bee.png"
-          />
-          </div>
-          <div class="item-2">
+          <div style="max-widht:25% ; max-height:25%; " class="item-1">
             <img
-              src="https://2021.igem.org/wiki/images/a/a2/T--USP-Brazil--IGEM-USP-Home-Destruction.png"
+              style="max-widht:25% ; max-height:25%;"
+              src="https://2021.igem.org/wiki/images/d/d2/T--USP-Brazil--IGEM-USP--Home-carrosel.jpeg"
+            />
+          </div>
+          <div style="max-widht:25% ; max-height:25%; " class="item-2">
+            <img
+              style="max-widht:25% ; max-height:25%;"
+              src="https://2021.igem.org/wiki/images/5/50/T--USP-Brazil--IGEM-USP--Home-carrosel2.png"
             />
           </div>
         </div>
       </div>
     </section>
-
-
 
     <section class="columns" style="transform: translateY(-15em);">
       <div class="column"></div>
@@ -350,33 +343,39 @@ import Footer from "@/components/Footer.vue";
 import bulmaCarousel from "bulma-carousel";
 
 export default {
-
   name: "Home",
 
   mounted() {
-    document.addEventListener('scroll', this.setAnimateValue)
+    document.addEventListener("scroll", this.setAnimateValue);
 
     bulmaCarousel.attach(".carousel", {});
   },
 
   beforeDestroy() {
-    document.removeEventListener('scroll', this.setAnimateValue)
+    document.removeEventListener("scroll", this.setAnimateValue);
   },
 
   methods: {
     setAnimateValue() {
-      const $number = document.querySelector('.count-number')
-      if (this.checkVisible($number)) {
-        this.animateValue($number, 0, 8, 2000)
+      const $n1 = document.getElementById("n1");
+      const $n2 = document.getElementById("n2");
+      if (this.checkVisible($n1)) {
+        this.animateValue($n1, 0, 8, 2000);
+      }
+      if (this.checkVisible($n2)) {
+        this.animateValue($n2, 0, 9, 2000);
       }
     },
 
     checkVisible(elm) {
       var rect = elm.getBoundingClientRect();
-      var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+      var viewHeight = Math.max(
+        document.documentElement.clientHeight,
+        window.innerHeight
+      );
       return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
     },
-    
+
     animateValue($obj, start, end, duration) {
       let range = end - start;
       let current = start;
@@ -389,7 +388,7 @@ export default {
           clearInterval(timer);
         }
       }, stepTime);
-    }
+    },
   },
   components: {
     Nav,
@@ -436,14 +435,23 @@ export default {
   color: #262625;
 }
 .count-number {
-  background-color: #ccc;
   width: 100px;
   height: 100px;
-  border: orange solid 10px;
-  border-radius: 100%;
-  line-height: 100px;
   text-align: center;
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+#count1 {
+  color: #040404;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+#count2 {
+  color: #040404;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 </style>
