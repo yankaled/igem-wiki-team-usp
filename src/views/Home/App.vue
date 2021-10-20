@@ -75,10 +75,11 @@
       <div class="column is-1"></div>
       <div class="content column">
         <p>
-          In Brazil alone, <br />
-          <span class="count-number" /> cultures depend <br />directly or
-          indirectly on the action of bees
+          In Brazil alone,
         </p>
+
+        <p id="count1"><span class="count-number" /> cultures</p>
+        <p>depend directly or indirectly on the action of bees</p>
       </div>
       <div class=" content column">
         <p>
@@ -427,14 +428,16 @@ export default {
   color: #262625;
 }
 .count-number {
-  background-color: #ccc;
   width: 100px;
   height: 100px;
-  border: orange solid 10px;
-  border-radius: 100%;
-  line-height: 100px;
   text-align: center;
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+#count1 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 </style>
