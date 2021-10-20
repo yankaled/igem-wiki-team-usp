@@ -126,6 +126,18 @@ module.exports = {
       title: "Partnership",
       chunks: ["chunk-vendors", "chunk-common", "Partnership"],
     },
+    Communication: {
+      entry: "./src/views/Communication/main.js",
+      template: "public/index.html",
+      title: "Communication",
+      chunks: ["chunk-vendors", "chunk-common", "Communication"],
+    },
+    Plant: {
+      entry: "./src/views/Plant/main.js",
+      template: "public/index.html",
+      title: "Plant",
+      chunks: ["chunk-vendors", "chunk-common", "Plant"],
+    },
   },
 
   devServer: {
