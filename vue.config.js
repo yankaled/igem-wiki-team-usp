@@ -95,6 +95,12 @@ module.exports = {
       template: "public/index.html",
       title: "Implementation",
       chunks: ["chunk-vendors", "chunk-common", "Implementation"],
+    },
+    Experiments: {
+      entry: "./src/views/Experiments/main.js",
+      template: "public/index.html",
+      title: "Experiments",
+      chunks: ["chunk-vendors", "chunk-common", "Experiments"],
     }
   },
 
