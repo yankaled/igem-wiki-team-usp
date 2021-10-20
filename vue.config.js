@@ -84,11 +84,11 @@ module.exports = {
       title: "Collaborations",
       chunks: ["chunk-vendors", "chunk-common", "Collaborations"],
     },
-    Proof_of_Concept: {
-      entry: "./src/views/Proof_of_Concept/main.js",
+    Proof_Of_Concept: {
+      entry: "./src/views/Proof_Of_Concept/main.js",
       template: "public/index.html",
-      title: "Proof_of_Concept",
-      chunks: ["chunk-vendors", "chunk-common", "Proof_of_Concept"],
+      title: "Proof_Of_Concept",
+      chunks: ["chunk-vendors", "chunk-common", "Proof_Of_Concept"],
     },
   },
 
