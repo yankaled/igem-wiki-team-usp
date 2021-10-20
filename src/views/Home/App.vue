@@ -112,6 +112,25 @@
     </section>
 
     <section class="columns" style="transform: translateY(-15em);">
+      <div class=" content column is-full has-text-centered">
+        <div class="carousel">
+          <div class="item-1">
+          <img
+            src="https://2021.igem.org/wiki/images/1/16/T--USP-Brazil--IGEM-USP-Home-Bee.png"
+          />
+          </div>
+          <div class="item-2">
+            <img
+              src="https://2021.igem.org/wiki/images/a/a2/T--USP-Brazil--IGEM-USP-Home-Destruction.png"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="columns" style="transform: translateY(-15em);">
       <div class="column"></div>
       <div class=" content column is-9">
         <h2 style="text-align: center ;">But bees are being endangered...</h2>
@@ -330,21 +349,14 @@ import Footer from "@/components/Footer.vue";
 
 import bulmaCarousel from "bulma-carousel";
 
-// Initialize all elements with carousel class.
-const carousels = bulmaCarousel.attach(".carousel", {});
-
-// To access to bulmaCarousel instance of an element
-const element = document.querySelector("#my-element");
-if (element && element.bulmaCarousel) {
-  // bulmaCarousel instance is available as element.bulmaCarousel
-}
-
 export default {
 
   name: "Home",
 
   mounted() {
     document.addEventListener('scroll', this.setAnimateValue)
+
+    bulmaCarousel.attach(".carousel", {});
   },
 
   beforeDestroy() {
