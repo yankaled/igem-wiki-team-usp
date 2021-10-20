@@ -90,6 +90,12 @@ module.exports = {
       title: "Proof_of_Concept",
       chunks: ["chunk-vendors", "chunk-common", "Proof_of_Concept"],
     },
+    Implementation: {
+      entry: "./src/views/Implementation/main.js",
+      template: "public/index.html",
+      title: "Implementation",
+      chunks: ["chunk-vendors", "chunk-common", "Implementation"],
+    }
   },
 
   devServer: {
