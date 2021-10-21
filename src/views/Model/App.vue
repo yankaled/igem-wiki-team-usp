@@ -5,7 +5,7 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/thumb/b/bf/T--USP-Brazil--img-group47.png/800px-T--USP-Brazil--img-group47.png"
+        src="https://2021.igem.org/wiki/images/4/45/T--USP-Brazil--IGEM-USP-Model-BannerModel.png"
       />
     </div>
 
@@ -208,7 +208,117 @@
 
         <p>First and foremost, we wanted to know the concentration of expressed CYP in the pollen of our plant. In our project's circuit, we used <b>LP4/2A peptide linker</b> to express both the CYP6G1 and the GUS gene reporter. This linker has an approximate cleavage <b>efficiency of 80% to 90%</b> [1]. This means that if we find the <b>concentration of GUS</b> expressed by the LAT52 promoter, we could calculate the concentration of CYP in our construction. Experimentally, we were not able to retrieve it, but luckily, literature was on our side. <b>Neil Bate</b>, from the Department of Botany of the University of Leicester, has a publicly available Doctorate Thesis [2] about pollen genes, in which he expresses the GUS reporter with the LAT52 promoter, which was perfect for our project.</p>
 
-        <p>Using the Materials and Methods section, we were able to reverse the process in which he measured GUS activity and found the concentration of GUS on pollen. Calculations can be found <a id="First" v-on:click="openModal($event)">here</a> </p>
+        <p>Using the Materials and Methods section, we were able to reverse the process in which he measured GUS activity and found the concentration of GUS on pollen. Calculations can be found <a id="First" v-on:click="openModal($event)">here</a>.</p>
+
+        <p>Then, we calculated a <b>range for the CYP6G1 concentration</b> using the 80% and 90% cleavage efficiency as our lower and upper bounds.</p>
+
+        <p>As for <b>imidacloprid concentration</b> in our plant, we were not able to find data specifically for tomatoes. However, we were able to find information for the concentration in flowers from other species. We decided to move forward using the median value of them, as it was the only information available. We used the median and not the mean, as the mean can be biased by extreme values.</p>
+
+        <p>The median concentration in pollen obtained for imidacloprid is:</p>
+
+        <p class="latex has-text-centered" />
+
+        <p>And, experimentally, we were able to obtain the concentration of pollen mass/L:</p>
+
+        <p class="latex has-text-centered" />
+
+        <p>Now, using the molar mass of imidacloprid, we can finish the calculations and convert it to mol/L:</p>
+
+        <p class="latex has-text-centered" />
+
+        <p>Our approach to measuring the efficiency of our construct was to analyze the time period in which imidacloprid concentration would reach close-to-zero levels. Since CYP family enzymes obey Michaelis-Menten kinetics [3] we considered that the enzyme would behave as stated with the chemical equation, resulting in the following mass-transfer <b>equations (1-4)</b> (Figure 1).</p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p class="latex" />
+          </div>
+
+          <div class="column is-1">
+            <p>(2)</p>
+          </div>
+        </div>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p class="latex" />
+          </div>
+
+          <div class="column is-1">
+            <p>(3)</p>
+          </div>
+        </div>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p class="latex" />
+          </div>
+
+          <div class="column is-1">
+            <p>(4)</p>
+          </div>
+        </div>
+
+        <p>By considering (10) equal to zero, which establishes a steady-state boundary, the famous Michaelis-Menten equation can be obtained <b>(Equation 12)</b>.</p>
+
+        \frac{d[P]}{dt}
+=\frac{V_{max}[S]}{K+[S]}
+
+
+        <p>After applying usual methods to solve differential equations, we also obtained time-dependent functions for the elements described in the model reaction <b>(Equations 5-8).</b></p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p class="latex" />
+          </div>
+
+          <div class="column is-1">
+            <p>(5)</p>
+          </div>
+        </div>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p class="latex" />
+          </div>
+
+          <div class="column is-1">
+            <p>(6)</p>
+          </div>
+        </div>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p class="latex" />
+          </div>
+
+          <div class="column is-1">
+            <p>(7)</p>
+          </div>
+        </div>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p class="latex" />
+          </div>
+
+          <div class="column is-1">
+            <p>(8)</p>
+          </div>
+        </div>
+
+        <p>For the equations, we considered the following notations:</p>
+
+        <ul>
+          <li><p>S stands for substrate concentration, in this case, imidacloprid</p></li>
+
+          <li><p>S_0 is the initial concentration of substrate</p></li>
+          <li><p>K is Michaelis constant, which is the substrate concentration when the reaction speed equals half of the V_max, sometimes referred as Km</p></li>
+          <li><p>V_max is the maximum speed of the reaction</p></li>
+          <li><p>E is enzyme concentration</p></li>
+          <li><p>E_0 is the initial enzyme concentration</p></li>
+          <li><p>P is the concentration of the product of the reaction</p></li>
+        </ul>
+
 
       </div>
 
@@ -223,7 +333,9 @@
 
     <div id="FirstMO" class="modal_USP is-hidden">
       <div class="columns">
-        <div class="column " />
+
+        <div class="column" />
+
         <div class="content column is-two-thirds">
           <p>Using the following image we calculated the <b>diameter of pollen grains.</b></p>
 
@@ -237,11 +349,51 @@
 
           <p>Now looking at the work of Twell (1994) [4] it is known that the mass of GUS enzyme per pollen grain (in the anthesis period, then the reproductive cycle of tomato plants begins) is <b>6 ng</b>. We experimentally found a value of 4.1 ng/pollen grain. In addition, we considered E. coli GUS enzyme having a molecular weight of 68,447 kDa [5], so:</p>
 
+          <div class="columns has-text-centered">
+            <div class="column is-11">
+              <p class="latex-modal" />
+            </div>
+
+            <div class="column is-1">
+              <p>(1)</p>
+            </div>
+          </div>
+
+          <div class="columns has-text-centered">
+            <div class="column is-11">
+              <p class="latex-modal" />
+            </div>
+
+            <div class="column is-1">
+              <p>(2)</p>
+            </div>
+          </div>
+
           <p>Considering the cleavage efficiency being between 80%-90% then we have:</p>
+
+          <div class="columns has-text-centered">
+            <div class="column is-11">
+              <p class="latex-modal" />
+            </div>
+
+            <div class="column is-1">
+              <p>(3)</p>
+            </div>
+          </div>
+
+          <div class="columns has-text-centered">
+            <div class="column is-11">
+              <p class="latex-modal" />
+            </div>
+
+            <div class="column is-1">
+              <p>(4)</p>
+            </div>
+          </div>
           
         </div>
 
-        <div class="column " />
+        <div class="column" />
       </div>
     </div>
 
@@ -254,6 +406,12 @@ import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
 
+import katex from 'katex';
+
+import 'katex/dist/katex.min.css';
+import 'katex/dist/katex.min.js';
+
+
 export default {
   name: "Description",
 
@@ -261,6 +419,45 @@ export default {
     Nav,
     Footer,
     Backtotop,
+  },
+
+  mounted() {
+    const latexStrings = [
+      `\\frac{0.08ng \\ imidacloprid}{g}`,
+      `\\frac{4.6G \\ pollen \\ grains}{L} \\times \\frac{4.1ng}{pollen \\ grain} = \\frac{19.03 g}{L}`,
+      `\\frac{0.08ng \\ imidacloprid}{g \\ Pollen} \\times \\frac{19.03 g}{L} \\times \\frac{mol}{255.66 g}= \\frac{5.90 pmol}{L}
+`,
+      `\\frac{d[E]}{dt} = -k_f[E][S] + k_r[ES] + k_{cat}[ES]`,
+      `\\frac{d[ES]}{dt} = k_f[E][S]-k_r[ES]-k_{cat}[ES]`,
+      `\\frac{d[E]}{dt} = -k_f[E][S] + k_r[ES] + k_{cat}[ES]`,
+      `[S](t)+Kln([S](t)) =- V_{max}t+[S]_0+Kln([S]_0)`,
+      `[ES](t)=\frac{[E]_0[S](t)}{[S](t)+K}`,
+      `[E](t)=[E]_0-[ES](t)`,
+      `[P](t)=[S]_0-[S](t)`
+    ]
+
+    const latexModalStrings = [
+      `GUS = \\frac{1 mol}{68,447 kg}`,
+      `[GUS] = 4,6.10^{9}\\frac{grain}{L} *\\frac{6 ng}{grain} * \\frac{1 mol}{68,447 kg}=0,407 mmol/L`,
+      `[CYP|0,8] = 0,326 mmol/L`,
+      `[CYP|0,9] = 0,366 mmol/L`
+    ]
+
+    const latexModalElements = document.getElementsByClassName('latex-modal')
+    const latexElements = document.getElementsByClassName('latex')
+
+    for (let i = 0; i < latexStrings.length; i++) {
+      katex.render(latexStrings[i], latexElements[i], {
+          throwOnError: false
+      });
+    }
+
+    for (let i = 0; i < latexModalStrings.length; i++) {
+      katex.render(latexModalStrings[i], latexModalElements[i], {
+          throwOnError: false
+      });
+    }
+    
   },
 
   methods: {
@@ -289,8 +486,13 @@ export default {
 };
 </script>
 
+<style>
+.katex { font-size: 1.2em; }
+</style>
+
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Roboto:wght@500;700;900&display=swap");
+
 
 
 /* -------------------------- */
@@ -327,7 +529,6 @@ export default {
 .header {
   width: 100% !important;
 }
-
 
 .content h2 {
   font-family: "Roboto", sans-serif;
