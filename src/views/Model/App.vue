@@ -15,18 +15,34 @@
           <div class="sub-navigation sub-menu-content">
             <div>
               <a
-              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
-              href="#title-introduction"
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-introduction"
               >
-              Introduction
+                Introduction
               </a>
             </div>
-            <div class="">
+            <div>
               <a
-              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
-              href="#title-references"
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-protein"
               >
-              References
+                Protein Modelling and Interactions
+              </a>
+            </div>
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-enzyme"
+              >
+                Enzyme Kinetics Simulation
+              </a>
+            </div>
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-beehive"
+              >
+                Beehive, bees and plants simulation
               </a>
             </div>
           </div>
@@ -57,6 +73,8 @@
         <p>
           <b>As for the bees</b>, we looked into <b>their behaviour in the presence of our modified plant</b> Considering that worker bees could poison their hive by carrying pollen contaminated with Imidacloprid, we have created a model to evaluate the number of bees contaminated, the impact that contamination would have on the hive and if that could lead to its collapse.
         </p>
+
+        <span id ="title-protein"></span>
 
         <p> 
           Unfortunately, most of our data had to be were acquired through specialized scientific literature due to the COVID-19 pandemic restrictions on laboratory access. Nevertheless, we were able to surpass third-party data-availability obstacles and gather enough data to power our model. We have also managed to include some experimental data obtained in the last few months, as labs started gradually reopening for students.
@@ -170,7 +188,6 @@
           >
             Simulating Proteins: basic guide of comparative modelling
           </a>
-          <span id ="title-references"></span>
         </p>
 
         <!--- Thanks --->
@@ -218,6 +235,8 @@
             </li>
           </ol>
         </div>
+
+        <span id ="title-enzyme"></span>
 
         <h3>2) Enzyme Kinetics Simulation</h3>
 
@@ -491,15 +510,17 @@
           </ol>
         </div>
 
+        <span id ="title-beehive"></span>
+
         <h3>3) Beehive, bees and plants simulation</h3>
 
         <h4>Introduction</h4>
 
         <p>With the previous enzymatic kinetic simulation, we obtained the rate at which imidacloprid is degraded in normal conditions and how much is degraded in the pollen cells from our genetically modified plant. Now we can extend our simulation to a higher level: simulating the effects among our modified plant in the field, on bees and on the beehive. This way, we can compare these effects to the realistic scenario where the bees and the beehive are in the presence of unmodified plants with imidacloprid. To make it possible, it must be taken into account not only the toxicity of the imidacloprid but also of its metabolites derived from its degradation. For both scenarios (modified vs unmodified plants), we will consider the initial imidacloprid concentration as the recommended level of field application as explained below.</p>
 
-        <h4>Individual Effect</h4>
+        <h4>a) Individual Effect</h4>
 
-        <p>a) The individual effects of imidacloprid on bees differ between acute exposition, chronic exposition, topic exposition or ingestion. Below are shown the values of lethal dose of each case (LD50 is the amount of a material, given all at once, which causes the death of 50% of a group of test animals).</p>
+        <p>The individual effects of imidacloprid on bees differ between acute exposition, chronic exposition, topic exposition or ingestion. Below are shown the values of lethal dose of each case (LD50 is the amount of a material, given all at once, which causes the death of 50% of a group of test animals).</p>
 
 
         <figure class="has-text-centered">
@@ -536,7 +557,7 @@
           1. If we assume that the toxicity of each metabolite can be taken <b>independently</b> that is, there are no synergies between them. Then, we simply calculate the worst scenario of each substance taking into their proportions into consideration:
         </p>
 
-        <ol>
+        <ul>
           <li>
             considering the average LD50 values, it can be seen that the smaller value of LD50 (i.e the most toxic for bees) was obtained by the 4-hydroxy \( \dfrac{222}{0.699}\approx 318\,\text{ng/bee} \)
           </li>
@@ -550,7 +571,7 @@
         
             \( \dfrac{247}{0.699}\approx 353 \text{ ng/bee} \)
           </li>
-        </ol>
+        </ul>
 
         <p>
           2. If we assume that the toxicity of the metabolites can be <b>taken together uniformly</b>, we can simply calculate the weighted average including each compound proportion: \( {0.699 \cdot (222 \pm 25)}+{0.229 \cdot (222 \pm 25)}+{0.072 \cdot (23 \pm 6)}\approx 208\pm 24 \,\text{ng/bee} \)
@@ -868,7 +889,7 @@
 
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p> \( GUS = \frac{1 mol}{68,447 kg \) </p>
+              <p> \( GUS = \frac{1 mol}{68,447 kg} \) </p>
             </div>
 
             <div class="column is-1">
@@ -1096,41 +1117,6 @@ export default {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #262625;
-}
-
-.sub-navigation {
-  padding: 2em 0;
-  border-right: solid 3px #ffba17;
-  max-width: 220px;
-}
-
-.sub-menu-content {
-  font-size: 20px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  color: #262625;
-}
-
-.is-sticky {
-  margin-left: 15%;
-  position: sticky;
-  top: 100px;
-  display: block;
-}
-
-.sub-nav-link-usp {
-  /* font-weight: bold;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif; */
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #000;
-  background-color: transparent !important;
-  padding: 10px 0px;
-  margin: 0px 20px;
-  display: flex;
-  position: relative;
-  opacity: 0.75;
 }
 
 </style>
