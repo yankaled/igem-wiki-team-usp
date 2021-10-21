@@ -18,20 +18,17 @@
         <h2>Introduction?</h2>
 
         <p>
-          This section tackles two important simulations: <b>the enzyme CYP6G1</b> and <b>bee behaviour</b>.
+          This section tackles two important simulations: <b>the enzyme CYP6G1</b> and <b>bee behaviour</b>. For CYP6G1 we did two models:
         </p>
 
-        <p>
-          For CYP6G1 we did two models:
-        </p>
-
-        <p>
-          - Firstly, we tried to improve CYP6G1 activity by modelling a mutation on the enzyme that would allow it to metabolize other pesticides. This was possible through docking experiments.
-        </p>
-
-        <p>
-          - Secondly, we simulated a <b>theoretical model of CYP6G1 gene expression rate</b> while associated with pLAT52 (promoter LAT52). This model was useful to predict imidacloprid's degradation rate and the number of metabolites it generates.
-        </p>
+        <ul>
+          <li>
+            <p>Firstly, we tried to improve CYP6G1 activity by modelling a mutation on the enzyme that would allow it to metabolize other pesticides. This was possible through docking experiments.</p>
+          </li>
+          <li>
+            <p>Secondly, we simulated a <b>theoretical model of CYP6G1 gene expression rate</b> while associated with pLAT52 (promoter LAT52). This model was useful to predict imidacloprid's degradation rate and the number of metabolites it generates.</p>
+          </li>
+        </ul>
 
         <p>
           <b>As for the bees</b>, we looked into <b>their behaviour in the presence of our modified plant</b> Considering that worker bees could poison their hive by carrying pollen contaminated with Imidacloprid, we have created a model to evaluate the number of bees contaminated, the impact that contamination would have on the hive and if that could lead to its collapse.
@@ -41,7 +38,9 @@
           Unfortunately, most of our data had to be were acquired through specialized scientific literature due to the COVID-19 pandemic restrictions on laboratory access. Nevertheless, we were able to surpass third-party data-availability obstacles and gather enough data to power our model. We have also managed to include some experimental data obtained in the last few months, as labs started gradually reopening for students.
         </p>
 
-        <h3>1) Protein Modelling and Docking</h3>
+        <h3>1) Protein Modelling and Interactions</h3>
+
+        <h4>Protein Modelling and Docking</h4>
 
         <p>
           We wanted to design a CYP6G1 3D model in order to <b>understand the possible interactions between Imidacloprid and the enzyme's catalytic site</b>.  CYP6G1 belongs to CYP450's family and thus has a heme group as a cofactor, which is important for several catalytic reactions mediated by molecular oxygen.
@@ -51,485 +50,200 @@
           We started our model construction by performing two steps to include the cofactor in the final protein model. First, we put CYP6g1 primary sequence in the highest-scoring CASP predict protein model servers (I-Tasser and Robetta). Once the best results were generated, we manually <b>added the heme group into CYP3A1</b> crystallography-solved model using <b>Modeller</b>. [5, 6]. (Figure 1).
         </p>
 
-        <img src="https://2021.igem.org/wiki/images/thumb/b/b3/T--USP-Brazil--img-letitbe3_1.png/799px-T--USP-Brazil--img-letitbe3_1.png" />
-        <strong>
-          Figure 1 Scheme of building model CYP6G1. 1 - Selection CYP6G1 Drosophila melanogaster primary structure protein (NCBI:). 2 - Use sequence for predict the best model CYP6G1 on serves I-TASSER or Robetta. 3 - Remodelling CYP6G1 best model with the support of MODELLER for the set up heme group with comparative modeling.
-        </strong>
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/a/af/T--USP-Brazil--IGEM-USP-Model-Scheme-of-building-model-CYP6G1.png/1200px-T--USP-Brazil--IGEM-USP-Model-Scheme-of-building-model-CYP6G1.png"
+          />
+        </figure>
 
-        <p>
-          Breaking the ecosystem stability, by disturbing ecological
-          relationships maintaned by animals and plants influenced by
-          pollination, can cause a great domino effect, resulting in the
-          disturbance of the environment, as well as compromise the
-          <b>oxygen disponibility and water resources</b> by the vegetation
-          decrease [1, 12].
-        </p>
-        <h3>Economic importance</h3>
-        <p>
-          Among the plants they are responsible for pollinating, there are many
-          crops important for economy. About
-          <b
-            >70% of the plants that are cultivated for human consumption benefit
-            from bee pollination</b
-          >, whether in quality or quantity of the product [5]. When looking
-          into the brazilian scenario only, bees contribute to almost 80% of
-          crops! Some of them are even totally dependent on bees: without them,
-          <b>some foods just would not be produced anymore</b> or would turn
-          into luxury items. [6]
-        </p>
+        <p>Selection of CYP3A4 as a template was based on a PSI-BLAST search [16], in which we searched for the most similar and already solved structure deposited in the PDB database. We chose CYP3A4 (<b>PDB: 4D6Z</b>), a <i>Human sapiens</i> Cythocrome P450 enzyme. The local alignment scores showed that the modeled CYP3A4  had 34% of similarity with the primary sequence of CYP6G1 and a coverage of 93% [8]. Results from the literature have indicated a similar catalytic function for imidacloprid degradation [7] and the presence of an important cysteine residue for covalent sulfur-iron bond. Additionally, that protein had already been used as a template for a CYP6G1 3D model[9]. </p>
 
-        <p>
-          Pollination by bees is required for a healthy increase in agricultural
-          productivity, generating a higher amount, as well as fruits with
-          better quality and with more seeds [2]. Fruits that do not get
-          pollinated receive less resources from the plant, creating deformities
-          that cause farmers to throw them away instead of selling them [12].
-        </p>
-        <p>
-          Bees' importance is manifested into a third of all the food we eat, as
-          well as other products that depend on agriculture, like the
-          <b>fibers for our clothes, biofuel and vegetable oil</b>, and, of
-          course, their honey [12]. Without them, our meals would be much bare
-          and joyless.
-        </p>
-        <p>
-          Because of the reliance of farmers production on them,
-          <b
-            >alone they represent 10% of all the agricultural GDP, 100 billion
-            USD per year</b
-          >
-          [1]. This value can also represent the direct loss in economy if they
-          were to disappear completely.
-        </p>
-        <p>
-          By ignoring the problem of their disappearance, we not only can expect
-          a future environmental collapse, but also a
-          <b>economic catastrophe,</b> with less and worse food and a decrease
-          in countries' GDP and employment offer.
-        </p>
-        <h2>WHY ARE BEES DISAPPEARING?</h2>
-        <p>
-          Although it is common to call the scenario "bees' disappearance", the
-          bees are not actually disappearing, they are mostly dying in masses.
-          The fact has been noticed since the 1990s and has caused about
-          <b>25% of known bee species to be reported missing to this day</b>
-          [7].
-        </p>
-        <img src="@/assets/Joao.jpg" />
-        <p>
-          Many are the causes for the phenomenon, for instance migration stress,
-          drought, diseases, climate change and, especially,
-          <b>pesticides</b> are some of the interferences [7]. Depending on the
-          type of situation it can be attributed to different occurences, the
-          most important ones being: extinction by habitat loss, Colony Collapse
-          Disorder (CCD) and acute intoxication.
-        </p>
-        <p>
-          A very important factor associated with the loss of biodiversity is
-          the changes in land use, which has resulted in <b>habitat loss.</b> A
-          crucial example is the evergrowing advance of urban areas towards
-          native forests [5], a reflection of the search for productivity in
-          agricultural activities, that results in malnutrition by low forage
-          availability[14].
-        </p>
-        <p>
-          Overall, CCD and acute intoxication have been receiving a lot of
-          attention because of their meaningful participation and their relation
-          to the misuse of pesticides, especially the
-          <b>neonicotinoid class</b> [13].
-        </p>
-        <p>
-          Specifically for social managed bee species like Apis mellifera, the
-          phenomenon has been called <b>Colony Collapse Disorder (CCD)</b>,
-          which, among multifactorial causes that are still under study, has
-          been highly attributed to the use of pesticides. It has been reported
-          especially in the <b>United States</b>, where at least 30% of colonies
-          were lost by successive deaths between 2006 and 2010, and in some
-          countries of <b>Europe</b>. In CCD, some symptons are observed: rapid
-          loss of worker bees, increase in the ratio of offsprings to adults,
-          absense of offsprings, dead adult bees and avoidance of hive invasion
-          by pests [5]. The interaction of pesticides have been proposed to
-          <b>potentialize the symptons</b> of pathogenic agents, contributing to
-          the syndrome by making the colony more vulnerable [17].
-        </p>
-        <p>
-          Yet, in Brazil and many other countries, although there are studies
-          over possible cases of CCD none of them are corroborated. Brazilian
-          bees' deaths are very associated to <b>acute intoxication</b> by
-          pesticides, usually in lethal concentrations. Despite that,
-          <b>sublethal concentrations</b> of pesticide directly affects one bee
-          individual, evidence shows that this
-          <b>detrimental effect cascades</b> over to the whole colony.
-        </p>
-        <p>
-          The overall loss of resource diversity associated with landscape
-          simplification, in combination with the debilitating effect of
-          pesticides of bee species has facilitated for disease to be more
-          common within the colony [5]. Brazil is recognized as a great
-          pesticide consumer worldwide [5] and, as we can see, those substances
-          are main actors in the disappearance of bees and, accordingly, in the
-          unbalance of environment and economy. About three quarters of all
-          honey contains traces of those toxic compounds [16]. A specific class
-          of pesticides has been highly associated with the situation: the
-          <b>neonicotinoid class.</b>
-        </p>
-        <h3>The pesticide: Imidacloprid</h3>
+        <p> {{ `In the urge of minimizing possible errors [10, 15, 17], we searched for high crystallography resolution <2.5Å and a good R-free value in PDB database, <0.26. Then, we checked the model for missing amino acids residues that could hinder our experiments by deforming the catalytic site [9, 15].` }}</p>
+
+        <p>In order to validate our model, we needed to check out the stability of the heme group inside the protein's core. Assuming that specific chemical and physical properties of the residues were highly conserved, we manually analyzed 20 <b>experimentally solved</b> CYP450 (<b>whose primary sequences were the most similar to CYP6G1</b>). As a result, we have found a helix with tryptophan and arginine residues and a central arginine as the stabilizing residues in most templates. Although some mutated residues were found, such as ARG—>LYS or ARG—>HIS, and, TRP—>HIS, the mutant residues' capability to establish hydrogen bonds remained.</p>
+
+        <p>For CYP6G1, we have found TRP130 and ARG134 present in an alpha-helix; ARG106 between two carboxyl groups, and also residues ARG383 e SER453 as feasible stabilizers to the heme group. Those last two residues were similar to what we observed in CYP3A4 from <i>Homo sapiens</i> sp, CYP2B35 and CYP2B37 from <i>Neotoma lepida</i> and CYP76AH1 <i>Salvia miltiorrhiza</i>. In order to clarify these concepts, images of the three highest-scoring blast proteins found from different organisms are presented in the figure below. They intend to demonstrate the presence of hydrogen bonds involving lysine, arginine, tryptophan, tyrosine and serine, groups that serve as stabilizers of the heme group (Figure 2).</p>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/5/58/T--USP-Brazil--IGEM-USP-Comparison-of-stabilizers-aminoacids.png"
+          />
+        </figure>
+
+        <p>The models generated by I-TASSER and Robetta have positioned the residues in similar locations, indicating a better prediction protein algorithm.</p>
+
         <img
-          src="https://2021.igem.org/wiki/images/f/fb/T--USP-Brazil--IGEM-USP-Description-Imida.jpg"
+          src="https://2021.igem.org/wiki/images/thumb/d/d1/T--USP-Brazil--IGEM-USP-Model-_Structure-scores-for-several.png/1200px-T--USP-Brazil--IGEM-USP-Model-_Structure-scores-for-several.png"
         />
-        <p>
-          The neonicotinoids are the <b>most widely used </b> class of
-          pesticides in the whole world, even after being restricted in the
-          European Union [17]. They are neurotoxins very
-          <b>selective to insects</b> over vertebrates, competitively targeting
-          their <b>nicotinic acetylcholine receptor (nAChR)</b> in neurons, as
-          agonists. The most used one is the <b>Imidacloprid</b>, due to its
-          high efficacy and systemic activity in plants, its
-          <b>residues are the most found in fruits and vegetables in Brazil </b
-          >[15, 18]. Ever since the beginning of the reports of the bees'
-          disappearance, Imidacloprid has been highly associated to the
-          situation.
-        </p>
-        <p>
-          It is usually <b>applied to the seed</b>, spreading through the
-          plant's system as it grows and, in this process,
-          <b>reaches the flowers</b>, too [19]. Because of pollination, bees
-          <b
-            >come in contact with the toxic substance by that structure, through
-            pollen and nectar</b
-          >, by ingesting or touching it. Nectar provide them with
-          carbohydrates, serving as an energy source, and the pollen is a
-          crucial source of proteins and fats. For that reason, bees take the
-          pollen and nectar they collect back to their hive to be stored,
-          processed and consumed by other bees [20]. Thus, if the nectar and
-          pollen is contaminated by the pesticide,
-          <b
-            >it can affect not only the bee that collected it, but its entire
-            hive!</b
-          >
-        </p>
-        <p>
-          When Imidacloprid enters the bee's system, it can turn into
-          metabolites that can be even more toxic, like olefin [21]. Depending
-          on its concentration, it can have different (but equally bad) effects
-          on the bees. In a high enough concentration, it can kill the bee
-          (acute intoxication). But even in sublethal concentrations, which is
-          more common to find, <b>imidacloprid can cause chronic toxicity</b>,
-          harming them physiologically or behaviorally. It has an
-          <b>impact on their motor and cognitive functions</b>, such as
-          learning, flying, feeding and navigation memory abilities. This way,
-          it also impairs their foraging and, finally, their survival, in a way
-          that they often die far away from their own colony [22, 13].
-        </p>
-        <p>
-          However, some overexpressed enzymes from the CYP P450 superfamily have
-          been described as participants in the neonicotinoid resistance of some
-          insects, converting imidacloprid into less harmful metabolites [15].
-          Those enzymes are very important for the development of our project.
-        </p>
-        <img
-          src="https://2021.igem.org/wiki/images/b/bf/T--USP-Brazil--IGEM-USP-Description-Hexagon.jpg"
-        />
-        <p>
-          Even though they are marked as contributors to the bee disappearance
-          phenomenon, neonicotinoids are very effective pesticides for pest
-          control, surpassing many others.
-          <b
-            >Banning or impairing their function can have a negative effect on
-            crops' production and create the need to apply a higher amount of
-            other pesticides, a solution that can be even more harmful to the
-            environment and also cost more money</b
-          >. In short, neonicotinoids are very necessary for agriculture.
-        </p>
-        <p>
-          herefore, our solution, <b>Let.it.bee</b>., tries to address the issue
-          without cancelling the important pest control effect.
-        </p>
-        <h2>WHAT IS <b>LET.IT.BEE</b></h2>
-        <h3>Our inspiration</h3>
-        <p>
-          Because of bees' great importance to the planet and consequent
-          consonance with multiple United Nations'
-          <b>Sustainable Development Goals (SDGs)</b>, our team was inspired to
-          adopt the cause and help save them.
-        </p>
-        <p>
-          In 2018 and 2019, about <b>half a billion bees were found dead </b> in
-          different regions of Brazil, the main cause was attributed to their
-          contact with pesticides, especially neonicotinoids [8]. This occasion
-          brought a lot of attention to the worries surrounding the
-          disappearance of these insects.
-        </p>
-        <p>
-          But, despite that event, in the beginning of 2020, our team found out
-          that the
-          <b
-            >Brazil's government had just released the use of 493 pesticides,</b
-          >
-          the highest number of substances approved in all of the country's
-          history. It is only a part of an upward trajectory of pesticide
-          approval that is happening ever since 2016 [9]. Among them, there are
-          even pesticides that are prohibited in other countries, such as
-          Fipronil that was banned in part of the European Union, because of
-          their effects in human health or involvement in the death of bees
-          [10].
-        </p>
-        <p>
-          Agriculture is a very important sector for Brazil, along with
-          livestock. The business is responsible for more than 20% of the
-          country's Gross Domestic Product, corresponding to almost half of all
-          the exportation, too [24,25 ]. For soy, sugar cane, orange juice and
-          coffee, for example, Brazil is both the best producer and exporter on
-          the world, while some of this products are
-          <b>totally dependent on bee pollination </b>[25]. Consequently,
-          knowing about the relationship of bees with crops' productivity, the
-          problem should be receiving more consideration.
-        </p>
-        <p>
-          Thus, by hearing and learning more about the death of their
-          populations around the world, and especially in our country, as well
-          as the terrible implications of the phenomenon, we decided to dive
-          more into the problem and come up with a solution for a more
-          sustainable agriculture: our project <b>Let.it.bee.</b>
-        </p>
-        <p>
-          Because of the pandemic and plant growth time, we have been working on
-          this project since 2020, making it a two year project.
-        </p>
-        <h3>Our Goals</h3>
-        <img
-          src="https://2021.igem.org/wiki/images/6/6c/T--USP-Brazil--IGEM-USP-Description-Postit.jpg"
-          alt="Post it with goal"
-        />
-        <br />
-        <br />
-        <p>
-          By reaching that goal, we can have a
-          <b>positive impact in both economy and environment,</b> especially by
-          contributing to:
-        </p>
-        <ul>
-          <li>
-            A <b>sustainable and productive agriculture,</b> by helping farmers
-            keep their production protected against pests without harming the
-            pollinators, while the productivity (in quantity and quality) of
-            their crop grows with more bees to pollinate the plants. This can
-            optimize production, as well as pesticide use and the land use.
-          </li>
-          <li>
-            An <b>economic growth,</b> by stimulating farmers production and
-            generating jobs in rural areas.
-          </li>
-          <li>
-            The maintenance of the <b>ecological balance,</b> by keeping plants
-            pollinated, thus maintaining the ecosystem functions, as well as its
-            beauty. Besides heliping the plants that are pollinated by bees, it
-            can also help the organisms that use them as home or as food, as
-            well as the organisms that feed on those other organisms, and so on,
-            maintaining the food chain and other ecological relationships.
-          </li>
-          <li>
-            <b>Food production,</b> by improving quality and quantity of crops
-            productions, offering more and better options for people.
-          </li>
-          <li>
-            <b>Lessen food waste,</b> by producing fruits with better quality,
-            with less deformities, that will not be thrown away by farmers.
-          </li>
-        </ul>
-        <h3>How it works?</h3>
-        <p>
-          To achieve our goals, we designed an adaptable genetic circuit system
-          for plants, so the plant
-          <b
-            >can express a detoxifying enzyme (CYP6G1), capable of metabolizing
-            the pesticide Imidacloprid into less toxic metabolites, only in
-            tissues that bees come in contact with the most during
-            pollination,</b
-          >
-          such as the pollen.
-        </p>
-        <p>
-          By doing this, the pollen of the plant that expresses the Let.it.bee.
-          circuit will be safe for bees contact and consumption while the rest
-          of the plant is still toxic to pests, making it a safe option for
-          farmers to apply in their crops without losing the function of the
-          pesticide.
-        </p>
-        <img
-          src="https://2021.igem.org/wiki/images/7/7b/T--USP-Brazil--IGEM-USP-Description-Figure2.png"
-          alt="Scheme for Let it bee"
-        />
-        <p>
-          Our test circuit was expressed in a <b>micro-tomato plant</b> and it
-          contains:
-        </p>
-        <ul>
-          <li>A specific pollen promoter</li>
-          <li>A detoxifying enzyme</li>
-          <li>A self-cleaving peptide</li>
-          <li>The GUS reporter gene</li>
-        </ul>
-        <p>
-          You can check more about our project's genetic circuit and chassis in
-          our <b>Design page!</b>
-        </p>
-        <h2>WHAT IS NEXT FOR <b>LET.IT.BEE</b></h2>
-        <p>
-          Due to the recognition to their importance and worries about the
-          future, the bee's disappearance problem has been gaining more media
-          coverage over the years, which fill us with hope that it will receive
-          more solutions like Let.it.bee. Due to the principle of modularity in
-          synthetic biology, our project can also easily be adapted to other
-          plants and pesticides in the future, by changing the tissue specific
-          promoter and, if needed, the enzyme. Thus, after our preliminary tests
-          the circuit could be expanded to more crops.
-        </p>
-        <p>
-          Brazil has suffered a lot from the COVID-19 pandemic, causing many of
-          our lab experiments to be delayed. Although our current results and
-          modelling are enough to understand more about our project, more tests
-          are needed to better improve our circuit. You can check more of this
-          journey on the <b>Engineering page.</b>
+
+        <p>Furthermore, we compared our CYP6G1 model with the best scoring model CYP6G1 built by Alphaphold and we realized that our model has similarities concerning the conformations of several residues on the binding site. The RMSD value for 82% (430 of 524) of residues between the alignment of both proteins was 1.172 Å, a good value for templates with similarity greater than 90%  [8]. The heme group added to the model generated by MODELLER was positioned closer to the stabilizer residues than the one added to Alphafold's. (Figure 3). The addition of the heme group in Alphaphold CYP6G1 model was carried out through molecular docking and its adjustment was made considering other documented CYP450's enzymes.</p>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/5/58/T--USP-Brazil--IGEM-USP-Comparison-of-stabilizers-aminoacids.png"
+          />
+        </figure>
+
+        <p>The models generated by Robetta and I-TASSER were the best obtained, showing good structural scores (Table 1). However, they both still had some issues to be solved. First, the Robetta model was not suitable for future experiments, such as substrate docking. Its structure conformation was predicted without the presence of a heme group, creating a steric hindrance next to the place where the cofactor might be allocated. Thus, even after molecular docking, it is not possible to add the cofactor similarly as it was observed in the protein predicted by Alphaphold (Figure 3).  Besides, I-TASSER model had shown good scores too, but lower than Robetta's, mainly for <b>each residue position, which were validated by the Ramachandran plot (Table 1)</b>.</p>
+
+        <p><b>I-TASSER (5%) model resulted in a 25 fold error increase when compared to Robetta(0,2%)</b>,  which influenced directly the decision not to choose it as the main template.  We also tried to build the CYP6G1 model by I-TASSER, but that rendered bad Ramachandran scores, with many outliers residues.</p>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/9/93/T--USP-Brazil--IGEM-USP-Model-Ramachandran-plots.png"
+          />
+        </figure>
+
+        <h4>Exploration of pesticides interaction with CYP6G1</h4>
+        
+        <p>By comparing the models we built with the one generated by Alphaphold, we sought to understand how pesticides interacted in the catalytic site. However, unexpectedly, our model has presented a larger catalytic site than Alphaphold's (Figure 4) [9].</p>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/f/f7/T--USP-Brazil--IGEM-USP-Model-CYP6G1-catalytic.png"
+          />
+          <h4>
+            <a
+              href="http://sts.bioe.uic.edu/castp/calculation.html"
+              target="_blank"
+            >
+              (http://sts.bioe.uic.edu/castp/calculation.html)
+            </a>
+          </h4>
+        </figure>
+
+        <p>Compared to the best-predicted model generated by Alphaphold, ours isn't as suitable for docking experiments, for which it was discarded.</p>
+
+        <p> We have used the structure Iron (IV)–Oxo [21] heme group calculated by Shahrokh and colleagues (2011) to carry out docking experiments with Alphaphold's CYP6G1 and some pesticides as substrates. We have manually edited the .mol2 file downloaded from the supplementary data and we generated a .top file in Dockthor [18], changing the partial charges for all atoms of the porphyrin ring. Then, we simulated the presence of iron using a carbon atom at the center of the porphyrin ring and adjusted the partial charge that was expected for the metal. </p>
+
+        <p>The docking experiments used solely structural modifications of ligands, allowing some degree of freedom for bonds rotations. We analyzed the position of the pesticides inside the catalytic site and observed them near the heme and iron(IV)-oxo, where the hydroxylation of compounds happens. To search for important residues on the catalytic site, we used a program to create a 2D atmosphere for ligands interactions with the protein and we found a hydrophobic catalytic pocket (https://www.playmolecule.com/PlexView/). The analysis showed several important phenylalanine residues as stabilizers of hydrophobic regions of substrates, as already was expected (Figure 5) [9]. </p>
+
+        <p><b>To improve the protein's promiscuity, we could explore the phenylalanine pocket (Figure 5), changing it to a smaller hydrophobic residue, as PHE245 —> ALA245, and consequently increasing the inside space for accommodating large pesticides.</b></p>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/c/ce/T--USP-Brazil--IGEM-USP-Model-The-CYP6G1-hydrophobic.png"
+          />
+        </figure>
+
+        <p>The docking experiments used solely structural modifications of ligands, allowing some degree of freedom for bonds rotations. We analyzed the position of the pesticides inside the catalytic site and observed them near the heme and iron(IV)-oxo, where the hydroxylation of compounds happens. To search for important residues on the catalytic site, we used a program to create a 2D atmosphere for ligands interactions with the protein and we found a hydrophobic catalytic pocket ([https://www.playmolecule.com/PlexView/](https://www.playmolecule.com/PlexView/)). The analysis showed several important phenylalanine residues as stabilizers of hydrophobic regions of substrates, as already was expected (Figure 5) [9].</p>
+
+        <p>The docking experiments used solely structural modifications of ligands, allowing some degree of freedom for bonds rotations. We analyzed the position of the pesticides inside the catalytic site and observed them near the heme and iron(IV)-oxo, where the hydroxylation of compounds happens. To search for important residues on the catalytic site, we used a program to create a 2D atmosphere for ligands interactions with the protein and we found a hydrophobic catalytic pocket ([https://www.playmolecule.com/PlexView/](https://www.playmolecule.com/PlexView/)). The analysis showed several important phenylalanine residues as stabilizers of hydrophobic regions of substrates, as already was expected (Figure 5) [9].</p>
+
+        <h4>Conclusions</h4>
+
+        <p>In order to address the problem related to the lack of molecular dynamics, by using the best model predicted, we remodelled CYP6g1 using a comparative methodology approach. It’s easily carried out on a regular computer with the help of MODELLER, a free program for protein modelling that demands little computer processing. With this program, we were looking forward to sharing a capable and accessible way of modelling protein-cofactor bounding. By accessible, we mean a program that requires a low cost of energy and computer processing in order to run.</p>
+
+        <p>The Modeller approach can be used for the addition of huge cofactors, e.g. FADH, FMN or ligands, for a  satisfactory identification of aminoacids residues for future mutations aiming to improve enzyme activity and construct an optimized protein.</p>
+
+        <p>Based on the extensive experience gained in this project and its troubleshooting, <b>we wrote a protein modelling protocol with the program MODELLER to help the future iGEM teams to model proteins with extern atoms</b> such as cofactors and still not solved by high-performance algorithms as Alphaphold.</p>
+
+        <p>The handbook can be found here:
+          <a hrefe="https://docs.google.com/document/d/1ssPa9jfE3ctUhPMgi0HEPJ3yk_5igip3Wh91k4j4VcM/edit">
+            Simulating Proteins: basic guide of comparative modelling
+          </a>
         </p>
 
         <h2>References:</h2>
         <div class="references">
-          <ol>
+          <ol start="5">
             <li>
-              BEE OR NOT TO BEE. Por que proteger as abelhas? Retrieved on Sept
-              18, 2021 from https://www.beeornottobe.com.br
+              Webb, B. and A. Sali, Comparative Protein Structure Modeling Using MODELLER. Curr Protoc Bioinformatics, 2016. 54: p. 5.6.1-5.6.37.
             </li>
             <li>
-              A.B.E.L.H.A. Abelhas e polinização. Retrieved on Sept 19, 2021
-              from https://abelha.org.br/abelhas-e-a-polinizacao/
+              Sali, A. and T.L. Blundell, Comparative protein modelling by satisfaction of spatial restraints. J Mol Biol, 1993. 234(3): p. 779-815.
             </li>
             <li>
-              EMBRAPA. O que é polinização? Retrieved on Sept 19, 2021 from
-              https://www.embrapa.br/meio-norte/polinizacao
+              Schulz-Jander DA, Casida JE. Imidacloprid insecticide metabolism: human cytochrome P450 isozymes differ in selectivity for imidazolidine oxidation versus nitroimine reduction. Toxicol Lett. 2002 Jun 7;132(1):65-70. doi: 10.1016/s0378-4274(02)00068-1. PMID: 12084621.
             </li>
             <li>
-              BEE OR NOT TO BEE. Sem abelha, sem alimento. Retrieved on Sept 19,
-              2021 from https://www.semabelhasemalimento.com.br/
+              Vitkup, D., et al., Completeness in structural genomics. Nature Structural Biology, 2001. 8(6): p. 559-566.
             </li>
             <li>
-              PIRES, C. S. S.; Pereira, F. M.; Lopes, M. T. R.; Nocelli, R. C.
-              F.; Malaspina, O.; Pettis, J. S. & Teixeira, E. W..
-              Enfraquecimento e perda de colônias de abelhas no Brasil: há casos
-              de CCD? Pesq. agropec. bras., Brasília, v.51, n.5, p.422-442, May
-              2016. DOI: 10.1590/S0100-204X2016000500003
+              Jones RT, Bakker SE, Stone D, Shuttleworth SN, Boundy S, McCart C, Daborn PJ, ffrench-Constant RH, van den Elsen JM. Homology modelling of Drosophila cytochrome P450 enzymes associated with insecticide resistance. Pest Manag Sci. 2010 Oct;66(10):1106-15. doi: 10.1002/ps.1986. PMID: 20583201.
             </li>
             <li>
-              BPBES. Relatório temático sobre polinização, polinizadores e
-              produção de alimentos no Brasil. 2018.
+              Haddad, Y., V. Adam, and Z. Heger, Ten quick tips for homology modeling of high-resolution protein 3D structures. PLOS Computational Biology, 2020. 16(4): p. e1007449.
             </li>
             <li>
-              LEWIS, S. 25% of wild bee species have gone missing since the
-              1990s, study finds. Retrieved in Sept 19, 2021 from
-              https://www.cbsnews.com/news/wild-bee-species-missing-since-1990s-extinction/
+              Fiser, A., Template-based protein structure modeling. Methods Mol Biol, 2010. 673: p. 73-94.
             </li>
             <li>
-              GRIGORI, Pedro. Apicultores brasileiros encontram meio bilhão de
-              abelhas mortas em três meses. Retrieved on Sept 18, 2021 from
-              https://reporterbrasil.org.br/2019/03/apicultores-brasileiros-encontram-meio-bilhao-de-abelhas-mortas-em-tres-meses/
+              Altschul, S.F., et al., Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Research, 1997. 25(17): p. 3389-3402.
             </li>
             <li>
-              G1. Número de agrotóxicos registrados em 2020 é o mais alto da
-              série histórica. Retrieved on Sept 18, 2021 from
-              https://g1.globo.com/economia/agronegocios/noticia/2021/01/14/numero-de-agrotoxicos-registrados-em-2020-e-o-mais-alto-da-serie-historica-maioria-e-produto-generico.ghtml
+              Haddad, Y., V. Adam, and Z. Heger, Ten quick tips for homology modeling of high-resolution protein 3D structures. PLOS Computational Biology, 2020. 16(4): p. e1007449.
             </li>
             <li>
-              . GRIGORI, Pedro. 118 agrotóxicos são aprovados durante a
-              pandemia, liberação é "serviço essencial". Retrieved on Sept 18,
-              2021 from
-              https://reporterbrasil.org.br/2020/05/96-agrotoxicos-sao-aprovados-durante-a-pandemia-liberacao-e-servico-essencial/
+              dos Santos, K. B., Guedes, I. A., Karl, A. L. M. & Dardenne, L. Highly Flexible Ligand docking: benchmarking of the DockThor program on the LEADS-PEP protein-peptide dataset. J. Chem. Inf. Model. acs.jcim.9b00905 (2020) doi:https://doi.org/10.1021/acs.jcim.9b00905.
             </li>
             <li>
-              . HUNG Keng-Lou James, Kingston Jennifer M., Albrecht Matthias,
-              Holway David A., Kohn Joshua R.. 2018. The worldwide importance of
-              honey bees as pollinators in natural habitats. *Proc. R. Soc. B.*
-              **285** 2017214020172140. http://doi.org/10.1098/rspb.2017.2140
+              dos Santos, K. B., Guedes, I. A., Karl, A. L. M. & Dardenne, L. Highly Flexible Ligand docking: benchmarking of the DockThor program on the LEADS-PEP protein-peptide dataset. J. Chem. Inf. Model. acs.jcim.9b00905 (2020) doi:https://doi.org/10.1021/acs.jcim.9b00905.
             </li>
             <li>
-              BBC. Por que desaparecimento das abelhas seria uma catástrofe – e
-              o que você pode fazer para evitar isso. Retrieved in Sept 20, 2021
-              from https://www.bbc.com/portuguese/geral-40220606
+              Shahrokh K, Orendt A, Yost GS, Cheatham TE 3rd. Quantum mechanically derived AMBER-compatible heme parameters for various states of the cytochrome P450 catalytic cycle. J Comput Chem. 2012;33(2):119-133. doi:10.1002/jcc.21922
             </li>
             <li>
-              PROJETO Abelhas Sem Ferrão. As possíveis causas do
-              “desaparecimento das abelhas”. retrieved in Sept 20, 2021 from
-              http://www.projetoabelhassemferrao.ufv.br/?noticias=as-possiveis-causas-do-desaparecimento-das-abelhas](http://www.projetoabelhassemferrao.ufv.br/?noticias=as-possiveis-causas-do-desaparecimento-das-abelhas
-            </li>
-            <li>
-              O’NEAL, S. T., Anderson, T. D., & Wu-Smart, J. Y. (2018).
-              Interactions between pesticides and pathogen susceptibility in
-              honey bees. Current Opinion in Insect Science, 26, 57–62.
-              doi:10.1016/j.cois.2018.01.006
-            </li>
-            <li>
-              IHARA, M., & Matsuda, K. (2018). Neonicotinoids: molecular
-              mechanisms of action, insights into resistance and impact on
-              pollinators. Current Opinion in Insect Science.
-              doi:10.1016/j.cois.2018.09.009
-            </li>
-            <li>
-              POTENZA, A. Bad news for bees: three-quarters of all honey on
-              Earth has pesticides in it. Retrieved in Sept 20, 2021 from
-              https://www.theverge.com/2017/10/5/16424216/honey-neonicotinoids-contamination-honeybees-pollinators-environment
-            </li>
-            <li>
-              MUTH, F., Leonard, A.S. A neonicotinoid pesticide impairs
-              foraging, but not learning, in free-flying bumblebees. Sci Rep 9,
-              4764 (2019). https://doi.org/10.1038/s41598-019-39701-5
-            </li>
-            <li>
-              GRIGORI, P. Agrotóxico mais encontrado em frutas e verduras no
-              Brasil é fatal para abelhas. Retrieved in Sept 20 from
-              https://brasil.elpais.com/brasil/2019-12-17/agrotoxico-mais-encontrado-em-frutas-e-verduras-no-brasil-e-fatal-para-abelhas.html
-            </li>
-            <li>
-              CRIADO, M. A.. Estudo detecta pesticidas em 75% das amostras de
-              mel do mundo inteiro. Retrieved in Sept 20, 2021 from
-              https://brasil.elpais.com/brasil/2017/10/05/ciencia/1507209390_988942.html
-            </li>
-            <li>
-              TURCATTO, A. P.; Morais, M.M.; Almeida, J. M.V. & Jong, D.
-              Importância dos nutrientes para o desenvolvimento das abelhas Apis
-              mellifera. Retrieved in Sept 20, 2021 from
-              https://www.apacame.org.br/mensagemdoce/121/artigo.htm
-            </li>
-            <li>
-              SUCHAIL S, Debrauwer L, Belzunces LP. Metabolism of imidacloprid
-              in Apis mellifera. Pest Manag Sci. 2004 Mar;60(3):291-6. doi:
-              10.1002/ps.772. PMID: 15025241.
-            </li>
-            <li>
-              WU, YY., Luo, QH., Hou, CS. et al. Sublethal effects of
-              imidacloprid on targeting muscle and ribosomal protein related
-              genes in the honey bee Apis mellifera L.. Sci Rep 7, 15943 (2017).
-              https://doi.org/10.1038/s41598-017-16245-0
-            </li>
-            <li>
-              RANGEL, L.E.P.; Botton, M.; Papa, G.; Yamamoto, P. T. & Roggia, S.
-              USO DE NEONICOTINOIDES NO BRASIL SITUAÇÃO ATUAL DOS PRODUTOS
-              REGISTRADOS.
-            </li>
-            <li>
-              EMBRAPA. Trajetória da agricultura brasileira. Retrieved in Sept
-              20, 2021 from
-              https://www.embrapa.br/visao/trajetoria-da-agricultura-brasileira
-            </li>
-            <li>
-              FIELDVIEW. Qual é a participação do agronegócio no PIB e nas
-              exportações brasileiras? Retrieved in Sept 20, 2021 from
-              https://blog.climatefieldview.com.br/qual-e-a-participacao-do-agronegocio-no-pib-e-nas-exportacoes-brasileiras
+              Nam, W. (2007). High-Valent Iron(IV)–Oxo Complexes of Heme and Non-Heme Ligands in Oxygenation Reactions. Accounts of Chemical Research, 40(7), 522–531. doi:10.1021/ar700027f
             </li>
           </ol>
         </div>
+
+        <h3>2) Enzyme Kinetics Simulation</h3>
+
+        <p>The goal of this simulation is to <b>predict the behavior of the modified cell plants</b>, in a way that we can observe <b>how our CYP6G1 associated with pLAT52 of our Micro-Tom</b> plant would behave.</p>
+
+        <p>In other words, we checked the <b>expression rate for our CYP</b> and the <b>degradation rate of Imidacloprid</b>. In addition, we analyzed the residues of the reaction and the amount of <b>energy needed</b> for the plant to synthesize CYP6G1.</p>
+
+        <p>
+          Due to the COVID-19 pandemic restrictions, no availability of reactants and short time, our team's WetLab was not able to experiment and observe the reaction between our transformed plant and the neonicotinoid Imidacloprid, so we resorted to <b>mathematics and theory</b> to try and estimate how it would go in practice. For that we had to make some <b>assumptions</b> about the behavior of the circuit:
+        </p>
+
+        <ul>
+          <li><p>The concentration of <b>LAT52 gene expression remains constant</b> in the cell.</p></li>
+          <li><p>The <b>pollen cells have all the resources</b> necessary to fully express CYP6G1.</p></li>
+          <li><p>There are two main ways of applying imidacloprid to the plant: topically or in the seed before the cultivation. Here we considered the <b>application on the seed</b> which is when our project is able to work.</p></li>
+          <li><p>The reaction between CYP6G1 and imidacloprid is <b>100% efficient</b></p></li>.
+        </ul>
+
+        <p>First and foremost, we wanted to know the concentration of expressed CYP in the pollen of our plant. In our project's circuit, we used <b>LP4/2A peptide linker</b> to express both the CYP6G1 and the GUS gene reporter. This linker has an approximate cleavage <b>efficiency of 80% to 90%</b> [1]. This means that if we find the <b>concentration of GUS</b> expressed by the LAT52 promoter, we could calculate the concentration of CYP in our construction. Experimentally, we were not able to retrieve it, but luckily, literature was on our side. <b>Neil Bate</b>, from the Department of Botany of the University of Leicester, has a publicly available Doctorate Thesis [2] about pollen genes, in which he expresses the GUS reporter with the LAT52 promoter, which was perfect for our project.</p>
+
+        <p>Using the Materials and Methods section, we were able to reverse the process in which he measured GUS activity and found the concentration of GUS on pollen. Calculations can be found <a id="First" v-on:click="openModal($event)">here</a> </p>
+
       </div>
 
       <div class="column is-one-fifth"></div>
     </section>
+
+    <div
+      id="FirstOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+
+    <div id="FirstMO" class="modal_USP is-hidden">
+      <div class="columns">
+        <div class="column " />
+        <div class="content column is-two-thirds">
+          <p>Using the following image we calculated the <b>diameter of pollen grains.</b></p>
+
+          <figure class="has-text-centered">
+            <img
+              src="https://2021.igem.org/wiki/images/e/ea/T--USP-Brazil--IGEM-USP-Model-_Pollen-grains.png"
+            />
+          </figure>
+
+          <p>Then considering the pollens having a spherical volume we obtained the value of <b>4,6.10^9 grains/L.</b></p>
+
+          <p>Now looking at the work of Twell (1994) [4] it is known that the mass of GUS enzyme per pollen grain (in the anthesis period, then the reproductive cycle of tomato plants begins) is <b>6 ng</b>. We experimentally found a value of 4.1 ng/pollen grain. In addition, we considered E. coli GUS enzyme having a molecular weight of 68,447 kDa [5], so:</p>
+
+          <p>Considering the cleavage efficiency being between 80%-90% then we have:</p>
+          
+        </div>
+
+        <div class="column " />
+      </div>
+    </div>
 
     <Footer />
   </div>
@@ -542,16 +256,73 @@ import Backtotop from "@/components/BacktoTop.vue";
 
 export default {
   name: "Description",
+
   components: {
     Nav,
     Footer,
     Backtotop,
   },
+
+  methods: {
+    openModal(event) {
+
+      let clicked_id = event.target.id;
+      let overlay = document.getElementById(`${clicked_id}OV`);
+      let modal = document.getElementById(`${clicked_id}MO`);
+      modal.classList.remove("is-hidden");
+      overlay.classList.remove("is-hidden");
+   
+    },
+
+    closeModal(event) {
+      
+      let clicked_id = event.target.id;
+      let id = clicked_id.replace("OV", "");
+      
+      let overlay = document.getElementById(`${id}OV`);
+      let modal = document.getElementById(`${id}MO`);
+     
+      modal.classList.add("is-hidden");
+      overlay.classList.add("is-hidden");
+    }
+  }
 };
 </script>
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Roboto:wght@500;700;900&display=swap");
+
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.modal_USP {
+  position: fixed;
+  left: 10%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+
+  background-color: white;
+  padding: 6rem;
+  /* border-radius: 5px; */
+  z-index: 50;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 45;
+}
+/* ----------------------------- */
 
 .header {
   width: 100% !important;

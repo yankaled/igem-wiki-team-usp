@@ -24,6 +24,12 @@ module.exports = {
       title: "Members",
       chunks: ["chunk-vendors", "chunk-common", "Members"],
     },
+    Model: {
+      entry: "./src/views/Model/main.js",
+      template: "public/index.html",
+      title: "Model",
+      chunks: ["chunk-vendors", "chunk-common", "Model"],
+    },
     Description: {
       entry: "./src/views/Description/main.js",
       template: "public/index.html",
