@@ -868,7 +868,7 @@ For implementation, the tests with the local expression and the efficacy in meta
 
           <div class="column is-half">
             <Collapsible
-              title="Empraba "
+              title="Embrapa "
               src=""
               text="Embrapa is a brazilian company for research in agriculture. 
 

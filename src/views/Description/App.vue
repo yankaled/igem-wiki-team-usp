@@ -67,7 +67,7 @@
           <b>some foods just would not be produced anymore</b> or would turn
           into luxury items. [6]
         </p>
-        
+
         <figure class="has-text-centered">
           <img
             src="https://2021.igem.org/wiki/images/0/0d/T--USP-Brazil--IGEM-USP-Description-CropsPollination.png"
@@ -113,10 +113,11 @@
         </p>
         <figure class="has-text-centered">
           <img
+            style="max-width:70%;max-height:70%"
             src="https://2021.igem.org/wiki/images/f/f6/T--USP-Brazil--IGEM-USP-Description-BeeSpeciesRichness.png"
           />
         </figure>
-        
+
         <p>
           Many are the causes for the phenomenon, for instance migration stress,
           drought, diseases, climate change and, especially,
@@ -232,6 +233,7 @@
         </p>
         <figure class="has-text-centered">
           <img
+            style="max-width:60%;max-height:60%"
             src="https://2021.igem.org/wiki/images/b/bf/T--USP-Brazil--IGEM-USP-Description-Hexagon.jpg"
           />
         </figure>
@@ -305,10 +307,11 @@
         <h3>Our Goals</h3>
         <figure class="has-text-centered">
           <img
+            style="max-width:60%;max-height:60%"
             src="https://2021.igem.org/wiki/images/6/6c/T--USP-Brazil--IGEM-USP-Description-Postit.jpg"
             alt="Post it with goal"
           />
-        </figure>      
+        </figure>
         <br />
         <br />
         <p>
@@ -366,10 +369,11 @@
         </p>
         <figure class="has-text-centered">
           <img
+            style="max-width:80%;max-height:80%"
             src="https://2021.igem.org/wiki/images/9/9c/T--USP-Brazil--IGEM-USP-Description-GeneralSchemeOfLetItBee.jpeg"
             alt="Scheme for Let it bee"
           />
-        </figure> 
+        </figure>
         <p>
           Our test circuit was expressed in a <b>micro-tomato plant</b> and it
           contains:
@@ -384,7 +388,7 @@
           You can check more about our project's genetic circuit and chassis in
           our
           <a href="https://2021.igem.org/Team:USP-Brazil/Design"
-            ><b>Design page!</b></a
+            >Design page!</a
           >
         </p>
         <h2>WHAT IS NEXT FOR <b>LET.IT.BEE</b></h2>
@@ -405,7 +409,7 @@
           are needed to better improve our circuit. You can check more of this
           journey on the
           <a href="https://2021.igem.org/Team:USP-Brazil/Engineering"
-            ><b>Engineering page.</b></a
+            >Engineering page.</a
           >
         </p>
 
