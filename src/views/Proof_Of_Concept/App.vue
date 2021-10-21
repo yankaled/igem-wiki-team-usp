@@ -12,27 +12,45 @@
     <section class="columns">
       <div class="column is-one-fifth">
         <aside class="is-sticky">
+          
           <div id="" class="sub-navigation sub-menu-content">
             <div class="">
-              <a class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
-                >Introduction</a
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-introduction"
               >
+                Introduction
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-test-results"
+              >
+                Test Results
+              </a>
             </div>
             <div class="">
               <a class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
-                >Test Results</a
+                href="#title-conclusion"
               >
-            </div>
-            <div class="">
-              <a class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
-                >Conclusion</a
-              >
+                Conclusion
+              </a>
             </div>
           </div>
+
           <Backtotop />
+       
         </aside>
       </div>
+      
       <div class="content column is-three-fifth">
+        
+        <span
+          id="title-introduction"
+          class="anchor-span"
+        />
+
         <h2>Introduction</h2>
         <p>
           Let.it.bee aims to protect bees from the toxic effects of imidacloprid
@@ -51,11 +69,19 @@
           rest of the plants will still be protected against harmful pests, but
           the pollen will be safer for bees and other pollinators.
         </p>
+        
+        <span
+          id="title-test-results"
+          class="anchor-span"
+        />
+
         <p>
           3- The GMO plant must have a <b>significant protective action</b> on
           the surrounding bee population.
         </p>
+        
         <h2>Test results</h2>
+
         <p>
           Despite the long-lasting impairment caused by COVID-19, we were able
           to perform enough preliminary wet lab tests for proof of concept,
@@ -111,6 +137,11 @@
           <b>may even avoid the extinction of an entire hive.</b>
         </p>
 
+        <span
+          id="title-conclusion"
+          class="anchor-span"
+        />
+
         <h2>Conclusion</h2>
         <p>
           It is possible to conclude that the aforementioned experiments suffice
@@ -125,8 +156,8 @@
           out some of those alongside our team. You can read more about those
           partnerships in our
           <a href=" https://2021.igem.org/Team:USP-Brazil/Human_Practices">
-            integrated session.</a
-          >
+            integrated session.
+          </a>
         </p>
       </div>
       <div class="column is-one-fifth"></div>
@@ -140,13 +171,17 @@
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
+
 export default {
+
   name: "Safety",
+  
   components: {
     Nav,
     Footer,
     Backtotop,
-  },
+  } 
+  
 };
 </script>
 

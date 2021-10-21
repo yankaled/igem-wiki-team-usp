@@ -341,6 +341,8 @@
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 
+import checkVisible from '@/js/checkVisible';
+
 import bulmaCarousel from "bulma-carousel";
 
 export default {
@@ -377,14 +379,7 @@ export default {
       }
     },
 
-    checkVisible(elm) {
-      var rect = elm.getBoundingClientRect();
-      var viewHeight = Math.max(
-        document.documentElement.clientHeight,
-        window.innerHeight
-      );
-      return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
-    },
+    checkVisible,
 
     animateValue($obj, start, end, duration) {
       let range = end - start;

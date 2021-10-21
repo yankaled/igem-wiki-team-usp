@@ -326,7 +326,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 .navbar-link:not(.is-arrowless)::after {
-  border-color: #fa7c91;
+  border-color: #fd6a83;
 }
 
 #Navbar_USP {
