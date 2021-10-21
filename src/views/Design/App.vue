@@ -41,9 +41,11 @@
             expression tests.
           </li>
         </ul>
-        <img
-          src="https://2021.igem.org/wiki/images/4/46/T--USP-Brazil--IGEM-USP-Design-GeneticCircuit.png"
-        />
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/4/46/T--USP-Brazil--IGEM-USP-Design-GeneticCircuit.png"
+          />
+        </figure>
 
         <p>
           For plant transformation with the genetic circuit we built, we need it
@@ -133,9 +135,11 @@
           reporter was present, so should be the CYP6g1. By using this method
           <b>we lowered the size, complexity and cost of our circuit.</b>
         </p>
-        <img
-          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
-        />
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
+          />
+        </figure>
         <h2>
           A DETOXIFYING ENZYME
         </h2>
@@ -160,9 +164,11 @@
           phytosanitary product. In 48h it metabolized 83% of the Imidacloprid
           [3]:
         </p>
-        <img
-          src="https://2021.igem.org/wiki/images/9/9a/T--USP-Brazil--IGEM-USP-Design-Figure3.png"
-        />
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/9/9a/T--USP-Brazil--IGEM-USP-Design-Figure3.png"
+          />
+        </figure>
         <br />
         <br />
         <p>
@@ -180,9 +186,11 @@
           (LD50) of imidacloprid and its main metabolites on Apis mellifera in
           ng/bee:
         </p>
-        <img
-          src="https://2021.igem.org/wiki/images/f/f5/T--USP-Brazil--IGEM-USP-Design-Figure4.png"
-        />
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/f/f5/T--USP-Brazil--IGEM-USP-Design-Figure4.png"
+          />
+        </figure>
 
         <p>
           So the enzyme CYP6G1 can efficiently metabolize the target pesticide

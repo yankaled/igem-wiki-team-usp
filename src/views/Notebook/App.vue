@@ -83,11 +83,12 @@
           maximum of 2 mg approximately. After the pollen collection, we capped
           the tube and stored it inside liquid nitrogen at -80°C in laboratory.
         </p>
-
-        <img
-          src="https://2021.igem.org/wiki/images/thumb/e/e0/T--USP-Brazil--IGEM-USP-Notebook-gif.gif/600px-T--USP-Brazil--IGEM-USP-Notebook-gif.gif"
-        />
-
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/e/e0/T--USP-Brazil--IGEM-USP-Notebook-gif.gif/600px-T--USP-Brazil--IGEM-USP-Notebook-gif.gif"
+          />
+        </figure>
+        
         <small>
           Video 1. Extraction of Micro-tom pollen control by Dr. Bruno Silvestre
           Lira - Laboratório de Genética Molecular de Plantas (GMP,
