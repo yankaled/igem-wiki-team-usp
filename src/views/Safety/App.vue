@@ -11,6 +11,7 @@
 
     <section class="columns">
       <div class="column is-one-fifth"></div>
+      <Backtotop />
       <div class="content column is-three-fifth">
         <!--- Biosafety --->
         <h2>Biosafety</h2>

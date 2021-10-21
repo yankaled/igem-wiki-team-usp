@@ -5,12 +5,13 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/7/71/T--USP-Brazil--IGEM-USP-Sponsors-Banner.png"
+        src="https://2021.igem.org/wiki/images/thumb/2/26/T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-BannerIntegratedHumanPractices.png/800px-T--USP-Brazil--IGEM-USP-IntegratedHumanPractices-BannerIntegratedHumanPractices.png"
       />
     </div>
 
     <section class="columns">
       <div class="column is-one-fifth"></div>
+      <Backtotop />
       <div class="content column is-three-fifth">
         <p>
           Brazil has a huge agricultural history. This sector has a huge role in
@@ -867,7 +868,7 @@ For implementation, the tests with the local expression and the efficacy in meta
 
           <div class="column is-half">
             <Collapsible
-              title="Empraba "
+              title="Embrapa "
               src=""
               text="Embrapa is a brazilian company for research in agriculture. 
 

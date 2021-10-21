@@ -67,9 +67,12 @@
           <b>some foods just would not be produced anymore</b> or would turn
           into luxury items. [6]
         </p>
-        <img
-          src="https://2021.igem.org/wiki/images/0/0d/T--USP-Brazil--IGEM-USP-Description-CropsPollination.png"
-        />
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/0/0d/T--USP-Brazil--IGEM-USP-Description-CropsPollination.png"
+          />
+        </figure>
 
         <p>
           Pollination by bees is required for a healthy increase in agricultural
@@ -108,9 +111,13 @@
           <b>25% of known bee species to be reported missing to this day</b>
           [7].
         </p>
-        <img
-          src="https://2021.igem.org/wiki/images/f/f6/T--USP-Brazil--IGEM-USP-Description-BeeSpeciesRichness.png"
-        />
+        <figure class="has-text-centered">
+          <img
+            style="max-width:70%;max-height:70%"
+            src="https://2021.igem.org/wiki/images/f/f6/T--USP-Brazil--IGEM-USP-Description-BeeSpeciesRichness.png"
+          />
+        </figure>
+
         <p>
           Many are the causes for the phenomenon, for instance migration stress,
           drought, diseases, climate change and, especially,
@@ -169,9 +176,11 @@
           <b>neonicotinoid class.</b>
         </p>
         <h3>The pesticide: Imidacloprid</h3>
-        <img
-          src="https://2021.igem.org/wiki/images/f/fb/T--USP-Brazil--IGEM-USP-Description-Imida.jpg"
-        />
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/f/fb/T--USP-Brazil--IGEM-USP-Description-Imida.jpg"
+          />
+        </figure>
         <p>
           The neonicotinoids are the <b>most widely used </b> class of
           pesticides in the whole world, even after being restricted in the
@@ -222,9 +231,12 @@
           insects, converting imidacloprid into less harmful metabolites [15].
           Those enzymes are very important for the development of our project.
         </p>
-        <img
-          src="https://2021.igem.org/wiki/images/b/bf/T--USP-Brazil--IGEM-USP-Description-Hexagon.jpg"
-        />
+        <figure class="has-text-centered">
+          <img
+            style="max-width:60%;max-height:60%"
+            src="https://2021.igem.org/wiki/images/b/bf/T--USP-Brazil--IGEM-USP-Description-Hexagon.jpg"
+          />
+        </figure>
         <p>
           Even though they are marked as contributors to the bee disappearance
           phenomenon, neonicotinoids are very effective pesticides for pest
@@ -293,10 +305,13 @@
           this project since 2020, making it a two year project.
         </p>
         <h3>Our Goals</h3>
-        <img
-          src="https://2021.igem.org/wiki/images/6/6c/T--USP-Brazil--IGEM-USP-Description-Postit.jpg"
-          alt="Post it with goal"
-        />
+        <figure class="has-text-centered">
+          <img
+            style="max-width:60%;max-height:60%"
+            src="https://2021.igem.org/wiki/images/6/6c/T--USP-Brazil--IGEM-USP-Description-Postit.jpg"
+            alt="Post it with goal"
+          />
+        </figure>
         <br />
         <br />
         <p>
@@ -352,10 +367,13 @@
           farmers to apply in their crops without losing the function of the
           pesticide.
         </p>
-        <img
-          src="https://2021.igem.org/wiki/images/9/9c/T--USP-Brazil--IGEM-USP-Description-GeneralSchemeOfLetItBee.jpeg"
-          alt="Scheme for Let it bee"
-        />
+        <figure class="has-text-centered">
+          <img
+            style="max-width:80%;max-height:80%"
+            src="https://2021.igem.org/wiki/images/9/9c/T--USP-Brazil--IGEM-USP-Description-GeneralSchemeOfLetItBee.jpeg"
+            alt="Scheme for Let it bee"
+          />
+        </figure>
         <p>
           Our test circuit was expressed in a <b>micro-tomato plant</b> and it
           contains:
@@ -370,7 +388,7 @@
           You can check more about our project's genetic circuit and chassis in
           our
           <a href="https://2021.igem.org/Team:USP-Brazil/Design"
-            ><b>Design page!</b></a
+            >Design page!</a
           >
         </p>
         <h2>WHAT IS NEXT FOR <b>LET.IT.BEE</b></h2>
@@ -391,7 +409,7 @@
           are needed to better improve our circuit. You can check more of this
           journey on the
           <a href="https://2021.igem.org/Team:USP-Brazil/Engineering"
-            ><b>Engineering page.</b></a
+            >Engineering page.</a
           >
         </p>
 

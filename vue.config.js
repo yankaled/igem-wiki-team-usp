@@ -144,6 +144,18 @@ module.exports = {
       title: "Plant",
       chunks: ["chunk-vendors", "chunk-common", "Plant"],
     },
+    Sustainable: {
+      entry: "./src/views/Sustainable/main.js",
+      template: "public/index.html",
+      title: "Sustainable",
+      chunks: ["chunk-vendors", "chunk-common", "Sustainable"],
+    },
+    Notebook: {
+      entry: "./src/views/Notebook/main.js",
+      template: "public/index.html",
+      title: "Notebook",
+      chunks: ["chunk-vendors", "chunk-common", "Notebook"],
+    },
   },
 
   devServer: {

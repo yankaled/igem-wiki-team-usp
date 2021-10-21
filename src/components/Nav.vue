@@ -6,7 +6,7 @@
     aria-label="main navigation"
   >
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
+      <a class="navbar-item" href="https://2021.igem.org/Team:USP-Brazil">
         <img
           style="max-height: 5rem !important;"
           src="https://2021.igem.org/wiki/images/b/b1/T--USP-Brazil--img--TEAMUSP-LOGO-PB-01.19db15e5.png"
@@ -31,7 +31,10 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <!-- <div class="navbar-end"> -->
-      <a class="navbar-item nav-link-usp nav-link-usp-ltr">
+      <a
+        href="https://2021.igem.org/Team:USP-Brazil"
+        class="navbar-item nav-link-usp nav-link-usp-ltr"
+      >
         <!-- <img src="Navbar/Home_logo.png" width="50" height="" /> -->
         Home
       </a>
@@ -140,11 +143,18 @@
             href=" https://2021.igem.org/Team:USP-Brazil/Human_Practices"
             class="navbar-item"
           >
+            Human Practices
+          </a>
+          <hr class="navbar-divider" />
+          <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Human_Practices"
+            class="navbar-item"
+          >
             Integrated Human Practices
           </a>
           <hr class="navbar-divider" />
           <a
-            href=" https://2021.igem.org/Team:USP-Brazil/Education"
+            href="https://2021.igem.org/Team:USP-Brazil/Communication"
             class="navbar-item"
           >
             Public Engagment
@@ -206,7 +216,7 @@
             href=" https://2021.igem.org/Team:USP-Brazil/Sponsors"
             class="navbar-item"
           >
-            Sponsonrs</a
+            Sponsors</a
           >
         </div>
       </div>
@@ -217,7 +227,6 @@
         </a>
 
         <div class="navbar-dropdown">
-          <hr class="navbar-divider" />
           <a
             href=" https://2021.igem.org/Team:USP-Brazil/Medals"
             class="navbar-item"

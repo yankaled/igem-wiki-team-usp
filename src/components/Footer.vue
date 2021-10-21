@@ -92,25 +92,25 @@
       <div class="columns">
         <div class="column is-1"></div>
         <div class="column has-text-centered is-2">
-          <a href="/">
+          <a href="https://biolambda.com/">
             <img src="@/assets/footer/brands/biolambda.png" alt="bioLambda" />
           </a>
         </div>
         <div class="column has-text-centered is-2">
-          <a href="/">
+          <a href="https://fractaltecnologia.com.br/">
             <img
-              src="https://2021.igem.org/wiki/images/e/e7/T--USP-Brazil--img--ipe.ab2853e1.png"
-              alt="ipe"
+              src="https://2021.igem.org/wiki/images/d/da/T--USP-Brazil--img--fractal.022a26cc.png"
+              alt="fractal"
             />
           </a>
         </div>
         <div class="column has-text-centered is-2">
-          <a href="/">
+          <a href="https://br.pg.com/">
             <img src="@/assets/footer/brands/p&g.png" alt="p&g" />
           </a>
         </div>
         <div class="column has-text-centered is-2">
-          <a href="/">
+          <a href="https://biominas.org.br/">
             <img
               src="https://2021.igem.org/wiki/images/1/18/T--USP-Brazil--img--biominas.f2d6765b.png"
               alt="bioMinas"
@@ -118,7 +118,7 @@
           </a>
         </div>
         <div class="column has-text-centered is-2">
-          <a href="/">
+          <a href="https://institutovertere.org/">
             <img
               src="https://2021.igem.org/wiki/images/9/90/T--USP-Brazil--img--vertere.c0dc84c6.png"
               alt="vertere"
@@ -130,15 +130,16 @@
       <div class="columns">
         <div class="column is-1"></div>
         <div class="column has-text-centered is-2">
-          <a href="/">
+          <a href="https://www.cristalia.com.br/">
             <img
+              style="width:16em;height:5em;"
               src="https://2021.igem.org/wiki/images/3/37/T--USP-Brazil--img--cristalia.84c952e6.png"
               alt="cristalia"
             />
           </a>
         </div>
         <div class="column has-text-centered is-2">
-          <a href="/">
+          <a href="https://www.jenabioscience.com/">
             <img
               src="https://2021.igem.org/wiki/images/7/70/T--USP-Brazil--img--jenabioscience.c4d4cce9.png"
               alt="jenaBioscience"
@@ -146,12 +147,12 @@
           </a>
         </div>
         <div class="column has-text-centered is-2">
-          <a href="/">
-            <img src="@/assets/footer/brands/emerge.png" alt="emerge" />
+          <a href="https://emergebrasil.in/">
+            <img src="@/assets/footer/brands/emerge.png" alt="emerge" style="margin-bottom:-2em"/>
           </a>
         </div>
         <div class="column has-text-centered is-2">
-          <a href="/">
+          <a href="https://www.pucjunior.com/">
             <img
               src="https://2021.igem.org/wiki/images/7/75/T--USP-Brazil--img--pucjr.202b5d86.png"
               alt="pucJr"
@@ -159,15 +160,47 @@
           </a>
         </div>
         <div class="column has-text-centered is-2">
-          <a href="/">
+          <a href="https://www.idtdna.com/pages">
             <img
-              src="https://2021.igem.org/wiki/images/d/da/T--USP-Brazil--img--fractal.022a26cc.png"
-              alt="fractal"
+              style="width:15em;height:5em;"
+              src="https://2021.igem.org/wiki/images/2/2b/T--USP-Brazil--IGEM-USP-Footer-IDT.png"
+              alt="integratedDNA"
             />
           </a>
         </div>
         <div class="column is-1"></div>
       </div>
+      <div class="columns">
+        <div class="column is-3"></div>
+        <div class="column has-text-centered is-2">
+          <a href="https://www.twistbioscience.com/">
+            <img
+              style="width:20em;height:10em;margin-top:-1em;"
+              src="https://2021.igem.org/wiki/images/f/f0/T--USP-Brazil--IGEM-USP--Footer-twist.png"
+              alt="twist"
+            />
+          </a>
+        </div>
+        <div class="column has-text-centered is-2">
+          <a href="https://international.neb.com/">
+            <img
+              style="width:20em;height:6em;"
+              src="https://2021.igem.org/wiki/images/1/10/T--USP-Brazil--IGEM-USP--Footer-New-England.jpeg" 
+              alt="newEngland" />
+          </a>
+        </div>
+        <div class="column has-text-centered is-2">
+          <a href="https://www.uniscience.com.br/">
+            <img
+              style="width:20em;height:12em;margin-top:-2em"
+              src="https://2021.igem.org/wiki/images/0/04/T--USP-Brazil--IGEM-USP-Footer-Uniscience.png"
+              alt="uniscience"
+            />
+          </a>
+        </div>
+        <div class="column is-3"></div>
+      </div>
+      
     </div>
   </footer>
 </template>
