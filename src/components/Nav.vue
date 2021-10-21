@@ -378,7 +378,7 @@ export default {
 .nav-link-usp-ltr:hover::before {
   width: 100%;
 }
-a.navbar-item:hover {
+.has-dropdown a:hover {
   color: #ffffff;
 }
 

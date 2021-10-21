@@ -12,7 +12,6 @@
     <section class="columns">
       <div class="column is-one-fifth is-hidden-touch">
         <aside class="is-sticky">
-          
           <div class="sub-navigation sub-menu-content">
             <div>
               <a
@@ -31,25 +30,20 @@
               </a>
             </div>
             <div class="">
-              <a class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
                 href="#title-conclusion"
               >
                 Conclusion
               </a>
             </div>
           </div>
-
-          <Backtotop />
-       
         </aside>
+        <Backtotop />
       </div>
-      
+
       <div class="content column is-three-fifth">
-        
-        <span
-          id="title-introduction"
-          class="anchor-span"
-        />
+        <span id="title-introduction" class="anchor-span" />
 
         <h2>Introduction</h2>
         <p>
@@ -69,17 +63,14 @@
           rest of the plants will still be protected against harmful pests, but
           the pollen will be safer for bees and other pollinators.
         </p>
-        
-        <span
-          id="title-test-results"
-          class="anchor-span"
-        />
+
+        <span id="title-test-results" class="anchor-span" />
 
         <p>
           3- The GMO plant must have a <b>significant protective action</b> on
           the surrounding bee population.
         </p>
-        
+
         <h2>Test results</h2>
 
         <p>
@@ -127,7 +118,11 @@
           or, more unlikely, sample contamination; rather than a proper result.
         </p>
 
-        Figure 4
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/d/d9/T--USP-Brazil--IGEM-USP-ProofOfConcept-Figure4.png"
+          />
+        </figure>
 
         <p>
           Regarding the last criteria, mathematical tools based on the quantity
@@ -137,10 +132,7 @@
           <b>may even avoid the extinction of an entire hive.</b>
         </p>
 
-        <span
-          id="title-conclusion"
-          class="anchor-span"
-        />
+        <span id="title-conclusion" class="anchor-span" />
 
         <h2>Conclusion</h2>
         <p>
@@ -173,86 +165,14 @@ import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
 
 export default {
+  name: "Proof of concept",
 
-  name: "Safety",
-  
   components: {
     Nav,
     Footer,
     Backtotop,
-  } 
-  
+  },
 };
 </script>
 
-<style scoped>
-.is-sticky {
-  margin-left: 15%;
-  position: sticky;
-  top: 100px;
-  display: block;
-}
-.sub-navigation {
-  padding: 2em 0;
-  border-right: solid 3px #ffba17;
-  max-width: 220px;
-}
-.sub-menu-content {
-  font-size: 22px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  color: #262625;
-}
-.sub-nav-link-usp {
-  /* font-weight: bold;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif; */
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #000;
-  background-color: transparent !important;
-  padding: 20px 0px;
-  margin: 0px 20px;
-  display: flex;
-  position: relative;
-  opacity: 0.75;
-}
-
-.sub-nav-link-usp:hover {
-  opacity: 1;
-}
-
-.sub-nav-link-usp::before {
-  transition: 500ms;
-  height: 5px;
-  content: "";
-  position: absolute;
-  background-color: #000;
-}
-
-.sub-nav-link-usp-ltr::before {
-  width: 0%;
-  bottom: 10px;
-}
-
-.sub-nav-link-usp-ltr:hover::before {
-  width: 100%;
-}
-
-sub-menu-content {
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  color: #262625;
-}
-/* a.sub-navbar-item:hover {
-  color: #ffffff;
-}
-
-.sub-navbar-link:hover {
-  color: #ffffff;
-} 
-
-
-*/
-</style>
+<style scoped></style>

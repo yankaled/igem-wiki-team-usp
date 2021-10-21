@@ -117,11 +117,11 @@
       <div class="content column "></div>
     </section>
 
-    <section class="columns has-text-centered" style="transform: translateY(-15em);">
-      <div
-        style="margin: 0 auto;"
-        class="content column is-6"
-      >
+    <section
+      class="columns has-text-centered"
+      style="transform: translateY(-15em);"
+    >
+      <div style="margin: 0 auto;" class="content column is-6">
         <Carousel />
       </div>
     </section>
@@ -169,7 +169,7 @@
         </p>
         <br />
         <br />
-        <p style="color:#fff">(Galileu Maganize, 2019)</p>
+        <p style="color:#fff">(Galileu Magazine, 2019)</p>
       </div>
       <div class="column is-1"></div>
     </section>
@@ -348,10 +348,9 @@
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
-import Carousel from '@/components/Carousel.vue'
+import Carousel from "@/components/Carousel.vue";
 
 import checkVisible from "@/js/checkVisible";
-
 
 export default {
   name: "Home",
@@ -359,7 +358,7 @@ export default {
   components: {
     Nav,
     Footer,
-    Carousel
+    Carousel,
   },
 
   mounted() {
@@ -406,7 +405,7 @@ export default {
         }
       }, stepTime);
     },
-  }
+  },
 };
 </script>
 

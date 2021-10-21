@@ -9,8 +9,45 @@
       />
     </div>
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+         <div class="sub-navigation sub-menu-content">
+           <div>
+             <a
+               class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+               href="#Intro"
+             >
+               Mission
+             </a>
+           </div>
+           <div class="">
+             <a
+               class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+               href="#Plan"
+             >
+               Business Plan
+             </a>
+           </div>
+           <div class="">
+             <a
+               class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+               href="#P&G"
+             >
+            P&G Partnership
+             </a>
+           </div>
+            <div class="">
+             <a
+               class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+               href="#Media"
+             >COMMERCE AND MEDIA
+             </a>
+           </div>
+         </div>
+       </aside>
+      </div>
       <Backtotop />
+      <span id ="Intro"></span>
       <div class="content column is-three-fifth">
         <h2>Mission statement, vision for the future and core values</h2>
 	   
@@ -62,7 +99,7 @@ And the best way to do that was to establhish a mission statement, our vision fo
 		<p>We value a team where everyone can propose ideas and search for your own development with commitment and responsibility</p>
      </div>
   	</div>
-		<p>Having these established as guidelines helped us make sure that our projects and initiatives were aligned with our principles.</p>
+		<p>Having these established as guidelines helped us make sure that our projects and initiatives were aligned with our principles. <span id ="Plan"></span></p>
 		
 		<h2>Business Plan</h2>
 		
@@ -94,7 +131,7 @@ And the best way to do that was to establhish a mission statement, our vision fo
       <div class = "column is-half">
 		<h4>Let.It.Bee. as a scientific project</h4>
 		
-		<p>Focusing on research would allow us to further the tests, really look into the variables and contribute to other future works in the area, but it would probably take more time to make a real impact</p>
+		<p>Focusing on research would allow us to further the tests, really look into the variables and contribute to other future works in the area, but it would probably take more time to make a real impact<span id ="P&G"></span></p>
       </div>
     </div>
 		<h2> P&G Partnership </h2>
@@ -122,7 +159,7 @@ And the best way to do that was to establhish a mission statement, our vision fo
     
 		<p> In short, more than an enriching partnership with a colossal player, we have the presence of several distinguished authorities from their respective areas to provide conversations that are both relaxed and informative to the most diverse spectators, even if the focus was initially on the university audience.
 
-			The goal was to be a first step toward a long-term partnership with P&G, as well as a test of our audience reach. Given the very positive feedbacks from our broadcasts and the effervescent engagement of users in them, there's no doubt: we delivered everything we expected and much more.</p>
+			The goal was to be a first step toward a long-term partnership with P&G, as well as a test of our audience reach. Given the very positive feedbacks from our broadcasts and the effervescent engagement of users in them, there's no doubt: we delivered everything we expected and much more.<span id ="Media"></span></p>
 			
 		<h2>COMMERCE AND MEDIA</h2>
 		

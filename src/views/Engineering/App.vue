@@ -10,8 +10,62 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Intro"
+              >
+                A GLIMPSE INTO OUR JOURNEY
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Idea"
+              >
+                IDEALIZING AND CREATING LET.IT.BEE.
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Test"
+              >
+                TESTING LET.IT.BEE.
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Learn"
+              >
+                LEARNING FROM THE RESULTS
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Future"
+              >
+                IN THE FUTURE
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Ref"
+              >
+                references
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
       <Backtotop />
+      <span id="Intro"></span>
       <div class="content column is-three-fifth">
         <h2>A GLIMPSE INTO OUR JOURNEY</h2>
 
@@ -53,6 +107,7 @@
         <p>
           Here we plan to show you step by step the journey of our project
           development and how it finally became Let.it.bee.
+          <span id="Idea"></span>
         </p>
 
         <h2>IDEALIZING AND CREATING LET.IT.BEE.</h2>
@@ -392,6 +447,7 @@
             alt=""
           />
         </figure>
+        <span id="Test"></span>
 
         <h2>TESTING LET.IT.BEE.</h2>
 
@@ -516,7 +572,7 @@
           <b>mainly transformed</b>, the expression of our circuit is
           <b>stable</b> and that it is <b>only detected in pollen</b> or flower
           parts, having little to no detections in leaves and other parts of the
-          plants.
+          plants.<span id="Learn"></span>
         </p>
 
         <h2>LEARNING FROM THE RESULTS</h2>
@@ -595,6 +651,7 @@
             alt=""
           />
         </figure>
+        <span id="Future"></span>
 
         <h2>IN THE FUTURE</h2>
 
@@ -704,9 +761,9 @@
             alt=""
           />
         </figure>
-
-        <h3>REFERENCES</h3>
-        <div id="references1" class="references">
+        <span id="Ref"></span>
+        <h2>REFERENCES</h2>
+        <div class="references">
           <ol>
             <li>
               DENGLER, R. Neonicotinoid pesticides are slowly killing bees.

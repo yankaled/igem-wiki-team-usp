@@ -10,7 +10,36 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Handbook"
+              >
+                Protein structure prediction handbook
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#CYP"
+              >
+                Adding data about CYP3A4
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Ref"
+              >
+                References
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
       <Backtotop />
       <div class="content column is-three-fifth">
         <p>
@@ -29,7 +58,7 @@
           <b>
             adding data to the CYP3A4
           </b>
-          in the Registry.
+          in the Registry. <span id="Handbook"></span>
         </p>
 
         <p>
@@ -71,7 +100,7 @@
           <b>
             high price of several programs,
           </b>
-          making them inaccessible inaccessible for us.
+          making them inaccessible for us.
         </p>
         <p>
           Having these factors in mind, our objective while writing this
@@ -124,7 +153,7 @@
             comparative modeling
           </b>
           and what we could do if we did not have our object of study
-          crystallized or deposited in RSCB.org. Consequently, we delved through
+          crystallized or deposited in RSCB.org. Consequently, we delved into
           the choice of a
           <b>
             template protein
@@ -144,8 +173,8 @@
           in which we detailed the command lines for the alignment of proteins
           after the choice of the template protein, giving a broad view of each
           command and line involved. Then, we present how the modeling process
-          is realized in modeller software. After this step, we taught how the
-          modeling refination could be realized using programs as
+          is in modeller software. After this step, we taught how the modeling
+          refination could be realized using programs as
           <a href="https://toolkit.tuebingen.mpg.de/tools/quick2d">quick2D</a>
           and I-tasser, showing the excellence of our model compared to the well
           known established database for modeled proteins: the
@@ -206,10 +235,11 @@
             href="https://2021.igem.org/wiki/images/2/23/T--USP-Brazil--IGEM-USP-Contribution-Handbook.pdf"
             >by clicking here.</a
           >
+          <span id="CYP"></span>
         </p>
 
         <!--- Adding data to CYP3A4 --->
-        <h2>Adding data to CYP3A4</h2>
+        <h2>Adding data about CYP3A4</h2>
         <p>
           Our project was based on the CYP6G1 and its properties, but
           researching and understanding relevant characteristics of this enzyme
@@ -328,7 +358,7 @@
         <p>
           Check our other additions in the CYP3A4 page
           <a href="http://parts.igem.org/Part:BBa_K1064004">in the Registry</a>
-          for more.
+          for more. <span id="Ref"></span>
         </p>
 
         <!--- References --->

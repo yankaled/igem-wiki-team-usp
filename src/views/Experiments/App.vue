@@ -10,7 +10,36 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Intro"
+              >
+                Plant transformation and regeneration
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Plant"
+              >
+                Plant growth and material extraction
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Ref"
+              >
+                References
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
       <Backtotop />
       <div class="content column is-three-fifth">
         <figure class="has-text-centered">
@@ -19,9 +48,9 @@
           />
         </figure>
         <small
-          >Figure 1. Molecular biology and biochemical experiments
-          flowchart.</small
-        >
+          >Figure 1. Molecular biology and biochemical experiments flowchart.
+          <span id="Intro"></span>
+        </small>
         <!--- Plant transformation and regeneration --->
         <h2>Plant transformation and regeneration</h2>
         <p>
@@ -31,7 +60,7 @@
           <a
             href="https://2021.igem.org/wiki/images/6/65/T--USP-Brazil--IGEM-USP-Experiments-Pangeia.pdf"
             >this documentation.</a
-          >
+          ><span id="Plant"></span>
         </p>
 
         <!--- Plant growth and material extraction --->
@@ -175,6 +204,7 @@
               reference gene for tomato.
             </p>
           </li>
+          <span id="Ref"></span>
         </ul>
 
         <!--- References --->

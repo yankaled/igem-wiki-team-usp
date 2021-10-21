@@ -9,10 +9,64 @@
       />
     </div>
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Intro"
+              >
+                Genetic circuit OVERVIEW
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Polen"
+              >
+                POLLEN SPECIFIC EXPRESSION
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Viral"
+              >
+                A VIRAL AND PLANT PEPTIDE FOR GENE EXPRESSION
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Enzyme"
+              >
+                A DETOXIFYING ENZYME
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Chassis"
+              >
+                OUR CHASSIS: MICRO-TOM
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Ref"
+              >
+                References
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
       <Backtotop />
+      <span id="Intro"></span>
       <div class="content column is-three-fifth">
-        <h2 id="Genetic">GENETIC CIRCUIT OVERVIEW</h2>
+        <h2>GENETIC CIRCUIT OVERVIEW</h2>
 
         <p>
           The Let.it.bee. project aims to aid bee populations by the development
@@ -64,8 +118,9 @@
         </figure>
         <p>
           You can know more about each of the listed specific genetic parts of
-          our circuit in the next sections!
+          our circuit in the next sections!<span id="Polen"></span>
         </p>
+
         <h2>POLLEN SPECIFIC EXPRESSION</h2>
         <p>
           Although neonicotinoids can be harmful to bees, they are to this day
@@ -104,8 +159,9 @@
           Besides tomatoes, the pLAT52 has been tested in other plants, such as
           <i>Arabidopsis thaliana</i> and <i>Nicotiana tabacum,</i> with very
           similar results for the specificity of its functions [1]. It also has
-          homologues in other plant species [7].
+          homologues in other plant species [7]. <span id="Viral"></span>
         </p>
+
         <h2>A VIRAL AND PLANT PEPTIDE FOR GENE EXPRESSION</h2>
         <p>
           The <b>2A</b> peptides, also known as
@@ -147,6 +203,7 @@
             src="https://2021.igem.org/wiki/images/b/ba/T--USP-Brazil--IGEM-USP-Design-2A-peptides.png"
           />
         </figure>
+        <span id="Enzyme"></span>
         <h2>
           A DETOXIFYING ENZYME
         </h2>
@@ -203,8 +260,9 @@
           So the enzyme CYP6G1 can efficiently metabolize the target pesticide
           into predominantly less toxic compounds, and has been proven to fold
           functionally in tobacco plants, thus being a safe and powerful choice
-          for the project.
+          for the project. <span id="Chassis"></span>
         </p>
+
         <h2>OUR CHASSIS: MICRO-TOM</h2>
 
         <p>
@@ -254,6 +312,7 @@
             src="https://2021.igem.org/wiki/images/0/05/T--USP-Brazil--IGEM-USP-Design-The-Micro-Tom-tomato.png"
           />
         </figure>
+        <span id="Ref"></span>
 
         <h2>References:</h2>
         <div class="references">
@@ -343,11 +402,5 @@ export default {
   position: fixed;
   left: 5%;
   top: 25%;
-}
-a {
-  color: green;
-}
-a:active {
-  color: greenyellow;
 }
 </style>

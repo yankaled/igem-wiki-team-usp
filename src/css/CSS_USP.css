@@ -105,3 +105,55 @@ ul li::before {
   font-weight: 400;
   color: #262625;
 }
+.is-sticky {
+  margin-left: 15%;
+  position: sticky;
+  top: 100px;
+  display: block;
+}
+.sub-navigation {
+  padding: 2em 0;
+  border-right: solid 3px #ffba17;
+  max-width: 220px;
+}
+.sub-menu-content {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #262625;
+}
+.sub-nav-link-usp {
+  /* font-weight: bold;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  background-color: transparent !important;
+  padding: 10px 0px;
+  margin: 0px 20px;
+  display: flex;
+  position: relative;
+  opacity: 0.75;
+}
+
+.sub-nav-link-usp:hover {
+  opacity: 1;
+}
+
+.sub-nav-link-usp::before {
+  transition: 500ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #000;
+}
+
+.sub-nav-link-usp-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.sub-nav-link-usp-ltr:hover::before {
+  width: 100%;
+}
