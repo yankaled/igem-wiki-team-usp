@@ -10,7 +10,44 @@
     </div>
 
     <section class="columns">
-      <div class="menu column is-one-fifth"></div>
+      <div class="menu column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+              href="#title-plant-approach"
+              >
+              A plant approach to save bees
+              </a>
+            </div>
+            <div class="">
+              <a
+              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+              href="#title-plant-transformation"
+              >
+              A local plant transformation method
+              </a>
+            </div>
+            <div class="">
+              <a
+              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+              href="#title-new-chassis"
+              >
+              A new chassis for iGEM: Micro-Tom
+              </a>
+            </div>
+            <div class="">
+              <a
+              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+              href="#title-references"
+              >
+              References
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
 
       <Backtotop />
 
@@ -28,8 +65,10 @@
           Here we want to share some takes on our <b>journey</b> with
           Let.it.bee. and also how we can <b>contribute to future teams</b> that
           wish to use plants in their synthetic biology projects.
+          <span id ="title-plant-approach"></span>
         </p>
 
+        <!--- A plant approach to save bees --->
         <h2>A plant approach to save bees</h2>
 
         <p>
@@ -86,8 +125,10 @@
           The circuit designed for Let.it.bee. is versatile, easily adaptable
           for more plants by changing the bio-bricks if needed, plus some
           aspects of our project can be helpful for future teams.
+          <span id ="title-plant-transformation"></span>
         </p>
 
+        <!--- A local plant transformation method --->
         <h2>A local plant transformation method</h2>
 
         <p>
@@ -140,8 +181,10 @@
           We hope that our characterization in our Wiki and Registry page can be
           of help for other teams looking for a pollen promoter, as well as
           offering a basic design for local expression projects.
+          <span id ="title-new-chassis"></span>
         </p>
 
+        <!--- A new chassis for iGEM: Micro-Tom --->
         <h2>A new chassis for iGEM: Micro-Tom</h2>
 
         <p>
@@ -218,6 +261,8 @@
           >
             here
           </a>!
+          
+          <span id ="title-references"></span>
         </p>
 
         <h2>References</h2>

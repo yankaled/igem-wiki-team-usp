@@ -10,11 +10,35 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+              href="#title-introduction"
+              >
+              Introduction
+              </a>
+            </div>
+            <div class="">
+              <a
+              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+              href="#title-references"
+              >
+              References
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
 
       <Backtotop />
       
       <div class="content column is-three-fifth">
+        
+        <!--- Introduction --->
+        <span id ="title-introduction"></span>
         <h2>Introduction</h2>
 
         <p>
@@ -146,8 +170,10 @@
           >
             Simulating Proteins: basic guide of comparative modelling
           </a>
+          <span id ="title-references"></span>
         </p>
 
+        <!--- Thanks --->
         <h2>References:</h2>
         <div class="references">
           <ol>
@@ -1071,4 +1097,40 @@ export default {
   font-weight: 400;
   color: #262625;
 }
+
+.sub-navigation {
+  padding: 2em 0;
+  border-right: solid 3px #ffba17;
+  max-width: 220px;
+}
+
+.sub-menu-content {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #262625;
+}
+
+.is-sticky {
+  margin-left: 15%;
+  position: sticky;
+  top: 100px;
+  display: block;
+}
+
+.sub-nav-link-usp {
+  /* font-weight: bold;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  background-color: transparent !important;
+  padding: 10px 0px;
+  margin: 0px 20px;
+  display: flex;
+  position: relative;
+  opacity: 0.75;
+}
+
 </style>

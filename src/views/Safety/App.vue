@@ -10,10 +10,49 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+                <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-biosafety"
+                >
+                Biosafety
+                </a>
+            </div>
+            <div class="">
+                <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-biosecurity"
+                >
+                Biosecurity
+                </a>
+            </div>
+            <div class="">
+                <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-ethics"
+                >
+                Ethics
+                </a>
+            </div>
+            <div class="">
+                <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-references"
+                >
+                References
+                </a>
+            </div>
+          </div>
+        </aside>
+      </div>
       <Backtotop />
       <div class="content column is-three-fifth">
+
         <!--- Biosafety --->
+        <span id ="title-biosafety"></span>
         <h2>Biosafety</h2>
         <p>
           For the discussion of Biosafety, its definition is necessary, with
@@ -226,6 +265,7 @@
           rt-PCR. We followed the protocols, also considering all biosafety
           issues and looking for the most adequate laboratory and team to
           perform them.
+          <span id ="title-biosecurity"></span>
         </p>
 
         <!--- Biosecurity --->
@@ -244,8 +284,10 @@
           research in the area of GMOs are considered so that the intentional
           release of GMOs in nature is avoided without prior research and
           delimitation of area and use.
+          <span id ="title-ethics"></span>
         </p>
 
+        <!--- Ethics --->
         <h2>Ethics</h2>
         <p>
           In sciences, whether human, exact or biological, in addition to
@@ -324,6 +366,7 @@
             everything was done remotely during the two-year duration of the
             project.
           </b>
+          <span id ="title-references"></span>
         </p>
 
         <!--- References --->
