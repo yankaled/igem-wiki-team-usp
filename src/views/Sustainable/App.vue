@@ -407,7 +407,7 @@
         <figure class="has-text-centered">
           <img
             style="width:10em;height:10em;"
-            src="https://2021.igem.org/wiki/images/a/aa/T--USP-Brazil--IGEM-USP-BestSustainableDevelopmentImpact-Reducedinequalities.png"
+            src="https://2021.igem.org/wiki/images/7/72/T--USP-Brazil--IGEM-USP-BestSustainableDevelopmentImpact-Sustainable.png.png"
           />
         </figure>
         <p>

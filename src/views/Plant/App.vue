@@ -5,7 +5,7 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/9/9f/T--USP-Brazil--IGEM-USP-Public-Banner.jpg"
+        src="https://2021.igem.org/wiki/images/5/5d/T--USP-Brazil--IGEM-USP-BEST-PLANT-Banner.png"
       />
     </div>
 
@@ -212,6 +212,7 @@
         </div>
 
         <embed
+          class="has-text-centered"
           src="https://2021.igem.org/wiki/images/b/b0/T--USP-Brazil--IGEM-USP-BestPlant-Microtom.pdf"
           width="50%"
           height="800px"
