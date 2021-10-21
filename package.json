@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/yankaled/igem-wiki-team-usp#readme",
   "dependencies": {
-    "bulma-carousel": "^4.0.24",
     "bulma-extensions": "^6.2.7",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
