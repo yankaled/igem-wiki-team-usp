@@ -15,7 +15,7 @@
       <Backtotop />
       
       <div class="content column is-three-fifth">
-        <h2>Introduction?</h2>
+        <h2>Introduction</h2>
 
         <p>
           This section tackles two important simulations: <b>the enzyme CYP6G1</b> and <b>bee behaviour</b>. For CYP6G1 we did two models:
@@ -23,10 +23,10 @@
 
         <ul>
           <li>
-            <p>Firstly, we tried to improve CYP6G1 activity by modelling a mutation on the enzyme that would allow it to metabolize other pesticides. This was possible through docking experiments.</p>
+            Firstly, we tried to improve CYP6G1 activity by modelling a mutation on the enzyme that would allow it to metabolize other pesticides. This was possible through docking experiments.
           </li>
           <li>
-            <p>Secondly, we simulated a <b>theoretical model of CYP6G1 gene expression rate</b> while associated with pLAT52 (promoter LAT52). This model was useful to predict imidacloprid's degradation rate and the number of metabolites it generates.</p>
+            Secondly, we simulated a <b>theoretical model of CYP6G1 gene expression rate</b> while associated with pLAT52 (promoter LAT52). This model was useful to predict imidacloprid's degradation rate and the number of metabolites it generates.
           </li>
         </ul>
 
@@ -58,7 +58,8 @@
 
         <p>Selection of CYP3A4 as a template was based on a PSI-BLAST search [16], in which we searched for the most similar and already solved structure deposited in the PDB database. We chose CYP3A4 (<b>PDB: 4D6Z</b>), a <i>Human sapiens</i> Cythocrome P450 enzyme. The local alignment scores showed that the modeled CYP3A4  had 34% of similarity with the primary sequence of CYP6G1 and a coverage of 93% [8]. Results from the literature have indicated a similar catalytic function for imidacloprid degradation [7] and the presence of an important cysteine residue for covalent sulfur-iron bond. Additionally, that protein had already been used as a template for a CYP6G1 3D model[9]. </p>
 
-        <p> {{ `In the urge of minimizing possible errors [10, 15, 17], we searched for high crystallography resolution <2.5Å and a good R-free value in PDB database, <0.26. Then, we checked the model for missing amino acids residues that could hinder our experiments by deforming the catalytic site [9, 15].` }}</p>
+        <p>
+          In the urge of minimizing possible errors [10, 15, 17], we searched for high crystallography resolution <span v-text="`<2.5 Å`" /> and a good R-free value in PDB database, <span v-text="`<0.26`" />. Then, we checked the model for missing amino acids residues that could hinder our experiments by deforming the catalytic site [9, 15].</p>
 
         <p>In order to validate our model, we needed to check out the stability of the heme group inside the protein's core. Assuming that specific chemical and physical properties of the residues were highly conserved, we manually analyzed 20 <b>experimentally solved</b> CYP450 (<b>whose primary sequences were the most similar to CYP6G1</b>). As a result, we have found a helix with tryptophan and arginine residues and a central arginine as the stabilizing residues in most templates. Although some mutated residues were found, such as ARG—>LYS or ARG—>HIS, and, TRP—>HIS, the mutant residues' capability to establish hydrogen bonds remained.</p>
 
@@ -175,10 +176,10 @@
               Haddad, Y., V. Adam, and Z. Heger, Ten quick tips for homology modeling of high-resolution protein 3D structures. PLOS Computational Biology, 2020. 16(4): p. e1007449.
             </li>
             <li>
-              dos Santos, K. B., Guedes, I. A., Karl, A. L. M. & Dardenne, L. Highly Flexible Ligand docking: benchmarking of the DockThor program on the LEADS-PEP protein-peptide dataset. J. Chem. Inf. Model. acs.jcim.9b00905 (2020) doi:https://doi.org/10.1021/acs.jcim.9b00905.
+              dos Santos, K. B., Guedes, I. A., Karl, A. L. M., Dardenne, L. Highly Flexible Ligand docking: benchmarking of the DockThor program on the LEADS-PEP protein-peptide dataset. J. Chem. Inf. Model. acs.jcim.9b00905 (2020) doi:https://doi.org/10.1021/acs.jcim.9b00905.
             </li>
             <li>
-              dos Santos, K. B., Guedes, I. A., Karl, A. L. M. & Dardenne, L. Highly Flexible Ligand docking: benchmarking of the DockThor program on the LEADS-PEP protein-peptide dataset. J. Chem. Inf. Model. acs.jcim.9b00905 (2020) doi:https://doi.org/10.1021/acs.jcim.9b00905.
+              dos Santos, K. B., Guedes, I. A., Karl, A. L. M., Dardenne, L. Highly Flexible Ligand docking: benchmarking of the DockThor program on the LEADS-PEP protein-peptide dataset. J. Chem. Inf. Model. acs.jcim.9b00905 (2020) doi:https://doi.org/10.1021/acs.jcim.9b00905.
             </li>
             <li>
               Shahrokh K, Orendt A, Yost GS, Cheatham TE 3rd. Quantum mechanically derived AMBER-compatible heme parameters for various states of the cytochrome P450 catalytic cycle. J Comput Chem. 2012;33(2):119-133. doi:10.1002/jcc.21922
@@ -200,10 +201,10 @@
         </p>
 
         <ul>
-          <li><p>The concentration of <b>LAT52 gene expression remains constant</b> in the cell.</p></li>
-          <li><p>The <b>pollen cells have all the resources</b> necessary to fully express CYP6G1.</p></li>
-          <li><p>There are two main ways of applying imidacloprid to the plant: topically or in the seed before the cultivation. Here we considered the <b>application on the seed</b> which is when our project is able to work.</p></li>
-          <li><p>The reaction between CYP6G1 and imidacloprid is <b>100% efficient</b></p></li>.
+          <li>The concentration of <b>LAT52 gene expression remains constant</b> in the cell.</li>
+          <li>The <b>pollen cells have all the resources</b> necessary to fully express CYP6G1.</li>
+          <li>There are two main ways of applying imidacloprid to the plant: topically or in the seed before the cultivation. Here we considered the <b>application on the seed</b> which is when our project is able to work.</li>
+          <li>The reaction between CYP6G1 and imidacloprid is <b>100% efficient</b></li>.
         </ul>
 
         <p>First and foremost, we wanted to know the concentration of expressed CYP in the pollen of our plant. In our project's circuit, we used <b>LP4/2A peptide linker</b> to express both the CYP6G1 and the GUS gene reporter. This linker has an approximate cleavage <b>efficiency of 80% to 90%</b> [1]. This means that if we find the <b>concentration of GUS</b> expressed by the LAT52 promoter, we could calculate the concentration of CYP in our construction. Experimentally, we were not able to retrieve it, but luckily, literature was on our side. <b>Neil Bate</b>, from the Department of Botany of the University of Leicester, has a publicly available Doctorate Thesis [2] about pollen genes, in which he expresses the GUS reporter with the LAT52 promoter, which was perfect for our project.</p>
@@ -233,8 +234,6 @@
         </p>
 
         <p>Our approach to measuring the efficiency of our construct was to analyze the time period in which imidacloprid concentration would reach close-to-zero levels. Since CYP family enzymes obey Michaelis-Menten kinetics [3] we considered that the enzyme would behave as stated with the chemical equation, resulting in the following mass-transfer <b>equations (1-4)</b> (Figure 1).</p>
-
-        
 
         <div class="columns has-text-centered">
           <div class="column is-11">
@@ -344,19 +343,471 @@
         <p>For the equations, we considered the following notations:</p>
 
         <ul>
-          <li><p>S stands for substrate concentration, in this case, imidacloprid</p></li>
+          <li>S stands for substrate concentration, in this case, imidacloprid</li>
 
-          <li><p>S_0 is the initial concentration of substrate</p></li>
-          <li><p>K is Michaelis constant, which is the substrate concentration when the reaction speed equals half of the V_max, sometimes referred as Km</p></li>
-          <li><p>V_max is the maximum speed of the reaction</p></li>
-          <li><p>E is enzyme concentration</p></li>
-          <li><p>E_0 is the initial enzyme concentration</p></li>
-          <li><p>P is the concentration of the product of the reaction</p></li>
+          <li>S_0 is the initial concentration of substrate</li>
+          <li>K is Michaelis constant, which is the substrate concentration when the reaction speed equals half of the V_max, sometimes referred as Km</li>
+          <li>V_max is the maximum speed of the reaction</li>
+          <li>E is enzyme concentration</li>
+          <li>E_0 is the initial enzyme concentration</li>
+          <li>P is the concentration of the product of the reaction</li>
         </ul>
 
+        <p>This math was based on Mathematical Biology: I. An Introduction, JD Murray, Section 6.1.</p>
 
+        <p>We have the famous Michaelis-Menten equation (9):</p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p> \(  -\frac{dS}{dt} = \frac{dP}{dt} = V_{max}\frac{S}{S+K} \) </p>
+          </div>
+
+          <div class="column is-1">
+            <p>(8)</p>
+          </div>
+        </div>
+
+        <p>Therefore:</p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p> \(  \frac{S(t)+K}{S(t)}S'(t) = -V_{max} \) </p>
+          </div>
+
+          <div class="column is-1">
+            <p>(8)</p>
+          </div>
+        </div>
+
+        <p>Integrating by t and substituting \( dS=S'(t)dt \):</p> 
+        
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p> \( \int_{S_0}^{S(t)}\frac{S+K}{S} dS = -V_{max}t \) </p>
+          </div>
+
+          <div class="column is-1">
+            <p>(8)</p>
+          </div>
+        </div>
+
+        <p>Solving this integral, we are able to reach the formula for \( S(t) \). Calculations can be found <a id="Second" v-on:click="openModal($event)">here</a>.</p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p> \( t(S) = -\frac{S + K lnS - S_{0} - K lnS_{0}}{Vmax} \) </p>
+          </div>
+
+          <div class="column is-1">
+            <p>(8)</p>
+          </div>
+        </div>
+
+        <p>While in the latter we have the functions beautifully isolated, the first equation presents a problem because <b>\( S(t) \) is a function that takes as input the value of itself</b>. We can not plot the value of a function in a point using the same value that we are trying to calculate. So, using some clever thinking, we overcame this problem by <b>plotting not for \( S(t) \), but for t</b>. Moving the variables around, we can isolate the time variable and know the value at which the substrate concentration will be some number S, which transforms it into a function of \( t(S) \), which is represented as equation 13.</p>:
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p> \( t(S)=-\frac{S+KlnS-S_0-KlnS_0}{V_{max}} \) </p>
+          </div>
+
+          <div class="column is-1">
+            <p>(13)</p>
+          </div>
+        </div>
+
+        <p>As we know the \( S_0 \) value and that it goes to zero as time moves on, we can build a range of values \( [S_0, 0] \) and use our function to calculate the moment when the reaction will hit that \( S \) value.</p>        
+
+        <p>The missing pieces are \( V_{max} \) and \( K \) values. We can calculate \( V_{max} \) by multiplying the initial enzyme concentration by the catalyzation constant, \( K_{cat} \). Both \( K \) and \( K_{cat} \) are obtained experimentally. Since we were not able to use the laboratories until September 2021, we were also not able to obtain the exact value for our specific CYP. However, using the data from the team that designed <a href="http://parts.igem.org/Part:BBa_K1197013" target="_blank">Part:BBa_K1197013</a> in the Parts Registry of iGEM, we were able to solve this problem.</p>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/9/93/T--USP-Brazil--IGEM-USP-Model-_Values-used-for-the-parameters.png/1116px-T--USP-Brazil--IGEM-USP-Model-_Values-used-for-the-parameters.png"
+          />
+        </figure>
+
+        <p>Using this, we were able to plot our concentration over time for the imidacloprid substract in the expected reaction. The plot is listed below, as well for the jointed.</p>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/1/14/T--USP-Brazil--IGEM-USP-Model-Plot-of-the-substract.png/1200px-T--USP-Brazil--IGEM-USP-Model-Plot-of-the-substract.png"
+          />
+        </figure>
+
+        <h4>Conclusions</h4>
+        
+        <p>
+          Our model predicted the <b>total metabolization of imidacloprid in 12s</b>. It may look unrealistic at a first glance, but one should bear in mind that this model <b>attains to a single compartment</b> - the pollen. Tomatoes and other superior plants are pluricellular organisms with multiple organs and tissues that accumulate imidacloprid and may recontaminate pollen through physiological diffusion processes. Knowing how our construct would behave in a single tissue is the <b>first step to understanding how it would work globally</b>. However, to expand this model more empirical data about imidacloprid pharmacokinetics in the plant are needed and can be obtained in the lab when the pandemic situation improves in our country. Nevertheless, an extremely quick degradation rate like the one we have predicted is already promising as we expect it to be far greater than a likely "recontamination" rate.
+        </p>
+
+        <h2>References:</h2>
+        <div class="references">
+          <ol>
+            <li>
+             Sun, H., Zhou, N., Wang, H., Huang, D., Lang, Z. (2017). Processing and targeting of proteins derived from polyprotein with 2A and LP4/2A as peptide linkers in a maize expression system. PLoS One, 12(3), e0174804. doi: 10.1371/journal.pone.0174804.
+            </li>
+            <li>
+              Bate, N. (1997). Transcriptional and translational control of gene expression during pollen development. University of Leicester (United Kingdom).
+            </li>
+            <li>
+              Shumyantseva, V. V., Kuzikov, A. V., Masamrekh, R. A., Bulko, T. V., Archakov, A. I. (2018). From electrochemistry to enzyme kinetics of cytochrome P450. Biosensors and Bioelectronics, 121, 192-204. doi: 10.1016/j.bios.2018.08.040.
+            </li>
+            <li>
+              Eady, C., Lindsey, K., Twell, D. (1994). Differential activation and conserved vegetative cell‐specific activity of a late pollen promoter in species with bicellular and tricellular pollen. The Plant Journal, 5(4), 543-550. doi: 10.1046/j.1365-313X.1994.05040543.x.
+            </li>
+            <li>
+              Arul, L., Benita, G., Balasubramanian, P. (2008). Functional insight for β-glucuronidase in Escherichia coli and Staphylococcus sp. RLH1. Bioinformation, 2(8), 339. doi: 10.6026/97320630002339.
+            </li>
+          </ol>
+        </div>
+
+        <h3>2) Beehive, bees and plants simulation</h3>
+
+        <h4>Introduction</h4>
+
+        <p>With the previous enzymatic kinetic simulation, we obtained the rate at which imidacloprid is degraded in normal conditions and how much is degraded in the pollen cells from our genetically modified plant. Now we can extend our simulation to a higher level: simulating the effects among our modified plant in the field, on bees and on the beehive. This way, we can compare these effects to the realistic scenario where the bees and the beehive are in the presence of unmodified plants with imidacloprid. To make it possible, it must be taken into account not only the toxicity of the imidacloprid but also of its metabolites derived from its degradation. For both scenarios (modified vs unmodified plants), we will consider the initial imidacloprid concentration as the recommended level of field application as explained below.</p>
+
+        <h4>Individual Effect</h4>
+
+        <p>a) The individual effects of imidacloprid on bees differ between acute exposition, chronic exposition, topic exposition or ingestion. Below are shown the values of lethal dose of each case (LD50 is the amount of a material, given all at once, which causes the death of 50% of a group of test animals).</p>
+
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/6/69/T--USP-Brazil--IGEM-USP-Model-Toxicity-of-imidacloprid.png/1161px-T--USP-Brazil--IGEM-USP-Model-Toxicity-of-imidacloprid.png"
+          />
+        </figure>
+
+        <p>For 4-hydroxyimidacloprid we considered the same toxicity of 5-hydroxyimidacloprid. We did not find a specific quantity for 4-hydroxy. In fact, we found many articles stating that 4-hydroxyimidacloprid and 5-hydroxyimidacloprid could not be separated (or are very rarely so), due to them being compounds that can easily transform into each other, forming an equilibrium [15,16]. Authors even refer to those molecules as "4/5-hydroxyimidacloprid" or "5(4)-hydroxyimidacloprid". That can be seen in the metabolic pathway of imidacloprid in honeybees, as in:</p>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/a/a7/T--USP-Brazil--IGEM-USP-Model-Metabolic-pathway-of-imidacloprid.png/688px-T--USP-Brazil--IGEM-USP-Model-Metabolic-pathway-of-imidacloprid.png"
+          />
+        </figure>
+
+        <p>When the imidacloprid and its metabolites derived from its degradation don't kill the bees they impair them non-lethaly with the possible effects being: some of them include changes in the bees' olfactory learning after exposure to neonicotinoids and proboscis extension (where proboscis is an extension of the oral tract that functions as a sucker) after the perception of sucrose and water. Another sublethal effect to be discussed is the neurotoxicity caused by improper exposure to neonicotinoids. Symptoms such as tipping, tremors, uncoordinated movements, hyperactivity and tremors are related to an alteration in bee mobility [17].</p>
+
+        <h4>b) The LD50 of the "new" imidacloprid</h4>
+
+        <p>In Joussen et al. (2008) [6], it was shown that after 48 hours, 83% of the imidacloprid is degraded by the CYP6G1 enzyme, and the following proportion of metabolites are generated:</p>
+
+        <ul>
+          <li>69.9% of 4-hydroxy</li>
+          <li>22.9% of 5-hydroxy</li>
+          <li>7.2% of olefin</li>
+        </ul>
+
+        <p>To simplify, from here we will call the mixture of these three substances in these proportions as the <b>modified plant metabolites mixture (MPMM)</b>. With this language, we can say that our modified plant basically transforms the imidacloprid pesticide in the pollen into the MPMM. </p>
+
+        <p>Now, let us calculate its LD50. To do so, we used the LD50 values from Table 3, and created two hypothesis:</p>
+
+        <p>
+          1. If we assume that the toxicity of each metabolite can be taken **independently**, that is, there are no synergies between them. Then, we simply calculate the worst scenario of each substance taking into their proportions into consideration:
+        </p>
+
+        <ol>
+          <li>
+            considering the average LD50 values, it can be seen that the smaller value of LD50 (i.e the most toxic for bees) was obtained by the 4-hydroxy \( \dfrac{222}{0.699}\approx 318\,\text{ng/bee} \)
+          </li>
+
+          <li>
+            considering the minimum LD50 values (by subtracting the average by the standard deviation), the worst case was obtained by the olefin: \( \dfrac{17}{0.072}\approx 218\,\text{ng/bee} \)
+          </li>
+
+          <li>
+            considering the maximum LD50 values (by adding the standard deviation), the worst case was obtained by the 4-hydroxy:
+        
+            \( \dfrac{247}{0.699}\approx 353 \text{ ng/bee} \)
+          </li>
+        </ol>
+
+        <p>
+          2. If we assume that the toxicity of the metabolites can be <b>taken together uniformly</b>, we can simply calculate the weighted average including each compound proportion: \( {0.699 \cdot (222 \pm 25)}+{0.229 \cdot (222 \pm 25)}+{0.072 \cdot (23 \pm 6)}\approx 208\pm 24 \,\text{ng/bee} \)
+        </p>
+
+        <p>
+          Therefore, under these hypotheses, we can conclude that the LD50 of the MPMM for acute ingestion toxicity is **5 to 10 times** higher than the LD50 of the imidacloprid. One possible interpretation of this statement is the following: comparing two scenarios between bees feeding themselves of unmodified plants treated with imidacloprid (scenario 1) with our modified plant (scenario 2), the quantity of pesticide applied in scenario 2 would have to be <b>5 to 10 times</b> higher than in scenario 1 to generate the same proportion of bee deaths. This shows that our modified plant may provide lower toxicity in pollen cells.
+        </p>
+
+        <h3>Colony Effect</h3>
+
+        <p>
+        The majority of bees are highly social animals and each individual has a role in the hive. Therefore, the impact of a pesticide in a population cannot be considered solely by the sum of the individual effects. In other terms, this means that the impact to an individual bee is extremely correlated with the impact on other bees in the colony.
+        </p>
+
+        <p>
+          As an example, forager bees are responsible for the hive's food supply and their deaths could reduce the food production to a level that would impair the next generation of bees. On the other hand, if the forager bees choose food sources contaminated with pesticides, they can contaminate the whole hive [14]. These are some of the reasons that could cause the disappearance of honey bees in a colony, which would create a scenario of insufficient numbers of bees to care for immature bees in the hive, and consequently could lead to a colony collapse disorder (CCD) case, defined in Magal et al (2019) [8].
+        </p>
+
+        <p>
+          Having these ideas in mind, many questions can arise in order to propose a model that gives good insights into the true effect of a pesticide on a colony: how can we quantify these correlations between the bees? How strongly does it depend on the type of pesticide applied? What about other influences related to the environment in which the bees are submitted to?
+        </p>
+
+        <p>Below, we hope to give some answers to these questions.</p>
+
+        <h4>a) A concise literature review on bee population models</h4>
+
+        <p>We encountered a myriad of different models in order to assess the risk of pesticides to bee populations [5]. Getting knowledge of them was essential to have a broad and clear idea of the approaches and the rationale involved in the proposal of a model. Furthermore, understanding their foundations helped us to adapt the model in order to suit our specific needs and data. In what follows, hoping to provide for future iGEM teams a good start point when considering this topic, we will give a quick description of the models that we have studied during our research. We also summarize them in Table 4, where their references can be found.</p>
+
+        <p>The oldest model encountered, proposed in 1989, was the so called BEEPOP. The principal objectives proposed were to study the influences on bee population size of the following condictions: weather; initial population size; queen strength; number of spermatozoa obtained by a queen during mating; and number of days a bee can forage. Although it was not proposed so recently (and was written in the older language Fortran 77), it was crucial to the creation of many subsequent models. For example, the VarroaPop+Pesticide model is essentially an adaptation of BEEPOP: it extends the model to analyze infestations of Varroa mite (<i>Varroa destructor</i>) in beehives as well as the influence of pesticides in all its forms of application (seed, soil and foliar spray). BEEHAVE seemed to be the most complete model in terms of provided documentation and information; however, it was also the most complex one and, even though it could be adapted for many different interests, studying pesticide impact was not its main focus.</p>
+
+        <p>The model formulated by Magal et al. (2019) [9] has simplicity and clarity as its main qualities. It focuses to study the influence of pesticides to trigger the colony collapse disorder. Based on the percentage of pesticide-contaminated bees and their mortality, it proposes simple conditions to conclude when a colony will collapse or when the population size will converge to an equilibrium. As it can be seen below, we will give a more detailed description of it, since this was the model chosen for our main simulations.</p>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/7/75/T--USP-Brazil--IGEM-USP-Model-_Models-to-assess-status.png/834px-T--USP-Brazil--IGEM-USP-Model-_Models-to-assess-status.png"
+          />
+        </figure>
+        
+        <h4>b) Theoretical description of the model</h4>
+
+        <p>Now, we will introduce the main ideas and equations present in the model with pesticide contamination of Magal et al. (2019) [9]. Some interpretations for our specific case are also explored.</p>
+
+        <p>
+          The first step is to create two boxes to distinguish the forager bees which had contact or not with the pesticide. The first one will be called the contaminated bees and their population size in the time $t$ (or in the day $n$) will be denoted by C(t) (or C(n)), and the second one will be the uncontaminated bees with population size U(t) or U(n). After this, we should understand how these two values will vary during the first day and how one bee can pass from one box to the other, which can be summarized in the following equations:
+        </p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-full">
+            <p>
+              \[
+                \begin{cases}
+                  U'(t) = - \mu U(t) - \alpha U(t), \\
+                  C'(t) = - \mu C(t) + \alpha U(t)
+                \end{cases}\,
+              \]
+          </p>
+          </div>
+        </div>
+
+        <p>where <span v-text="`\\( 0 \\leq t  < 1 \\text{ day } \\)`" />; \( \alpha \)  denotes the rate of contamination during the day and \( \mu \) is the natural causes mortality rate of forager bees. Following this, we need to insert the effect of the pesticide into the functions: having in mind that contaminated bees can die (lethal effect) or get disoriented (sublethal effect) after getting in contact with the imidacloprid, we take $p$ as the proportion of contaminated bees succeeding to return to the hive each day. With this and using \( 1^-\) to denote the time at the end of the first day, the number of contaminated bees which are in the hive at the end of the first day is simply \( pC(1^-) \). The possibly most crucial step is to use this number to obtain the number of foragers recruited in that day, which is given by:
+        </p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-full">
+            <p>
+              \( \dfrac{\beta(U(1^{-})+pC(1^-))}{\chi^2 +(U(1^-)+pC(1^-))^2} \)
+          </p>
+          </div>
+        </div>
+
+        <p>where \( \beta \) is the maximal rate of new forager bees recruited per day and \( \chi \) is the so-called Allee parameter.</p>
+
+        <p>Utilizing a similar approach for an arbitrary day $n$ and making some (many) calculations, the following recursive formulas for the functions \( U(n) \) and \( C(n) \) are obtained:</p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-full">
+            <p>
+              \[
+                \begin{cases}
+                  U(n+1) = \frac{\beta V(n)^2}{\chi + V(n) ^2} + e^{-(\mu + \alpha)} U(n), \\
+                  C(n+1) = pe^{-u}C(n) + pe^{-u}[1 - e^{-\alpha}]U(n)
+                \end{cases}\,
+              \]
+          </p>
+          </div>
+        </div>
+
+        <p>where \( V(n) \) is an auxiliary function and is defined by:</p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-full">
+            <p>
+             \( V(n) := pe^{-\mu}C(n) + [ pe^{-\mu} + (1 - p)e^{-(\alpha + \mu)} ] U(n) \)
+          </p>
+          </div>
+        </div>
+        
+        <p>In order to get a clearer understanding of these functions, we will summarize the results proved in the article by one simpler theorem. Before this, we need to define the following quantity:</p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-full">
+            <p>
+             \( R_1 := \frac{\hat{\beta}}{2\hat{\chi}} = \frac{\beta [1 + p k_2]}{2 \chi [ e^{(\mu + \alpha)} - 1 ]} = \frac{\beta [ [1 - pe^{-\mu}] + p[e^{\alpha} - 1] ]}{2 \chi [e^{(\mu + \alpha)} - 1] [1 - pe^{-\mu}]} \)
+          </p>
+          </div>
+        </div>
+
+        <p>
+          As it can be seen below, this number can be used to estimate how likely the population of bees be extinct after some period of time. Intuitively, the likelihood of this happening is greater when the value of $R_1$ is smaller.
+        </p>
+
+        <p> <strong>Theorem:</strong> Given functions \( U(n) \) and \( C(n) \) satisfying the equations above and with initial values \( U(0)=U_0\geqslant 0 \) and \( C(0)=C_0\geqslant 0 \):
+        </p>
+
+
+        <p>a) (Extinction) If <span v-text="`\\( R_1 <1 \\)`" />, then the functions \( U(n) \) and \( C(n) \) both converge to 0 when \( n\rightarrow \infty \).</p>
+
+        <p> b) If \( R_1>1 \), then the functions \( U(n) \) and \( C(n) \), depending on the initial values \( U_0 \) and \( C_0 \), may converge to \( (0,0) \) or to a positive equilibrium.
+        </p>
+
+        <p>
+          <strong>Proof</strong>: [Magal et al. 2019, Propositions 1, 2 and 3]
+        </p>
+
+        <h4>c) Our scenarios and simulations</h4>
+
+        <p>Now, let us see how this model can be used in our specific case. First of all, we should remember that our main purpose is to simulate a situation in which bees feed themselves from the cultivated field with plants treated with imidacloprid, and compare the cases in which the plants are the usual ones (scenario 1) with a field in which there are our genetically modified plants (scenario 2). We tried to simulate the environment described in the article of Gill et al. (2012) [4]. This way, we calculated most of the parameters, which are collected in Table 3, from the graphics and values shown there.</p>
+
+        <p>Before saying how the parameters were obtained, we will describe the environment created for that by the following two assumptions:</p>
+
+        <ul>
+          <li>
+            the cultivated field treated with imidacloprid was not the only source of food of the bees. More precisely, only a half of the quantity of the colony food was collected from the cultivated plantation; the other half was taken, for example, from the wild.
+          </li>
+          <li>
+            the average concentration of imidacloprid used in normal plants was 10 ng/g. Therefore, we assume that the concentration of MPMM in the modified plant was also 10 ng/g (and no imidacloprid was found in that). Given the previous item, this means that the average concentration of pesticide in the bees' food was 5 ng/g.
+          </li>
+        </ul>
+
+        <p>
+          Note that the only parameter that will differ from one scenario to the other is the value of \( p \), because it is the only one that measures the pesticide harmful effects. Therefore, we will utilize the notation $p_i$ for the value of \( p \) in scenario 1, in which imidacloprid is the pesticide, and \( p_m \) for its value in scenario 2, in which MPMM is assumed to be the pesticide.
+        </p>
+
+        <p>
+          Now, we will propose some methods to calculate the parameters \( \alpha, \mu, p_i \) and \( p_m \), while the values of \( \beta \) and \( \chi \) were simply taken from Table 3 in [8]. 
+        </p>
+
+        <p>
+          Having in mind that one bee make an average of 4032 visits per day in flowers [13, p. 38] and that half of the flowers of our environment are contaminated, the probability of one bee getting in contact with a contaminated flower is very close to 1. Then, we will assume that the rate of contamination during the day is 1, that is: \( \alpha = 1 \).
+        </p>
+
+        <p>
+          For the daily natural causes mortality parameter \( \mu \), it was observed in [4, figure 3] that 30% (20% outside the nestbox) was the mean overall loss in the control population after 28 days. Taking into consideration that the average initial population of each colony in the study was around 4 bees and that 27 new bees eclosed by the end of the experiment [4; figure 1, Sup. Information p.1], we see that the average size of the population in each day was \( \frac{4+27}{2}=15.5 \). Therefore, 
+        </p>
+
+        <p>\( 15.5\mu= \dfrac{0.3\cdot(4+27)}{28}\Rightarrow \mu\approx 0.021 \)</p>
+
+        <p>
+          Thinking about the population treated with imidacloprid, we see that its mean overall loss was around 41%, with 30% being outside. This means that 30-20=10% of the deaths were not expected to happen and occurred outside the nest. We assume that this was the harmful effect generated by the imidacloprid. More precisely, we say that this was the proportion of bees that failed to return to the beehive during this 4-week experiment due to the imidacloprid. Noting that \( 1-p_i \) is the proportion of bees that failed to return after 1 day, we can conclude that:
+        </p>
+
+        <p>\( 15.5(1-p_i)=\dfrac{0.1\cdot(4+27)}{28} \Rightarrow p_i\approx 0.9929 \)</p>
+
+        <p>
+          Now, we will give a value for the last parameter, the daily proportion \( p_m \) of MPMM contaminated bees succeeding to return to the hive. Since this is the most specific part of our simulation and no experiments could be made in that sense, we made here our strongest assumption by relating the level of toxicity of MPMM with the number of bees that fail to return to the hive. In more details, it is assumed below that the number \( n_P \) of bees that fail to return to the hive due to a pesticide \( P \) is inversely and linearly proportional to the LD50 of \( P \). In mathematical language, this means that for two pesticides $P$ and \( Q \), it is valid that:
+        </p>
+
+        <p>\( n_P\cdot LD50(P)= n_Q\cdot LD50(Q) \)</p>
+
+        <p>
+          Then, by considering one of the smaller values for the $LD50$ of MPMM, calculated at the end of the "Individual effect" section, we have the following for our case:
+        </p>
+
+        <p>\( (1-p_i)\cdot 37 = (1-p_m)\cdot 208\Rightarrow p_m \approx 0.9987 \)</p>
+
+
+        <p>
+          Using these values, it could be calculated our first measure of the harmful effects in a bee colony, the value of \( R_1 \):
+        </p>
+
+        <ul>
+          <li>
+            For scenario 1, with imidacloprid: \( R_1= 4.64 \).
+          </li>
+
+          <li>
+            For scenario 2, with MPMM: \( R_1= 5.85 \)
+          </li>
+        </ul>
+
+        <p>
+          Our second manner of measuring this was to simulate for various initial population sizes \( (U_0,C_0) \), the evolution of the size of the population. As it can be seen in Figure 9, it was observed that, for sufficiently small populations, the colony population got extinguished in scenario 1 while it converged to a positive equilibrium in scenario 2. For initial population values ( \( U_0 + C_0 \) ) greater than 1,500, no differences were observed in the two scenarios. After dividing by 10 the values of \( U_0,\beta \) and \( \chi \) considered in the first simulation, we have obtained similar results (Figure 10).
+        </p>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/b/b2/T--USP-Brazil--IGEM-USP-Model-Simulations-of-scenario-1.png/567px-T--USP-Brazil--IGEM-USP-Model-Simulations-of-scenario-1.png"
+          />
+        </figure>
+
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/e/e8/T--USP-Brazil--IGEM-USP-Model-Simulations-respectively-of-scenario-1.png/542px-T--USP-Brazil--IGEM-USP-Model-Simulations-respectively-of-scenario-1.png"
+          />
+        </figure>
+
+        <h4>Conclusions</h4>
+
+        <p>
+          Using mathematical tools, we were able to simulate how bees and their beehive would be positively impacted by our genetically modified plant treated with imidacloprid. We could conclude that in normal plants situations 0.71% of bees fail to return to the hive per day after imidacloprid consumption; while our plant provided 0.13% of return, which means the increase of more than 5 times of bees succeeding to return after forage. Additionally, this behave could be projected in long-terms with bee populations, where we were able to predict the survival of the populations with our modified plants against their extinction with usual plants.
+        </p>
+
+        <p>
+          Finally, we should remember that every model, for the sake of intelligibility, needs to make some simplifications of the reality. And the one we used here is no exception. Therefore, we point out some aspects which were not the focus of the study, but that also deserve a thorough analysis: the influence of the pesticide storaged inside the beehive, and especially in individuals who are not necessarily foragers, such as larvae, nurse bees and the queen; and how the impact changes when different species of bees are considered.
+        </p>
+
+        <h2>References:</h2>
+        <div class="references">
+          <ol>
+            <li>
+              Becher, M.A., Grimm, V., Thorbek, P., Horn, J., Kennedy, P.J., Osborne, J.L. (2014). BEEHAVE: a systems model of honeybee colony dynamics and foraging to explore multifactorial causes of colony failure. *J Appl Ecol*, 51, 470-482. doi: 10.1111/1365-2664.12222.
+            </li>
+            <li>
+              J. M. Bonmatin, P. A. Marchand, R. Charvet, I. Moineau, E. R. Bengsch, and M. E. Colin. Quantification of Imidacloprid Uptake in Maize Crops. Journal of Agricultural and Food Chemistry 2005**.** doi: 10.1021/jf0479362
+            </li>
+            <li>
+              G. DeGrandi-Hoffman, S.A. Roth, G.L. Loper, E.H. Erickson, BEEPOP: A honeybee population dynamics simulation model, Ecological Modelling, Volume 45, Issue 2, 1989, Pages 133-150, ISSN 0304-3800. doi: 10.1016/0304-3800(89)90088-4.
+            </li>
+            <li>
+              Gill, R., Ramos-Rodriguez, O., Raine, N. Combined pesticide exposure severely affects individual- and colony-level traits in bees. Nature 491, 105–108 (2012). doi: 10.1038/nature11585.
+            </li>
+            <li>
+              Grimm, Volker; Becher, Matthias; Kennedy, Peter; Thorbek, Pernille; Osborne, Juliet. (2014). Ecological Modeling for Pesticide Risk Assessment for Honey Bees and Other Pollinators. doi: 10.1002/9781118852408.ch11.
+            </li>
+
+            <li>
+              Joussen N, Heckel DG, Haas M, Schuphan I, Schmidt B. Metabolism of imidacloprid and DDT by P450 CYP6G1 expressed in cell cultures of Nicotiana tabacum suggests detoxification of these insecticides in Cyp6g1-overexpressing strains of Drosophila melanogaster, leading to resistance. Pest Manag Sci. 2008 Jan;64(1):65-73. doi: 10.1002/ps.1472.
+            </li>
+
+            <li>
+              A. Carmen Kuan, Gloria DeGrandi-Hoffman, Robert J. Curry, Kristina V. Garber, Andrew R. Kanarek, Marcia N. Snyder, Kurt L. Wolfe, S. Thomas Purucker. Sensitivity analyses for simulating pesticide impacts on honey bee colonies, Ecological Modelling, Volume 376, 2018, Pages 15-27, ISSN 0304-3800. doi: 10.1016/j.ecolmodel.2018.02.010.
+            </li>
+
+            <li>
+              Magal, P., Webb, G.F., Wu, Y. An Environmental Model of Honey Bee Colony Collapse Due to Pesticide Contamination. Bull Math Biol 81, 4908–4931 (2019). doi: 10.1007/s11538-019-00662-5
+            </li>
+
+            <li>
+              Thomas Schmickl, Karl Crailsheim, HoPoMo: A model of honeybee intracolonial population dynamics and resource management, Ecological Modelling, Volume 204, Issues 1–2, 2007, Pages 219-245, ISSN 0304-3800. doi:10.1016/j.ecolmodel.2007.01.001.
+            </li>
+
+            <li>
+              Schmuck, R., Schöning, R., Stork, A. and Schramel, O. (2001), Risk posed to honeybees (Apis mellifera L, Hymenoptera) by an imidacloprid seed dressing of sunflowers. Pest. Manag. Sci., 57: 225-238. doi: 10.1002/ps.270.
+            </li>
+
+            <li>
+              Suchail, S., Guez, D., Belzunces, L. P. (2001). Discrepancy between acute and chronic toxicity induced by imidacloprid and its metabolites in Apis mellifera. Environmental Toxicology and Chemistry: An International Journal, 20(11), 2482-2486. doi: 10.1002/etc.5620201113.
+            </li>
+
+            <li>
+              Sur, R., Stork, A. (2003). Uptake, translocation and metabolism of imidacloprid in plants. Bulletin of insectology, 56, 35-40.
+            </li>
+
+            <li>
+              Truitt, L., McArt, S., Vaughn, A., Ellner, S. P. (2019). Trait-based modeling of multi-host pathogen transmission: Plant-pollinator networks. The American Naturalist. doi:10.1086/702959
+            </li>
+
+            <li>
+              Zioga, E., Kelly, R., White, B., Stout, J. C. (2020). Plant protection product residues in plant pollen and nectar: A review of current knowledge. Environmental research, 109873. doi: 10.1016/j.envres.2020.109873.
+            </li>
+
+            <li>
+              Suchail, Severine, et al. "In vivo distribution and metabolisation of 14C‐imidacloprid in different compartments of Apis mellifera L." Pest Management Science: formerly Pesticide Science 60.11 (2004): 1056-1062.
+            </li>
+
+            <li>
+              Seifrtova, Marcela, et al. "Distributions of imidacloprid, imidacloprid‐olefin and imidacloprid‐urea in green plant tissues and roots of rapeseed (Brassica napus) from artificially contaminated potting soil." Pest management science 73.5 (2017): 1010-1016.
+            </li>
+
+            <li>
+              Blacquiere, T., Smagghe, G., Van Gestel, C. A., Mommaerts, V. (2012). Neonicotinoids in bees: a review on concentrations, side-effects and risk assessment. Ecotoxicology, 21(4), 973-992.
+            </li>
+          </ol>
+        </div>
+        
       </div>
-
+      
       <div class="column is-one-fifth"></div>
     </section>
 
@@ -426,6 +877,65 @@
             </div>
           </div>
           
+        </div>
+
+        <div class="column" />
+      </div>
+    </div>
+
+    <div
+      id="SecondOV"
+      v-on:click="closeModal($event)"
+      class="overlay is-hidden"
+    ></div>
+
+    <div id="SecondMO" class="modal_USP is-hidden">
+      <div class="columns">
+
+        <div class="column" />
+
+        <div class="content column is-two-thirds">
+
+          <div class="columns has-text-centered">
+            <div class="column is-11">
+              <p> \( S(t) + K ln S(t) = -V_{max}t + S_{0} + K ln S_{0} \) </p>
+            </div>
+
+            <div class="column is-1">
+              <p>(1)</p>
+            </div>
+          </div>
+
+          <div class="columns has-text-centered">
+            <div class="column is-11">
+              <p> \( ES(t) = \frac{E_{0}S(t)}{S(t) + K} \) </p>
+            </div>
+
+            <div class="column is-1">
+              <p>(2)</p>
+            </div>
+          </div>
+
+          <div class="columns has-text-centered">
+            <div class="column is-11">
+              <p> \( E(t) = E_{0} - ES(t) \) </p>
+            </div>
+
+            <div class="column is-1">
+              <p>(3)</p>
+            </div>
+          </div>
+
+          <div class="columns has-text-centered">
+            <div class="column is-11">
+              <p> \( P(t) = S_{0} - S(t) \) </p>
+            </div>
+
+            <div class="column is-1">
+              <p>(4)</p>
+            </div>
+          </div>
+
         </div>
 
         <div class="column" />

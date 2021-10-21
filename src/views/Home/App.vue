@@ -2,7 +2,7 @@
   <div>
     <Nav :transition="true" />
 
-    <div class="is-full" style="position: relative;">
+    <div class="is-full">
       <video
         muted
         autoplay
