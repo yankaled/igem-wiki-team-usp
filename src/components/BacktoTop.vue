@@ -52,7 +52,7 @@ export default {
   position: fixed; /* Fixed/sticky position */
   bottom: 30px;
   /* placethe button at the bottom of the page  */
-  left: 30px;
+  right: 30px;
   /* placethe button 30px from the right */
   z-index: 90;
   /* makesure it does not overlap */
@@ -68,7 +68,7 @@ export default {
   position: fixed; /* Fixed/sticky position */
   bottom: 20px;
   /* placethe button at the bottom of the page  */
-  left: 30px;
+  right: 30px;
   /* placethe button 30px from the right */
   z-index: 99;
   border: none; /* Remove borders */

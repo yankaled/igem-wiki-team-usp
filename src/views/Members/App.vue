@@ -771,19 +771,19 @@
           <p><b>Team Attribution:</b>Drylab, Wetlab</p>
           <p><b>Field:</b>Bichemistry, molecular biology and chemistry</p>
           <p>
-            <b>Hobbies:</b>Love listen and sing all kind of songs, since pop
-            until rock. I like to watch Palmeiras football matches. We'll be
+            <b>Hobbies:</b>Love to listen and sing to all kind of songs, from
+            pop to rock. I like to watch Palmeiras football matches. We'll be
             world champion in this year!
           </p>
           <p>
             <b>About: </b>
-            I'm a person that like bet in risky. What would we be without
-            ambition? I'm a enthusiastic nature student to discovery a molecular
-            world. There were two years that I have playing with the life's
-            tools and, now a days, I'm immerse in bioluminescents mushrooms
-            environment. Ah, I have a huge party spirit too! I really like to
-            going parties for dance all night. Is there someone accompany me at
-            party after the pandemic?
+            I'm a person that likes to bet on risk. What would we be without
+            ambition? I'm an enthusiastic nature student to discovery a
+            molecular world. There were two years that I have playing with the
+            life's wonders and, now a days, I'm immerse in bioluminescents
+            mushroom’s environment. Ah, I have a huge party spirit too! I really
+            like to going parties to dance all night. Does anyone want to
+            accompany me to party after the pandemic?
           </p>
         </div>
       </div>
@@ -1233,22 +1233,14 @@
           <p><b>Field:</b>Pharmacy and Biochemistry</p>
           <p>
             <b>Hobbies:</b>
-            I love singing, watching animes (One piece, Steins gate and
-            charlotte, My favorites) and telling jokes. I also love playing and
-            watching football. I support Flamengo and you will observe that
-            every wednesday night I am shouting, crying or laughing :)
+            Hatewacthing trash films with my friends
           </p>
           <p>
             <b>About: </b>
-            I really love science and all behind it. For the last two years I've
-            delving through the synthetic biology and drug discovery world. I
-            got into iGEM so that I could learn from my scientist colleagues
-            about this world. Coincidently, because of the pandemic situation, I
-            also found another passion : molecular modelling.Also, i really love
-            knowing more about other culture and people. Language is one of my
-            many passions. I really hope i can meet igem's participants in
-            person as well. I really love music too, being passionate for
-            everything it can cause and transbord through us.
+            Leonardo Andrade is a Citzen of Divinópolis in the state of Minas
+            Gerais. He loves science and scientific communication. He has
+            engaged and built several projects involving scientific awarnes and
+            youth education. He is a horror film lover and is a born workaholic.
           </p>
         </div>
       </div>
