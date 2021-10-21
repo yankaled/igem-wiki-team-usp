@@ -21,7 +21,7 @@
             >metabolizing the Imidacloprid pesticide specifically in pollen
             tissue, inserted in a micro-tomato plant.</b
           >
-          >
+
           <br />
           Our circuit design (Fig,1) is therefore composed by:
         </p>
@@ -48,14 +48,20 @@
         </figure>
 
         <p>
-          For plant transformation with the genetic circuit we built, we need it
-          to first be inserted into a <b>binary vector</b> (Fig, 2) for
-          Agrobacterium tumefaciens, containing elements specific for plants,
-          such as the nptII kana
+          For plant transformation with the genetic circuit we built, we needed
+          it to first be inserted into a <b>binary vector</b> (Fig, 2) for
+          <i>Agrobacterium tumefaciens</i>, containing elements specific for
+          plants transformation, such as the nptII kanamycin resistance gene
+          that allows us to select plant cells that contain our circuit, as well
+          as replication functions for <i>Escherechia coli</i> and
+          <i>A. tumefaciens,</i> and the T-DNA left and right borders.
         </p>
-        <img
-          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
-        />
+        <figure class="has-text-centered">
+          <img
+            style="max-width:80%; max-height:80%"
+            src="https://2021.igem.org/wiki/images/2/2f/T--USP-Brazil--IGEM-USP-Design-entire-plant-vecto.png"
+          />
+        </figure>
         <p>
           You can know more about each of the listed specific genetic parts of
           our circuit in the next sections!
@@ -84,7 +90,7 @@
           Our chassis, the <b>micro-tomato plant,</b> does not produce nectar ,
           so we used a tissue specific promoter that is only expressed in
           pollen: the
-          <b>LAT52 promoter.</b>
+          <b>pLAT52 promoter.</b>
         </p>
         <p>
           pLAT52 is an anther specific promoter, highly expressed during pollen
@@ -96,9 +102,9 @@
         </p>
         <p>
           Besides tomatoes, the pLAT52 has been tested in other plants, such as
-          Arabidopsis thaliana and Nicotiana tabacum, with very similar results
-          for the specificity of its functions [1]. It also has homologues in
-          other plant species [7].
+          <i>Arabidopsis thaliana</i> and <i>Nicotiana tabacum,</i> with very
+          similar results for the specificity of its functions [1]. It also has
+          homologues in other plant species [7].
         </p>
         <h2>A VIRAL AND PLANT PEPTIDE FOR GENE EXPRESSION</h2>
         <p>
@@ -125,8 +131,8 @@
           uncleaved and potentialy useless protein, lowering the eficiency of
           production of the subsequent protein by as much as 50%. To bypass this
           issue the <b>fusion</b> of the foot and mouth virus 2A peptide with a
-          plant self cleaving peptide (LP4) found in the seeds of Impatiens
-          balsamina has proven to be a good solution,
+          plant self cleaving peptide (LP4) found in the seeds of
+          <i>Impatiens balsamina</i> has proven to be a good solution,
           <b>enhancing the cleavage rate to about 80% to 90% </b>[2].
         </p>
         <p>
@@ -137,7 +143,8 @@
         </p>
         <figure class="has-text-centered">
           <img
-            src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
+            style="max-width:80%; max-height:80%"
+            src="https://2021.igem.org/wiki/images/b/ba/T--USP-Brazil--IGEM-USP-Design-2A-peptides.png"
           />
         </figure>
         <h2>
@@ -166,7 +173,7 @@
         </p>
         <figure class="has-text-centered">
           <img
-            src="https://2021.igem.org/wiki/images/9/9a/T--USP-Brazil--IGEM-USP-Design-Figure3.png"
+            src="https://2021.igem.org/wiki/images/8/8d/T--USP-Brazil--IGEM-USP-Design-metabolic-pathway.png"
           />
         </figure>
         <br />
@@ -183,12 +190,12 @@
           succesfully expressed in a plant, Nicotiana tabacum, making it a even
           more secure option for our project [3].<br />
           In the table bellow there is a table indicating the median lethal dose
-          (LD50) of imidacloprid and its main metabolites on Apis mellifera in
-          ng/bee:
+          (LD50) of imidacloprid and its main metabolites on
+          <i>Apis mellifera</i> in ng/bee:
         </p>
         <figure class="has-text-centered">
           <img
-            src="https://2021.igem.org/wiki/images/f/f5/T--USP-Brazil--IGEM-USP-Design-Figure4.png"
+            src="https://2021.igem.org/wiki/images/9/90/T--USP-Brazil--IGEM-USP-Design-LD50.png"
           />
         </figure>
 
@@ -212,9 +219,10 @@
           <li>Relatively <b>small genome</b> (950Mb)</li>
           <li><b>Small size.</b></li>
           <li>
-            <b>Short life cycle</b> it takes about 6 months to mature, a
-            incredible tool for plant projects since plant growth takes a long
-            time. For our project, time was a great
+            These metabolites (except for olefine) are not only less toxic than
+            imidacloprid, but also more <b>hydrophyllic</b> than the parent
+            compound, so it is
+            <b>quicker for the insect to excrete it from its body</b> [3].
           </li>
           <li>
             Is a <b>well described model</b>, which helps us gather more
@@ -222,9 +230,16 @@
             our lab access was highly restricted, data availability was very
             important for the mathematical modelling development (you can check
             our models at
-            <a href="https://2021.igem.org/Team:USP-Brazil/Design"
-              ><b>Model page</b></a
+            <a href="https://2021.igem.org/Team:USP-Brazil/Model">Model page</a
             >)
+          </li>
+          <li>
+            <b>Pollination by bees,</b> by vibration [8]. As our project is
+            based on bees, it is very relevant that the plant could be affected
+            by their disappearance. As a way to resonate with our goals, it
+            would be important to test with bees in the future to verify the
+            circuit's efficiency in protecting them when they are freely
+            pollinating Let.it.bee. plants.
           </li>
           <li>
             <b>Commercial interest,</b> since tomatoes are planted for the food
@@ -233,15 +248,15 @@
             that is already part of that scenario.
           </li>
         </ul>
-        <img
-          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
-        />
-        <img
-          src="https://2021.igem.org/File:T--USP-Brazil--img--Joao.52695277.jpg"
-        />
+        <figure class="has-text-centered">
+          <img
+            style="max-width:80%; max-height:80%"
+            src="https://2021.igem.org/wiki/images/0/05/T--USP-Brazil--IGEM-USP-Design-The-Micro-Tom-tomato.png"
+          />
+        </figure>
 
         <h2>References:</h2>
-        <div id="references1" class="references">
+        <div class="references">
           <ol>
             <li>
               TWELL, D. & McCormick, S.. Pollen-specific gene expression in
@@ -289,6 +304,11 @@
               BUZZABOUTBEES. Do bees pollinate tomatoes? Retrieve in October
               1st, 2021 from
               https://www.buzzaboutbees.net/bees-pollinate-tomatoes.html
+            </li>
+            <li>
+              LIU, Z., Chen, O., Wall, J.B.J. et al. Systematic comparison of 2A
+              peptides for cloning multi-genes in a polycistronic vector. Sci
+              Rep 7, 2193 (2017). https://doi.org/10.1038/s41598-017-02460-2
             </li>
           </ol>
         </div>

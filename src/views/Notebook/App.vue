@@ -28,7 +28,7 @@
           of plasmid by bacteria (Figure 1).
         </p>
 
-        <h2>1 July 2021 - Transformation (Pangeia Biotech)</h2>
+        <h2>July 1st 2021 - Transformation (Pangeia Biotech)</h2>
 
         <figure class="has-text-centered">
           <img
@@ -88,7 +88,7 @@
             src="https://2021.igem.org/wiki/images/thumb/e/e0/T--USP-Brazil--IGEM-USP-Notebook-gif.gif/600px-T--USP-Brazil--IGEM-USP-Notebook-gif.gif"
           />
         </figure>
-        
+
         <small>
           Video 1. Extraction of Micro-tom pollen control by Dr. Bruno Silvestre
           Lira - Laboratório de Genética Molecular de Plantas (GMP,

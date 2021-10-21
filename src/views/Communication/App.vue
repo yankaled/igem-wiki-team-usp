@@ -1137,7 +1137,7 @@ import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
 export default {
-  name: "Safety",
+  name: "Education and Communication",
   components: {
     Nav,
     Footer,

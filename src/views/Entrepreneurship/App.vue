@@ -14,9 +14,9 @@
       <div class="content column is-three-fifth">
         <h2>Mission statement, vision for the future and core values</h2>
 	   
-	   <p>To start plannign for our future possibilities we first wanted to look within to have a better understanding of what we stood for and what we trully wanted to acomplish as a team.
+	   <p>To start planning for our future possibilities we first wanted to look within to have a better understanding of what we stood for and what we trully wanted to acomplish as a team.
 
-And the best way to do that was to estalhish a mission statement, our vision for the future and the core values that guide our work as a team. After looking into what each of them really ment and searching for references, we had a few meetings with the entire team dedicated to developing and shaping them into something that represented us.</p>
+And the best way to do that was to establhish a mission statement, our vision for the future and the core values that guide our work as a team. After looking into what each of them really ment and searching for references, we had a few meetings with the entire team dedicated to developing and shaping them into something that represented us.</p>
 
 		<h3>Mission statement</h3>
 		

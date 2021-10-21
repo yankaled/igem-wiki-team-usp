@@ -157,7 +157,7 @@
             href="https://2021.igem.org/Team:USP-Brazil/Communication"
             class="navbar-item"
           >
-            Public Engagment
+            Education and Communication
           </a>
           <hr class="navbar-divider" />
           <a
