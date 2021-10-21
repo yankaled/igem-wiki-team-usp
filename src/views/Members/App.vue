@@ -10,7 +10,7 @@
     </div>
 
     <!-- PARTE 1 -->
-    <h2>Members</h2>
+    <h2 class="has-text-centered">Members</h2>
     <section>
       <div class="columns">
         <div class="column is-1">
@@ -425,7 +425,7 @@
       </div>
     </section>
     <!-- PIs -->
-    <h2>Pi's and Advisor</h2>
+    <h2 class="has-text-centered">Pi's and Advisor</h2>
     <section>
       <div class="columns">
         <div class="column is-1"></div>
@@ -701,14 +701,21 @@
         </div>
         <div class="content column is-half">
           <p><b>Name:</b>Bruno Koshin Vazquez Iha</p>
-          <p><b>Team Attribution:</b>Drylab, Wiki</p>
-          <p><b>Field:</b>Bioinformatics</p>
-          <p><b>Hobbies:</b>Tinkering, longboard</p>
+          <p><b>Team Attribution:</b>Drylab, Wiki, Coordinator</p>
+          <p>
+            <b>Field:</b>Bioinformatics, Machine Learning, Modelling and
+            simulations, Physics
+          </p>
+          <p>
+            <b>Hobbies:</b>Tinkering, travelling, longboarding and trying to
+            break my personal record of living in the wilderness without modern
+            resources.
+          </p>
 
           <p>
             <b>About: </b>
-            Easy maintenance. Gosto de longos passeios a pé, projetos divertidos
-            e multidisciplinares, e humor nonsense
+            I like ambitious projects and long walks on the beach (Normandy,
+            June 6th 1944 was a blast)
           </p>
         </div>
       </div>
@@ -1787,7 +1794,7 @@
           <p><b>Team Attribution:</b>Advisor</p>
           <p><b>Field:</b>Science-based innovation consulting</p>
           <p>
-            <b>Hobbies: </b>Cooking, eading, a good meal with friends and
+            <b>Hobbies: </b>Cooking, eating, a good meal with friends and
             exercising.
           </p>
           <p>
@@ -1924,7 +1931,6 @@ import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
 
 export default {
-
   name: "Members",
 
   components: {
@@ -1935,28 +1941,24 @@ export default {
 
   methods: {
     openModal(event) {
-
       let clicked_id = event.target.id;
       let overlay = document.getElementById(`${clicked_id}OV`);
       let modal = document.getElementById(`${clicked_id}MO`);
       modal.classList.remove("is-hidden");
       overlay.classList.remove("is-hidden");
-   
     },
 
     closeModal(event) {
-      
       let clicked_id = event.target.id;
       let id = clicked_id.replace("OV", "");
-      
+
       let overlay = document.getElementById(`${id}OV`);
       let modal = document.getElementById(`${id}MO`);
-     
+
       modal.classList.add("is-hidden");
       overlay.classList.add("is-hidden");
-    }
-  }
-  
+    },
+  },
 };
 </script>
 

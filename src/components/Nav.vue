@@ -147,7 +147,7 @@
           </a>
           <hr class="navbar-divider" />
           <a
-            href=" https://2021.igem.org/Team:USP-Brazil/Human_Practices"
+            href=" https://2021.igem.org/Team:USP-Brazil/Human_Practices#integrated"
             class="navbar-item"
           >
             Integrated Human Practices
@@ -245,7 +245,7 @@
             href="https://2021.igem.org/Team:USP-Brazil/Education"
             class="navbar-item"
           >
-            Best Public Engagment
+            Best Public Engagement
           </a>
           <hr class="navbar-divider" />
           <a

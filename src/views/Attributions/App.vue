@@ -341,7 +341,14 @@
               <td>Model</td>
               <td>
                 Caio Klocke Zamuner <br />
-                Erick Tavares Marcelino Alves
+                Erick Tavares Marcelino Alves <br />
+                João Pedro Fairbanks <br />
+                Marcos Markevich <br />
+                Guilherme da Costa Cruz <br />
+                Larissa Braga <br />
+                Amanda Hirata <br />
+                Isabela Carvalho Velloso de Oliveira <br />
+                Bruno Koshin Vázquez Iha
               </td>
             </tr>
             <tr>

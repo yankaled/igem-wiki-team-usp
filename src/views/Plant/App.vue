@@ -48,14 +48,14 @@
         </p>
 
         <p>
-          Plants have their own peculiarities and difficulties, especially
-          considering their complex structure, functioning and life cycle. From
-          our experience, one of the most important things you should consider
-          for making a plant project is the time you can manage to spend on it,
-          since even model plants with a shorter life cycle still take
-          considerably longer time to mature in comparison to microorganisms
-          like <I>Escherichia coli</I>. Time becomes a much bigger part of your
-          planning.
+          Plants have their own
+          <b>peculiarities and difficulties,</b> considering their complex
+          structure, functioning and life cycle. From our experience, one of the
+          most important things you should consider for making a plant project
+          is the time you can manage to spend on it, since even model plants
+          with a shorter life cycle still take considerably longer time to
+          mature in comparison to microorganisms like <i>Escherichia coli</i>.
+          <b>Time becomes a much bigger part of your planning.</b>
         </p>
 
         <p>
@@ -210,13 +210,13 @@
             </p>
           </div>
         </div>
-
-        <embed
-          class="has-text-centered"
-          src="https://2021.igem.org/wiki/images/b/b0/T--USP-Brazil--IGEM-USP-BestPlant-Microtom.pdf"
-          width="50%"
-          height="800px"
-        />
+        <p>
+          You can find the PDF for the handbook<a
+            href="ttps://2021.igem.org/wiki/images/b/b0/T--USP-Brazil--IGEM-USP-BestPlant-Microtom.pdf"
+          >
+            here</a
+          >!
+        </p>
 
         <h2>References</h2>
         <div class="references">
@@ -277,7 +277,7 @@ import Backtotop from "@/components/BacktoTop.vue";
 import Collapsible from "@/components/Collapsible.vue";
 
 export default {
-  name: "Education",
+  name: "Plant",
 
   components: {
     Nav,

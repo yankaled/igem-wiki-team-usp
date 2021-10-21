@@ -58,9 +58,12 @@
       <div class="column is-2"></div>
     </section>
 
-    <section class="columns" style="transform: translateY(-15em);">
-      <div class="column is-1"></div>
-      <div class=" content column is-9">
+    <section
+      class="columns has-text-centered"
+      style="transform: translateY(-15em);"
+    >
+      <div class="column is-2"></div>
+      <div class=" content column is-8">
         <p>
           <b
             >These small workers are essential to world agriculture, virtually
@@ -72,28 +75,36 @@
       <div class="column is-2"></div>
     </section>
 
-    <section class="columns" style="transform: translateY(-15em);">
-      <div class="column is-1"></div>
-      <div class="content column is-3">
+    <section
+      class="columns has-text-centered is-vcentered"
+      style="transform: translateY(-15em);"
+    >
+      <div class="column is-2"></div>
+      <div class="content column is-4">
         <p>
           <span id="n1" class="count-number" /> <b id="count1">cultures</b>
           <br />
           depend directly or indirectly on the action of bees
         </p>
       </div>
-      <div class=" content column is-3">
+      <div class=" content column is-4">
         <p>
-          <span id="n2" class="count-number" /> <b id="count2">cultures</b>
+          Pollinated crops generate,<br />
+          <span id="n2" class="count-number" />
+          <b id="count2"> Billion dollars</b>
           <br />
-          depend directly or indirectly on the action of bees
+          in exports for the brazilian agribusiness!
         </p>
       </div>
       <div class="column is-2"></div>
     </section>
 
-    <section class="columns" style="transform: translateY(-15em);">
-      <div class="column is-1"></div>
-      <div class="content column is-6">
+    <section
+      class="columns has-text-centered"
+      style="transform: translateY(-15em);"
+    >
+      <div class="column "></div>
+      <div class="content column is-9 has-text-centered">
         <p>
           <b
             >And this also directly impacts global food security, because
@@ -102,7 +113,7 @@
           >
         </p>
       </div>
-      <div class="content column is-5"></div>
+      <div class="content column "></div>
     </section>
 
     <section class="columns" style="transform: translateY(-15em);">
@@ -158,8 +169,11 @@
           <b
             style="color:#040404;
             font-size: 30px;"
-            >Beekeepers find <b>half a billion dead bees in 3 months</b> in
-            Brazil
+            >Beekeepers find
+            <strong style="color:#fff;"
+              >half a billion dead bees in 3 months
+            </strong>
+            in Brazil
           </b>
         </p>
         <br />
@@ -361,8 +375,8 @@ export default {
   data() {
     return {
       animateN1: true,
-      animateN2: true
-    }
+      animateN2: true,
+    };
   },
 
   methods: {
@@ -370,11 +384,11 @@ export default {
       const $n1 = document.getElementById("n1");
       const $n2 = document.getElementById("n2");
       if (this.checkVisible($n1) && this.animateN1) {
-        this.animateN1 = false
+        this.animateN1 = false;
         this.animateValue($n1, 0, 8, 1000);
       }
       if (this.checkVisible($n2) && this.animateN2) {
-        this.animateN2 = false
+        this.animateN2 = false;
         this.animateValue($n2, 0, 9, 1000);
       }
     },

@@ -48,7 +48,7 @@
         <p>
           The first project targeted elementary school students from
           underprivileged communities. Our goal was to join several educational
-          projects from our university in one <b>GAMEFIED METHOD</b> to get
+          projects from our university in one <b>GAMIFIED METHOD</b> to get
           those children fascinated by science. However, it wasn't that simple.
           Schools were closed, how could we interact with them? That's when we
           decided to innovate and base the whole experience on an immersive

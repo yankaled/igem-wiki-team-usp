@@ -386,6 +386,9 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #ffba17;
 }
+tr:nth-child(odd) a {
+  color: #fff;
+}
 
 table {
   border: 4pt dashed #ffba17;
