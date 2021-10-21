@@ -10,11 +10,11 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth">
+      <div class="column is-one-fifth is-hidden-touch">
         <aside class="is-sticky">
           
-          <div id="" class="sub-navigation sub-menu-content">
-            <div class="">
+          <div class="sub-navigation sub-menu-content">
+            <div>
               <a
                 class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
                 href="#title-introduction"
@@ -187,7 +187,7 @@ export default {
 
 <style scoped>
 .is-sticky {
-  margin-left: 25%;
+  margin-left: 15%;
   position: sticky;
   top: 100px;
   display: block;
