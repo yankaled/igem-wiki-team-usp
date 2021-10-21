@@ -216,7 +216,7 @@
     </section>
 
     <section class="columns is-vcentered" style="transform: translateY(-15em);">
-      <div class="column is-1"></div>
+      <div class="column is-2"></div>
       <div class=" content column is-4">
         <img
           src="https://2021.igem.org/wiki/images/8/85/T--USP-Brazil--IGEM-USP-Home-Have.png"
@@ -229,10 +229,10 @@
           humans and other animals.
         </p>
       </div>
-      <div class="column is-1"></div>
+      <div class="column is-2"></div>
     </section>
     <section class="columns is-vcentered" style="transform: translateY(-15em);">
-      <div class="column is-1"></div>
+      <div class="column is-2"></div>
       <div class=" content column is-4">
         <br />
         <p>
@@ -246,13 +246,15 @@
         />
       </div>
 
-      <div class="column is-1"></div>
+      <div class="column is-2"></div>
     </section>
     <section
       class=" content columns has-text-centered"
       style="transform: translateY(-15em); text-align: center; "
     >
+      <div class="column is-2"></div>
       <blockquote
+        class="column is- 8"
         cite="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-512-de-27-de-maio-de-%202021-322975673"
       >
         <p>
@@ -263,6 +265,7 @@
           </cite>
         </p>
       </blockquote>
+      <div class="column is-2"></div>
     </section>
     <section
       class="columns"
@@ -355,7 +358,7 @@
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 
-import checkVisible from '@/js/checkVisible';
+import checkVisible from "@/js/checkVisible";
 
 import bulmaCarousel from "bulma-carousel";
 
