@@ -84,8 +84,13 @@
           the tube and stored it inside liquid nitrogen at -80°C in laboratory.
         </p>
         <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/thumb/e/e0/T--USP-Brazil--IGEM-USP-Notebook-gif.gif/600px-T--USP-Brazil--IGEM-USP-Notebook-gif.gif"
+          <video
+            style="max-width:70%;max-height:70%"
+            muted
+            autoplay
+            loop="true"
+            class="header"
+            src="https://2021.igem.org/wiki/images/f/f6/T--USP-Brazil--IGEM-USP-Notebook-gif.mp4"
           />
         </figure>
 

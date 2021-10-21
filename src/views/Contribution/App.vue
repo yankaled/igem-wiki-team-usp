@@ -26,7 +26,7 @@
                 class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
                 href="#CYP"
               >
-                Adding data to CYP3A4
+                Adding data about CYP3A4
               </a>
             </div>
             <div class="">
@@ -96,7 +96,7 @@
           <b>
             high price of several programs,
           </b>
-          making them inaccessible inaccessible for us.
+          making them inaccessible for us.
         </p>
         <p>
           Having these factors in mind, our objective while writing this
@@ -149,7 +149,7 @@
             comparative modeling
           </b>
           and what we could do if we did not have our object of study
-          crystallized or deposited in RSCB.org. Consequently, we delved through
+          crystallized or deposited in RSCB.org. Consequently, we delved into
           the choice of a
           <b>
             template protein
@@ -169,8 +169,8 @@
           in which we detailed the command lines for the alignment of proteins
           after the choice of the template protein, giving a broad view of each
           command and line involved. Then, we present how the modeling process
-          is realized in modeller software. After this step, we taught how the
-          modeling refination could be realized using programs as
+          is in modeller software. After this step, we taught how the modeling
+          refination could be realized using programs as
           <a href="https://toolkit.tuebingen.mpg.de/tools/quick2d">quick2D</a>
           and I-tasser, showing the excellence of our model compared to the well
           known established database for modeled proteins: the
@@ -235,7 +235,7 @@
         </p>
 
         <!--- Adding data to CYP3A4 --->
-        <h2>Adding data to CYP3A4</h2>
+        <h2>Adding data about CYP3A4</h2>
         <p>
           Our project was based on the CYP6G1 and its properties, but
           researching and understanding relevant characteristics of this enzyme

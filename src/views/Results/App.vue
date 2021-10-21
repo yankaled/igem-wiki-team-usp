@@ -82,7 +82,7 @@
 
         <figure class="column has-text-centered">
           <img
-            src="https://2021.igem.org/wiki/images/thumb/6/68/T--USP-Brazil--IGEM-USP-Results-simple.png/800px-T--USP-Brazil--IGEM-USP-Results-simple.png"
+            src="https://2021.igem.org/wiki/images/6/68/T--USP-Brazil--IGEM-USP-Results-simple.png"
           />
         </figure>
 
