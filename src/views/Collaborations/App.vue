@@ -5,12 +5,13 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/3/32/T--USP-Brazil--IGEM-USP-Safety-banner.png"
+        src="https://2021.igem.org/wiki/images/c/c0/T--USP-Brazil--IGEM-USP--Collaboration-Banner.png"
       />
     </div>
 
     <section class="columns">
       <div class="column is-one-fifth"></div>
+      <Backtotop />
       <div class="content column is-three-fifth">
         <p>
           One of the many great aspects of iGEM is access to a global network.

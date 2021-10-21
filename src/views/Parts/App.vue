@@ -11,6 +11,7 @@
 
     <section class="columns">
       <div class="column is-one-fifth"></div>
+      <Backtotop />
       <div class="content column is-three-fifth">
         
         <!--- OVERVIEW --->
@@ -211,8 +212,11 @@
           </b> 
           that have a better efficiency
         </p>
-
-        Table 1
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/2/29/T--USP-Brazil--IGEM-USP-Parts-table1.png/517px-T--USP-Brazil--IGEM-USP-Parts-table1.png"
+          />
+        </figure>
 
         <!--- References --->
         <h2>References:</h2>
