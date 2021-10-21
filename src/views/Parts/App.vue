@@ -11,6 +11,7 @@
 
     <section class="columns">
       <div class="column is-one-fifth"></div>
+      <Backtotop />
       <div class="content column is-three-fifth">
         <!--- OVERVIEW --->
         <h2>OVERVIEW</h2>
@@ -268,10 +269,11 @@
           </b>
           that have a better efficiency
         </p>
-
-        <div class="has-text-centered">
-          <groupparts>iGEM21 USP-Brazil</groupparts>
-        </div>
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/2/29/T--USP-Brazil--IGEM-USP-Parts-table1.png/517px-T--USP-Brazil--IGEM-USP-Parts-table1.png"
+          />
+        </figure>
 
         <!--- References --->
         <h2>References:</h2>

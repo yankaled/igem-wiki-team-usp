@@ -11,6 +11,7 @@
 
     <section class="columns">
       <div class="column is-one-fifth"></div>
+      <Backtotop />
       <div class="content column is-three-fifth">
         <p>
           Our team would like to thank and recognize all the people and
@@ -304,7 +305,7 @@
           de Souza
         </p>
 
-        <p>Programming by Pedro Bonamin and Yan Khaled</p>
+        <p>Programming by Pedro Bonamin, João Víctor Araujo and Yan Khaled</p>
         <p>Writen by:</p>
         <table class="">
           <tbody>

@@ -5,13 +5,13 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/9/9f/T--USP-Brazil--IGEM-USP-Public-Banner.jpg"
+        src="https://2021.igem.org/wiki/images/5/5d/T--USP-Brazil--IGEM-USP--PARTNERSHIP-banner.png"
       />
     </div>
 
     <Collapsible
       title="Open Collapsible"
-      src="https://2021.igem.org/wiki/images/9/9f/T--USP-Brazil--IGEM-USP-Public-Banner.jpg"
+      src="https://2021.igem.org/wiki/images/5/5d/T--USP-Brazil--IGEM-USP--PARTNERSHIP-banner.png"
       text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     />
 

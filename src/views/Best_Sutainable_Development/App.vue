@@ -216,7 +216,7 @@
           </b> 
           [14].
         </p>
-        <h3>## Goal 15: Life on land</h3>
+        <h3>Goal 15: Life on land</h3>
         <figure class="has-text-centered">
           <img
             style="width:10em;height:10em;"

@@ -11,6 +11,7 @@
 
     <section class="columns">
       <div class="column is-one-fifth"></div>
+      <Backtotop />
       <div class="content column is-three-fifth">
         <h2>Thanks to all our sponsors!</h2>
 
