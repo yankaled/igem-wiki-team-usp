@@ -11,6 +11,7 @@
         src="https://2021.igem.org/wiki/images/1/19/T--USP-Brazil--IGEM-USP-Home-Video.mp4"
       />
       <img
+        class="is-hidden-touch"
         style="transform: translateY(-15em); width: 100%;"
         src="https://2021.igem.org/wiki/images/d/dd/T--USP-Brazil--IGEM-USP-Home-Colmeia.png"
       />
@@ -19,14 +20,14 @@
     <section class="columns" style="transform: translateY(-15em);">
       <div class="column is-1"></div>
       <Backtotop />
-      <div class="column is-5">
+      <div class="column is-2">
         <figure class="image is-128x128">
           <img
             src="https://2021.igem.org/wiki/images/1/16/T--USP-Brazil--IGEM-USP-Home-Bee.png"
           />
         </figure>
       </div>
-      <div class="content column is-4">
+      <div class="content column is-6 has-text-centered">
         <h2>Let.It.Bee.</h2>
         <p>
           We always talk about how important bees are to our ecosystem, but we

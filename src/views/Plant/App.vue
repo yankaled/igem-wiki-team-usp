@@ -211,11 +211,13 @@
           </div>
         </div>
         <p>
-          You can find the PDF for the handbook<a
-            href="ttps://2021.igem.org/wiki/images/b/b0/T--USP-Brazil--IGEM-USP-BestPlant-Microtom.pdf"
+          You can find the PDF for the handbook
+          <a
+            href="https://2021.igem.org/wiki/images/b/b0/T--USP-Brazil--IGEM-USP-BestPlant-Microtom.pdf"
+            target="_blank"
           >
-            here</a
-          >!
+            here
+          </a>!
         </p>
 
         <h2>References</h2>
