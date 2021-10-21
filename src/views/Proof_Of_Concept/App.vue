@@ -118,7 +118,11 @@
           or, more unlikely, sample contamination; rather than a proper result.
         </p>
 
-        Figure 4
+        <figure class="has-text-centered">
+          <img
+            src="https://2021.igem.org/wiki/images/d/d9/T--USP-Brazil--IGEM-USP-ProofOfConcept-Figure4.png"
+          />
+        </figure>
 
         <p>
           Regarding the last criteria, mathematical tools based on the quantity

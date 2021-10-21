@@ -70,11 +70,13 @@
         <figure class="has-text-centered">
           <img
             src="https://2021.igem.org/wiki/images/2/26/T--USP-Brazil--IGEM-USP-Implementation-DailyRate.png"
-          /><span id="Intro"></span>
+          />
         </figure>
 
         <!--- Introduction --->
+
         <h2>Introduction</h2>
+
         <blockquote cite="[1] - Luís Rangel">
           <p>
             <cite>
@@ -121,7 +123,7 @@
         <p>
           Here we want to discuss why Let.it.bee. would be important for its
           users, who are these users and how we would implement it in the world.
-          <span id="Product"></span>
+          <span id="Intro"></span>
         </p>
 
         <!--- The Let.it.bee. product --->

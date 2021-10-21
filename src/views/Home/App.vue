@@ -116,22 +116,12 @@
       <div class="content column "></div>
     </section>
 
-    <section class="columns" style="transform: translateY(-15em);">
-      <div class="content column is-full has-text-centered">
-        <div class="carousel">
-          <div style="max-widht:25% ; max-height:25%; " class="item-1">
-            <img
-              style="max-widht:25% ; max-height:25%;"
-              src="https://2021.igem.org/wiki/images/d/d2/T--USP-Brazil--IGEM-USP--Home-carrosel.jpeg"
-            />
-          </div>
-          <div style="max-widht:25% ; max-height:25%; " class="item-2">
-            <img
-              style="max-widht:25% ; max-height:25%;"
-              src="https://2021.igem.org/wiki/images/5/50/T--USP-Brazil--IGEM-USP--Home-carrosel2.png"
-            />
-          </div>
-        </div>
+    <section
+      class="columns has-text-centered"
+      style="transform: translateY(-15em);"
+    >
+      <div style="margin: 0 auto;" class="content column is-6">
+        <Carousel />
       </div>
     </section>
 
@@ -178,7 +168,7 @@
         </p>
         <br />
         <br />
-        <p style="color:#fff">(Galileu Maganize, 2019)</p>
+        <p style="color:#fff">(Galileu Magazine, 2019)</p>
       </div>
       <div class="column is-1"></div>
     </section>
@@ -357,18 +347,21 @@
 <script>
 import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
+import Carousel from "@/components/Carousel.vue";
 
 import checkVisible from "@/js/checkVisible";
-
-import bulmaCarousel from "bulma-carousel";
 
 export default {
   name: "Home",
 
+  components: {
+    Nav,
+    Footer,
+    Carousel,
+  },
+
   mounted() {
     document.addEventListener("scroll", this.setAnimateValue);
-
-    bulmaCarousel.attach(".carousel", {});
   },
 
   beforeUnmount() {
@@ -411,10 +404,6 @@ export default {
         }
       }, stepTime);
     },
-  },
-  components: {
-    Nav,
-    Footer,
   },
 };
 </script>

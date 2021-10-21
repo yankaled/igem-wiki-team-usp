@@ -50,7 +50,7 @@
                 class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
                 href="#Synbio"
               >
-                Spreading Synbio
+                Spreading the word about Synbio
               </a>
             </div>
           </div>
@@ -119,19 +119,15 @@
           pedagogues to learn more about investigative teaching. Then, we formed
           a partnership with Fractal and the Vertere Institute to launch it
           nationwide culminating at the beginning of the first
-          <b
-            >Brazilian Synthetic Biology Olympiad. Also, we had to take other
-            factors into account. Public and private schools children in Brazil
-            have different scientific backgrounds. Having this in mind, we
-            decided to face the problem in two different ways. Firstly and
-            concerning the olympiad, we decided to create two different
-            categories for these students. The second solution, though, was the
-            inspiration for our new project the Scientific Camp in which we
-            would</b
-          >
-          build workshops that could further the students' knowledge and
-          encourage their scientific curiosity in order to lessen the knowledge
-          gap.
+          <b>Brazilian Synthetic Biology Olympiad.</b> Also, we had to take
+          other factors into account. Public and private schools children in
+          Brazil have different scientific backgrounds. Having this in mind, we
+          decided to face the problem in two different ways. Firstly and
+          concerning the olympiad, we decided to create two different categories
+          for these students. The second solution, though, was the inspiration
+          for our new project the Scientific Camp in which we would build
+          workshops that could further the students' knowledge and encourage
+          their scientific curiosity in order to lessen the knowledge gap.
         </p>
         <p>
           We partnered with other student entities from our university and asked
@@ -422,8 +418,8 @@
         </figure>
         <small
           >Modified CO2 Balloon application, at NGO Alavanca (São Remo
-          community). 07/08/2021 IMAGEM_DA_OTA_CRIANÇA</small
-        >
+          community). 07/08/2021
+        </small>
         <p>
           It was an incredible opportunity to bring the iGEM USP Synthetic
           Biology Team closer to the local community. Also, we all learned

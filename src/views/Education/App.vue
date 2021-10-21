@@ -226,7 +226,7 @@
         </figure>
         <p>
           More information about both projects can be found at
-          <a href=" https://2021.igem.org/Team:USP-Brazil/Human_Practices">
+          <a href="https://2021.igem.org/Team:USP-Brazil/Communication">
             Education and Comunication session.</a
           ><span id="Ref"></span>
         </p>
