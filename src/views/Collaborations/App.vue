@@ -10,7 +10,52 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Trans"
+              >
+                Translation - Children’s Book
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Dry"
+              >
+                Drylab
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Finance"
+              >
+                Financing the project
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Social"
+              >
+                Social media
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Ones"
+              >
+                One-sided Collaboration
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
       <Backtotop />
       <div class="content column is-three-fifth">
         <p>
@@ -23,7 +68,7 @@
           collaboration of many teams around the world by writing great
           questions about synthetic biology for our Synbio Olympiad in Brazil!
         </p>
-
+        <span id="Trans"></span>
         <p>These were the Collaborations projects we were part of:</p>
 
         <h2>Translation of Children’s Book</h2>
@@ -41,7 +86,7 @@
           bacteria that infected his would. More than just an exciting story,
           the book also shares a little of Taiwanese culture and CCU's iGEM
           project with the public. In retribution, their team elaborated
-          questions to our Synthetic Biology Olympiad.
+          questions to our Synthetic Biology Olympiad.<span id="Dry"></span>
         </p>
 
         <h2>Collaboration on adapting data for drylab</h2>
@@ -72,7 +117,7 @@
           presentations. We have also sent a picture and description of our team
           for them to advertise synbio. In return, they wrote some questions for
           our Synthetic Biology Olympiad, which they were interested in adapting
-          for a Korean edition the following year.
+          for a Korean edition the following year.<span id="Finance"></span>
         </p>
 
         <h2>Collaboration on advice about financing the project</h2>
@@ -86,7 +131,9 @@
         <p>
           We collaborated with the UNILA_LatAm team with some orientations about
           revenues and some way of getting funds in Brazil, such as raffles. In
-          return, they wrote questions for our Synthetic Biology Olympiad.
+          return, they wrote questions for our Synthetic Biology Olympiad.<span
+            id="Social"
+          ></span>
         </p>
 
         <h2>Collaboration on social media projects</h2>
@@ -113,6 +160,7 @@
           Aix-Marseille reached out to us on our Instagram account calling us to
           participate in a small game in their account where we would send them
           an emoji and a tips so their followers could guess our project's name.
+          <span id="Ones"></span>
         </p>
 
         <h2>One-sided Collaborations</h2>

@@ -10,9 +10,55 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Intro"
+              >
+                Introduction
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Heroes"
+              >
+                Heroes in Science
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Camp"
+              >
+                Scientific Camp
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Oly"
+              >
+                Brazilian Synthetic Biology Olympiad
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Synbio"
+              >
+                Spreading Synbio
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
       <div class="content column is-three-fifth">
-        <h3>Introduction</h3>
+        <span id="Intro"></span>
+        <h2>Introduction</h2>
         <p>
           Our team has always been very excited to work with public engagement
           and education. This excitement was so big that we ended up developing
@@ -94,7 +140,7 @@
           Alavanca do Brasil and the elementary school Samuel Klabin. Besides
           these projects, we also participated in a few interviews and round
           tables to <b>spread the word</b> and further the discussion of
-          synthetic biology with the public.
+          synthetic biology with the public. <span id="Heroes"></span>
         </p>
         <!-- Cada um desses é um dropdown-->
         <h2>Herois Na Ciencia (Heroes in Science)</h2>
@@ -240,7 +286,7 @@
           <a href="https://www.facebook.com/equipeigemusp/">Facebook</a> or
           <a href="https://www.instagram.com/igemuspbr/">Instagram</a> pages.
           All of the videos are subtitled in english, so they can be watched by
-          more people arround the world.
+          more people arround the world. <span id="Camp"></span>
         </p>
         <h2>Acampamento Científico (Scientific Camp)</h2>
         <figure class="has-text-centered">
@@ -662,6 +708,7 @@
             alt=""
           />
         </figure>
+        <span id="Oly"></span>
         <small>Petri Dish application, at Samuel Klabin. 09/15/2021</small>
 
         <h2>Brazilian Synthetic Biology Olympiad</h2>
@@ -1004,7 +1051,7 @@
         <p>
           In case your team wishes to create your own competition similar to
           ours, we have prepared some guidelines around question weighting that
-          may help you:
+          may help you: <span id="Synbio"></span>
         </p>
 
         <a

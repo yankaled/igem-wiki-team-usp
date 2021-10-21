@@ -10,7 +10,52 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#PI"
+              >
+                Principal Investigators
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Advisors"
+              >
+                Advisors
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Lab"
+              >
+                Lab
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#HP_SCI"
+              >
+                Human Practices and Scientific
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Members"
+              >
+                Members
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
       <Backtotop />
       <div class="content column is-three-fifth">
         <p>
@@ -23,13 +68,18 @@
           src="https://2021.igem.org/wiki/images/1/16/T--USP-Brazil--IGEM-USP-Atributtions-Hexagon.png"
           alt=""
         />
+        <span id="PI"></span>
         <h2>Principal Investigators</h2>
+
         <p>Primary PI: Prof. Dr. Gisele Monteiro</p>
+        <span id="Advisors"></span>
         <p>
           Secondary PIs: Prof. Dr. Maria Magdalena Rossi and Prof. Dr. Igor
           Cesarino
         </p>
+
         <h2>Advisors</h2>
+
         <p>
           Prof. Dr. Marina Cristina Arias, for the great help with making the
           Olympiad possible
@@ -60,7 +110,7 @@
           Estevão Fernandes Macedo, for helping the Enterpreneurship by giving
           advices on organization and prospection
         </p>
-
+        <span id="Lab"></span>
         <p>
           Lucas Delgado, for helping the Entrepreneurship by giving advices
           about prospection, buisiness plans and fundraising
@@ -83,6 +133,7 @@
           Dr. Douglas M. M. Soares, PhD. Bianca B. Nóbrega, graduate Pedro de
           Matos Lopes, for instructing and helping us perform the qPCR.
         </p>
+        <span id="HP_SCI"></span>
         <p>
           Laboratório de Bioluminescência de Fungos from Instituto de Química -
           USP, coordinated by Prof. Dr. Cassius Vinicius Stevani, and Fundação
@@ -154,6 +205,7 @@
           British_Columbia by writing questions for the Olympiad and creating
           workshops for the Scientific Camp
         </p>
+        <span id="Members"></span>
         <p>
           USP-EEL-Brazil by the partnership and support to the project's
           development

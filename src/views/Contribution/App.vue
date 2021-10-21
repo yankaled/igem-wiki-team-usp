@@ -10,7 +10,36 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Handbook"
+              >
+                Protein structure prediction handbook
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#CYP"
+              >
+                Adding data to CYP3A4
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Ref"
+              >
+                References
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
       <Backtotop />
       <div class="content column is-three-fifth">
         <p>
@@ -29,7 +58,7 @@
           <b>
             adding data to the CYP3A4
           </b>
-          in the Registry.
+          in the Registry. <span id="Handbook"></span>
         </p>
 
         <!--- Protein structure prediction handbook --->
@@ -202,6 +231,7 @@
             href="https://2021.igem.org/wiki/images/2/23/T--USP-Brazil--IGEM-USP-Contribution-Handbook.pdf"
             >by clicking here.</a
           >
+          <span id="CYP"></span>
         </p>
 
         <!--- Adding data to CYP3A4 --->
@@ -324,7 +354,7 @@
         <p>
           Check our other additions in the CYP3A4 page
           <a href="http://parts.igem.org/Part:BBa_K1064004">in the Registry</a>
-          for more.
+          for more. <span id="Ref"></span>
         </p>
 
         <!--- References --->

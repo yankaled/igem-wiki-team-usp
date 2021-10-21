@@ -10,10 +10,46 @@
     </div>
 
     <section class="columns">
-      <div class="menu column is-one-fifth"></div>
+      <div class="menu column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Intro"
+              >
+                Introduction
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Camp"
+              >
+                SCIENTIFIC CAMP
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Oly"
+              >
+                BRAZILIAN SYNTHETIC BIOLOGY OLYMPIAD
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Ref"
+                >references
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
 
       <Backtotop />
-
+      <span id="Intro"></span>
       <div class="content column is-three-fifth">
         <h2>INTRODUCTION</h2>
 
@@ -41,6 +77,7 @@
           imposed by covid but also large enough to deeply impact society with
           synthetic biology's message. That was our goal when we created the
           Scientific Camp and the Brazilian Synthetic Biology Olympiad.
+          <span id="Camp"></span>
         </p>
 
         <h2>SCIENTIFIC CAMP</h2>
@@ -102,6 +139,7 @@
             alt=""
           />
         </figure>
+        <span id="Oly"></span>
         <h2>BRAZILIAN SYNTHETIC BIOLOGY OLYMPIAD</h2>
 
         <p>
@@ -190,11 +228,11 @@
           More information about both projects can be found at
           <a href=" https://2021.igem.org/Team:USP-Brazil/Human_Practices">
             Education and Comunication session.</a
-          >
+          ><span id="Ref"></span>
         </p>
 
         <h2>REFERENCES</h2>
-        <div id="references1" class="references">
+        <div class="references">
           <ol>
             <li>
               1. Accioly I, Brazil I. Pandemic, Genocide and Barbarism:

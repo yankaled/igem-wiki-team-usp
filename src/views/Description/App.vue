@@ -10,8 +10,53 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
-
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Impo"
+              >
+                Why Bees Are important?
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Disa"
+              >
+                WHY ARE BEES DISAPPEARING?
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Whatlet"
+              >
+                What is LET.IT.BEE
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Whatnext"
+              >
+                WHAT IS NEXT FOR LET.IT.BEE
+              </a>
+            </div>
+            <div class="">
+              <a
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#Ref"
+              >
+                References
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <span id="Impo"></span>
       <Backtotop />
 
       <div class="content column is-three-fifth">
@@ -101,7 +146,7 @@
           By ignoring the problem of their disappearance, we not only can expect
           a future environmental collapse, but also a
           <b>economic catastrophe,</b> with less and worse food and a decrease
-          in countries' GDP and employment offer.
+          in countries' GDP and employment offer.<span id="Disa"></span>
         </p>
         <h2>WHY ARE BEES DISAPPEARING?</h2>
         <p>
@@ -251,6 +296,7 @@
         <p>
           Therefore, our solution, <b>Let.it.bee</b>., tries to address the
           issue without cancelling the important pest control effect.
+          <span id="Whatlet"></span>
         </p>
         <h2>WHAT IS <b>LET.IT.BEE</b></h2>
         <h3>Our inspiration</h3>
@@ -387,9 +433,8 @@
         <p>
           You can check more about our project's genetic circuit and chassis in
           our
-          <a href="https://2021.igem.org/Team:USP-Brazil/Design"
-            >Design page!</a
-          >
+          <a href="https://2021.igem.org/Team:USP-Brazil/Design">Design page!</a
+          ><span id="Whatnext"></span>
         </p>
         <h2>WHAT IS NEXT FOR <b>LET.IT.BEE</b></h2>
         <p>
@@ -410,7 +455,7 @@
           journey on the
           <a href="https://2021.igem.org/Team:USP-Brazil/Engineering"
             >Engineering page.</a
-          >
+          ><span id="Ref"></span>
         </p>
 
         <h2>References:</h2>
