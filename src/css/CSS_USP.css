@@ -117,7 +117,7 @@ ul li::before {
   max-width: 220px;
 }
 .sub-menu-content {
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #262625;
@@ -130,7 +130,7 @@ ul li::before {
   text-decoration: none;
   color: #000;
   background-color: transparent !important;
-  padding: 20px 0px;
+  padding: 10px 0px;
   margin: 0px 20px;
   display: flex;
   position: relative;
@@ -156,11 +156,4 @@ ul li::before {
 
 .sub-nav-link-usp-ltr:hover::before {
   width: 100%;
-}
-
-sub-menu-content {
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  color: #262625;
 }
