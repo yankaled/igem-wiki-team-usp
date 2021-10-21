@@ -314,7 +314,7 @@
           <li>
             <b>pLAT52</b>: in comparison, pLAT52 had a more tissue-specific
             expression, being very restricted to pollen. Thus it was
-            <b>the best option for our project</b> [17].
+            <b>the best option for our project</b> (documented in the Registry as <a href="http://parts.igem.org/Part:BBa_K3890001" target="_blank">BBa_K3890001</a>) [17].
           </li>
         </ul>
 
@@ -368,7 +368,7 @@
 
         <p>
           However, when
-          <b>fusioning the 2A peptide to a LP4 linker peptide</b> from seeds of
+          <b>fusioning the 2A peptide to a LP4 linker peptide</b> (documented in the Registry as <a href="http://parts.igem.org/Part:BBa_K3890002" target="_blank">BBa_K3890002</a>) from seeds of
           <i>Impatiens balsamina</i>, the cleaving
           <b>efficiency has been reported to grow up to 80-90%</b> [13]. For our
           circuit, we then decided to use the peptide fusion, allowing us the

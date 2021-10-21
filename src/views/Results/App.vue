@@ -10,9 +10,25 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+              href="#title-COVID-19-PANDEMIC"
+              >
+              THE COVID-19 PANDEMIC
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
       <Backtotop />
       <div class="content column is-three-fifth">
+
+        <!--- THE COVID-19 PANDEMIC --->
+        <span id ="title-COVID-19-PANDEMIC"></span>
         <h2>THE COVID-19 PANDEMIC</h2>
 
         <p>

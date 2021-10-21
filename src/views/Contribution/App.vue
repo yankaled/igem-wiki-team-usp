@@ -61,6 +61,10 @@
           in the Registry. <span id="Handbook"></span>
         </p>
 
+        <p>
+          Nonetheless, we didn't stop at CYP3A4. We also added a <b> new sequence for CYP6g1 with optimized codons for plants</b> <a href="http://parts.igem.org/Part:BBa_K3890006" target="_blank">BBa_K3890006</a>. That way, we intened to save time for any team who wishes to use this plant in a plant chassis, like we did.
+        </p>
+
         <!--- Protein structure prediction handbook --->
         <h2>Protein structure prediction handbook</h2>
 

@@ -10,9 +10,25 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+         <div class="sub-navigation sub-menu-content">
+           <div>
+             <a
+               class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+               href="#title-thanks-sponsors"
+             >
+               Thanks to all our sponsors!
+             </a>
+           </div>
+         </div>
+       </aside>
+      </div>
       <Backtotop />
       <div class="content column is-three-fifth">
+
+        <!--- Thanks to all our sponsors! --->
+        <span id ="title-thanks-sponsors"></span>
         <h2>Thanks to all our sponsors!</h2>
 
         <p>

@@ -10,11 +10,41 @@
     </div>
 
     <section class="columns">
-      <div class="column is-one-fifth"></div>
+      <div class="column is-one-fifth">
+        <aside class="is-sticky">
+         <div class="sub-navigation sub-menu-content">
+           <div>
+             <a
+               class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+               href="#title-LIB-Impact"
+             >
+               Let.it.bee.'s impact
+             </a>
+           </div>
+           <div class="">
+             <a
+               class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+               href="#title-closely-impact"
+             >
+               More closely impacted by our project
+             </a>
+           </div>
+           <div class="">
+             <a
+               class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+               href="#title-references"
+             >
+               References
+             </a>
+           </div>
+         </div>
+       </aside>
+      </div>
       <Backtotop />
       <div class="content column is-three-fifth">
   
         <!--- Let.it.bee.'s impact --->
+        <span id ="title-LIB-Impact"></span>
         <h2>Let.it.bee.'s impact</h2>
         <figure class="has-text-centered">
           <img
@@ -63,6 +93,7 @@
           </b>
           Although in a way we can trace most SDGs to a bee contribution in some way, due to the cascade effect caused by its benefits 
           to agriculture and forests, we chose a few of them to address in this section.
+          <span id ="title-closely-impact"></span>
         </p>
 
         <!--- More closely impacted by our project --->
@@ -292,8 +323,6 @@
           profit over their services.
         </p>
 
-        <!--- Therefore by saving bees we also grant economic growth for countries  by stimulating agriculture production, while avoiding a major loss in the world's profit over their services --->
-        <h2>Therefore by saving bees we also grant economic growth for countries  by stimulating agriculture production, while avoiding a major loss in the world's profit over their services.</h2>
         <h3>Goal 4: Quality Education</h3>
         <figure class="has-text-centered">
           <img
@@ -440,6 +469,7 @@
           </b>
           by positively affecting countries' GDP and job offers in rural areas, it also contributes to reduce inequalities by offering more opportunities for 
           many sectors of society to grow, notably lower-income groups.
+          <span id ="title-references"></span>
         </p>
 
         <!--- References --->
