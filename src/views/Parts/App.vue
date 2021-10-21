@@ -269,11 +269,16 @@
           </b>
           that have a better efficiency
         </p>
-        <figure class="has-text-centered">
-          <img
-            src="https://2021.igem.org/wiki/images/thumb/2/29/T--USP-Brazil--IGEM-USP-Parts-table1.png/517px-T--USP-Brazil--IGEM-USP-Parts-table1.png"
-          />
-        </figure>
+        <div class="columns">
+          <figure class=" column is-half ">
+            <img
+              src="https://2021.igem.org/wiki/images/thumb/2/29/T--USP-Brazil--IGEM-USP-Parts-table1.png/517px-T--USP-Brazil--IGEM-USP-Parts-table1.png"
+            />
+          </figure>
+          <div class="column is-half">
+            <groupparts>iGEM21 USP-Brazil</groupparts>
+          </div>
+        </div>
 
         <!--- References --->
         <h2>References:</h2>
