@@ -10,7 +10,20 @@
     </div>
 
     <section class="columns">
-      <div class="menu column is-one-fifth"></div>
+      <div class="menu column is-one-fifth">
+        <aside class="is-sticky">
+          <div class="sub-navigation sub-menu-content">
+            <div>
+              <a
+              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+              href="#title-partnership-scientific"
+              >
+              Partnership for the Scientific Camp
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
 
       <Backtotop />
 
@@ -25,8 +38,10 @@
           The cooperation between us was fundamental to get to this point of the
           competition. So, for their huge help, we thank them from the bottom of
           our hearts!
+          <span id ="title-partnership-scientific"></span>
         </p>
 
+        <!--- Partnership for the Scientific Camp --->
         <h2>Partnership for the Scientific Camp</h2>
         <figure class="has-text-centered">
           <img
