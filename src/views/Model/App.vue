@@ -216,21 +216,41 @@
 
         <p>The median concentration in pollen obtained for imidacloprid is:</p>
 
-        <p class="latex has-text-centered" />
+        <p class="has-text-centered">
+          \(\frac{0.08ng imidacloprid}{g}\)
+        </p>
 
         <p>And, experimentally, we were able to obtain the concentration of pollen mass/L:</p>
 
-        <p class="latex has-text-centered" />
+        <p class="has-text-centered">
+          \( \frac{4.6G pollen grains}{L} \times \frac{4.1ng}{pollen grain} = \frac{19.03 g}{L} \)
+        </p>
 
         <p>Now, using the molar mass of imidacloprid, we can finish the calculations and convert it to mol/L:</p>
 
-        <p class="latex has-text-centered" />
+        <p class="has-text-centered">
+          \( \frac{0.08ng imidacloprid}{g Pollen} \times \frac{19.03 g}{L} \times \frac{mol}{255.66 g} = \frac{5.90 pmol}{L} \)
+        </p>
 
         <p>Our approach to measuring the efficiency of our construct was to analyze the time period in which imidacloprid concentration would reach close-to-zero levels. Since CYP family enzymes obey Michaelis-Menten kinetics [3] we considered that the enzyme would behave as stated with the chemical equation, resulting in the following mass-transfer <b>equations (1-4)</b> (Figure 1).</p>
 
+        
+
         <div class="columns has-text-centered">
           <div class="column is-11">
-            <p class="latex" />
+            <p v-text="`\\( \\ce{ S + E <=>[K_f][K_r] ES ->[K_{cat}] P + E } \\)`" />
+          </div>
+
+          <div class="column is-1">
+            <p>(1)</p>
+          </div>
+        </div>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p>
+              \( \frac{d[E]}{dt} = -k_f[E][S] + k_r[ES] + k_{cat}[ES] \)
+            </p>
           </div>
 
           <div class="column is-1">
@@ -240,7 +260,9 @@
 
         <div class="columns has-text-centered">
           <div class="column is-11">
-            <p class="latex" />
+            <p>
+              \( \frac{d[ES]}{dt} = k_f[E][S]-k_r[ES]-k_{cat}[ES] \)
+            </p>
           </div>
 
           <div class="column is-1">
@@ -250,7 +272,9 @@
 
         <div class="columns has-text-centered">
           <div class="column is-11">
-            <p class="latex" />
+            <p>
+              \( \frac{d[E]}{dt} = -k_f[E][S] + k_r[ES] + k_{cat}[ES] \)
+            </p>
           </div>
 
           <div class="column is-1">
@@ -260,15 +284,26 @@
 
         <p>By considering (10) equal to zero, which establishes a steady-state boundary, the famous Michaelis-Menten equation can be obtained <b>(Equation 12)</b>.</p>
 
-        \frac{d[P]}{dt}
-=\frac{V_{max}[S]}{K+[S]}
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p>
+              \( \frac{d[P]}{dt} = \frac{V_{max}[S]}{K+[S]} \)
+            </p>
+          </div>
+
+          <div class="column is-1">
+            <p>(12)</p>
+          </div>
+        </div>
 
 
         <p>After applying usual methods to solve differential equations, we also obtained time-dependent functions for the elements described in the model reaction <b>(Equations 5-8).</b></p>
 
         <div class="columns has-text-centered">
           <div class="column is-11">
-            <p class="latex" />
+            <p>
+              \( [S](t)+Kln([S](t)) =- V_{max}t+[S]_0+Kln([S]_0) \)
+            </p>
           </div>
 
           <div class="column is-1">
@@ -278,7 +313,7 @@
 
         <div class="columns has-text-centered">
           <div class="column is-11">
-            <p class="latex" />
+            <p> \( [ES](t)=\frac{[E]_0[S](t)}{[S](t)+K} \) </p>
           </div>
 
           <div class="column is-1">
@@ -288,7 +323,7 @@
 
         <div class="columns has-text-centered">
           <div class="column is-11">
-            <p class="latex" />
+            <p> \( [E](t)=[E]_0-[ES](t) \) </p>
           </div>
 
           <div class="column is-1">
@@ -298,7 +333,7 @@
 
         <div class="columns has-text-centered">
           <div class="column is-11">
-            <p class="latex" />
+            <p> \(  [P](t)=[S]_0-[S](t) \) </p>
           </div>
 
           <div class="column is-1">
@@ -351,7 +386,7 @@
 
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p class="latex-modal" />
+              <p> \( GUS = \frac{1 mol}{68,447 kg \) </p>
             </div>
 
             <div class="column is-1">
@@ -361,7 +396,7 @@
 
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p class="latex-modal" />
+              <p> \( [GUS] = 4,6.10^{9}\frac{grain}{L} *\frac{6 ng}{grain} * \frac{1 mol}{68,447 kg}=0,407 mmol/L \) </p>
             </div>
 
             <div class="column is-1">
@@ -373,7 +408,7 @@
 
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p class="latex-modal" />
+              <p> \( [CYP|0,8] = 0,326 mmol/L \) </p>
             </div>
 
             <div class="column is-1">
@@ -383,7 +418,7 @@
 
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p class="latex-modal" />
+              <p> \( [CYP|0,9] = 0,366 mmol/L \) </p>
             </div>
 
             <div class="column is-1">
@@ -406,12 +441,6 @@ import Nav from "@/components/Nav.vue";
 import Footer from "@/components/Footer.vue";
 import Backtotop from "@/components/BacktoTop.vue";
 
-import katex from 'katex';
-
-import 'katex/dist/katex.min.css';
-import 'katex/dist/katex.min.js';
-
-
 export default {
   name: "Description",
 
@@ -419,45 +448,6 @@ export default {
     Nav,
     Footer,
     Backtotop,
-  },
-
-  mounted() {
-    const latexStrings = [
-      `\\frac{0.08ng \\ imidacloprid}{g}`,
-      `\\frac{4.6G \\ pollen \\ grains}{L} \\times \\frac{4.1ng}{pollen \\ grain} = \\frac{19.03 g}{L}`,
-      `\\frac{0.08ng \\ imidacloprid}{g \\ Pollen} \\times \\frac{19.03 g}{L} \\times \\frac{mol}{255.66 g}= \\frac{5.90 pmol}{L}
-`,
-      `\\frac{d[E]}{dt} = -k_f[E][S] + k_r[ES] + k_{cat}[ES]`,
-      `\\frac{d[ES]}{dt} = k_f[E][S]-k_r[ES]-k_{cat}[ES]`,
-      `\\frac{d[E]}{dt} = -k_f[E][S] + k_r[ES] + k_{cat}[ES]`,
-      `[S](t)+Kln([S](t)) =- V_{max}t+[S]_0+Kln([S]_0)`,
-      `[ES](t)=\frac{[E]_0[S](t)}{[S](t)+K}`,
-      `[E](t)=[E]_0-[ES](t)`,
-      `[P](t)=[S]_0-[S](t)`
-    ]
-
-    const latexModalStrings = [
-      `GUS = \\frac{1 mol}{68,447 kg}`,
-      `[GUS] = 4,6.10^{9}\\frac{grain}{L} *\\frac{6 ng}{grain} * \\frac{1 mol}{68,447 kg}=0,407 mmol/L`,
-      `[CYP|0,8] = 0,326 mmol/L`,
-      `[CYP|0,9] = 0,366 mmol/L`
-    ]
-
-    const latexModalElements = document.getElementsByClassName('latex-modal')
-    const latexElements = document.getElementsByClassName('latex')
-
-    for (let i = 0; i < latexStrings.length; i++) {
-      katex.render(latexStrings[i], latexElements[i], {
-          throwOnError: false
-      });
-    }
-
-    for (let i = 0; i < latexModalStrings.length; i++) {
-      katex.render(latexModalStrings[i], latexModalElements[i], {
-          throwOnError: false
-      });
-    }
-    
   },
 
   methods: {

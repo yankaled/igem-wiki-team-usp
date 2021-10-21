@@ -316,6 +316,10 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+.navbar-link:not(.is-arrowless)::after {
+  border-color: #fa7c91;
+}
+
 #Navbar_USP {
   margin-bottom: -1em;
   transition: all 0.5s;
