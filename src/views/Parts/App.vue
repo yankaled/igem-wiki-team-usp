@@ -15,34 +15,34 @@
           <div class="sub-navigation sub-menu-content">
             <div>
               <a
-              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
-              href="#title-OVERVIEW"
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-OVERVIEW"
               >
-              OVERVIEW
+                OVERVIEW
               </a>
             </div>
             <div class="">
               <a
-              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
-              href="#title-CYP6G1-PART-IMPROVEMENT"
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-CYP6G1-PART-IMPROVEMENT"
               >
-              CYP6G1 PART IMPROVEMENT
+                CYP6G1 PART IMPROVEMENT
               </a>
             </div>
             <div class="">
               <a
-              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
-              href="#title-OUR-NEW-PARTS"
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-OUR-NEW-PARTS"
               >
-              OUR NEW PARTS
+                OUR NEW PARTS
               </a>
             </div>
             <div class="">
               <a
-              class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
-              href="#title-references"
+                class="sub-navbar-link sub-nav-link-usp sub-nav-link-usp-ltr"
+                href="#title-references"
               >
-              References
+                References
               </a>
             </div>
           </div>
@@ -51,7 +51,7 @@
       <Backtotop />
       <div class="content column is-three-fifth">
         <!--- OVERVIEW --->
-        <span id ="title-OVERVIEW"></span>
+        <span id="title-OVERVIEW"></span>
         <h2>OVERVIEW</h2>
         <p>
           One of the main principles of synbio is
@@ -88,7 +88,7 @@
         </p>
         <p>
           You can learn more about our parts in the sections and links below!
-          <span id ="title-CYP6G1-PART-IMPROVEMENT"></span>
+          <span id="title-CYP6G1-PART-IMPROVEMENT"></span>
         </p>
 
         <!--- CYP6G1 PART IMPROVEMENT --->
@@ -294,7 +294,7 @@
           Thus, we will expect to obtain a lower amount of imidacloprid in its
           molecular form and a higher concentration of metabolites in the strain
           carrying the fused CYP6G1-CPR, compared to other strains.
-          <span id ="title-OUR-NEW-PARTS"></span>
+          <span id="title-OUR-NEW-PARTS"></span>
         </p>
 
         <!--- OUR NEW PARTS --->
@@ -309,17 +309,14 @@
           </b>
           that have a better efficiency
         </p>
-        <div class="columns">
-          <figure class=" column is-half ">
-            <img
-              src="https://2021.igem.org/wiki/images/thumb/2/29/T--USP-Brazil--IGEM-USP-Parts-table1.png/517px-T--USP-Brazil--IGEM-USP-Parts-table1.png"
-            />
-          </figure>
-          <div class="column is-half">
-            <groupparts>iGEM21 USP-Brazil</groupparts>
-          </div>
-        </div>
-        <p><span id ="title-references"></span></p>
+
+        <figure class="has-text-centered ">
+          <img
+            src="https://2021.igem.org/wiki/images/thumb/2/29/T--USP-Brazil--IGEM-USP-Parts-table1.png/517px-T--USP-Brazil--IGEM-USP-Parts-table1.png"
+          />
+        </figure>
+
+        <p><span id="title-references"></span></p>
 
         <!--- References --->
         <h2>References:</h2>
