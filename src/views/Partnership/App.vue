@@ -11,7 +11,7 @@
 
     <section class="columns">
       <div class="menu column is-one-fifth">
-        <aside class="is-sticky">
+        <aside class="is-sticky is-hidden-touch">
           <div class="sub-navigation sub-menu-content">
             <div>
               <a

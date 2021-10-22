@@ -11,7 +11,7 @@
 
     <section class="columns">
       <div class="column is-one-fifth">
-        <aside class="is-sticky">
+        <aside class="is-sticky is-hidden-touch">
           <div class="sub-navigation sub-menu-content">
             <div>
               <a
@@ -100,7 +100,7 @@
         <p>
           We collaborated with the UZurich team with some orientations about
           their drylab project. They contacted us through Instagram, by their
-          advisor, Adrian. In return, they wrote some questions for our
+          advisor, Cauã Westmann. In return, they wrote some questions for our
           Synthetic Biology Olympiad.
         </p>
         <br />
