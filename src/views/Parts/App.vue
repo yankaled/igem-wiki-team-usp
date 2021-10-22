@@ -312,7 +312,7 @@
 
         <figure class="has-text-centered ">
           <img
-            src="https://2021.igem.org/wiki/images/thumb/2/29/T--USP-Brazil--IGEM-USP-Parts-table1.png/517px-T--USP-Brazil--IGEM-USP-Parts-table1.png"
+            src="https://2021.igem.org/wiki/images/2/29/T--USP-Brazil--IGEM-USP-Parts-table1.png"
           />
         </figure>
 
