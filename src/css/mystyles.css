@@ -438,7 +438,7 @@ body {
 a {
   color: #ffba17 !important;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 a strong {
   color: currentColor;
@@ -447,7 +447,7 @@ a:hover {
   color: #363636;
 }
 a:active {
-  color: #040404 !important;
+  color: #fd6a83 !important;
 }
 
 code {

@@ -2,6 +2,12 @@
 #Navbar_USP {
   background-color: #ffba17;
 }
+#Navbar_USP a {
+  color: #000 !important;
+}
+#Navbar_USP .nav-link-usp-ltr:hover {
+  color: #fff !important;
+}
 .nav-link-usp {
   font-weight: bold;
   font-size: 14px;
@@ -110,6 +116,9 @@ ul li::before {
   position: sticky;
   top: 100px;
   display: block;
+}
+.sub-navigation a {
+  color: #000 !important;
 }
 .sub-navigation {
   padding: 2em 0;
