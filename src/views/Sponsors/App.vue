@@ -5,7 +5,7 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/7/71/T--USP-Brazil--IGEM-USP-Sponsors-Banner.png"
+        src="https://2021.igem.org/wiki/images/f/f5/T--USP-Brazil--IGEM-USP--SPONSOR-BANNER.png"
       />
     </div>
 
