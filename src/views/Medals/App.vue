@@ -387,7 +387,7 @@ tr:nth-child(odd) {
   background-color: #ffba17;
 }
 tr:nth-child(odd) a {
-  color: #fff;
+  color: #fff !important;
 }
 
 table {
