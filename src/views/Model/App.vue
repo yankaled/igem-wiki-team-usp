@@ -251,8 +251,8 @@
         <ul>
           <li>The concentration of <b>LAT52 gene expression remains constant</b> in the cell.</li>
           <li>The <b>pollen cells have all the resources</b> necessary to fully express CYP6G1.</li>
-          <li>There are two main ways of applying imidacloprid to the plant: topically or in the seed before the cultivation. Here we considered the <b>application on the seed</b> which is when our project is able to work.</li>
-          <li>The reaction between CYP6G1 and imidacloprid is <b>100% efficient</b></li>.
+          <li>There are two main ways of applying imidacloprid to the plant: topically or in the seed before the cultivation. Here we considered the <b>application on the seed</b> which is the case when our project works.</li>
+          <li>The reaction between CYP6G1 and imidacloprid is <b>100% efficient</b>.</li>
         </ul>
 
         <p>First and foremost, we wanted to know the concentration of expressed CYP in the pollen of our plant. In our project's circuit, we used <b>LP4/2A peptide linker</b> to express both the CYP6G1 and the GUS gene reporter. This linker has an approximate cleavage <b>efficiency of 80% to 90%</b> [1]. This means that if we find the <b>concentration of GUS</b> expressed by the LAT52 promoter, we could calculate the concentration of CYP in our construction. Experimentally, we were not able to retrieve it, but luckily, literature was on our side. <b>Neil Bate</b>, from the Department of Botany of the University of Leicester, has a publicly available Doctorate Thesis [2] about pollen genes, in which he expresses the GUS reporter with the LAT52 promoter, which was perfect for our project.</p>
@@ -266,7 +266,7 @@
         <p>The median concentration in pollen obtained for imidacloprid is:</p>
 
         <p class="has-text-centered">
-          \(\frac{0.08ng imidacloprid}{g}\)
+          \(\frac{0.08ng}{g}\)
         </p>
 
         <p>And, experimentally, we were able to obtain the concentration of pollen mass/L:</p>
@@ -883,13 +883,13 @@
             />
           </figure>
 
-          <p>Then considering the pollens having a spherical volume we obtained the value of <b>4,6.10^9 grains/L.</b></p>
+          <p>Then considering the pollens having a spherical volume we obtained the value of <b>\( 4,6 \cdot 10^9 \text{grains}/L \).</b></p>
 
           <p>Now looking at the work of Twell (1994) [4] it is known that the mass of GUS enzyme per pollen grain (in the anthesis period, then the reproductive cycle of tomato plants begins) is <b>6 ng</b>. We experimentally found a value of 4.1 ng/pollen grain. In addition, we considered E. coli GUS enzyme having a molecular weight of 68,447 kDa [5], so:</p>
 
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p> \( GUS = \frac{1 mol}{68,447 kg} \) </p>
+              <p> \( GUS = \frac{1 mol}{68,447 kg} \)</p>
             </div>
 
             <div class="column is-1">
@@ -899,7 +899,7 @@
 
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p> \( [GUS] = 4,6.10^{9}\frac{grain}{L} *\frac{6 ng}{grain} * \frac{1 mol}{68,447 kg}=0,407 mmol/L \) </p>
+              <p> \( [GUS] = 4,6.10^{9}\frac{grain}{L} \cdot \frac{6 ng}{grain} \cdot \frac{1 mol}{68,447 kg}=0,407 mmol/L \) </p>
             </div>
 
             <div class="column is-1">
