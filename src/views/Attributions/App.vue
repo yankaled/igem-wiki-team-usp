@@ -5,7 +5,7 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/3/38/T--USP-Brazil--IGEM-USP-Attributions-bannerat.png"
+        src="https://2021.igem.org/wiki/images/4/40/T--USP-Brazil--IGEM-USP-Attribution-Banner.png"
       />
     </div>
 
@@ -242,13 +242,15 @@
         <p>Bruno Koshin Vazquez Iha</p>
         <p>João Pedro Fairbanks</p>
         <p>Marcos Markevich</p>
-        <p>Guilherme</p>
+        <p>Guilherme Cruz</p>
+        <p>Yan Kaled</p>
         <h3>Beehive, bees and plants simulation</h3>
         <p>Bruno Koshin Vazquez Iha</p>
         <p>Guilherme Cruz</p>
         <p>Amanda Hirata</p>
         <p>Isabela Velloso</p>
         <p>Larissa Braga</p>
+        <p>Yan Kaled</p>
         <h3>Protein Modelling</h3>
         <p>Bruno Koshin Vazquez Iha</p>
         <p>Caio Klocke Zamuner</p>
@@ -357,7 +359,7 @@
           de Souza
         </p>
 
-        <p>Programming by Pedro Bonamin, João Víctor Araujo and Yan Khaled</p>
+        <p>Programming by Pedro Bonamin, João Víctor Araujo and Yan Kaled</p>
         <p>Writen by:</p>
         <table class="">
           <tbody>
