@@ -545,7 +545,7 @@
 
         <figure class="has-text-centered">
           <img
-            src="https://2021.igem.org/wiki/images/thumb/a/a7/T--USP-Brazil--IGEM-USP-Model-Metabolic-pathway-of-imidacloprid.png/688px-T--USP-Brazil--IGEM-USP-Model-Metabolic-pathway-of-imidacloprid.png"
+            src="https://2021.igem.org/wiki/images/b/bd/T--USP-Brazil--IGEM-USP-Model-Metabolic-pathway-of-imidacloprid-2.png"
           />
         </figure>
 
