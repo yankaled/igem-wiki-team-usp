@@ -228,6 +228,13 @@
 
         <div class="navbar-dropdown">
           <a
+            href=" https://2021.igem.org/Team:USP-Brazil/Prizes"
+            class="navbar-item"
+          >
+            Prizes</a
+          >
+          <hr class="navbar-divider" />
+          <a
             href=" https://2021.igem.org/Team:USP-Brazil/Medals"
             class="navbar-item"
           >

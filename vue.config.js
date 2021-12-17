@@ -156,6 +156,12 @@ module.exports = {
       title: "Notebook",
       chunks: ["chunk-vendors", "chunk-common", "Notebook"],
     },
+    Prizes: {
+      entry: "./src/views/Prizes/main.js",
+      template: "public/index.html",
+      title: "Prizes",
+      chunks: ["chunk-vendors", "chunk-common", "Prizes"],
+    },
   },
 
   devServer: {
