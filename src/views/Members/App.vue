@@ -918,11 +918,11 @@
           </p>
           <p>
             <b>About: </b>
-            I really love science and all behind it. For the last two years I've
+            I really love science and all behind it. For the last two years I've been
             delving through the synthetic biology and drug discovery world. I
             got into iGEM so that I could learn from my scientist colleagues
             about this world. Coincidently, because of the pandemic situation, I
-            also found another passion : molecular modelling.Also, i really love
+            also found another passion : molecular modelling. Also, i really love
             knowing more about other culture and people. Language is one of my
             many passions. I really hope i can meet igem's participants in
             person as well. I really love music too, being passionate for
@@ -1145,7 +1145,7 @@
           </p>
           <p>
             <b>About: </b>
-            Fascinated by natural sciences and his ability to explain the
+            Fascinated by natural sciences and its ability to explain the
             impressive spectacle that is life.
           </p>
         </div>
@@ -1355,7 +1355,7 @@
           <p>
             <b>About: </b>
             That typical student who “talks a lot, but does well in class”. A
-            future publicist and music addict, I almost always has a song
+            future publicist and music addict, I almost always have a song
             playing in my head. At iGEM I'm the Human Practices coordinator and
             I try to do a little bit of everything too, if there is a meeting
             happening I'm probably in it.
@@ -1523,7 +1523,7 @@
             saw synthetic biology as an interesting way to deal with
             technological problems, mainly related to sustainability, he likes
             to play with his friends and hunting down unknown bands on Spotify
-            in your spare time.
+            in his spare time.
           </p>
         </div>
       </div>
@@ -1547,12 +1547,11 @@
           <p><b>Name:</b>Yan Tadeu Kaled</p>
           <p><b>Team Attribution:</b>Drylab, Wiki</p>
           <p><b>Field:</b>Exact sciences/Applied mathematics</p>
-          <p><b>Hobbies: </b>Studying neuroscience</p>
+          <p><b>Hobbies: </b>Studying philosophy and cognition</p>
           <p>
             <b>About: </b>
 
-            I'm a programmer and junior researcher interested in human
-            cognition, AI, heuristics and brain science
+            I'm a programmer, researcher and entrepreneur interested in neuroscience, cognition, heuristics and artificial intelligence.
           </p>
         </div>
       </div>
@@ -1647,7 +1646,7 @@
           <p>
             <b>About: </b>
             Master student interested in understanding the therapeutic potency
-            of non-coding RNAs for the study of cancer. He enjoys doing cell
+            of non-coding RNAs for the study of cancer. She enjoys doing cell
             culture and capturing immunofluorescence images. Involved in iGEM
             since 2019, she loves helping to develop cross-disciplinary
             projects, being a supporter of iGEM projects developed within Human
