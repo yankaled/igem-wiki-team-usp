@@ -794,7 +794,7 @@
         <h4>Conclusions</h4>
 
         <p>
-          Using mathematical tools, we were able to simulate how bees and their beehive would be positively impacted by our genetically modified plant treated with imidacloprid. We conclude that in the scenario with normal plants 0.71% of bees fail to return to the hive per day after imidacloprid consumption, while in the scenario with our plant, only 0.13% fail to return, which means a more than 5 times increase in the number of bees succeeding to return to the beehive after forage. Additionally, this behavior was projected in the long-run with bee populations, and we were able to predict the survival of the populations with our modified plants, in contrast to their extinction with usual plants.
+          Using mathematical tools, we were able to simulate how bees and their beehive would be positively impacted by our genetically modified plant treated with imidacloprid. We conclude that in the scenario with normal plants 0.71% of bees fail to return to the hive per day after imidacloprid consumption, while in the scenario with our plant, only 0.13% fail to return, which means an increase of more than 5 times in the number of bees succeeding to return to the beehive after forage. Additionally, this behavior was projected in the long-run with bee populations, and we were able to predict the survival of the populations with our modified plants, in contrast to their extinction with usual plants.
         </p>
 
         <p>
