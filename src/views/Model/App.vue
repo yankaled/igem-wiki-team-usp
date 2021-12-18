@@ -566,7 +566,7 @@
         <p>Now, let us calculate its LD50. To do so, we used the LD50 values from Table 3, and created two hypothesis:</p>
 
         <p>
-          1. If we assume that the toxicity of each metabolite can be taken <b>independently</b> that is, there are no synergies between them. Then, we simply calculate the worst scenario of each substance taking into their proportions into consideration:
+          1. If we assume that the toxicity of each metabolite can be taken <b>independently</b> that is, there are no synergies between them, then we simply calculate the worst scenario of each substance taking their proportions into consideration:
         </p>
 
         <ul>
@@ -586,7 +586,7 @@
         </ul>
 
         <p>
-          2. If we assume that the toxicity of the metabolites can be <b>taken together uniformly</b>, we can simply calculate the weighted average including each compound proportion: \( {0.699 \cdot (222 \pm 25)}+{0.229 \cdot (222 \pm 25)}+{0.072 \cdot (23 \pm 6)}\approx 208\pm 24 \,\text{ng/bee} \)
+          2. If we assume that the toxicity of the metabolites can be <b>taken together uniformly</b>, then we can simply calculate the weighted average including each compound proportion: \( {0.699 \cdot (222 \pm 25)}+{0.229 \cdot (222 \pm 25)}+{0.072 \cdot (23 \pm 6)}\approx 208\pm 24 \,\text{ng/bee} \)
         </p>
 
         <p>
@@ -611,7 +611,7 @@
 
         <h4>a) A concise literature review on bee population models</h4>
 
-        <p>We encountered a myriad of different models in order to assess the risk of pesticides to bee populations [5]. Getting knowledge of them was essential to have a broad and clear idea of the approaches and the rationale involved in the proposal of a model. Furthermore, understanding their foundations helped us to adapt the model in order to suit our specific needs and data. In what follows, hoping to provide for future iGEM teams a good start point when considering this topic, we will give a quick description of the models that we have studied during our research. We also summarize them in Table 4, where their references can be found.</p>
+        <p>We encountered a myriad of different models in order to assess the risk of pesticides to bee populations [5]. Learning such models was essential to have a broad and clear idea of the approaches and the rationale involved in the proposal of a model. Furthermore, understanding their foundations helped us to adapt the model in order to suit our specific needs and data. In what follows, hoping to provide for future iGEM teams a good start point when considering this topic, we will give a quick description of the models that we have studied during our research. We also summarize them in Table 4, where their references can be found.</p>
 
         <p>The oldest model encountered, proposed in 1989, was the so called BEEPOP. The principal objectives proposed were to study the influences on bee population size of the following condictions: weather; initial population size; queen strength; number of spermatozoa obtained by a queen during mating; and number of days a bee can forage. Although it was not proposed so recently (and was written in the older language Fortran 77), it was crucial to the creation of many subsequent models. For example, the VarroaPop+Pesticide model is essentially an adaptation of BEEPOP: it extends the model to analyze infestations of Varroa mite (<i>Varroa destructor</i>) in beehives as well as the influence of pesticides in all its forms of application (seed, soil and foliar spray). BEEHAVE seemed to be the most complete model in terms of provided documentation and information; however, it was also the most complex one and, even though it could be adapted for many different interests, studying pesticide impact was not its main focus.</p>
 
@@ -628,7 +628,7 @@
         <p>Now, we will introduce the main ideas and equations present in the model with pesticide contamination of Magal et al. (2019) [9]. Some interpretations for our specific case are also explored.</p>
 
         <p>
-          The first step is to create two boxes to distinguish the forager bees which had contact or not with the pesticide. The first one will be called the contaminated bees and their population size in the time \( t \) (or in the day \( n \)) will be denoted by C(t) (or C(n)), and the second one will be the uncontaminated bees with population size \( U(t) \) or \( U(n) \). After this, we should understand how these two values will vary during the first day and how one bee can pass from one box to the other, which can be summarized in the following equations:
+          The first step is to create two boxes to distinguish forage bees that have had contact with the pesticide from those that haven't. The first one will be called the contaminated bees and their population size in the time \( t \) (or in the day \( n \)) will be denoted by \( C(t) \) (or \( C(n) \) ), and the second one will be the uncontaminated bees with population size \( U(t) \) or \( U(n) \). Then, we need to model how these two values vary during the first day and how one bee can pass from one box to the other. This information is summarized in the following equations:
         </p>
 
         <div class="columns has-text-centered">
@@ -657,7 +657,7 @@
 
         <p>where \( \beta \) is the maximal rate of new forager bees recruited per day and \( \chi \) is the so-called Allee parameter.</p>
 
-        <p>Utilizing a similar approach for an arbitrary day \( n \) and making some (many) calculations, the following recursive formulas for the functions \( U(n) \) and \( C(n) \) are obtained:</p>
+        <p>With a similar approach for an arbitrary day \( n \) and making some (many) calculations, the following recursive formulas for the functions \( U(n) \) and \( C(n) \) are obtained:</p>
 
         <div class="columns has-text-centered">
           <div class="column is-full">
@@ -693,7 +693,7 @@
         </div>
 
         <p>
-          As it can be seen below, this number can be used to estimate how likely the population of bees be extinct after some period of time. Intuitively, the likelihood of this happening is greater when the value of \( R_1 \) is smaller.
+          As it can be seen below, this number can be used to estimate how likely it is that the population of bees will be extinct after some period of time. Intuitively, the likelihood of this happening is greater when the value of \( R_1 \) is smaller.
         </p>
 
         <p> <strong>Theorem:</strong> Given functions \( U(n) \) and \( C(n) \) satisfying the equations above and with initial values \( U(0)=U_0\geqslant 0 \) and \( C(0)=C_0\geqslant 0 \):
@@ -711,7 +711,7 @@
 
         <h4>c) Our scenarios and simulations</h4>
 
-        <p>Now, let us see how this model can be used in our specific case. First of all, we should remember that our main purpose is to simulate a situation in which bees feed themselves from the cultivated field with plants treated with imidacloprid, and compare the cases in which the plants are the usual ones (scenario 1) with a field in which there are our genetically modified plants (scenario 2). We tried to simulate the environment described in the article of Gill et al. (2012) [4]. This way, we calculated most of the parameters, which are collected in Table 3, from the graphics and values shown there.</p>
+        <p>Now, let us see how this model can be used in our specific case. First of all, we should remember that our main purpose is to simulate a situation in which bees feed themselves from the cultivated field with plants treated with imidacloprid, and compare the cases in which the plants are the usual ones (scenario 1) with a field in which there are our genetically modified plants (scenario 2). We simulated the environment described in the article of Gill et al. (2012) [4], by calculating most of the parameters, which are collected in Table 3, from the graphics and values shown there.</p>
 
         <p>Before saying how the parameters were obtained, we will describe the environment created for that by the following two assumptions:</p>
 
@@ -725,7 +725,7 @@
         </ul>
 
         <p>
-          Note that the only parameter that will differ from one scenario to the other is the value of \( p \), because it is the only one that measures the pesticide harmful effects. Therefore, we will utilize the notation \( p_i \) for the value of \( p \) in scenario 1, in which imidacloprid is the pesticide, and \( p_m \) for its value in scenario 2, in which MPMM is assumed to be the pesticide.
+          Note that the only parameter that will differ from one scenario to the other is the value of \( p \), because it is the only one that measures the pesticide harmful effects. Therefore, we will use the notation \( p_i \) for the value of \( p \) in scenario 1, in which imidacloprid is the pesticide, and \( p_m \) for its value in scenario 2, in which MPMM is assumed to be the pesticide.
         </p>
 
         <p>
@@ -794,7 +794,7 @@
         <h4>Conclusions</h4>
 
         <p>
-          Using mathematical tools, we were able to simulate how bees and their beehive would be positively impacted by our genetically modified plant treated with imidacloprid. We could conclude that in normal plants situations 0.71% of bees fail to return to the hive per day after imidacloprid consumption; while our plant provided 0.13% of return, which means the increase of more than 5 times of bees succeeding to return after forage. Additionally, this behave could be projected in long-terms with bee populations, where we were able to predict the survival of the populations with our modified plants against their extinction with usual plants.
+          Using mathematical tools, we were able to simulate how bees and their beehive would be positively impacted by our genetically modified plant treated with imidacloprid. We conclude that in the scenario with normal plants 0.71% of bees fail to return to the hive per day after imidacloprid consumption, while in the scenario with our plant, only 0.13% fail to return, which means a more than 5 times increase in the number of bees succeeding to return to the beehive after forage. Additionally, this behavior was projected in the long-run with bee populations, and we were able to predict the survival of the populations with our modified plants, in contrast to their extinction with usual plants.
         </p>
 
         <p>
