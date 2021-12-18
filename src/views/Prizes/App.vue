@@ -59,10 +59,6 @@
       <!-- Part2 -->
       <section>
         <div class="columns">
-          <div class="column is-1">
-            <Backtotop />
-          </div>
-
           <div class="column">
             <div v-on:click="openModal($event)" class="person-icon">
               <a>
@@ -135,10 +131,12 @@
         <div class="column is-4"></div>
       </div>
 
-      <img
-        style=" width: 100%; max-height:600px;"
-        src="https://2021.igem.org/wiki/images/6/61/T--USP-Brazil--IGEM-USP-Prizes-Best-plant.png"
-      />
+      <div class="columns">
+        <img
+          class="column is-12"
+          src="https://2021.igem.org/wiki/images/6/61/T--USP-Brazil--IGEM-USP-Prizes-Best-plant.png"
+        />
+      </div>
       <div class="columns">
         <div class="column is-1"></div>
         <div class=" column ">
