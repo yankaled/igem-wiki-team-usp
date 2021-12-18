@@ -5,7 +5,7 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/3/32/T--USP-Brazil--IGEM-USP-Safety-banner.png"
+        src="https://2021.igem.org/wiki/images/9/91/T--USP-Brazil--IGEM-USP-Safety-Bannersafety.png"
       />
     </div>
 
@@ -49,6 +49,7 @@
         </aside>
       </div>
       <Backtotop />
+      
       <div class="content column is-three-fifth">
 
         <!--- Biosafety --->

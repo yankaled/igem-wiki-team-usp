@@ -5,7 +5,7 @@
     <div class="is-full">
       <img
         class="header"
-        src="https://2021.igem.org/wiki/images/1/19/T--USP-Brazil--IGEM-USP-Entrepreneurship-Banner2.png"
+        src="https://2021.igem.org/wiki/images/thumb/9/9b/T--USP-Brazil--IGEM-USP-Entrepreneurship-Banner.png/800px-T--USP-Brazil--IGEM-USP-Entrepreneurship-Banner.png"
       />
     </div>
     <section class="columns">
