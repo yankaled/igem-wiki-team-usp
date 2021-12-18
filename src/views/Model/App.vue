@@ -272,13 +272,13 @@
         <p>And, experimentally, we were able to obtain the concentration of pollen mass/L:</p>
 
         <p class="has-text-centered">
-          \( \frac{4.6G pollen grains}{L} \times \frac{4.1ng}{pollen grain} = \frac{19.03 g}{L} \)
+          \( \frac{4.6G \text{ pollen grains}}{L} \times \frac{4.1ng}{ \text{pollen grain} } = \frac{19.03 g}{L} \)
         </p>
 
         <p>Now, using the molar mass of imidacloprid, we can finish the calculations and convert it to mol/L:</p>
 
         <p class="has-text-centered">
-          \( \frac{0.08ng imidacloprid}{g Pollen} \times \frac{19.03 g}{L} \times \frac{mol}{255.66 g} = \frac{5.90 pmol}{L} \)
+          \( \frac{0.08ng \text{ imidacloprid} }{g \text{ Pollen}} \times \frac{19.03 g}{L} \times \frac{mol}{255.66 g} = \frac{5.90 pmol}{L} \)
         </p>
 
         <p>
@@ -292,7 +292,7 @@
         </div>
 
 
-        <p>Resulting in the following mass-transfer <b>equations (1-3)</b>.</p>
+        <p>By considering the law of mass action, this results in the following mass-transfer <b>equations (1-4)</b>.</p>
 
 
         <div class="columns has-text-centered">
@@ -322,7 +322,7 @@
         <div class="columns has-text-centered">
           <div class="column is-11">
             <p>
-              \( \frac{d[E]}{dt} = -k_f[E][S] + k_r[ES] + k_{cat}[ES] \)
+              \( \frac{d[S]}{dt} = -k_f[E][S] + k_r[ES] \)
             </p>
           </div>
 
@@ -331,7 +331,19 @@
           </div>
         </div>
 
-        <p>By considering (3) equal to zero, which establishes a steady-state boundary, the famous Michaelis-Menten equation can be obtained:</p>
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p>
+              \( \frac{d[P]}{dt} = - k_{cat}[ES] \)
+            </p>
+          </div>
+
+          <div class="column is-1">
+            <p>(4)</p>
+          </div>
+        </div>
+
+        <p>By considering (3) equal to zero, which establishes a steady-state boundary implying that \( k_f[E][S] = k_r[ES] \), and considering also the enzyme conservation law which states that \( [E] = [E]_0 - [ES] \), the famous Michaelis-Menten equation can be obtained:</p>
 
         <div class="columns has-text-centered">
           <div class="column is-11">
@@ -341,12 +353,12 @@
           </div>
 
           <div class="column is-1">
-            <p>(4)</p>
+            <p>(5)</p>
           </div>
         </div>
 
 
-        <p>After applying usual methods to solve differential equations, we also obtained time-dependent functions for the elements described in the model reaction <b>(Equations 5-8).</b></p>
+        <p>After applying usual methods to solve differential equations, we also obtained time-dependent functions for the elements described in the model reaction <b>(Equations 6-9).</b></p>
 
         <div class="columns has-text-centered">
           <div class="column is-11">
@@ -356,7 +368,7 @@
           </div>
 
           <div class="column is-1">
-            <p>(5)</p>
+            <p>(6)</p>
           </div>
         </div>
 
@@ -366,7 +378,7 @@
           </div>
 
           <div class="column is-1">
-            <p>(6)</p>
+            <p>(7)</p>
           </div>
         </div>
 
@@ -376,7 +388,7 @@
           </div>
 
           <div class="column is-1">
-            <p>(7)</p>
+            <p>(8)</p>
           </div>
         </div>
 
@@ -386,7 +398,7 @@
           </div>
 
           <div class="column is-1">
-            <p>(8)</p>
+            <p>(9)</p>
           </div>
         </div>
 
@@ -396,7 +408,7 @@
           <li>\( S \) stands for substrate concentration, in this case, imidacloprid</li>
 
           <li>\( S_0 \) is the initial concentration of substrate</li>
-          <li>\( K \) is Michaelis constant, which is the substrate concentration when the reaction speed equals half of the V_max, sometimes referred as Km</li>
+          <li>\( K \) is Michaelis constant, which is the substrate concentration when the reaction speed equals half of the \( V_{max} \), sometimes referred as \( K_m \)</li>
           <li>\( V_{max} \) is the maximum speed of the reaction</li>
           <li>\( E \) is enzyme concentration</li>
           <li>\( E_0 \) is the initial enzyme concentration</li>
@@ -405,7 +417,7 @@
 
         <p>This math was based on Mathematical Biology: I. An Introduction, JD Murray, Section 6.1.</p>
 
-        <p>We have the famous Michaelis-Menten equation (9):</p>
+        <p>We have the famous Michaelis-Menten equation (10):</p>
 
         <div class="columns has-text-centered">
           <div class="column is-11">
@@ -413,7 +425,7 @@
           </div>
 
           <div class="column is-1">
-            <p>(9)</p>
+            <p>(10)</p>
           </div>
         </div>
 
@@ -425,7 +437,7 @@
           </div>
 
           <div class="column is-1">
-            <p>(10)</p>
+            <p>(11)</p>
           </div>
         </div>
 
@@ -437,7 +449,7 @@
           </div>
 
           <div class="column is-1">
-            <p>(11)</p>
+            <p>(12)</p>
           </div>
         </div>
 
@@ -445,19 +457,7 @@
 
         <div class="columns has-text-centered">
           <div class="column is-11">
-            <p> \( t(S) = -\frac{S + K lnS - S_{0} - K lnS_{0}}{Vmax} \) </p>
-          </div>
-
-          <div class="column is-1">
-            <p>(12)</p>
-          </div>
-        </div>
-
-        <p>While in the latter we have the functions beautifully isolated, the first equation presents a problem because <b>\( S(t) \) is a function that takes as input the value of itself</b>. We can not plot the value of a function in a point using the same value that we are trying to calculate. So, using some clever thinking, we overcame this problem by <b>plotting not for \( S(t) \), but for t</b>. Moving the variables around, we can isolate the time variable and know the value at which the substrate concentration will be some number S, which transforms it into a function of \( t(S) \), which is represented as equation (13).</p>:
-
-        <div class="columns has-text-centered">
-          <div class="column is-11">
-            <p> \( t(S)=-\frac{S+KlnS-S_0-KlnS_0}{V_{max}} \) </p>
+            <p> \( t(S) = -\frac{S + K \text{ln} S - S_{0} - K \text{ln} S_{0}}{ V_{max} } \) </p>
           </div>
 
           <div class="column is-1">
@@ -465,7 +465,19 @@
           </div>
         </div>
 
-        <p>As we know the \( S_0 \) value and that it goes to zero as time moves on, we can build a range of values \( [S_0, 0] \) and use our function to calculate the moment when the reaction will hit that \( S \) value.</p>        
+        <p>While in the latter we have the functions beautifully isolated, the first equation presents a problem because <b>\( S(t) \) is a function that takes as input the value of itself</b>. We can not plot the value of a function in a point using the same value that we are trying to calculate. So, using some clever thinking, we overcame this problem by <b>plotting not for \( S(t) \), but for t</b>. Moving the variables around, we can isolate the time variable and know the value at which the substrate concentration will be some number S, which transforms it into a function of \( t(S) \), which is represented as equation (14).</p>
+
+        <div class="columns has-text-centered">
+          <div class="column is-11">
+            <p> \( t(S)=-\frac{S+KlnS-S_0-KlnS_0}{V_{max}} \) </p>
+          </div>
+
+          <div class="column is-1">
+            <p>(14)</p>
+          </div>
+        </div>
+
+        <p>As we know the \( S_0 \) value and that \( S(t) \) goes to zero as time moves on, we can build a range of values \( [S_0, 0] \) and use our function to calculate the moment when the reaction will hit that value of \( S \).</p>        
 
         <p>The missing pieces are \( V_{max} \) and \( K \) values. We can calculate \( V_{max} \) by multiplying the initial enzyme concentration by the catalyzation constant, \( K_{cat} \). Both \( K \) and \( K_{cat} \) are obtained experimentally. Since we were not able to use the laboratories until September 2021, we were also not able to obtain the exact value for our specific CYP. However, using the data from the team that designed <a href="http://parts.igem.org/Part:BBa_K1197013" target="_blank">Part:BBa_K1197013</a> in the Parts Registry of iGEM, we were able to solve this problem.</p>
 
@@ -533,7 +545,7 @@
 
         <figure class="has-text-centered">
           <img
-            src="https://2021.igem.org/wiki/images/thumb/a/a7/T--USP-Brazil--IGEM-USP-Model-Metabolic-pathway-of-imidacloprid.png/688px-T--USP-Brazil--IGEM-USP-Model-Metabolic-pathway-of-imidacloprid.png"
+            src="https://2021.igem.org/wiki/images/b/bd/T--USP-Brazil--IGEM-USP-Model-Metabolic-pathway-of-imidacloprid-2.png"
           />
         </figure>
 
@@ -947,10 +959,9 @@
         <div class="column" />
 
         <div class="content column is-two-thirds">
-
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p> \( S(t) + K ln S(t) = -V_{max}t + S_{0} + K ln S_{0} \) </p>
+              <p> \( \int_{S_0}^{S(t)} \frac{S + K}{S} dS = \int_{S_0}^{S(t)} 1 dS + \int_{S_0}^{S(t)} \frac{K}{S} dS \) </p>
             </div>
 
             <div class="column is-1">
@@ -960,7 +971,7 @@
 
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p> \( ES(t) = \frac{E_{0}S(t)}{S(t) + K} \) </p>
+              <p> \( \int_{S_0}^{S(t)} 1 dS = S(t) - S_0 \) </p>
             </div>
 
             <div class="column is-1">
@@ -970,7 +981,7 @@
 
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p> \( E(t) = E_{0} - ES(t) \) </p>
+              <p> \( \int_{S_0}^{S(t)} \frac{K}{S} dS = K \text{ln} S(t) - K \text{ln} S_0 \) </p>
             </div>
 
             <div class="column is-1">
@@ -980,11 +991,23 @@
 
           <div class="columns has-text-centered">
             <div class="column is-11">
-              <p> \( P(t) = S_{0} - S(t) \) </p>
+              <p> \( \int_{S_0}^{S(t)} \frac{S + K}{S} dS = -V_{max} t \) </p>
             </div>
 
             <div class="column is-1">
               <p>(4)</p>
+            </div>
+          </div>
+
+          <p>Using the equations above we can conclude that </p>
+
+          <div class="columns has-text-centered">
+            <div class="column is-11">
+              <p> \( t(S) = - \frac{ S + K \text{ln} S - S_0 - K \text{ln} S_0 }{ V_{max} } \) </p>
+            </div>
+
+            <div class="column is-1">
+              <p>(5)</p>
             </div>
           </div>
 
