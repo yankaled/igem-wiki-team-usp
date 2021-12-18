@@ -24,7 +24,7 @@
         <div class="columns">
           <div class="column">
             <div v-on:click="openModal($event)" class="person-icon">
-              <a>
+              <a href="https://2021.igem.org/Team:USP-Brazil/Plant">
                 <img
                   id="Plant"
                   src="https://2021.igem.org/wiki/images/1/1f/T--USP-Brazil--IGEM-USP-Prizes-nom-plant.png"
@@ -43,7 +43,9 @@
           <div class="column is-5"></div>
           <div class="column ">
             <div v-on:click="openModal($event)" class="person-icon">
-              <a>
+              <a
+                href="https://2021.igem.org/Team:USP-Brazil/Human_Practices#integrated"
+              >
                 <img
                   id="HP"
                   src="https://2021.igem.org/wiki/images/2/26/T--USP-Brazil--IGEM-USP-Prizes-nom-HP.png"
@@ -61,7 +63,7 @@
         <div class="columns">
           <div class="column">
             <div v-on:click="openModal($event)" class="person-icon">
-              <a>
+              <a href="https://2021.igem.org/Team:USP-Brazil/Sustainable">
                 <img
                   id="Env"
                   src="https://2021.igem.org/wiki/images/0/0a/T--USP-Brazil--IGEM-USP-Prizes-nom-Enviroment.png"
@@ -80,7 +82,7 @@
           <div class="column is-5"></div>
           <div class="column ">
             <div v-on:click="openModal($event)" class="person-icon">
-              <a>
+              <a href="https://2021.igem.org/Team:USP-Brazil/Communication">
                 <img
                   id="Edu"
                   src="https://2021.igem.org/wiki/images/f/f1/T--USP-Brazil--IGEM-USP-Prizes-nom-Education.png"
@@ -98,7 +100,9 @@
           <div class="column is-1"></div>
           <div class="column ">
             <div v-on:click="openModal($event)" class="person-icon">
-              <a>
+              <a
+                href="https://2021.igem.org/Team:USP-Brazil/Parts#title-OUR-NEW-PARTS"
+              >
                 <img
                   id="Part"
                   src="https://2021.igem.org/wiki/images/8/81/T--USP-Brazil--IGEM-USP-Prizes-nom-basic-part.png"
@@ -151,6 +155,7 @@
           <p style="font-size:30px" class="has-text-centered">
             The only overgrad team from the Americas in the 2021 competition
           </p>
+          <br /><br /><br /><br /><br />
         </div>
         <div class="column is-1"></div>
       </div>
@@ -243,8 +248,8 @@ p {
   padding: 6rem;
   /* border-radius: 5px; */
   z-index: 50;
+  https: ; //2021.igem.org/Team:USP-Brazil/Parts#title-OUR-NEW-PARTS
 }
-
 .overlay {
   position: fixed;
   top: 0;
